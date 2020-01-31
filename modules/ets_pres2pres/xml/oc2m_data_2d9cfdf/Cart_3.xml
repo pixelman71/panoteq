@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<cart><id_cart><![CDATA[54080]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[963]]></id_address_delivery>
+<id_address_invoice><![CDATA[963]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[977]]></id_customer>
+<id_guest><![CDATA[163444]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[1]]></mobile_theme>
+<delivery_option><![CDATA[{"963":"23,"}]]></delivery_option>
+<secure_key><![CDATA[40aa34913c0717c9a259797c7100a743]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-06 07:22:12]]></date_add>
+<date_upd><![CDATA[2019-12-09 15:15:00]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[10636]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[113]]></id_address_delivery>
+<id_address_invoice><![CDATA[112]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[112]]></id_customer>
+<id_guest><![CDATA[30191]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"113":"23,"}]]></delivery_option>
+<secure_key><![CDATA[e600375d32661bfa300737ce33b01182]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-08 15:16:36]]></date_add>
+<date_upd><![CDATA[2019-12-09 15:21:56]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[54967]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[976]]></id_address_delivery>
+<id_address_invoice><![CDATA[976]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[986]]></id_customer>
+<id_guest><![CDATA[166007]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"976":"23,"}]]></delivery_option>
+<secure_key><![CDATA[cd05fa6d06926c3eaf87e21a5c993697]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-08 19:21:13]]></date_add>
+<date_upd><![CDATA[2019-12-09 15:29:10]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[54676]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[977]]></id_address_delivery>
+<id_address_invoice><![CDATA[977]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[987]]></id_customer>
+<id_guest><![CDATA[0]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"977":"23,"}]]></delivery_option>
+<secure_key><![CDATA[de671a99410a3137a099bef9660d2f2f]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-08 19:49:07]]></date_add>
+<date_upd><![CDATA[2019-12-10 14:52:44]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[54229]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[901]]></id_address_delivery>
+<id_address_invoice><![CDATA[901]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[921]]></id_customer>
+<id_guest><![CDATA[163720]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"901":"23,"}]]></delivery_option>
+<secure_key><![CDATA[e4d4330668332b0bacffd993d1b2b0ec]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-10 19:00:57]]></date_add>
+<date_upd><![CDATA[2019-12-17 07:18:54]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[55118]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[978]]></id_address_delivery>
+<id_address_invoice><![CDATA[978]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[989]]></id_customer>
+<id_guest><![CDATA[166420]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[1]]></mobile_theme>
+<delivery_option><![CDATA[{"978":"23,"}]]></delivery_option>
+<secure_key><![CDATA[24b40c9ee08977d45a6f7f73a8a4d860]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-10 23:26:05]]></date_add>
+<date_upd><![CDATA[2019-12-17 11:53:19]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[54970]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[979]]></id_address_delivery>
+<id_address_invoice><![CDATA[979]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[988]]></id_customer>
+<id_guest><![CDATA[166016]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"979":"23,"}]]></delivery_option>
+<secure_key><![CDATA[804b071eab6e73d406586fcaca6dda54]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-11 12:01:41]]></date_add>
+<date_upd><![CDATA[2019-12-17 07:09:30]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[55197]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[980]]></id_address_delivery>
+<id_address_invoice><![CDATA[980]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[990]]></id_customer>
+<id_guest><![CDATA[166658]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"980":"23,"}]]></delivery_option>
+<secure_key><![CDATA[3b76297f3e6f7279a8c0c897b1d6036d]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-11 22:56:51]]></date_add>
+<date_upd><![CDATA[2019-12-17 07:03:36]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[39277]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[618]]></id_address_delivery>
+<id_address_invoice><![CDATA[618]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[632]]></id_customer>
+<id_guest><![CDATA[90527]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"618":"23,"}]]></delivery_option>
+<secure_key><![CDATA[c87d366b650e150aab3213637bd4ad6b]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-13 10:13:04]]></date_add>
+<date_upd><![CDATA[2019-12-19 17:42:48]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[52377]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[614]]></id_address_delivery>
+<id_address_invoice><![CDATA[614]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[628]]></id_customer>
+<id_guest><![CDATA[89499]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[1]]></mobile_theme>
+<delivery_option><![CDATA[{"614":"23,"}]]></delivery_option>
+<secure_key><![CDATA[fc3dd0eb5b196a9bee1d4d59f761bfec]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-13 18:07:19]]></date_add>
+<date_upd><![CDATA[2019-12-18 07:51:58]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[55176]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[981]]></id_address_delivery>
+<id_address_invoice><![CDATA[981]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[993]]></id_customer>
+<id_guest><![CDATA[166599]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"981":"23,"}]]></delivery_option>
+<secure_key><![CDATA[fba73fbbf06b03d95821d40819d16e3a]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-16 09:47:23]]></date_add>
+<date_upd><![CDATA[2019-12-18 08:20:40]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[52757]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[322]]></id_address_delivery>
+<id_address_invoice><![CDATA[322]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[326]]></id_customer>
+<id_guest><![CDATA[91665]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"322":"23,"}]]></delivery_option>
+<secure_key><![CDATA[bc81a24c98ea13c4ad2c0bfbc681442a]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-16 11:32:54]]></date_add>
+<date_upd><![CDATA[2019-12-18 08:29:07]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[55527]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[982]]></id_address_delivery>
+<id_address_invoice><![CDATA[982]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[994]]></id_customer>
+<id_guest><![CDATA[167616]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"982":"23,"}]]></delivery_option>
+<secure_key><![CDATA[1b8385ead3ee95b02bb62c01705da5df]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-16 18:43:32]]></date_add>
+<date_upd><![CDATA[2019-12-18 08:33:04]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[55128]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[983]]></id_address_delivery>
+<id_address_invoice><![CDATA[906]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[929]]></id_customer>
+<id_guest><![CDATA[166435]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"983":"23,"}]]></delivery_option>
+<secure_key><![CDATA[2143399e5bd37a04b03e0c946e80a6f2]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-17 00:00:11]]></date_add>
+<date_upd><![CDATA[2019-12-17 00:00:27]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[55668]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[984]]></id_address_delivery>
+<id_address_invoice><![CDATA[984]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[995]]></id_customer>
+<id_guest><![CDATA[168144]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"984":"23,"}]]></delivery_option>
+<secure_key><![CDATA[011ea0333d682e64d759e48d2f7ffd66]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-19 14:28:17]]></date_add>
+<date_upd><![CDATA[2019-12-20 08:28:18]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[55868]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[985]]></id_address_delivery>
+<id_address_invoice><![CDATA[985]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[996]]></id_customer>
+<id_guest><![CDATA[168822]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[1]]></mobile_theme>
+<delivery_option><![CDATA[{"985":"23,"}]]></delivery_option>
+<secure_key><![CDATA[04fb256e57dc579535637f03b92296b2]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-21 09:42:26]]></date_add>
+<date_upd><![CDATA[2019-12-21 09:42:28]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[55814]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[986]]></id_address_delivery>
+<id_address_invoice><![CDATA[986]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[997]]></id_customer>
+<id_guest><![CDATA[168633]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"986":"23,"}]]></delivery_option>
+<secure_key><![CDATA[7bf460da1d619beb5a506673a9968eb9]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-21 13:00:27]]></date_add>
+<date_upd><![CDATA[2019-12-21 13:00:30]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[56078]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[652]]></id_address_delivery>
+<id_address_invoice><![CDATA[652]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[663]]></id_customer>
+<id_guest><![CDATA[169437]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"652":"23,"}]]></delivery_option>
+<secure_key><![CDATA[6fcc348f1e8e9f51af13db56a5a95267]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-23 19:13:25]]></date_add>
+<date_upd><![CDATA[2019-12-23 19:13:39]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[56115]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[988]]></id_address_delivery>
+<id_address_invoice><![CDATA[988]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[998]]></id_customer>
+<id_guest><![CDATA[169564]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"988":"23,"}]]></delivery_option>
+<secure_key><![CDATA[9405a78ef0bae5d2eb56f48b72ccf824]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-24 14:00:39]]></date_add>
+<date_upd><![CDATA[2019-12-24 14:00:40]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[56283]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[179]]></id_address_delivery>
+<id_address_invoice><![CDATA[179]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[183]]></id_customer>
+<id_guest><![CDATA[170306]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"179":"23,"}]]></delivery_option>
+<secure_key><![CDATA[180d4b9b8b0066d5e0b80924e9a7012f]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-27 11:21:05]]></date_add>
+<date_upd><![CDATA[2019-12-27 11:21:07]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[56296]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[991]]></id_address_delivery>
+<id_address_invoice><![CDATA[991]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[1003]]></id_customer>
+<id_guest><![CDATA[170352]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[1]]></mobile_theme>
+<delivery_option><![CDATA[{"991":"23,"}]]></delivery_option>
+<secure_key><![CDATA[9823e84ac877ea476288574ed56a4035]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-28 22:25:33]]></date_add>
+<date_upd><![CDATA[2019-12-28 22:25:36]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[56466]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[993]]></id_address_delivery>
+<id_address_invoice><![CDATA[993]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[1004]]></id_customer>
+<id_guest><![CDATA[170854]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[1]]></mobile_theme>
+<delivery_option><![CDATA[{"993":"23,"}]]></delivery_option>
+<secure_key><![CDATA[1fa7c42b692162a0af570ba99e431a92]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-30 10:46:33]]></date_add>
+<date_upd><![CDATA[2019-12-30 10:46:37]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[56368]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[994]]></id_address_delivery>
+<id_address_invoice><![CDATA[994]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[1002]]></id_customer>
+<id_guest><![CDATA[170564]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"994":"23,"}]]></delivery_option>
+<secure_key><![CDATA[2697638e84012db80e841edcd57c05de]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2019-12-30 21:43:48]]></date_add>
+<date_upd><![CDATA[2019-12-30 21:44:28]]></date_upd>
+</cart>
+<cart><id_cart><![CDATA[56665]]></id_cart>
+<id_shop_group><![CDATA[1]]></id_shop_group>
+<id_shop><![CDATA[1]]></id_shop>
+<id_address_delivery><![CDATA[995]]></id_address_delivery>
+<id_address_invoice><![CDATA[995]]></id_address_invoice>
+<id_carrier><![CDATA[23]]></id_carrier>
+<id_currency><![CDATA[1]]></id_currency>
+<id_customer><![CDATA[1007]]></id_customer>
+<id_guest><![CDATA[171442]]></id_guest>
+<id_lang><![CDATA[1]]></id_lang>
+<recyclable><![CDATA[0]]></recyclable>
+<gift><![CDATA[0]]></gift>
+<gift_message><![CDATA[]]></gift_message>
+<mobile_theme><![CDATA[0]]></mobile_theme>
+<delivery_option><![CDATA[{"995":"23,"}]]></delivery_option>
+<secure_key><![CDATA[374b70ae6464f98b6d9f2fd709d9d5f2]]></secure_key>
+<allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+<date_add><![CDATA[2020-01-01 11:03:49]]></date_add>
+<date_upd><![CDATA[2020-01-01 11:03:50]]></date_upd>
+</cart>
+</entity_profile>

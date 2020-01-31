@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<order_state><id_order_state><![CDATA[1]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[cheque]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#4169E1]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En attente de paiement par chèque]]></name>
+<template><![CDATA[cheque]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[2]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#32CD32]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[1]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Paiement accepté]]></name>
+<template><![CDATA[payment]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[3]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#FF8C00]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En cours de préparation]]></name>
+<template><![CDATA[preparation]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[4]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[1]]></invoice>
+<color><![CDATA[#8A2BE2]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[1]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[1]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Expédié par La Poste]]></name>
+<template><![CDATA[shipped]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[5]]></id_order_state>
+<send_email><![CDATA[0]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[1]]></invoice>
+<color><![CDATA[#108510]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[1]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[1]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Livré]]></name>
+<template><![CDATA[]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[6]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#DC143C]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Annulé]]></name>
+<template><![CDATA[order_canceled]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[7]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[1]]></invoice>
+<color><![CDATA[#ec2e15]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Remboursé]]></name>
+<template><![CDATA[refund]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[8]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#8f0621]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Erreur de paiement]]></name>
+<template><![CDATA[payment_error]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[9]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[1]]></invoice>
+<color><![CDATA[#FF69B4]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En attente de réapprovisionnement (payé)]]></name>
+<template><![CDATA[outofstock]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[10]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[bankwire]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#4169E1]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En attente de virement bancaire]]></name>
+<template><![CDATA[bankwire]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[11]]></id_order_state>
+<send_email><![CDATA[0]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#4169E1]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En attente de paiement PayPal]]></name>
+<template><![CDATA[]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[12]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[1]]></invoice>
+<color><![CDATA[#32CD32]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Paiement à distance accepté]]></name>
+<template><![CDATA[payment]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[13]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#FF69B4]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En attente de réapprovisionnement (non payé)]]></name>
+<template><![CDATA[outofstock]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[14]]></id_order_state>
+<send_email><![CDATA[0]]></send_email>
+<module_name><![CDATA[cashondelivery]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#4169E1]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En attente de paiement à la livraison]]></name>
+<template><![CDATA[cashondelivery]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[15]]></id_order_state>
+<send_email><![CDATA[0]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#DDEEFF]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[0]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Autorisation acceptée par PayPal]]></name>
+<template><![CDATA[]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[16]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[systempay]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#8A2B6F]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Commande prête à être expédiée]]></name>
+<template><![CDATA[in_transit]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[17]]></id_order_state>
+<send_email><![CDATA[0]]></send_email>
+<module_name><![CDATA[systempay]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#FF8C00]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[1]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En attente d'autorisation]]></name>
+<template><![CDATA[]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[20]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[1]]></invoice>
+<color><![CDATA[#76ff29]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[0]]></unremovable>
+<delivery><![CDATA[1]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En cours de livraison]]></name>
+<template><![CDATA[in_transit]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[21]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#ffff00]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[0]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Au poste de laquage]]></name>
+<template><![CDATA[laquage]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[22]]></id_order_state>
+<send_email><![CDATA[0]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#f1f400]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[0]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Commande prête à être expédiée au laquage]]></name>
+<template><![CDATA[]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[23]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[1]]></invoice>
+<color><![CDATA[#8A2BE2]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[1]]></shipped>
+<unremovable><![CDATA[0]]></unremovable>
+<delivery><![CDATA[1]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Expédié par TNT]]></name>
+<template><![CDATA[shipped]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[24]]></id_order_state>
+<send_email><![CDATA[1]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[1]]></invoice>
+<color><![CDATA[#8A2BE2]]></color>
+<logable><![CDATA[1]]></logable>
+<shipped><![CDATA[1]]></shipped>
+<unremovable><![CDATA[0]]></unremovable>
+<delivery><![CDATA[1]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[1]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Expédié par Kuehne Nagel]]></name>
+<template><![CDATA[shipped]]></template>
+</datalanguage>
+</order_state>
+<order_state><id_order_state><![CDATA[25]]></id_order_state>
+<send_email><![CDATA[0]]></send_email>
+<module_name><![CDATA[]]></module_name>
+<invoice><![CDATA[0]]></invoice>
+<color><![CDATA[#DDEEFF]]></color>
+<logable><![CDATA[0]]></logable>
+<shipped><![CDATA[0]]></shipped>
+<unremovable><![CDATA[0]]></unremovable>
+<delivery><![CDATA[0]]></delivery>
+<hidden><![CDATA[0]]></hidden>
+<paid><![CDATA[0]]></paid>
+<pdf_delivery><![CDATA[0]]></pdf_delivery>
+<pdf_invoice><![CDATA[0]]></pdf_invoice>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[En attente de confirmation par PayPal]]></name>
+<template><![CDATA[]]></template>
+</datalanguage>
+</order_state>
+</entity_profile>

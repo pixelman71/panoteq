@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<carrier><id_carrier><![CDATA[1]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[panoteq]]></name>
+<active><![CDATA[0]]></active>
+<is_free><![CDATA[0]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[Retrait en magasin]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[2]]></id_carrier>
+<id_reference><![CDATA[2]]></id_reference>
+<name><![CDATA[My carrier]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[0]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[1]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/2.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[Livraison le lendemain !]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[3]]></id_carrier>
+<id_reference><![CDATA[2]]></id_reference>
+<name><![CDATA[Transporteur Panoteq]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[1]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[5 semaines]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[4]]></id_carrier>
+<id_reference><![CDATA[2]]></id_reference>
+<name><![CDATA[Transporteur Kuehne Nagel]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[https://espace-services.kuehne-nagel-road.fr/Identification?]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[1]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[3 semaines]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[5]]></id_carrier>
+<id_reference><![CDATA[2]]></id_reference>
+<name><![CDATA[Kuehne Nagel]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[https://espace-services.kuehne-nagel-road.fr/Identification?]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[1]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[3 semaines]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[6]]></id_carrier>
+<id_reference><![CDATA[2]]></id_reference>
+<name><![CDATA[Kuehne Nagel]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[https://espace-services.kuehne-nagel-road.fr/Identification?]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[1]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/6.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[3 semaines]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[7]]></id_carrier>
+<id_reference><![CDATA[2]]></id_reference>
+<name><![CDATA[Kuehne Nagel]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[https://espace-services.kuehne-nagel-road.fr/Identification?]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[1]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/7.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[4 semaines]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[8]]></id_carrier>
+<id_reference><![CDATA[2]]></id_reference>
+<name><![CDATA[Kuehne Nagel]]></name>
+<active><![CDATA[0]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[https://espace-services.kuehne-nagel-road.fr/Identification?]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[1]]></position>
+<deleted><![CDATA[0]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/8.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[20 jours ouvrés depuis le moment de votre commande]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[9]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuhne ou un transporteur TNT]]></name>
+<active><![CDATA[0]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[20 jours ouvrés]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[10]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuhne ou un transporteur TNT]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[20 jours ouvrés depuis le moment de votre commande]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[11]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne ou un transporteur TNT]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[20 jours ouvrés depuis le moment de votre commande]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[12]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road ou un transporteur TNT]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[20 jours ouvrés depuis le moment de votre commande]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[13]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road ou un transporteur TNT]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/13.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[20 jours ouvrés depuis le moment de votre commande]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[14]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road ou par TNT-Echantillon par envoi postal]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/14.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[depuis l'état "en cours de préparation" 20 jours ouvrés  ( 30 jours ouvrés pour fintions laquées)]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[15]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road ou par TNT-Echantillon par envoi postal]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/15.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[depuis l'état "en cours de préparation" 30 jours ouvrés  (40 jours ouvrés pour fintions laquées)]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[16]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road - TNT - La Poste]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/16.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[depuis l'état "en cours de préparation" 30 jours ouvrés  (40 jours ouvrés pour fintions laquées)]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[17]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road - TNT - La Poste]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/17.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[depuis l'état "en cours de préparation" 30 jours ouvrés  (40 jours ouvrés pour finitions laquées)]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[18]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road - TNT - La Poste]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/18.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[ ]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[19]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/19.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[ ]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[20]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[1]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/20.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[ ]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[21]]></id_carrier>
+<id_reference><![CDATA[21]]></id_reference>
+<name><![CDATA[Schneider]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[0]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[2]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[3 jours]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[22]]></id_carrier>
+<id_reference><![CDATA[21]]></id_reference>
+<name><![CDATA[Schneider]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[0]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[1]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[2]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[3 jours]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[23]]></id_carrier>
+<id_reference><![CDATA[1]]></id_reference>
+<name><![CDATA[Kuehne Nagel Road]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[1]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[0]]></position>
+<deleted><![CDATA[0]]></deleted>
+<link_image><![CDATA[https://panoteq.fr/facade-cuisine-salle-bain/img/s/23.jpg]]></link_image>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[ ]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[24]]></id_carrier>
+<id_reference><![CDATA[21]]></id_reference>
+<name><![CDATA[Schneider]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[0]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[2]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[3 jours]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[25]]></id_carrier>
+<id_reference><![CDATA[21]]></id_reference>
+<name><![CDATA[Schneider]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[0]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[2]]></position>
+<deleted><![CDATA[1]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[3 jours]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+<carrier><id_carrier><![CDATA[26]]></id_carrier>
+<id_reference><![CDATA[21]]></id_reference>
+<name><![CDATA[Schneider]]></name>
+<active><![CDATA[1]]></active>
+<is_free><![CDATA[0]]></is_free>
+<url><![CDATA[]]></url>
+<shipping_handling><![CDATA[0]]></shipping_handling>
+<shipping_external><![CDATA[0]]></shipping_external>
+<range_behavior><![CDATA[0]]></range_behavior>
+<shipping_method><![CDATA[1]]></shipping_method>
+<max_width><![CDATA[0]]></max_width>
+<max_height><![CDATA[0]]></max_height>
+<max_depth><![CDATA[0]]></max_depth>
+<max_weight><![CDATA[0.000000]]></max_weight>
+<grade><![CDATA[0]]></grade>
+<external_module_name><![CDATA[]]></external_module_name>
+<is_module><![CDATA[0]]></is_module>
+<need_range><![CDATA[0]]></need_range>
+<position><![CDATA[2]]></position>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<delay><![CDATA[3 jours]]></delay>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</carrier>
+</entity_profile>

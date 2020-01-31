@@ -1,0 +1,75 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+	<block>
+		<id_posstaticblock>1</id_posstaticblock>
+		<identify>home_banner</identify>
+		<hook_position>displayTopColumn</hook_position>
+		<name_module></name_module>
+		<hook_module>0</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>2</id_posstaticblock>
+		<identify>newsletter_block</identify>
+		<hook_position>displayBlockPosition1</hook_position>
+		<name_module>ps_emailsubscription</name_module>
+		<hook_module>displayFooterBefore</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+<!-- block lang configuration -->
+	<block_lang>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Home Banner</title>
+		<description>
+			 <![CDATA[
+			<div class="banner-home">
+			<div class="row">
+			<div class="col col1">
+			<div class="banner-box"><a href="#"><img src="/pos_wenro/img/cms/1_14.jpg" alt="" /></a></div>
+			</div>
+			<div class="col col2">
+			<div class="banner-box"><a href="#"><img src="/pos_wenro/img/cms/2_14.jpg" alt="" /></a></div>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col col3">
+			<div class="banner-box"><a href="#"><img src="/pos_wenro/img/cms/3_14.jpg" alt="" /></a></div>
+			</div>
+			<div class="col col3">
+			<div class="banner-box"><a href="#"><img src="/pos_wenro/img/cms/4_14.jpg" alt="" /></a></div>
+			</div>
+			<div class="col col4">
+			<div class="banner-box"><a href="#"><img src="/pos_wenro/img/cms/5_14.jpg" alt="" /></a></div>
+			</div>
+			</div>
+			</div>
+			 ]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Newsletter Block</title>
+		<description>
+			 <![CDATA[
+		
+			 ]]>
+		</description>
+	</block_lang>
+<!-- block shop configuration -->
+	<block_shop>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+</pos_static_blocks>

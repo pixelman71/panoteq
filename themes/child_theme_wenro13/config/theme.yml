@@ -1,0 +1,6 @@
+parent: theme_wenro13
+name: child_theme_wenro13
+display_name: Child theme of theme_wenro13's theme
+version: 1.0.0
+assets:
+  use_parent_assets: true

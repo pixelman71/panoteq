@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<contact><id_contact><![CDATA[1]]></id_contact>
+<email><![CDATA[jacques.vannet@gmail.com]]></email>
+<customer_service><![CDATA[1]]></customer_service>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Webmaster]]></name>
+<description><![CDATA[En cas de problème technique sur ce site]]></description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</contact>
+<contact><id_contact><![CDATA[2]]></id_contact>
+<email><![CDATA[contact@panoteq.fr]]></email>
+<customer_service><![CDATA[1]]></customer_service>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Service client]]></name>
+<description><![CDATA[Pour toute question sur un produit ou une commande]]></description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</contact>
+</entity_profile>

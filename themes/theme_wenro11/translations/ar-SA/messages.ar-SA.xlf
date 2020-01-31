@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posbestsellers\posbestsellers.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="6831915d94c2407bba96774a64b92dd5">
+        <source>bestsellers</source>
+        <target>bestsellers</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posbestsellers\posbestsellers.tpl:4</note>
+      </trans-unit>
+      <trans-unit id="f7be84d6809317a6eb0ff3823a936800">
+        <source>No best sellers at this time</source>
+        <target>No best sellers at this time</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posbestsellers\posbestsellers.tpl:62</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postabcateslider\views\templates\admin\_configure\helpers\form\form.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="92fbf0e5d97b8afd7e73126b52bdc4bb">
+        <source>Choose a file</source>
+        <target>Choose a file</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postabcateslider\views\templates\admin\_configure\helpers\form\form.tpl:42</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posfeaturedproducts\views\templates\hook\posfeaturedproducts.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="ca7d973c26c57b69e0857e7a0332d545">
+        <source>Featured products</source>
+        <target>Featured products</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posfeaturedproducts\views\templates\hook\posfeaturedproducts.tpl:19</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\modules\posinstagramblock\views\templates\hook\blockinstagram.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="55f015a0c5605702f913536afe70cfb0">
+        <source>Instagram</source>
+        <target>Instagram</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\modules\posinstagramblock\views\templates\hook\blockinstagram.tpl:4</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\modules\posinstagramblock\views\templates\hook\blockinstagram_home.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="289703485c2dc1b8a923961429c4d482">
+        <source>Follow our instagram</source>
+        <target>Follow our instagram</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\modules\posinstagramblock\views\templates\hook\blockinstagram_home.tpl:8</note>
+      </trans-unit>
+      <trans-unit id="746f843020175d485a9ff1b753c525f4">
+        <source>#Wenro</source>
+        <target>#Wenro</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\modules\posinstagramblock\views\templates\hook\blockinstagram_home.tpl:6</note>
+      </trans-unit>
+      <trans-unit id="05577101412f55febd8dddd7d86309b5">
+        <source>.Lookbook</source>
+        <target>.Lookbook</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\modules\posinstagramblock\views\templates\hook\blockinstagram_home.tpl:6</note>
+      </trans-unit>
+      <trans-unit id="3d7559ac4bf91e46ebea76b58323f397">
+        <source>View our 2016 lookbook feed</source>
+        <target>View our 2016 lookbook feed</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\modules\posinstagramblock\views\templates\hook\blockinstagram_home.tpl:7</note>
+      </trans-unit>
+      <trans-unit id="54e6df9c1d28f08f9d4361e9bfb9a42b">
+        <source>instagram -- @wenro</source>
+        <target>instagram -- @wenro</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\modules\posinstagramblock\views\templates\hook\blockinstagram_home.tpl:19</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslistcategories\views\templates\hook\list.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="814196c32531e51656e1acc11ffaca27">
+        <source>Items list</source>
+        <target>Items list</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslistcategories\views\templates\hook\list.tpl:25</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posslideshows\views\templates\hook\list.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="ef61fb324d729c341ea8ab9901e23566">
+        <source>Add new</source>
+        <target>Add new</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posslideshows\views\templates\hook\list.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="7dce122004969d56ae2e0245cb754d35">
+        <source>Edit</source>
+        <target>Edit</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posslideshows\views\templates\hook\list.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posslideshows\views\templates\hook\list.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="c82324ebbcea34f55627a897b37190e3">
+        <source>Slides list</source>
+        <target>Slides list</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posslideshows\views\templates\hook\list.tpl:25</note>
+      </trans-unit>
+      <trans-unit id="379a88861412d686cfaf475c84a24920">
+        <source>Shared slide</source>
+        <target>Shared slide</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posslideshows\views\templates\hook\list.tpl:51</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslistcategories\views\templates\hook\poslistcategories.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="78e3010a1966c84e5d261d06e41abcfd">
+        <source>Shop by collection</source>
+        <target>Shop by collection</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslistcategories\views\templates\hook\poslistcategories.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslogo\views\templates\admin\helpers\uploader\simple.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="1908624a0bca678cd26b99bfd405324e">
+        <source>File size</source>
+        <target>File size</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslogo\views\templates\admin\helpers\uploader\simple.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="3fcbe6bd34e9279ec2c7b13adf7e4095">
+        <source>You have reached the limit (%s) of files to upload, please remove files to continue uploading</source>
+        <target>You have reached the limit (%s) of files to upload, please remove files to continue uploading</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslogo\views\templates\admin\helpers\uploader\simple.tpl:56</note>
+      </trans-unit>
+      <trans-unit id="d39ec66f08507e26fe86aa5325d070df">
+        <source>Add files</source>
+        <target>Add files</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslogo\views\templates\admin\helpers\uploader\simple.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="58be4de806253a6ee411b6c0c99296c7">
+        <source>Add file</source>
+        <target>Add file</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslogo\views\templates\admin\helpers\uploader\simple.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="09942cec33b5becdf3e2275913b818e2">
+        <source>Download current file (%skb)</source>
+        <target>Download current file (%skb)</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslogo\views\templates\admin\helpers\uploader\simple.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="c2299e6abb73991105dfacfb6fdd6dd4">
+        <source>Download current file</source>
+        <target>Download current file</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslogo\views\templates\admin\helpers\uploader\simple.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="d2fe62ff761d5efc3b64f5db0f56058e">
+        <source><![CDATA[sprintf('You can upload a maximum of %s files',$_smarty_tpl->tpl_vars['max_files']->value)]]></source>
+        <target><![CDATA[sprintf('You can upload a maximum of %s files',$_smarty_tpl->tpl_vars['max_files']->value)]]></target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\poslogo\views\templates\admin\helpers\uploader\simple.tpl:136</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posmegamenu\megamenu.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="3adbdb3ac060038aa0e6e6c138ef9873">
+        <source>Category</source>
+        <target>Category</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posmegamenu\megamenu.tpl:7</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posnewproducts\posnewproducts.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="1529636c2dd134b028a08f7b131115b5">
+        <source>New Products</source>
+        <target>New Products</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posnewproducts\posnewproducts.tpl:5</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posstaticfooter\views\templates\admin\helpers\tree\tree_node_folder_checkbox.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="24fc6fbf93a9d551ea7da4cd69f3da3e">
+        <source>(%s selected)</source>
+        <target>(%s selected)</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posstaticfooter\views\templates\admin\helpers\tree\tree_node_folder_checkbox.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posstaticfooter\views\templates\admin\helpers\tree\tree_node_folder_checkbox_shops.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="bebe39eef720d7cbb479d8b3428e4c04">
+        <source>Group: %s</source>
+        <target>Group: %s</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\posstaticfooter\views\templates\admin\helpers\tree\tree_node_folder_checkbox_shops.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postabcateslider\views\templates\hook\categories-tree.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="99078a8f3786817fbaa593c08ff04a5d">
+        <source>Select categories</source>
+        <target>Select categories</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postabcateslider\views\templates\hook\categories-tree.tpl:5</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Save</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:985</note>
+      </trans-unit>
+      <trans-unit id="ea4788705e6873b424c65e91c2846b19">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:814</note>
+      </trans-unit>
+      <trans-unit id="2efd89b3ccc76b0b03a34196fc6d1c8b">
+        <source>Add tag</source>
+        <target>Add tag</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:200</note>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435">
+        <source>Yes</source>
+        <target>Yes</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:400</note>
+      </trans-unit>
+      <trans-unit id="bafd7322c6e97d25b6299b5d6fe8920b">
+        <source>No</source>
+        <target>No</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:402</note>
+      </trans-unit>
+      <trans-unit id="26ce1315d2bff025e8fb8a0c6259e58c">
+        <source>Change password...</source>
+        <target>Change password...</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:475</note>
+      </trans-unit>
+      <trans-unit id="d9c2d86a66aa5a45326c3757f3a272cc">
+        <source>Current password</source>
+        <target>Current password</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:480</note>
+      </trans-unit>
+      <trans-unit id="3544848f820b9d94a3f3871a382cf138">
+        <source>New password</source>
+        <target>New password</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:495</note>
+      </trans-unit>
+      <trans-unit id="4c231e0da3eaaa6a9752174f7f9cfb31">
+        <source>Confirm password</source>
+        <target>Confirm password</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:510</note>
+      </trans-unit>
+      <trans-unit id="2871afea416378d2772937c4d67d6c2c">
+        <source>Generate password</source>
+        <target>Generate password</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:526</note>
+      </trans-unit>
+      <trans-unit id="ed400dc4c641d6e5672616ac56a669ec">
+        <source>Send me this new password by Email</source>
+        <target>Send me this new password by Email</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:535</note>
+      </trans-unit>
+      <trans-unit id="4bbb8f967da6d1a610596d7257179c2b">
+        <source>Invalid</source>
+        <target>Invalid</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:561</note>
+      </trans-unit>
+      <trans-unit id="26b63f278101527e06a5547719568bb5">
+        <source>Okay</source>
+        <target>Okay</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:562</note>
+      </trans-unit>
+      <trans-unit id="0c6ad70beb3a7e76c3fc7adab7c46acc">
+        <source>Good</source>
+        <target>Good</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:563</note>
+      </trans-unit>
+      <trans-unit id="b8dc7c80939667637db7ac31ece215b9">
+        <source>Fabulous</source>
+        <target>Fabulous</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:564</note>
+      </trans-unit>
+      <trans-unit id="01e8202cf69f19ea7cf3a80f7673066a">
+        <source>Invalid password confirmation</source>
+        <target>Invalid password confirmation</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:601</note>
+      </trans-unit>
+      <trans-unit id="1e1cc9bdeb2f29f5480106aec7e9bc48">
+        <source>Now</source>
+        <target>Now</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:933</note>
+      </trans-unit>
+      <trans-unit id="f92965e2c8a7afb3c1b9a5c09a263636">
+        <source>Done</source>
+        <target>Done</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:934</note>
+      </trans-unit>
+      <trans-unit id="3964fd83339fec5014c831822005653a">
+        <source>Choose Time</source>
+        <target>Choose Time</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:940</note>
+      </trans-unit>
+      <trans-unit id="a76d4ef5f3f6a672bbfab2865563e530">
+        <source>Time</source>
+        <target>Time</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:941</note>
+      </trans-unit>
+      <trans-unit id="b55e509c697e4cca0e1d160a7806698f">
+        <source>Hour</source>
+        <target>Hour</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:942</note>
+      </trans-unit>
+      <trans-unit id="62902641c38f3a4a8eb3212454360e24">
+        <source>Minute</source>
+        <target>Minute</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:943</note>
+      </trans-unit>
+      <trans-unit id="4e8f7a26579e114b450658327b3f650a">
+        <source>Regenerate Image Thumbnail</source>
+        <target>Regenerate Image Thumbnail</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:963</note>
+      </trans-unit>
+      <trans-unit id="471ddaf9e80da04dd5a3a54daa0239b0">
+        <source>Select Image Type</source>
+        <target>Select Image Type</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:968</note>
+      </trans-unit>
+      <trans-unit id="7bb0067ffbcf0cc3b519f3e351a6182e">
+        <source>ALL Blog Image</source>
+        <target>ALL Blog Image</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:972</note>
+      </trans-unit>
+      <trans-unit id="7fee4dcdb68fd2d3f520d24dd3f2b47f">
+        <source>All Blog Post Image</source>
+        <target>All Blog Post Image</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:973</note>
+      </trans-unit>
+      <trans-unit id="1e0dfe4486ced19562c731bf33a4fc0d">
+        <source>All Blog Post Gallery Image</source>
+        <target>All Blog Post Gallery Image</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:974</note>
+      </trans-unit>
+      <trans-unit id="498518cc485f0036b5e733adc2b94068">
+        <source>All Blog Category Image</source>
+        <target>All Blog Category Image</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:975</note>
+      </trans-unit>
+      <trans-unit id="07fca00630920ffdb81906605fb6a15a">
+        <source>Please Select Which Type of Image You Want To Regenerate.</source>
+        <target>Please Select Which Type of Image You Want To Regenerate.</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\admin\_configure\helpers\form\form.tpl:978</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postabproductslider\producttabslider.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="8e7e4dc0dc6421a0ef6f3feb1249156c">
+        <source>Top Trending</source>
+        <target>Top Trending</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postabproductslider\producttabslider.tpl:5</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\all_testimonials.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="5289f1a930358cba4623a7234db5c71e">
+        <source>Testimonial</source>
+        <target>Testimonial</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\all_testimonials.tpl:23</note>
+      </trans-unit>
+      <trans-unit id="8383641ccae5341c78d5e45860d46eca">
+        <source>Submit Testimonial</source>
+        <target>Submit Testimonial</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\all_testimonials.tpl:24</note>
+      </trans-unit>
+      <trans-unit id="326ad2d69a86641b8e4082bcdad7c16e">
+        <source>Current testimonial</source>
+        <target>Current testimonial</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\all_testimonials.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="0a9835d8105095deadc6029f48aa490a">
+        <source>Other testimonials</source>
+        <target>Other testimonials</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\all_testimonials.tpl:72</note>
+      </trans-unit>
+      <trans-unit id="dd1f775e443ff3b9a89270713580a51b">
+        <source>Previous</source>
+        <target>Previous</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\all_testimonials.tpl:123</note>
+      </trans-unit>
+      <trans-unit id="10ac3d04253ef7e1ddc73e6091c0cd55">
+        <source>Next</source>
+        <target>Next</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\all_testimonials.tpl:148</note>
+      </trans-unit>
+      <trans-unit id="6c583afb157e33bfb5b7c3d4114c4dd5">
+        <source>items:</source>
+        <target>items:</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\all_testimonials.tpl:156</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="e0aa021e21dddbd6d8cecec71e9cf564">
+        <source>OK</source>
+        <target>OK</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="94966d90747b97d1f0f206c98a8b1ac3">
+        <source>Send</source>
+        <target>Send</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:147</note>
+      </trans-unit>
+      <trans-unit id="ab51a81c76d95ddc762194d58ec5db63">
+        <source>Are you sure that you want to report this comment?</source>
+        <target>Are you sure that you want to report this comment?</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="9a2ccd41653469a8bd94fbb84b271a14">
+        <source>Your comment has been added!</source>
+        <target>Your comment has been added!</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="b20968d9aecd2d075519992e9e2f1ffe">
+        <source>Your comment has been submitted and will be available once approved by a moderator.</source>
+        <target>Your comment has been submitted and will be available once approved by a moderator.</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="186c30cab59f6b64a453778330d4bbf0">
+        <source>New comment</source>
+        <target>New comment</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="4b3b9db8c9784468094acde0f8bf7071">
+        <source>Grade</source>
+        <target>Grade</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="b5c82723bd85856358f9a376bc613998">
+        <source>%1$d out of %2$d people found this review useful.</source>
+        <target>%1$d out of %2$d people found this review useful.</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="39630ad6ee79b8653ea89194cdb45bec">
+        <source>Was this comment useful to you?</source>
+        <target>Was this comment useful to you?</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="a6105c0a611b41b08f1209506350279e">
+        <source>yes</source>
+        <target>yes</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="7fa3b767c460b54a2be4d49030b349c7">
+        <source>no</source>
+        <target>no</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="28b3b1e564a00f572c5d4e21da986d49">
+        <source>Report abuse</source>
+        <target>Report abuse</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:69</note>
+      </trans-unit>
+      <trans-unit id="7966126831926ad29c528b239d69f855">
+        <source>Write your review</source>
+        <target>Write your review</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:114</note>
+      </trans-unit>
+      <trans-unit id="fbe2625bf3673be380d043a4bf873f28">
+        <source>Be the first to write your review</source>
+        <target>Be the first to write your review</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:85</note>
+      </trans-unit>
+      <trans-unit id="08c7d6f84301ee7d0aab0a5f67edc419">
+        <source>No customer reviews for the moment.</source>
+        <target>No customer reviews for the moment.</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:88</note>
+      </trans-unit>
+      <trans-unit id="45dacce3e2bc0f7bebde95098b9326a8">
+        <source>Title for your review</source>
+        <target>Title for your review</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:135</note>
+      </trans-unit>
+      <trans-unit id="3421ad00975533fbbd5f17d2cb568125">
+        <source>Your review</source>
+        <target>Your review</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:137</note>
+      </trans-unit>
+      <trans-unit id="221e705c06e231636fdbccfdd14f4d5c">
+        <source>Your name</source>
+        <target>Your name</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:140</note>
+      </trans-unit>
+      <trans-unit id="70397c4b252a5168c5ec003931cea215">
+        <source>Required fields</source>
+        <target>Required fields</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:145</note>
+      </trans-unit>
+      <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b">
+        <source>or</source>
+        <target>or</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:149</note>
+      </trans-unit>
+      <trans-unit id="37548cd0bfafc7c31b49c1e34d40eac2">
+        <source>Your comment is submitted</source>
+        <target>Your comment is submitted</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments.tpl:168</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="605c17e87f76d40e75f6049e4ecda385">
+        <source>Add new testimonial</source>
+        <target>Add new testimonial</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:5</note>
+      </trans-unit>
+      <trans-unit id="614cffa523202658a898e34a5d94d05e">
+        <source>Your Name</source>
+        <target>Your Name</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:18</note>
+      </trans-unit>
+      <trans-unit id="01557660faa28f8ec65992d1ddbb7b79">
+        <source>Your Email</source>
+        <target>Your Email</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:25</note>
+      </trans-unit>
+      <trans-unit id="1c76cbfe21c6f44c1d1e59d54f3e4420">
+        <source>Company</source>
+        <target>Company</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="dd7bf230fde8d4836917806aff6a6b27">
+        <source>Address</source>
+        <target>Address</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="3e868a2ccb4cd4a8b61129bf3273c3ee">
+        <source>Media Link</source>
+        <target>Media Link</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="2f56b4f336dc97edf739bf79523fb9a6">
+        <source>Multimedia</source>
+        <target>Multimedia</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:55</note>
+      </trans-unit>
+      <trans-unit id="f15c1cae7882448b3fb0404682e17e61">
+        <source>Content</source>
+        <target>Content</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="45d048c35e3cfd449dc0a1b503cd103a">
+        <source>Captcha</source>
+        <target>Captcha</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="70b29c4920daf4e51e8175179027e668">
+        <source>captcha</source>
+        <target>captcha</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:72</note>
+      </trans-unit>
+      <trans-unit id="b9ab79eae8d12f8f3176c99d3c1756ca">
+        <source>Send Your Testimonial</source>
+        <target>Send Your Testimonial</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:77</note>
+      </trans-unit>
+      <trans-unit id="d3d7e584319ea860367cbbdbfb94ad5b">
+        <source>* required field</source>
+        <target>* required field</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\postestimonials\views\templates\front\form_submit.tpl:79</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments-extra.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="dda9c06f33071c9b6fc237ee164109d8">
+        <source>Rating</source>
+        <target>Rating</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments-extra.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="899139b5174d8d7a6e38a0360008a695">
+        <source>Read reviews</source>
+        <target>Read reviews</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments-extra.tpl:50</note>
+      </trans-unit>
+      <trans-unit id="c31732fda0c6f01c446db7163b214de4">
+        <source>Write a review</source>
+        <target>Write a review</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments-extra.tpl:57</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments_reviews.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="d844ad9202d0de8442498775ba6ef819">
+        <source>Review(s)</source>
+        <target>Review(s)</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\productcomments_reviews.tpl:40</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\products-comparison.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba">
+        <source>Comments</source>
+        <target>Comments</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\products-comparison.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="b1897515d548a960afe49ecf66a29021">
+        <source>Average</source>
+        <target>Average</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\products-comparison.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="bc976f6c3405523cde61f63a7cbe224b">
+        <source>view comments</source>
+        <target>view comments</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\products-comparison.tpl:77</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\views\templates\admin\_configure\helpers\form\form.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="b9aefa40a54680bb258f9f9569290fae">
+        <source>Product Name</source>
+        <target>Product Name</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\productcomments\views\templates\admin\_configure\helpers\form\form.tpl:34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\front\default\single.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="03de68d09e4d74581fd593c97bf6194d">
+        <source>Posted by </source>
+        <target>Posted by </target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\front\default\single.tpl:41</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\front\default\archive.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="a0bfb8e59e6c13fc8d990781f77694fe">
+        <source>Continue</source>
+        <target>Continue</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\front\default\archive.tpl:70</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\front\default\comment-list.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="820ce35c4b7acc9fcff07fb3f96544c7">
+        <source>All comments</source>
+        <target>All comments</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblog\views\templates\front\default\comment-list.tpl:3</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblogdisplayposts\views\templates\front\xipblogdisplayleftposts.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="a5c22ff3efbced22c34bd7b7dd482a6d">
+        <source><![CDATA[Read More >>]]></source>
+        <target><![CDATA[Read More >>]]></target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblogdisplayposts\views\templates\front\xipblogdisplayleftposts.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblogdisplayposts\views\templates\front\xipblogdisplayposts.tpl" source-language="ar-SA" target-language="ar-SA" datatype="plaintext">
+    <body>
+      <trans-unit id="187b60ac731adde874b77f25f22f5df3">
+        <source>No Blog Post Found</source>
+        <target>No Blog Post Found</target>
+        <note>Context:
+File: D:\xampp\htdocs\pos_wenro\themes\theme_wenro11\dependencies\modules\xipblogdisplayposts\views\templates\front\xipblogdisplayposts.tpl:85</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

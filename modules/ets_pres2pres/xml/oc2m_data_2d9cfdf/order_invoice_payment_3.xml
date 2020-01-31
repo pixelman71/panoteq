@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<order_invoice_payment><id_order_invoice><![CDATA[953]]></id_order_invoice>
+<id_order_payment><![CDATA[1698]]></id_order_payment>
+<id_order><![CDATA[1027]]></id_order>
+</order_invoice_payment>
+<order_invoice_payment><id_order_invoice><![CDATA[956]]></id_order_invoice>
+<id_order_payment><![CDATA[1704]]></id_order_payment>
+<id_order><![CDATA[1030]]></id_order>
+</order_invoice_payment>
+<order_invoice_payment><id_order_invoice><![CDATA[981]]></id_order_invoice>
+<id_order_payment><![CDATA[1715]]></id_order_payment>
+<id_order><![CDATA[1037]]></id_order>
+</order_invoice_payment>
+<order_invoice_payment><id_order_invoice><![CDATA[984]]></id_order_invoice>
+<id_order_payment><![CDATA[1721]]></id_order_payment>
+<id_order><![CDATA[1040]]></id_order>
+</order_invoice_payment>
+<order_invoice_payment><id_order_invoice><![CDATA[983]]></id_order_invoice>
+<id_order_payment><![CDATA[1729]]></id_order_payment>
+<id_order><![CDATA[1044]]></id_order>
+</order_invoice_payment>
+<order_invoice_payment><id_order_invoice><![CDATA[987]]></id_order_invoice>
+<id_order_payment><![CDATA[1731]]></id_order_payment>
+<id_order><![CDATA[1046]]></id_order>
+</order_invoice_payment>
+</entity_profile>

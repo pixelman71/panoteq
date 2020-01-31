@@ -1,0 +1,197 @@
+name: theme_wenro14
+display_name: Pos Wenro 14
+version: 1.0.0
+author:
+  name: "Posthemes"
+  email: ""
+  url: "http://posthemes.com/"
+
+meta:
+  compatibility:
+      from: 1.7.0.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+assets:
+  # If you're using this theme as child and you want to load
+  # the parent theme assets, uncomment this line.
+#  use_parent_assets: true
+
+  # The following lines are showing how to load assets in your page
+  # Uncomment and change value to start loading css or js files
+#  css:
+#    all:
+#      - id: custom-lib-style
+#        path: assets/css/custom-lib.css
+#    product:
+#      - id: product-style
+#        path: assets/css/product.css
+#        media: all
+#        priority: 200
+#  js:
+#    cart:
+#      - id: cat-extra-lib
+#        path: assets/js/cart-lib.js
+
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+  modules:
+   to_disable:
+     - ps_customtext
+     - ps_featuredproducts
+     - ps_imageslider
+     - ps_mainmenu
+     - ps_banner
+     - posfeaturedproducts
+     - postestimonials
+     - posinstagramblock
+     - postabproductslider
+     - postabcateslider
+     - xipblog
+     - xipblogdisplayposts
+     - poslistcategories
+   to_enable:
+     - ps_socialfollow
+     - ps_contactinfo
+     - ps_linklist
+     - ps_advertising
+     - ps_categoryproducts    
+     - posbestsellers
+     - productcomments
+     - posrotatorimg
+     - poslogo
+     - posmegamenu
+     - posslideshows
+     - posstaticblocks
+     - posstaticfooter
+     - posnewproducts
+ 
+  hooks:
+    modules_to_hook:
+      displayBlockPosition1:
+        - posnewproducts
+        - posstaticblocks
+      displayBlockPosition2:
+        - posstaticblocks
+      displayBlockPosition3:
+        - posstaticblocks
+      displayBrandSlider:
+        - poslogo
+      displayNav1:
+        - posstaticblocks
+        - ps_languageselector
+        - ps_currencyselector
+        - ps_customersignin
+      displayTopColumn:
+        - posslideshows
+        - posstaticblocks
+      displayNav:
+        - posstaticblocks
+        - ps_contactinfo
+      displayTop:
+        - ps_shoppingcart
+        - ps_searchbar
+        - posstaticblocks
+      displayFooter:
+        - posstaticfooter
+        - ps_linklist
+        - ps_socialfollow
+      displayFooterBefore:
+        - ps_emailsubscription
+        - posstaticfooter
+      displayFooterAfter:
+        - posstaticfooter
+      displayLeftColumn:
+        - ps_categorytree
+        - ps_facetedsearch
+        - ps_advertising
+      displayLeftColumnProduct:
+        - posbestsellers
+      displayFooterProduct:
+        - ps_categoryproducts   
+      displayProductButtons:
+        - ps_sharebuttons
+      displayReassurance:
+        - blockreassurance
+
+  image_types:
+    cart_default:
+      width: 125
+      height: 157
+      scope: [products]
+    small_default:
+      width: 98
+      height: 123
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 458
+      height: 575
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 450
+      height: 565
+      scope: [products]
+    large_default:
+      width: 700
+      height: 879
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 870
+      height: 263
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
+    side_default:
+      width: 70
+      height: 92
+      scope: [products]
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    category: layout-left-column
+    product: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    contact: layout-left-column
+    Manufacturers: layout-left-column
+    Search: layout-left-column
+dependencies:
+  modules:
+     - ps_advertising 
+     - ps_categoryproducts  
+     - posnewproducts
+     - xipblog
+     - xipblogdisplayposts 
+     - posbestsellers
+     - postestimonials
+     - postabcateslider
+     - poslistcategories
+     - posinstagramblock
+     - productcomments
+     - posrotatorimg
+     - posfeaturedproducts
+     - poslogo
+     - posmegamenu
+     - posslideshows
+     - posstaticblocks
+     - posstaticfooter
+     - postabproductslider

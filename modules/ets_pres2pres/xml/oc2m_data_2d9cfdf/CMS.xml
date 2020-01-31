@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<cms><id_cms><![CDATA[1]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[0]]></position>
+<indexation><![CDATA[0]]></indexation>
+<active><![CDATA[1]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[Nos conditions de livraison]]></meta_description>
+<meta_keywords><![CDATA[conditions, livraison, délais, expédition, colis]]></meta_keywords>
+<meta_title><![CDATA[Livraison]]></meta_title>
+<link_rewrite><![CDATA[livraison]]></link_rewrite>
+<content><![CDATA[<h2><span style="color:#000000;">Expéditions et retours</span></h2>
+<h3><span style="color:#000000;">Expédition de votre colis</span></h3>
+<p><span style="color:#111111;">Les colis sont généralement expédiés dans un délai de 3 semaines après réception du paiement.</span></p>
+<p><span style="color:#111111;">Ils sont expédiés via...</span></p>
+<p><span style="color:#111111;">Les frais d'expédition incluent les frais de préparation et d'emballage ainsi que les frais de port. Les frais de préparation sont fixes, tandis que les frais de transport varient selon le poids total du colis. Nous vous recommandons de regrouper tous vos articles dans une seule commande. Nous ne pouvons regrouper deux commandes placées séparément et des frais d'expédition s'appliquent à chacune d'entre elles. Votre colis est expédié à vos propres risques, mais une attention particulière est portée aux objets fragiles.</span><br /><br /><span style="color:#111111;">Les dimensions des boîtes sont appropriées et vos articles sont correctement protégés.</span></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[2]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[1]]></position>
+<indexation><![CDATA[0]]></indexation>
+<active><![CDATA[0]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[Mentions légales]]></meta_description>
+<meta_keywords><![CDATA[mentions, légales, crédits]]></meta_keywords>
+<meta_title><![CDATA[Mentions légales]]></meta_title>
+<link_rewrite><![CDATA[mentions-legales]]></link_rewrite>
+<content><![CDATA[<h2><span style="color:#000000;">Mentions légales</span></h2>
+<h3><span style="color:#000000;">Crédits</span></h3>
+<p><span style="color:#111111;">Conception et production :</span></p>
+<p><span style="color:#111111;">cette boutique en ligne a été créée à l'aide du <a href="http://www.prestashop.com"><span style="color:#111111;">logiciel PrestaShop. </span></a>Rendez-vous sur le <a href="http://www.prestashop.com/blog/en/"><span style="color:#111111;">blog e-commerce de PrestaShop</span></a> pour vous tenir au courant des dernières actualités et obtenir des conseils sur la vente en ligne et la gestion d'un site d'e-commerce.</span></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[3]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[2]]></position>
+<indexation><![CDATA[0]]></indexation>
+<active><![CDATA[1]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[Nos conditions d'utilisations]]></meta_description>
+<meta_keywords><![CDATA[conditions, utilisation, vente]]></meta_keywords>
+<meta_title><![CDATA[Conditions d'utilisation]]></meta_title>
+<link_rewrite><![CDATA[conditions-utilisation]]></link_rewrite>
+<content><![CDATA[<h3><strong><span style="color:#000000;">Préambule</span></strong></h3>
+<p><span style="color:#111111;">Toute commande implique de la part de l’acheteur la prise de connaissance de nos conditions générales de vente disponibles ici même sur notre site internet <a href="http://www.panoteq.fr/"><span style="color:#111111;">www.panoteq.fr</span></a> et l’acceptation expresse de tous ses points.</span></p>
+<p><span style="color:#111111;">L’acheteur ne peut opposer aucune clause qui n’aurait fait l’objet de notre part d’une acceptation expresse et écrite.</span></p>
+<h3></h3>
+<h3><strong><span style="color:#000000;">Commande</span></strong></h3>
+<p><span style="color:#111111;">Toute commande correspond à un accord entre les parties. Elle est définitive et ne pourra être résiliée quel que soit le motif d’annulation, notamment l’annulation par le client final de la commande passée à notre acheteur.</span></p>
+<p><span style="color:#111111;">A défaut de réserve à réception, l’acheteur est réputé avoir accepté le produit livré conforme et en parfait état.</span></p>
+<p><span style="color:#111111;">Les quantités indiquées sont celles reprises dans notre confirmation de commande.</span></p>
+<p><span style="color:#111111;">En cas de commande de produits non-standards, les quantités livrées seront assorties d’une tolérance quantitative et+/- telle que reprise dans notre confirmation de commande.</span></p>
+<p><span style="color:#111111;">Nous nous réservons la possibilité de procéder à des livraisons globales ou partielles en fonction des contraintes logistiques d’approvisionnement et de transport.</span></p>
+<p><span style="color:#111111;">Nos conditions de livraison standard sont celles indiquées dans nos conditions d’approvisionnements. Les délais de livraison sont donnés à titre indicatif. Nous ne pouvons être tenus responsables des conséquences induites par un éventuel retard et cas de force majeure, tout dépassement de délai ne peut justifier aucune demande d’indemnisation ou l’application de pénalités de la part de l’acheteur.</span></p>
+<p><span style="color:#111111;">Aucun retour et/ou reprise de marchandises n’est accepté(e) après livraison.</span></p>
+<p><span style="color:#111111;">Le droit de rétractation ne s'applique pas (l’article L121-21-8 du Code de la consommation) aux biens confectionnés nettement personnalisés.</span></p>
+<p></p>
+<h3><strong><span style="color:#111111;">Livraison</span></strong></h3>
+<p><span style="color:#111111;">Recommandations à respecter lors de la livraison de votre colis : </span></p>
+<ul><li><span style="color:#111111;">Ouvrez le colis et vérifiez le produit avant signature du bon de livraison (papier ou électronique).</span></li>
+<li><span style="color:#111111;">Ne vous laissez pas intimider par le livreur, refusez le colis s'il ne vous laisse pas la possibilité de le contrôler.</span><br /><span style="color:#111111;"></span><span style="color:#111111;"></span></li>
+<li><span style="color:#111111;">Refusez tout produit endommagé et notez sur le bon de livraison «REFUS POUR AVARIE» et notez le N° du BL, n°ligne, désignation article, dimensions, quantité , le motif bien détaillé, un maximum de précision est demandé</span><br /><span style="color:#111111;"></span></li>
+</ul><p>/!La mention «sous réserve de déballage» n'est pas valable en cas de litige.<br />SI le carton est endommagé (coup, déchiré, coin cassé, écrasé......), il est obligatoire de noter des réserves CARACTERISEES (détail du défaut, référence du produit endommagé, modèle, couleur, dimension, quantité etc...)<br />ATTENTION !!! Il est de votre responsabilité de mettre des réserves et refuser obligatoirement le colis si celui ci est reçu endommagé ou cassé<br /><br />Aucune réclamation ne sera acceptée en cas de non respect de ces recommandations.<br /><br />En cas d'acceptation et sans réserve de votre part aucune réclamation ne sera possible !</p>
+<h3><strong><span style="color:#000000;">Prix</span></strong></h3>
+<p><span style="color:#111111;">Nos produits sont facturés aux tarifs en vigueur au jour de réception de la commande. Il est fait application des conditions d’approvisionnements et des possibilités de remise en vigueur le jour de la réception de la commande.</span></p>
+<p><span style="color:#111111;">Les prix appliqués et convenus sont hors taxes. Lors de la facturation, il sera ajouté le taux de TVA en vigueur le jour de l’expédition.</span></p>
+<h3></h3>
+<h3><strong><span style="color:#000000;">Conditions de règlement</span></strong></h3>
+<p><span style="color:#111111;">Sauf convention contraire portée sur la facture, toutes nos expéditions sont payables comptant à réception de facture et sans escompte. En cas d’acceptation de notre part d’une déduction d’escompte pour paiement comptant, celle-ci entraine une réduction de la TVA déductible. A défaut de paiement à l’échéance indiquée sur la facture, des pénalités de retard seront calculées suivant un taux d’intérêt égal au taux d’intérêt appliqué par la Banque Centrale Européenne à son opération de financement la plus récente augmentée de 10 points, outre indemnités forfaitaires pour frais de recouvrement de 40 EUR et outre encore une indemnité forfaitaire de 15 % sur l’intégralité des sommes restants dues en TTC à titre de clause pénale.</span></p>
+<h3></h3>
+<h3><strong><span style="color:#000000;">Réserve de propriété</span></strong></h3>
+<p><span style="color:#111111;">Conformément à la loi n° 80335 du 12 mai 1980, nos produits sont vendus avec réserve de propriété jusqu’au paiement effectif intégral du pris de vente. A défaut de paiement, nous pourrons donc reprendre les marchandises en quelques mains qu’elles se trouvent.</span></p>
+<p><span style="color:#111111;">Les risques pouvant affecter nos produits sont transférés à l’acheteur à la prise de livraison. Jusqu’à paiement intégral, l’acheteur devra prendre soin de nos marchandises et souscrire toutes les assurances nécessaires.</span></p>
+<h3></h3>
+<h3><strong><span style="color:#000000;">Réclamation</span></strong></h3>
+<p><span style="color:#111111;">L’étendue de nos garanties ne saurait excéder celle de nos fournisseurs. Ces garanties sont valables sous réserve d’un respect strict des spécifications figurant dans nos fiches techniques. En aucun cas, notre responsabilité ne saurait être engagée en cas de non-respect des recommandations faites dans nos fiches techniques.</span></p>
+<p><span style="color:#111111;">En cas de litige, notre garantie et notre responsabilité seraient limitées à la fourniture gratuite de produits identiques non agencés en replacement de ceux que nous avons reconnus défectueux. La mise en œuvre et les conséquences éventuelles (pénalités de retard, perte de marché ultérieur, frais de dépose et repose…) ne pourront être prises en compte.</span></p>
+<p><span style="color:#111111;">Conformément aux règles de transport, en cas de litige, il incombe aux destinataires de nos expéditions de faire toutes les réserves écrites auprès du transporteur lors de la livraison et de nous informer, dès constatation, des dommages afin de préserver tout recours auprès du transporteur. Si aucune réserve n’est portée sur les documents de transport comme stipulé dans le paragraphe "livraison", la marchandise est réputée en tout point conforme à la commande et aucune réclamation ultérieure ne pourra être acceptée.<br /></span></p>
+<p><span style="color:#111111;">Le destinataire est tenu de conserver la palette livrée.<br />Dans le cas contraire, le client doit le stipuler OBLIGATOIREMENT sur sa commande : "reprise de palette demandée".<br />La prestation "reprise de palette" est facturée 10€ HT./palette</span></p>
+<p><span style="color:#111111;">Dans le cas d’un enlèvement exceptionnel sur notre stock, la signature sans réserve de notre bon de livraison par le chauffeur certifie la conformité des produits à la commande et rend sans effet toute réclamation ultérieure.</span></p>
+<h3></h3>
+<h3><strong><span style="color:#000000;">Compétence des tribunaux – Règlement des litiges</span></strong></h3>
+<p><span style="color:#111111;">Il est expressément convenu qu’en cas de litige, le Tribunal de Commerce de Grenoble sera le seul compétent.</span></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[4]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[3]]></position>
+<indexation><![CDATA[0]]></indexation>
+<active><![CDATA[0]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[En savoir plus sur notre entreprise]]></meta_description>
+<meta_keywords><![CDATA[à propos, informations]]></meta_keywords>
+<meta_title><![CDATA[Panoteq]]></meta_title>
+<link_rewrite><![CDATA[a-propos]]></link_rewrite>
+<content><![CDATA[<h1 class="page-heading bottom-indent"><span style="color:#000000;"><strong>A propos</strong></span></h1>
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<div class="cms-block">
+<h3 class="page-subheading"><span style="color:#000000;"><strong>Notre entreprise</strong></span></h3>
+<div style="text-align:justify;"><span style="color:#111111;">Panoteq est un fabriquant de meubles sur mesure à l'échelle industrielle grâce à ses compétences numériques. Nous sommes l'une des deux seules entreprises françaises à proposer du thermoformage 3D de films polymer sur panneaux MDF (medium). Nos cœurs de métier : les systèmes muraux de décoration d'intérieur, les panneaux techniques pour meubles sur mesure et la fabrication de façades</span></div>
+<div style="text-align:justify;"><span style="color:#111111;">de cuisine et salle de bain. Panoteq a une capacité de fabrication de 800 pièces par jour. Nos bureaux d'études proposent aux architectes et designers des services performants pour tous types de projets.</span></div>
+<div style="text-align:justify;"></div>
+<div style="text-align:justify;">
+<div><span style="color:#111111;">Panoteq est une acquisition récente de FDL Groupe Industriel qui compte parmi ses marques Rhône placage et Hubler. Des panneaux acoustiques aux planches magnétiques en passant par les panneaux de bois tressés et la mélamine synchronisée, FDL propose un vaste éventail de panneaux sur mesure. Avec pas moins de 130 variétés de placage en bois naturel en stock, FDL propose une solution à vos plus ambitieux projets de design.</span></div>
+<div></div>
+<div>
+<div><span style="color:#111111;">Personnalisation sur mesure, haute qualité et solutions multiples sont les atouts de FDL. Nous serons heureux de vous rencontrer pour discuter des moyens qui vous aideront à réaliser vos projets les plus exigeants et les plus créatifs.</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4">
+<div class="cms-box">
+<h3 class="page-subheading"><span style="color:#000000;"><strong>Témoignages</strong></span></h3>
+<div class="testimonials">
+<div class="inner"><span style="color:#111111;"><span class="before">“</span>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.<span class="after">”</span></span></div>
+</div>
+<p><span style="color:#000000;"><strong class="dark">Lorem ipsum dolor sit</strong></span></p>
+<div class="testimonials">
+<div class="inner"><span style="color:#111111;"><span class="before">“</span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.<span class="after">”</span></span></div>
+</div>
+<p><span style="color:#000000;"><strong class="dark">Ipsum dolor sit</strong></span></p>
+</div>
+</div>
+</div>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[5]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[4]]></position>
+<indexation><![CDATA[0]]></indexation>
+<active><![CDATA[1]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[Notre méthode de paiement sécurisé]]></meta_description>
+<meta_keywords><![CDATA[paiement sécurisé, ssl, visa, mastercard, paypal]]></meta_keywords>
+<meta_title><![CDATA[Paiement sécurisé]]></meta_title>
+<link_rewrite><![CDATA[paiement-securise]]></link_rewrite>
+<content><![CDATA[<h2><span style="color:#000000;"><strong>Paiement sécurisé</strong></span></h2>
+<h3><span style="color:#000000;"><strong></strong></span></h3>
+<h3><span style="color:#000000;"><strong>Notre paiement sécurisé</strong></span></h3>
+<p><span style="color:#111111;"><strong>Avec SSL</strong></span></p>
+<h3><span style="color:#000000;"><strong></strong></span></h3>
+<h3><span style="color:#000000;"><strong>Avec Visa/Mastercard/Paypal</strong></span></h3>
+<p><span style="color:#111111;"><strong>A propos de ce service</strong></span></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[6]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[5]]></position>
+<indexation><![CDATA[1]]></indexation>
+<active><![CDATA[1]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[tendance sur mesure pas cher facades cuisine salle de bain]]></meta_description>
+<meta_keywords><![CDATA[tendance,salle de bain,cuisine,pas cher,sur mesure,porte,facade]]></meta_keywords>
+<meta_title><![CDATA[Panoteq tendance sur mesure pas cher facades cuisine salle de bain porte]]></meta_title>
+<link_rewrite><![CDATA[panoteq-tendance-sur-mesure-facades-cuisine-salle-de-bain-porte-pas-cher]]></link_rewrite>
+<content><![CDATA[<h1><span style="color:#000000;"><strong>PANOTEQ</strong></span></h1>
+<p><span style="color:#111111;"><strong>Panoteq est un fabricant de meubles sur mesure à l'échelle industrielle grâce à ses compétences numériques.</strong></span></p>
+<p><span style="color:#111111;"><strong>Nous sommes l'une des deux seules entreprises françaises à proposer du</strong></span> <span style="color:#f5a623;"><strong>thermoformage 3D de films polymère sur panneaux MDF</strong> </span><strong><span style="color:#111111;">(medium).</span></strong></p>
+<p>   </p>
+<h3><strong><span style="color:#000000;">Nos cœurs de métier</span></strong></h3>
+<ul><li><span style="color:#111111;"><strong>Systèmes muraux de décoration d'intérieur</strong></span></li>
+<li><span style="color:#111111;"><strong>Panneaux techniques pour meubles sur mesure</strong></span></li>
+<li><span style="color:#111111;"><strong>Fabrication de façades de cuisine et salle de bain</strong></span></li>
+</ul><p><span style="color:#111111;"><strong>Panoteq a une capacité de fabrication de 800 pièces par jour. Nos bureaux d'études proposent aux architectes et designers des services performants pour tous types de projets.</strong></span></p>
+<h3></h3>
+<h3><span style="color:#000000;"><strong>FDL Groupe Industriel</strong></span></h3>
+<p><strong><span style="color:#111111;">Panoteq est une acquisition récente de</span> <span style="color:#f5a623;">FDL Groupe Industriel </span><span style="color:#111111;">qui compte parmi ses marques Rhône placages et Hubler.</span></strong></p>
+<p><span style="color:#111111;"><strong>Des panneaux acoustiques aux planches magnétiques en passant par les panneaux de bois tressés et la mélamine synchronisée, FDL propose un vaste éventail de panneaux sur mesure.</strong></span></p>
+<p><span style="color:#111111;"><strong>Avec pas moins de 130 variétés de placage en bois naturel en stock, FDL propose une solution à vos plus ambitieux projets de design.</strong></span></p>
+<p></p>
+<p><span style="color:#111111;"><strong>_________________________________</strong></span></p>
+<p><br /><span style="color:#111111;"><strong>Personnalisation sur mesure, haute qualité et solutions multiples sont les atouts de FDL. Nous serons heureux de vous rencontrer pour discuter des moyens qui vous aideront à réaliser vos projets les plus exigeants et les plus créatifs.</strong></span></p>
+<p><span style="color:#111111;"><strong>email : contact@panoteq.fr</strong></span></p>
+<h3 class="page-subheading"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/signatureEricRomeo.jpg" alt="" height="152" width="227" /></h3>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[7]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[6]]></position>
+<indexation><![CDATA[1]]></indexation>
+<active><![CDATA[1]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[panoteq panneau technique]]></meta_description>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_title><![CDATA[Panneau Technique]]></meta_title>
+<link_rewrite><![CDATA[panneau-technique]]></link_rewrite>
+<content><![CDATA[<h1><span style="color:#000000;"><strong>Panneaux Techniques</strong></span></h1>
+<p><span style="color:#111111;"><strong>Panoteq est leader dans la transformation de panneaux, non seulement pour les façades et autres applications décoratives mais aussi pour une destination technique. À la demande des clients, les panneaux peuvent être spécialement débités et troués pour des assemblages spécifiques. Nos services sont souvent sollicités par des agenceurs et constructeurs de toutes origines. Avec des designers et un bureau d'étude intégrés, Panoteq est en capacité de répondre à tous les besoins avec la qualité de service exigée dans l'industrie.</strong></span></p>
+<p style="background:#fff;text-align:center;"><iframe width="560" height="315" style="margin-left:auto;margin-right:auto;" src="https://www.youtube.com/embed/Q09AiP-RaME" frameborder="0"></iframe></p>
+<p><img src="http://panoteq.fr/facade-cuisine-salle-bain/img/cms/161216PanneauTechnique.jpg" alt="panoteq panneaux techniques" width="1200" height="800" /></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[8]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[7]]></position>
+<indexation><![CDATA[1]]></indexation>
+<active><![CDATA[1]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[panneau décoratif panoteq]]></meta_description>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_title><![CDATA[Panneau Décoratif]]></meta_title>
+<link_rewrite><![CDATA[panneau-decoratif]]></link_rewrite>
+<content><![CDATA[<h1><span style="color:#000000;"><strong>Panneaux décoratifs</strong></span></h1>
+<p><span style="color:#111111;"><strong>Panoteq conçoit et crée tous types de panneaux décoratifs. Nous sommes le fournisseur de notre partenaire industriel <a href="http://www.hubler.fr/23-diamonds" target="_blank"><span style="color:#111111;">Hubler</span></a> qui propose une grande variété de nos modèles. Nous sommes prêts à vous accompagner dans la conception et la création de modèles sur mesure selon vos besoins spécifiques. Nous pouvons adapter nos dessins à l'infini pour vous aider à revêtir tous les types de surface, dans toutes les dimensions. N'hésitez pas à nous contacter pour réaliser vos rêves.</strong></span></p>
+<p class="panneaux-deco"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170313Arcos-1200-800.jpg" alt="Panneau décoratif Arcos" style="margin-left:auto;margin-right:auto;" width="1200" height="800" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170313Winks-LightGreen-1200X800.jpg" alt="Panneau décoratif Winks" style="margin-left:auto;margin-right:auto;" width="1200" height="801" /></p>
+<p class="panneaux-deco"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/panneaux-decoratifs/170317-Striagonale.jpg" alt="Tete de Lit Striagonale" width="1200" height="649" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170313Lilly-Aquamarine-1200x800.jpg" alt="Panneau Deco Lilly" width="1200" height="800" /></p>
+<p class="panneaux-deco"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/panneaux-decoratifs/170313Oslo-Rouge-600x600.jpg" alt="Oslo" width="600" height="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/panneaux-decoratifs/170313CrystalCross-600x600.jpg" alt="Crystal Cross" width="600" height="600" /></p>
+<p class="panneaux-deco"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/panneaux-decoratifs/170313Striata600x600.jpg" alt="Striata" width="600" height="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/panneaux-decoratifs/170313Maze-Orange-600x600.jpg" alt="Maze" width="600" height="600" /></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[9]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[8]]></position>
+<indexation><![CDATA[1]]></indexation>
+<active><![CDATA[1]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[]]></meta_description>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_title><![CDATA[Partenaires]]></meta_title>
+<link_rewrite><![CDATA[partenaires]]></link_rewrite>
+<content><![CDATA[<h1><span style="color:#000000;"><strong>PARTENAIRES PANOTEQ</strong></span></h1>
+<p><a href="http://rhone-placages.fr/index.php?choix=societe" target="_blank"><img src="http://panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/161008Rhone-Placages-Logo.svg" alt="161008Rhone-Placages-Logo.svg" width="178" height="178" /></a></p>
+<p><span style="color:#111111;"><strong>L'expertise de RHONE PLACAGES &amp; COMPOSANTS résulte de l'association progressive de savoir-faire complémentaires. Elle est le fruit d'une alchimie complexe où la passion et l'envie permanente de relever de nouveaux défis catalysent les énergies.</strong></span></p>
+<p><span style="color:#111111;"><strong>Négoce en bois tranchés à sa création en 1968, l'entreprise dispose aujourd'hui d'un des principaux sites de production en France, spécialisé dans les techniques de placage et de marqueterie.</strong></span></p>
+<p><span style="color:#111111;"><strong>RHONE PLACAGES &amp; COMPOSANTS a par ailleurs tissé des partenariats serrés avec des fabricants européens de composants bois de premier rang pour répondre aux demandes industrielles les plus complexes et offrir à ses clients le meilleur des dernières tendances décoratives.</strong></span></p>
+<hr /><p><a href="http://www.hubler.fr" target="_blank"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/hubler.png" alt="Hubler panneaux décoratifs" width="178" height="178" /></a></p>
+<p><strong><span style="text-decoration:underline;color:#2c9ffd;"><a href="http://www.hubler.fr/24-gouges"><span style="color:#2c9ffd;text-decoration:underline;">Hubler</span></a></span> <span style="color:#111111;">propose la plus large offre de panneaux décoratifs en bois, métal, matières tactiles, structurées, sculptées et solutions acoustiques, destinée à l’agencement et l’aménagement intérieur.</span></strong></p>
+<p><span style="color:#111111;"><strong>Depuis plus de 25 ans, nous analysons et anticipons les évolutions et grandes tendances du marché pour vous proposer des solutions décoratives toujours plus innovantes. Nous avons l’ambition permanente de vous apporter la gamme de matières décoratives la plus riche et la plus experte du marché.</strong></span></p>
+<p><strong><span style="color:#111111;">Afin de faciliter votre quotidien,</span> <span style="text-decoration:underline;color:#2c9ffd;"><a href="http://www.hubler.fr/22-dunes"><span style="color:#2c9ffd;text-decoration:underline;">Hubler</span></a></span> <span style="color:#111111;">met à votre disposition ses moyens techniques ; collage de la matière, mise aux dimensions, pose de chants et usinage à façon, pour personnaliser vos panneaux, quelle que soit la matière : bois ; métal, magnétique, tactile, TSS (thermostructuré),… :</span></strong></p>
+<p><strong><span style="color:#111111;">Fort de son savoir-faire et de son expertise qui fait référence sur le marché,</span> <span style="text-decoration:underline;color:#2c9ffd;"><a href="http://www.hubler.fr"><span style="color:#2c9ffd;text-decoration:underline;">Hubler</span></a></span> <span style="color:#111111;">vous accompagne dans vos projets pour créer, composer et libérer votre imagination.</span></strong></p>
+<p><strong><span style="color:#111111;">Au fil du temps,</span> <span style="text-decoration:underline;"><span style="color:#2c9ffd;"><a href="http://www.hubler.fr"><span style="color:#2c9ffd;text-decoration:underline;">Hubler</span></a></span></span><span style="color:#111111;"> a développé des liens étroits avec des industriels majeurs aux quatre coins de l’Europe et au-delà, qui sont tous des références dans leurs spécialités.</span></strong></p>
+<p><span style="text-decoration:underline;"><span style="color:#2c9ffd;text-decoration:underline;"><strong><a href="http://www.hubler.fr"><span style="color:#2c9ffd;text-decoration:underline;">Hubler</span></a></strong></span></span><span style="color:#111111;"><strong> fait partie du Groupe FDL, situé à Saint Laurent de Mure dans le Rhône.</strong> </span></p>
+<hr /><p><a href="https://www.sistemimoderni.com/fr"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/sistemi-moderni.png" alt="Sistemi Moderni" width="303" height="178" /></a></p>
+<p><span style="color:#000000;"><strong>NOTRE VISION</strong></span></p>
+<p><span><a href="https://www.sistemimoderni.com/fr">SistemiModerni</a></span> a été créé pour vous offrir design et qualité au meilleur prix. Nous estimons qu’il faut arrêter de fabriquer des produits jetables de qualité médiocre.</p>
+<p><a href="https://www.sistemimoderni.com/fr">SistemiModerni</a> dit oui à la diversité ! Nous pensons que chacun doit pouvoir disposer des meubles et des objets sur mesure qu’il a imaginé pour son intérieur personnel, pour son environnement professionnel.</p>
+<p><span><a href="https://www.sistemimoderni.com/fr">SistemiModerni</a></span> vous donne les moyens de mettre votre touche personnelle à vos étagères et vos bibliothèques : choisissez le design, le matériau, les dimensions, la couleur !</p>
+<p><span><a href="https://www.sistemimoderni.com/fr">SistemiModerni</a></span> réalise vos rêves, tout simplement.</p>
+<hr /><p><a href="http://www.nidek.fr/" target="_blank"><img src="http://panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/161008Nidek-Logo.svg" alt="" width="180" height="180" /></a></p>
+<p>Spécialiste intervenant aussi bien sur le marché de l’optique que sur celui de l’ophtalmologie, NIDEK CO Ltd. (Japon) développe, fabrique et distribue des équipements de haute technologie destinés aux professionnels de la vision : instruments, unités, petit matériel et consommables.</p>
+<hr /><p><a href="http://www.renolit.com/corporate/en/"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/renolit.png" alt="renolit.png" width="178" height="256" /></a></p>
+<p>Le <span><a href="http://www.renolit.com/corporate/en/"><strong>Groupe RENOLIT</strong></a></span> compte aujourd'hui parmi les tous premiers fabricants de films plastiques de qualité et de produits apparentés destinés aux applications techniques. L'entreprise familiale, créée en 1946 et synonyme de qualité et d’innovation. Elle emploie aujourd'hui environ 4 500 personnes sur plus de 21 sites de production et 16 entités commerciales, répartis dans le monde et est ainsi présente dans toutes les régions économiques les plus importantes.</p>
+<p>Les films et produits en plastique de <a href="http://www.renolit.com/corporate/en/"><strong>RENOLIT</strong></a> sont utilisés dans les secteurs les plus variés : en architecture, en médecine, dans la publicité et l'électronique de divertissement, au bureau, en conception de meubles et d’aménagements intérieurs, dans le secteur automobile et les étanchéités des constructions ainsi que dans de nombreuses autres activités. Nos fabrications en matières plastiques sont les éléments fondamentaux des produits finis de nos clients et contribuent à améliorer la vie quotidienne d'un grand nombre de personnes.</p>
+<hr /><p><a href="http://www.atlantic-bain-morisseau.com/"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/logo-atlantic-bain-2018.png" width="600" height="140" alt="logo-atlantic-bain-2018.png" /></a></p>
+<p><span><a href="http://www.atlantic-bain-morisseau.com/">Atlantic Bain</a></span>, spécialiste des meubles de salle de bain et lave-mains</p>
+<p><span><a href="http://www.atlantic-bain-morisseau.com/">Atlantic Bain</a></span> est spécialisé depuis une vingtaine d’années dans la création et la fabrication de meubles de salle de bains sur Nantes et sa région.</p>
+<p><span><a href="http://www.atlantic-bain-morisseau.com/">Atlantic Bain</a></span> est une société artisanale. Nous fabriquons des meubles sur-mesure à l’unité ou en petite série. La taille de l’entreprise nous permet d’être réactifs et compétitifs aux demandes de nos clients.</p>
+<p>Nous avons créé des gammes de meubles pour tous les styles et utilisons de nombreux matériaux pour leurs réalisations. Nous proposons toute une gamme de meubles Lave Mains pour les toilettes ou les très petits espaces.</p>
+<p>Nous travaillons avec les particuliers et les professionnels.</p>
+<p>Pour la pose des meubles, nous intervenons dans un rayon de 100 kms autour de Nantes. Au-delà nous livrons les meubles « tout monté » par transporteur en France et en Europe.</p>
+<hr /><p><a href="http://www.capronpodologie.com/index.php"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/capron-podologie.png" alt="" width="178" height="178" /></a></p>
+<p>Depuis sa création en 1974, la société <span><a href="http://www.capronpodologie.com/index.php">CAPRON Podologie</a></span> fabrique en France, des produits destinés aux professionnels de la Podologie. <br /> Leader en France depuis de nombreuses années, elle s'efforce d'entretenir une relation de proximité avec ses clients basée sur un service professionnel et une grande disponibilité de ses équipes. <br /><br /> Son activité de Recherche et Développement lui permet de proposer des produits spécifiques et innovants particulièrement adaptés à l'exercice de la Podologie. <br /><br /> Son entité de fabrication située en Bourgogne fabrique ces produits et équipements dont certains font référence en France mais également à l'international :</p>
+<ul><li>Solutions informatiques</li>
+<li>Matériel d'examen</li>
+<li>Matériel de thermoformage</li>
+<li>Gamme de modules et ébauches</li>
+<li>Lames de gouge à usage unique</li>
+<li>Units et fauteuils de soins</li>
+</ul><p>A votre service</p>
+<p>En France, une équipe commerciale se partage le territoire pour visiter les professionnels dans leur cabinet et leur apporter tous les conseils et le support dont ils ont besoin dans le cadre de leur activité. <br /><br /> Ces commerciaux dédiés sont régulièrement formés pour apporter des conseils pertinents, adaptés et individualisés. <br /><br /> La société <a href="http://www.capronpodologie.com/index.php">CAPRON Podologie</a> est présente à l'export depuis plus de 30 ans et anime un réseau de revendeur dans le monde entier (Europe, Amérique du nord, Asie, moyen orient.) et assure également des installations dans les DOM TOM.</p>
+<hr /><p><a href="http://www.cica-mours.fr/"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/cica.png" alt="" width="625" height="138" /></a></p>
+<p>Depuis 1963, <span><a href="http://www.cica-mours.fr/">CICA</a></span> est spécialiste dans le négoce de fournitures d’ameublement, d’agencement et de décoration. Située à <strong>Mours-St-Eusèbe</strong> (au nord de Romans-sur-Isère – 26), notre entreprise bénéficie d’importants moyens techniques, humains et matériels qui garantissent son efficacité sur une surface de 20 000 m² consacrés à la vente, la conception, la production et la transformation<strong> </strong>de nos produits.</p>
+<p><strong>Leader incontesté dans le sud Rhône-Alpes et membre du réseau </strong><a href="http://www.nebopan.fr/">NEBOPAN</a><strong>, la qualité de notre service n’est plus à prouver !</strong></p>
+<hr /><p><a href="http://www.menuiserie-agencement-grenoble.com/default.html"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/cobois-isere.png" alt="" width="646" height="140" /></a></p>
+<p>C’est en 1998 que <strong>Mr Bernard CLERC</strong> (diplômé d’un CAP et BP en menuiserie ainsi que 17 ans d’expérience en menuiserie), et <strong>Mr Jean Charles ODIN</strong> (diplômé d’un CAP menuiserie et 7 années de tour de France chez les compagnons, ainsi que 20 ans d’expérience dans le bâtiment) ont créé la société <span><a href="http://www.menuiserie-agencement-grenoble.com/default.html">COBOIS</a></span><strong>, situé à Fontaine dans l’Isère, près de Grenoble,</strong> dans une des plus anciennes ZI de France.</p>
+<p>En tant que fabricant, nous pouvons concevoir et réaliser sans limite tous les projets de notre clientèle, cela nous permet aussi de mieux maitriser les délais et donc de respecter nos engagements. Une équipe de professionnels constituée de menuisiers très qualifiés aussi bien en fabrication qu’en pose sachant tout mettre en œuvre pour la satisfaction de nos clients qui nous sont fidèles depuis de nombreuses années.<br /><br /> Nous avons aussi au fil du temps nous adapter aux demandes spécifiques de nos clients et de nous entourer d’un réseau d’artisans indépendants, offrants un travail de qualité et respectant toujours les délais de réalisation. Ils peuvent intervenir dans différents domaines que sont la plomberie (agréé gaz), l’électricité et domotique, le carrelage, le Placoplatre, la peinture etc.</p>
+<hr /><p><a href="http://www.credence-de-cuisine.com/"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/credence-de-cuisine.png" alt="" width="352" height="178" /></a></p>
+<p>À propos de nous</p>
+<p>le site <a href="http://www.credence-de-cuisine.com/">crédence-de-cuisine.com</a> est la référence en matière de crédence, nous offrons un large choix d'images haute définition, des couleurs ral uniques sélectionnées avec grand soin et des matériaux qui vont apporter à votre intérieur une ambiance unique et chaleureuse.</p>
+<hr /><p><a href="http://www.eurocave.com/"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/EuroCave.png" alt="" width="782" height="158" /></a></p>
+<p><strong>40 ans de passion partagée !</strong></p>
+<p>En 1975, le concept de l'appareil à conserver le vin voit le jour : une innovation majeure qui contribuera à transformer la passion du vin en art de vivre.<br /><br /><strong>En 1976, la marque </strong><a href="http://www.eurocave.com/"><strong>EuroCave</strong></a><strong> était née.</strong> <br /><br /> Depuis, ses équipes n’ont eu de cesse de se remettre en question et d’innover pour t<strong>oujours mieux répondre aux attentes des amateurs comme des professionnels</strong>. <a href="http://www.eurocave.com/">EuroCave</a> a ainsi déposé <strong>pas moins de 20 brevets</strong> et a signé les produits les plus emblématiques dans <strong>l’univers du vieillissement, de la conservation et du service du vin</strong>.<br /><br /> Le défi mené par les fondateurs de l’entreprise s’est construit sur <strong>la volonté de créer un produit spécifique, qui respecte et valorise le vin, afin de permettre aux amateurs de vivre pleinement leur passion</strong>.<br /><br /><strong>Nos 500 modèles de caves à vin, climatiseurs, caves à cigares, sont fabriqués en France</strong>, dans une petite ville du Nord, à Fourmies, le berceau historique de la marque et Pont de Chéruy (dans l'Isère).<br /><br /> En 40 ans, <a href="http://www.eurocave.com/">EuroCave</a> est devenue la <strong>référence mondiale en matière de vieillissement et de service du vin</strong>.<br /><br /> A ce jour, plus de <strong>30 millions de bouteilles sont conservées à travers le monde, grâce aux produits </strong><a href="http://www.eurocave.com/"><strong>EuroCave</strong></a>. <br /> Une grande fierté pour nous.</p>
+<hr /><p><a href="http://www.finsa.com"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/Finsa.png" alt="" width="507" height="178" /></a></p>
+<p>Innovateurs par tradition</p>
+<p>Pionnière dans la fabrication de tableaux en bois aggloméré et en MDF dans la péninsule Ibérique, <span><a href="http://www.finsa.com/cs/Satellite?c=Page&amp;cid=1422354812921&amp;pagename=FN_CatalogoProductos%2FPage%2FCP_PTPortadaSite&amp;rendermode=preview&amp;idiomaNav=fr_FR">Finsa</a></span> a vu le jour en 1931 dans une scierie de Portanxil (Ames). Quelques années plus tard, en 1937, D. Manuel García Cambón a transformé le projet en entreprise, devenue FINANCIERA MADERERA S.A. en 1946.</p>
+<p>Dès le commencement, nous avons pris conscience de la responsabilité qui nous incombait du fait d’utiliser le bois comme matière de base pour transformer et développer des solutions. Nous avons appris de lui et avons incorporé à notre organisation nombreux de ses atouts : sa flexibilité, sa solidité, sa proximité émotionnelle, son confort et la qualité qu’il apportait à la société. Nous avons toujours avancé dans la même direction et aujourd’hui, notre large gamme commerciale est présente dans la vie quotidienne des personnes, comme une partie intégrante de leur environnement qu’elles affectionnent particulièrement.</p>
+<p>Nous n’avons jamais perdu de vue nos origines et nous avons évolué sans jamais oublier l’aspect durable de notre activité et de notre matière première. Grâce à cette attitude, <span><a href="http://www.finsa.com/cs/Satellite?c=Page&amp;cid=1422354812921&amp;pagename=FN_CatalogoProductos%2FPage%2FCP_PTPortadaSite&amp;rendermode=preview&amp;idiomaNav=fr_FR">Finsa</a></span> a su gagner le respect de la société et des principaux marchés dans lesquels elle est présente.</p>
+<p>Nous vous invitons à vous rapprocher de <a href="http://www.finsa.com/cs/Satellite?c=Page&amp;cid=1422354812921&amp;pagename=FN_CatalogoProductos%2FPage%2FCP_PTPortadaSite&amp;rendermode=preview&amp;idiomaNav=fr_FR">FINSA</a>, à découvrir les produits que nous mettons à votre disposition et à constater du sens des responsabilités dont fait preuve <a href="http://www.finsa.com/cs/Satellite?c=Page&amp;cid=1422354812921&amp;pagename=FN_CatalogoProductos%2FPage%2FCP_PTPortadaSite&amp;rendermode=preview&amp;idiomaNav=fr_FR">Finsa</a> tout au long du processus de fabrication de ses produits.</p>
+<hr /><p><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/hornschuch.png" alt="" width="786" height="157" /></p>
+<p>Nous sommes spécialistes des surfaces modernes et innovantes. Nos années d'expérience, notre connaissance du marché, la diversité de nos produits, ainsi que nos compétences techniques nous permettent de relever sans cesse de nouveaux défis.</p>
+<p>Nous favorisons ainsi le progrès et pouvons mettre en œuvre nos idées inédites dans les meilleurs délais. Le design inédit de nos produits est l'un des moteurs de notre réussite. Par ailleurs, l'aspect visuel et le toucher exceptionnels de nos surfaces font la différence. Enfin, la responsabilité envers nos clients est notre première priorité.</p>
+<hr /><p><a href="http://www.kuehne-nagel-road.fr/fr/"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/kuhne-nagel.png" alt="" width="346" height="178" /></a></p>
+<p>Déjà leader mondial sur les marchés du transport maritime, aérien et de la logistique, le Groupe Kuehne + Nagel est également un acteur de référence dans le domaine du transport et du groupage terrestre : l'Overland.</p>
+<p><br /><span><a href="http://www.kuehne-nagel-road.fr/fr/">Kuehne + Nagel Road</a></span> est la Division Overland du Groupe Kuehne + Nagel, en France.</p>
+<p>Riche de notre savoir-faire historique en messagerie rapide, notre offre couvre désormais l'ensemble des métiers du transport routier de marchandises national et international.<br /><br /> L’efficacité ancrée à la route : voilà notre signature !</p>
+<hr /><p><a href="https://www.kpfilms.com/en/About_us/Group_Fundamentals.php"><img src="https://www.panoteq.fr/facade-cuisine-salle-bain/img/cms/Partenaire/klockner-pentaplast.png" alt="" width="794" height="155" /></a></p>
+<p><span><a href="https://www.kpfilms.com/en/About_us/Group_Fundamentals.php">Klöckner Pentaplast</a></span> is a global leader in the production of rigid plastic film solutions for primary packaging of pharmaceuticals, food, electronics, medical devices and consumer, as well as printing and specialty applications. Our film solutions protect products, ensuring both, product integrity, consumer health and safety. We work hand-in-hand with customers developing innovative solutions to establish and enhance their brand’s identity. <br /><br /> By choosing <span><a href="https://www.kpfilms.com/en/About_us/Group_Fundamentals.php">Klöckner Pentaplast</a></span>, you get the strength and stability of a global company. We manufacture the industry's broadest range of products and continuously develop new technologies, formulations, and solutions. We produce films at plants in 12 countries across four continents, and our reputation for quality, customer service, and technical support is unsurpassed in the industry. We continuously strive to advance sustainability practices in the markets we serve.</p>
+<p>With the emergence of the plastics industry in the 1960s, <a href="https://www.kpfilms.com/en/About_us/Group_Fundamentals.php">Klöckner Pentaplast</a> was founded in 1965. kp has grown from its initial facility in Montabaur, Germany, to current operations in 12 countries with 18 production sites. The company employs more than 3,200 people committed to serving customers worldwide.</p>
+<p><span style="text-indent:20px;width:auto;padding:0px 4px 0px 0px;text-align:center;font:bold 11px/20px 'Helvetica Neue', Helvetica, sans-serif;color:#ffffff;background:#bd081c;">Save</span></p>
+<p><span style="text-indent:20px;width:auto;padding:0px 4px 0px 0px;text-align:center;font:bold 11px/20px 'Helvetica Neue', Helvetica, sans-serif;color:#ffffff;background:#bd081c;">Save</span></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[10]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[9]]></position>
+<indexation><![CDATA[1]]></indexation>
+<active><![CDATA[1]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[galerie des facades de cuisine et salle de bain]]></meta_description>
+<meta_keywords><![CDATA[facade,porte,cuisine,salle de bain]]></meta_keywords>
+<meta_title><![CDATA[Galerie]]></meta_title>
+<link_rewrite><![CDATA[galerie-facades-cuisine-salle-de-bain-porte]]></link_rewrite>
+<content><![CDATA[<p style="text-align:center;"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170306Cuisine-Disco-BrillantGenet.jpg" alt="Cuisine Brillant Genet" height="797" width="1200" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170308Cuisine-Opera-Dakar.jpg" alt="Cuisine Dakar" height="860" width="1200" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170306Cuisine-Disco-RougeBrillant.jpg" alt="Cuisine Rouge Brillant" height="797" width="1200" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170308Cuisine-Mandoline-Malaga.jpg" alt="Cuisine Mandoline Malaga" height="822" width="1200" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170308SalleDeBain-Disco-BlancLisse.jpg" alt="Salle de bain Blanc Lisse" height="800" width="1200" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Galerie/170309Cuisine-Disco-PinAnthraciteBrosse.jpg" alt="Cuisine Disco Pin Anthracite Brosse" height="800" width="1200" /></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[11]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[10]]></position>
+<indexation><![CDATA[1]]></indexation>
+<active><![CDATA[0]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[]]></meta_description>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_title><![CDATA[Nuancier]]></meta_title>
+<link_rewrite><![CDATA[nuancier]]></link_rewrite>
+<content><![CDATA[<h1>BRILLANT</h1>
+<p style="text-align:left;"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Brillant/105BBSA_Brillant-Beige-Sahara-600x600.jpg" alt="Brillant Beige Sahara" style="float:left;" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Brillant/116BGEN_Brillant-Genet-600x600.jpg" alt="Brillant Genet" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Brillant/117BGFO_Brillant-Gris-Fonce-60x600.jpg" alt="Brillant Gris Foncé" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Brillant/118BLAG_Brillant-Lagon-600x600.jpg" alt="Brillant Lagon" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Brillant/62BBLA_Brillant-Blanc-600x600.jpg" alt="Brillant Blanc" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Brillant/64BCAP_Brillant-Cappucino-600x600.jpg" alt="Brillant Cappucino" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Brillant/65BCAS_Cassis-Brillant-600x600.jpg" alt="Cassis Brillant" height="600" width="600" /></p>
+<h1 style="text-align:left;">STRUCTUR<span xml:lang="fr" lang="fr">É</span></h1>
+<p><span xml:lang="fr" lang="fr"><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/01FBM_Frene-Blanc-Mat-600x600.jpg" alt="Frene Blanc Mat" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/09CDF_Chene-De-Fil-600x600.jpg" alt="Chene de Fil" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/107CHD_Chene-Dore-600x600.jpg" alt="Chene Dore" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/108CNA_Chene-Scie-Naturel-600x600.jpg" alt="Chene Scie Naturel" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/109CHG_Chene-Gris-600x600.jpg" alt="Chene Gris" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/115BALB_Brillant-Alu-Brosse-600x600.jpg" alt="Brillant Alu Brosse" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/13FBB_Frene-Blanc-Brilliant-600x600.jpg" alt="Frene Blanc Brillant" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/37EOR_Erable-Or-600x600.jpg" alt="Erable Or" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/53EBE_Ebene-600x600.jpg" alt="Ebene" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/58CHB_Chene-Brun-Brosse-600x600.jpg" alt="Chene Brun Brosse" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/73ABL_Acacia-Blanc-600x600.jpg" alt="Acacia Blanc" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/85CUI_Cuir-600x600.jpg" alt="Cuir" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/87PAB_Pin-Anthracite-Brosse-600x600.jpg" alt="Pin Anthracite Brosse" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/88PSB_Pin-Sable-Brosse-600x600.jpg" alt="Pin Sable Brosse" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/89PEB_Pin-Ecru-Brosse-600x600.jpg" alt="Pin Ecru Brosse" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/94COT_Coton-Structure-600x600.jpg" alt="Coton Structure" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/95NOI_Noir-Structure-600x600.jpg" alt="Noir Structure" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Structur%C3%A9/99MBRO_Metal-Brosse-2012-600x600.jpg" alt="Metal Brosse" height="600" width="600" /></span></p>
+<h1><strong>Uni</strong></h1>
+<p><strong><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/04BEI_Beige-600x600.jpg" alt="Beige" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/100ARG_Argile-600x600.jpg" alt="Argile" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/101DAK_Dakar-600x600.jpg" alt="Dakar" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/102MAL_Malaga-600x600.jpg" alt="Malaga" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/113ROF_Rouge-Fonce-600x600.jpg" alt="Rouge Fonce" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/114BLI_Blanc-Lisse-600x600.jpg" alt="Blanc Lisse" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/119MAC_Macadam-600x600.jpg" alt="Macadam" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/120MIN_Mineral-600x600.jpg" alt="Mineral" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/121NLI_Noir-Lisse-600x600.jpg" alt="Noir Lisse" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/28BRU_Brun-600x600.jpg" alt="Brun" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/44BNE_Blanc-Neige-600x600.jpg" alt="Blanc Neige" height="600" width="600" /><img src="https://panoteq.fr/facade-cuisine-salle-bain/img/cms/Nuancier/Uni/82LAQ_A-Laquer-600x600.jpg" alt="A Laquer" height="600" width="600" /></strong></p>
+<p><span style="text-indent:20px;width:auto;padding:0px 4px 0px 0px;text-align:center;font:bold 11px/20px 'Helvetica Neue', Helvetica, sans-serif;color:#ffffff;background:#bd081c;">Save</span></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+<cms><id_cms><![CDATA[12]]></id_cms>
+<id_cms_category><![CDATA[1]]></id_cms_category>
+<position><![CDATA[11]]></position>
+<indexation><![CDATA[0]]></indexation>
+<active><![CDATA[0]]></active>
+<datalanguage iso_code="fr" default="1" >
+<meta_description><![CDATA[]]></meta_description>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_title><![CDATA[FAQ]]></meta_title>
+<link_rewrite><![CDATA[questions-frequente]]></link_rewrite>
+<content><![CDATA[<h1><strong><span style="color:#000000;">QUESTIONS FREQUENTES</span></strong></h1>
+<p style="padding-left:60px;"><span style="color:#000000;"><strong>1. Qui peut acheter?</strong></span></p>
+<h3 style="padding-left:90px;"><strong><span style="color:#000000;">Soit les particuliers soit les professionels.</span></strong></h3>
+<p style="padding-left:60px;"><span style="color:#000000;"><strong>2. Je suis professionel du design ou agencement.  Est ce que je peux profiter des remises professionels?</strong></span></p>
+<h3 style="padding-left:90px;"><strong><span style="color:#000000;">Oui.  On vous sugere de nous contacter directement par email ou telephone pour nous transmettre vos references.  Bientot nous mettrons sur le site un portail dedie au pro.</span></strong></h3>
+<p style="padding-left:60px;"><strong><span style="color:#000000;">3. Est ce que je peux choisir l'epaisseur des facades?</span></strong></p>
+<h3 style="padding-left:90px;"><span style="color:#000000;"><strong>Le seul chois d'epaisseur dans le configurateur automatique est 18mm.  Nous avons en stock pas mal d'epaisseurs : 12mm, 16mm, 18mm, 22mm, 25mm et 30mm.  Si vous souhaitez une autre epaisseur de facade, passe votre commande avec le configurateur.  Contactez nous par email ou telephone et nous mettrons ajour votre commande uniquement avec l'epaisseur que vous voudrais.</strong></span></h3>
+<p style="padding-left:60px;"><span style="color:#000000;"><strong>4. Peut-on positionner les charnières pour mettre les panneaux sur des armoires IKEA?</strong></span></p>
+<h3 style="padding-left:90px;"><span style="color:#000000;"><strong>Absolutement.  Ca suffit de simplement installer les charnieres avec les vis livre avec votre commande dans les montants de vos caissons IKEA.    Si vous avez du mal a faire les installations, on vous sujerons de travailer avec un agenceur ou menuisier local pour assurer le meilleur installation.</strong></span></h3>
+<p style="padding-left:60px;"><span style="color:#000000;"><strong>5. Quelles sont les horaires pour appeler?</strong></span></p>
+<h3 style="padding-left:90px;"><span style="color:#000000;"><strong>Lundi a vendredi entre 9hr et 17hr.  </strong></span></h3>
+<p></p>]]></content>
+<id_shop><![CDATA[1]]></id_shop>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</cms>
+</entity_profile>
