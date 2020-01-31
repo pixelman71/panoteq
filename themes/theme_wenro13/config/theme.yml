@@ -26,6 +26,12 @@ meta:
       description: Two columns with a small right column
 
 assets:
+  css:
+    all:
+      - id: Panoteq Configurator CSS
+        path: assets/css/panoteq/panoteq-config.css
+        media: all
+        priority: 100
   # If you're using this theme as child and you want to load
   # the parent theme assets, uncomment this line.
 #  use_parent_assets: true
