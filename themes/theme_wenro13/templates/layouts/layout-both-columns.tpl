@@ -44,7 +44,6 @@
 			  {include file='_partials/header.tpl'}
 			{/block}
 		  </header>
-
 			 {if $page.page_name == 'category'}
 		  	{if $category.name}
 		     <div class="name_category"><h2>{$category.name}</h2></div>
@@ -66,21 +65,11 @@
 		{hook h='displayBlockPosition2'}
 		{hook h='displayBlockPosition3'}
 	  {/if}
-
-
       <div id="wrapper">
         <div class="inner-wrapper container">
 			<div class="row">
-
 			  {block name="left_column"}
 				<div id="left-column" class="col-xs-12 col-sm-4 col-md-3">
-				<small>TEMPLATES/LAYOUTS/LAYOUT-BOTH-COLUMNS.TPL</small><br />
-				<img src="https://panoteq.fr/facade-cuisine-salle-bain/326-large_default/alto-tendance-sur-mesure-facades-salle-de-bain-porte-en-ligne.jpg" />
-				<br /><br /><br />
-				Couleur 1 | Couleur 2 | Couleur 3<br /> 
-				Couleur 4 | Couleur 5 | Couleur 6<br /> 
-				Couleur 7 | Couleur 8 | Couleur 9<br /> 
-				etc.				
 				  {if $page.page_name == 'product'}
 					{hook h='displayLeftColumnProduct'}
 				  {else}
@@ -89,36 +78,13 @@
 				</div>
 			  {/block}
 
-
-			  {*block name="content_wrapper"}
+			  {block name="content_wrapper"}
 				<div id="content-wrapper" class="left-column right-column col-sm-4 col-md-6">
 				  {block name="content"}
 					<p>Hello world! This is HTML5 Boilerplate.</p>
 				  {/block}
 				</div>
-			  {/block*}
-
-
-		<div id="content-wrapper" class="left-column right-column col-sm-4 col-md-9">			
-			<div class="row">
-			<div class="col-lg-12">
-				<small>TEMPLATES/LAYOUTS/LAYOUT-BOTH-COLUMNS.TPL</small><br />
-			
-			<img src="https://panoteq.fr/facade-cuisine-salle-bain/326-thickbox_default/alto-tendance-sur-mesure-facades-salle-de-bain-porte-en-ligne.jpg" />
-			<br /><small>Image three.js</small>
-			</div>
-			<div class="col-lg-4">MODELE</div>
-			<div class="col-lg-4">PRIX</div>
-			<div class="col-lg-4">QUANTITE</div>
-			<div class="col-lg-12" style="padding:10px 0;">BUTTON AJOUTER AU PANIER</div>
-			<div class="col-lg-12" style="padding:10px 0;">DÉCLINAISONS</div>
-			<div class="col-lg-12" style="padding:10px 0;">DÉCLINAISONS</div>
-			<div class="col-lg-12" style="padding:10px 0;">DÉCLINAISONS</div>
-			<div class="col-lg-12" style="padding:10px 0;">DÉCLINAISONS</div>
-			<div class="col-lg-12" style="padding:10px 0;">ETC.</div>
-
-		</div>
-
+			  {/block}
 
 			  {block name="right_column"}
 				<div id="right-column" class="col-xs-12 col-sm-4 col-md-3">
@@ -130,7 +96,6 @@
 				</div>
 			  {/block}
 			</div>
-
 			{if $page.page_name == 'product'}
 			{block name='product_accessories'}
 			  {if $accessories}
@@ -154,12 +119,6 @@
 			{/block}
 
 			{block name='product_footer'}
-				<div class="row">
-					<div class="col-lg-4">FICHES TECHNIQUES</div>
-					<div class="col-lg-4">AVIS (BTN VERS TÉMOIGNAGE)</div>
-					<div class="col-lg-4">AUTRES DOCUMENTS</div>
-				</div>
-
 				{hook h='displayFooterProduct' product=$product category=$category}
 			{/block}
 			 {/if}
