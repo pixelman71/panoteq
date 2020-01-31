@@ -218,8 +218,7 @@ nb-configuration.xml
 .externalToolBuilders/
 
 
-
-
-## Panoteq
+## ADX / Panoteq
+modules/psaddonsconnect/vendor/
 themes/theme_wenro13/assets/css/panoteq/panoteq-config.css
 themes/theme_wenro13/assets/css/panoteq/panoteq-config.css.map
