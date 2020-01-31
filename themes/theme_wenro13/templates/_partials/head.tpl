@@ -43,12 +43,17 @@
 <link rel="shortcut icon" type="image/x-icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+
 {block name='stylesheets'}
   {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
 {/block}
 
 {block name='javascript_head'}
   {include file="_partials/javascript.tpl" javascript=$javascript.head vars=$js_custom_vars}
+
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
 {/block}
 
 {block name='javascript_bottom'}
