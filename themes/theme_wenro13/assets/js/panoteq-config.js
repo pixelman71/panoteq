@@ -3,6 +3,7 @@ var app = new Vue({
     data: {
         message: 'Hello Vue!',
         form: {
+            formatVersion: 1,
             color: 'BEBD7F',
             type: 'porte',
             sqmPrice: 10,

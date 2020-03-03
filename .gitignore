@@ -10,6 +10,7 @@ download/*
 /log/*
 /upload/*
 vendor/*
+vendor-bak1/*
 docs/phpdoc-sf/
 composer.lock
 tests/Selenium/errorShots/
