@@ -9,9 +9,9 @@ if (!defined('_MYSQL_ENGINE_'))
     define('_MYSQL_ENGINE_', 'MyISAM');
 
 // Loading Models
-//require_once(_PS_MODULE_DIR_ . 'panoteq/models/Logo.php');
+require_once(_PS_MODULE_DIR_ . 'panoteq/models/PanoteqConfiguration.php');
 
-class Panoteq extends Module
+class panoteq extends Module
 {
     private $_html = '';
     private $_postErrors = array();
@@ -54,7 +54,7 @@ class Panoteq extends Module
             $parent_tab = new Tab();
             // Need a foreach for the language
             foreach (Language::getLanguages() as $language)
-                $parent_tab->name[$language['id_lang']] = $this->l('PanoteqExtensions');
+                $parent_tab->name[$language['id_lang']] = $this->l('Panoteq');
             $parent_tab->class_name = 'AdminPanoteqMenu';
             $parent_tab->id_parent = 0; // Home tab
             $parent_tab->module = $this->name;
@@ -83,12 +83,12 @@ class Panoteq extends Module
 //                Configuration::updateValue($this->name . '_mode_dir', 'vertical');
 
         // Set some defaults
-        return parent::install();
-//                    &&
-//		 $this->registerHook('displayBrandSlider')&&
+        return parent::install()
+            && $this->registerHook('actionAdminControllerSetMedia');
+//            && $this->registerHook('backOfficeHeader')
+//            && $this->registerHook('displayBackOfficeHeader');
 //		 $this->_installHookCustomer()&&
 //		 $this->registerHook('displayHeader');
-
     }
 
     public function uninstall()
@@ -145,26 +145,26 @@ class Panoteq extends Module
         $this->_html .= '<div class="conf confirm">' . $this->l('Settings updated') . '</div>';
     }
 
-    public function getContent()
-    {
-        $this->_html .= '<h2>' . $this->displayName . '</h2>';
-
-        if (Tools::isSubmit('submitPostLogo')) {
-            //$this->_postValidation();
-
-            if (!sizeof($this->_postErrors))
-                $this->_postProcess();
-            else {
-                foreach ($this->_postErrors AS $err) {
-                    $this->_html .= '<div class="alert error">' . $err . '</div>';
-                }
-            }
-        }
-
-        $this->_displayForm();
-
-        return $this->_html;
-    }
+//    public function getContent()
+//    {
+//        $this->_html .= '<h2>' . $this->displayName . '</h2>';
+//
+//        if (Tools::isSubmit('submitPostLogo')) {
+//            //$this->_postValidation();
+//
+//            if (!sizeof($this->_postErrors))
+//                $this->_postProcess();
+//            else {
+//                foreach ($this->_postErrors AS $err) {
+//                    $this->_html .= '<div class="alert error">' . $err . '</div>';
+//                }
+//            }
+//        }
+//
+//        $this->_displayForm();
+//
+//        return $this->_html;
+//    }
 
 
     public function getAttrFromImage($image = NULL)
@@ -225,31 +225,31 @@ class Panoteq extends Module
 //        return $html;
 //    }
 
-    private function _displayForm()
-    {
-        $this->_html .= '
-		<form action="' . $_SERVER['REQUEST_URI'] . '" method="post">
-                  <fieldset>
-                    <legend><img src="../img/admin/edit.gif" alt="" class="middle" />' . $this->l('Settings') . '</legend>
-                    <div class="margin-form">';
-        $this->_html .= '
-                    </div>
-                     <label>' . $this->l('Qty of Logos  : ') . '</label>
-                    <div class="margin-form">
-                            <input type = "text"  name="qty_products" value =' . (Tools::getValue('qty_products') ? Tools::getValue('qty_products') : Configuration::get($this->name . '_qty_products')) . ' ></input>
-                    </div>
-                     <div class="margin-form">';
-        $this->_html .= '
-                    </div>
-                    <input type="submit" name="submitPostLogo" value="' . $this->l('Update') . '" class="button" />
-                     </fieldset>
-		</form>';
-        $url = 'index.php?controller=AdminPosLogo';
-        $url .= '&token=' . Tools::getAdminTokenLite('AdminPosLogo');
-        $this->_html .= '<div class="link_module bootstrap panel"><a href="' . $url . '">Go to Manager Logo</div>';
-        return $this->_html;
-        return $this->_html;
-    }
+//    private function _displayForm()
+//    {
+//        $this->_html .= '
+//		<form action="' . $_SERVER['REQUEST_URI'] . '" method="post">
+//                  <fieldset>
+//                    <legend><img src="../img/admin/edit.gif" alt="" class="middle" />' . $this->l('Settings') . '</legend>
+//                    <div class="margin-form">';
+//        $this->_html .= '
+//                    </div>
+//                     <label>' . $this->l('Qty of Logos  : ') . '</label>
+//                    <div class="margin-form">
+//                            <input type = "text"  name="qty_products" value =' . (Tools::getValue('qty_products') ? Tools::getValue('qty_products') : Configuration::get($this->name . '_qty_products')) . ' ></input>
+//                    </div>
+//                     <div class="margin-form">';
+//        $this->_html .= '
+//                    </div>
+//                    <input type="submit" name="submitPostLogo" value="' . $this->l('Update') . '" class="button" />
+//                     </fieldset>
+//		</form>';
+//        $url = 'index.php?controller=AdminPosLogo';
+//        $url .= '&token=' . Tools::getAdminTokenLite('AdminPosLogo');
+//        $this->_html .= '<div class="link_module bootstrap panel"><a href="' . $url . '">Go to Manager Logo</div>';
+//        return $this->_html;
+//        return $this->_html;
+//    }
 
 //    public function hookDisplayHeader()
 //    {
@@ -298,4 +298,23 @@ class Panoteq extends Module
 //        }
 //        return true;
 //    }
+
+    public function hookBackOfficeHeader($params) {
+//        $this->context->controller->addCSS($this->_path.'mycss.css');
+    }
+
+    public function hookDisplayBackOfficeHeader($params){
+//        $this->hookBackOfficeHeader($params);
+    }
+
+    public function hookActionAdminControllerSetMedia($params)
+    {
+        // Adds your's CSS file from a module's directory
+        $this->context->controller->addCSS($this->_path . 'views/css/example.css');
+        $this->context->controller->addCSS($this->_path . 'views/node_modules/jsoneditor/dist/jsoneditor.min.css');
+
+        // Adds your's JavaScript file from a module's directory
+        $this->context->controller->addJS($this->_path . 'views/js/example.js');
+        $this->context->controller->addJS($this->_path . 'views/node_modules/jsoneditor/dist/jsoneditor.js');
+    }
 }

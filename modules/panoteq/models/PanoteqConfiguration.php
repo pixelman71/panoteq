@@ -1,0 +1,24 @@
+<?php
+
+class PanoteqConfiguration extends ObjectModel
+{
+//    public $id_panoteq_conf;
+    public $contents;
+
+    /**
+     * @see ObjectModel::$definition
+     */
+    public static $definition = [
+        'table' => 'panoteq_conf',
+        'primary' => 'id_panoteq_conf',
+        'fields' => array(
+//            'id_panoteq_conf' => array('id_panoteq_conf' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true),
+            'contents' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 65535),
+//            'created' => array('created' => self::TYPE_DATE),
+//                    'description' => array('type' => self::TYPE_HTML, 'lang' => false, 'validate' => 'isString', 'size' => 3999999999999),
+//                    'image' => array('type' => self::TYPE_STRING, 'lang' => false, 'validate' => 'isString', 'required' => false, 'size' => 3999999999),
+//                    'link' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => false, 'size' => 265),
+//                    'porder' =>           array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => false),
+        ),
+    ];
+}
