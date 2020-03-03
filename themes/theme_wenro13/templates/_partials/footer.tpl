@@ -10,3 +10,7 @@
 	  </div>
 	</div>
 </div>
+
+{*<script src="https://cdn.jsdelivr.net/npm/vue"></script>*}
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="/themes/theme_wenro13/assets/js/panoteq-config.js"></script>
