@@ -1,0 +1,27 @@
+{
+  "name": "panoteq/configurator",
+  "description": "Panoteq - configurator",
+  "homepage": "https://www.panoteq-configurator.com",
+  "license": "AFL-3.0",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "You",
+      "email": "you@email.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Panoteq\\Configurator\\": "src/"
+    },
+    "classmap": ["panoteq.php"],
+    "exclude-from-classmap": []
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "type": "prestashop-module"
+}

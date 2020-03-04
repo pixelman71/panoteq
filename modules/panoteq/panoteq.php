@@ -9,7 +9,7 @@ if (!defined('_MYSQL_ENGINE_'))
     define('_MYSQL_ENGINE_', 'MyISAM');
 
 // Loading Models
-require_once(_PS_MODULE_DIR_ . 'panoteq/models/PanoteqConfiguration.php');
+require_once(_PS_MODULE_DIR_ . 'panoteq/src/Entity/PanoteqConfiguration.php');
 
 class panoteq extends Module
 {

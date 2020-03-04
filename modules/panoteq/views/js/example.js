@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     const editor = new JSONEditor(container, options)
 
-    $('#panoteq_conf_form_submit_btn').click((e) => {
+    $('#panoteq_configuration_form_submit_btn').click((e) => {
         $('textarea[name=contents]').val(editor.getText());
     });
 
@@ -23,5 +23,11 @@ $(document).ready(function() {
         "Object": {"a": "b", "c": "d"},
         "String": "Hello World"
     }
-    editor.set(initialJson);
+
+    if($('textarea[name=contents]').val().length > 0) {
+        editor.setText($('textarea[name=contents]').val());
+    }
+    else {
+        editor.set(initialJson);
+    }
 });

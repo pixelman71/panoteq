@@ -23,6 +23,12 @@
  * @license   https://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  */
+
+require_once 'modules/panoteq/src/Entity/PanoteqConfiguration.php';
+
+//use Entity\PanoteqConfiguration;
+//use Panoteq\Model\PanoteqConfiguration;
+use Panoteq\Configurator\Entity\PanoteqConfiguration;
 use PrestaShop\PrestaShop\Adapter\Image\ImageRetriever;
 use PrestaShop\PrestaShop\Adapter\Presenter\AbstractLazyArray;
 use PrestaShop\PrestaShop\Adapter\Presenter\Product\ProductListingPresenter;
@@ -408,11 +414,20 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
             '#4E3B31', '#763C28', '#FDF4E3', '#E7EBDA', '#F4F4F4', '#282828', '#0A0A0A', '#A5A5A5', '#8F8F8F', '#FFFFFF', '#1C1C1C', '#F6F6F6', '#1E1E1E', '#D7D7D7', '#9C9C9C', '#828282',
             '#ffffff'];
 
+        $panoteqConf = 'ADX';
+
+        /** @var EntityManagerInterface $entityManager */
+        $entityManager = $this->container->get('doctrine.orm.entity_manager');
+        $panoteqConfigurationRepository = $entityManager->getRepository(PanoteqConfiguration::class);
+
+        $panoteqConfiguration = $panoteqConfigurationRepository->findOneBy(['id_panoteq_configuration' => 4]);
+
         $this->context->smarty->assign(array(
             'ralColors1' => $ralColors1,
             'ralColors2' => $ralColors2,
             'ralColors3' => $ralColors3,
-            'ralColors4' => $ralColors4
+            'ralColors4' => $ralColors4,
+            'panoteqconf' => $panoteqConfiguration
         ));
 //        var_dump($this->context->smarty);die();
 

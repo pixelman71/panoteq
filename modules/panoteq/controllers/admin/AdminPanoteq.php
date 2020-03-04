@@ -1,5 +1,7 @@
 <?php
 
+require_once(_PS_MODULE_DIR_ . 'panoteq/models/PanoteqConfiguration.php');
+
 class AdminPanoteqController extends ModuleAdminController
 {
 //    public function run() {
@@ -14,7 +16,7 @@ class AdminPanoteqController extends ModuleAdminController
 
     public function __construct()
     {
-        $this->table = 'panoteq_conf';
+        $this->table = 'panoteq_configuration';
         $this->className = 'PanoteqConfiguration';
         //$this->module->getTranslator()->transang = true;
         $this->deleted = false;
@@ -52,7 +54,7 @@ class AdminPanoteqController extends ModuleAdminController
 //            );
 
         $this->fields_list = array(
-            'id_panoteq_conf' => array(
+            'id_panoteq_configuration' => array(
                 'title' => $this->module->getTranslator()->trans('Schema version', array(), 'Admin.Global'),
                 'align' => 'left',
                 'width' => 50

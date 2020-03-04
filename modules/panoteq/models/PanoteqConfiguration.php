@@ -9,8 +9,8 @@ class PanoteqConfiguration extends ObjectModel
      * @see ObjectModel::$definition
      */
     public static $definition = [
-        'table' => 'panoteq_conf',
-        'primary' => 'id_panoteq_conf',
+        'table' => 'panoteq_configuration',
+        'primary' => 'id_panoteq_configuration',
         'fields' => array(
 //            'id_panoteq_conf' => array('id_panoteq_conf' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true),
             'contents' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 65535),

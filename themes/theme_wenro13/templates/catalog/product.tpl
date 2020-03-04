@@ -174,6 +174,9 @@
                                              itemprop="description">{$product.description_short nofilter}</div>
                                         <div class="">
                                             <h2 class="uk-h3">Résumé d'achat</h2>
+                                            <div>
+                                                {$panoteqconf->contents}
+                                            </div>
                                             <div v-html="summary">
 
                                             </div>
