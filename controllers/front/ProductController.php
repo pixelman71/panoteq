@@ -440,7 +440,8 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
             'ralColors2' => $ralColors2,
             'ralColors3' => $ralColors3,
             'ralColors4' => $ralColors4,
-            'panoteqconf' => $panoteqConf->steps
+            'panoteqconf' => $panoteqConf,
+            'panoteqconfserialized' => json_encode($panoteqConf)
         ));
 //        var_dump($this->context->smarty);die();
 

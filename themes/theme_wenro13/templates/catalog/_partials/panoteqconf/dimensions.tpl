@@ -7,15 +7,15 @@
     </tr>
     </thead>
     <tbody>
-    <tr v-for="(item, index) in form.parts">
+    <tr v-for="(item, index) in form.values[{$step->id}]">
         <td><input type="text" class="uk-input" v-model="item.width"></td>
         <td><input type="text" class="uk-input" v-model="item.height"></td>
         <td>
-            <button class="uk-button" v-on:click="removePart(item)">X</button>
+            <button class="uk-button" v-on:click="removePart({$step->id}, item)">X</button>
         </td>
     </tr>
     <tr>
-        <button class="uk-button" v-on:click="addPart()">Ajouter</button>
+        <button class="uk-button" v-on:click="addPart({$step->id})">Ajouter</button>
     </tr>
     </tbody>
 </table>

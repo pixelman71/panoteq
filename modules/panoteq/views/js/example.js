@@ -2,9 +2,13 @@ var editor = null;
 
 $(document).ready(function () {
     $('textarea[name=contents]').after('<div id="ajaxbox" style="width: 100%; height: 100px; overflow-y: scroll; margin-bottom: 5px;"></div>');
-    $('.control-label.col-lg-3').hide();
-    $('.col-lg-9').css('width', '100%');
+    // $('.control-label.col-lg-3').hide();
+    // $('.col-lg-9').css('width', '100%');
     $('#main').css("padding-bottom", '0');
+    // $('.control-label.col-lg-3').addClass('pull-right');
+    $('.control-label.col-lg-3').removeClass('required').css('padding', '0');
+    //$('.control-label.col-lg-3').html('<iframe id="#preview-iframe" style="width: 100%; height: calc(100vh - 290px - 105px ); border: 1px solid #aaa"></iframe>');
+    $('.control-label.col-lg-3').html('<iframe id="#preview-iframe" style="width: 100%; height: calc(100vh - 290px - 105px );"></iframe>');
 
     $('textarea[name=contents]').after('<div id="jsoneditor" style="width: 100%; height: calc(100vh - 290px - 105px );"></div>');
     $('textarea[name=contents]').hide();
@@ -34,7 +38,8 @@ $(document).ready(function () {
         //JSONEditor.setSchema(schema [,schemaRefs])
 
         mode: 'tree',
-        // mainMenuBar: false,
+        // sortObjectKeys: true,
+        mainMenuBar: false,
         colorPicker: true,
         // onCreateMenu: function (items, node) {
         //     const path = node.path
@@ -289,14 +294,18 @@ $(document).ready(function () {
         $('textarea[name=contents]').val(editor.getText());
     });
 
-    // set json
-    const initialJson = {
-        "Array": [1, 2, 3],
-        "Boolean": true,
-        "Null": null,
-        "Number": 123,
-        "Object": {"a": "b", "c": "d"},
-        "String": "Hello World"
+    const schemaValue = {
+        "type": "object",
+        "properties": {
+            "value": { "type": "string" },
+            "label": { "type": "string" },
+            "tooltip": { "type": "string" },
+            "price_impact": { "type": "number" },
+            "price_impact_method": { "enum": ["factor"] },
+            "is_default": { "type": "boolean" }
+        },
+        "required": ["value", "label", "is_default"],
+        "additionalProperties": false
     }
 
     const schemaStep = {
@@ -307,37 +316,58 @@ $(document).ready(function () {
             },
             "widget_type": {
                 "enum": ["dimensions", "color", "radio"]
+            },
+            "values": {
+                "type": "array",
+                "items": {
+                    "$ref": "value"
+                }
             }
         },
-        "required": ['is_substep', 'widget_type']
-        // firstName: 'John',
-        // lastName: 'Doe',
-        // gender: null,
-        // age: "28",
-        // availableToHire: true,
-        // job: {
-        //     company: 'freelance',
-        //     role: 'developer',
-        //     salary: 100
-        // }
+        "required": ['is_substep', 'widget_type', 'values'],
+        "additionalProperties": false
+    }
+
+    const schemaRelationstree = {
+        "type": "object",
+        "properties": {
+            "step": {
+                "type": "integer"
+            },
+            "substeps": {
+                "type": "array",
+                "items": {
+                    "$ref": "relationstree"
+                }
+            }
+        },
+        "required": ['step', 'substeps'],
+        "additionalProperties": false
     }
 
     editor.setSchema({
+        "type": "object",
         "properties": {
             'steps': {
                 "type": "array",
                 "items": {
                     "$ref": "step"
                 }
+            },
+            'relationstree': {
+                "type": "array",
+                "items": {
+                    "$ref": "relationstree"
+                }
             }
         },
-        "required": ['steps']
-    }, {'step': schemaStep});
+        "required": ['steps', 'relationstree']
+    }, {'step': schemaStep, 'relationstree': schemaRelationstree, 'value': schemaValue});
 
     if ($('textarea[name=contents]').val().length > 0) {
         editor.setText($('textarea[name=contents]').val());
     } else {
-        editor.set(initialJson);
+        editor.set({});
     }
 
     updateImagePreviews();

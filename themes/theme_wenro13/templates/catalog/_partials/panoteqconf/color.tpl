@@ -6,7 +6,7 @@
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle"
              uk-grid>
             <div class="uk-background-cover"
-                 v-bind:style="{ backgroundColor: form.color }"
+                 v-bind:style="{ backgroundColor: form.values[{$step->id}] }"
                  uk-height-viewport></div>
             <div class="uk-padding-large">
                 <h1>Couleurs RAL</h1>
@@ -29,13 +29,13 @@
             {if isset($ralColor->swatch)}
                 <label class="ral-color" style="background-image:url('{$ralColor->swatch}'); background-size: contain"
                        v-bind:class="{ selected: form.color == '{$ralColor->swatch}' }">
-                    <input name="color" type="radio" v-model="form.color"
+                    <input name="color" type="radio" v-model="form.values[{$step->id}]"
                            value="{$ralColor->swatch}">
                 </label>
             {else}
                 <label class="ral-color" style="background-color:{$ralColor->value}"
                    v-bind:class="{ selected: form.color == '{$ralColor->value}' }">
-                    <input name="color" type="radio" v-model="form.color"
+                    <input name="color" type="radio" v-model="form.values[{$step->id}]"
                            value="{$ralColor->value}">
                 </label>
             {/if}

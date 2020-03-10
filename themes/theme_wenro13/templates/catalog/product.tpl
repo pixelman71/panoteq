@@ -22,6 +22,10 @@
 {/block}
 
 {block name='content'}
+    <script>
+        var panoteqConf = '{$panoteqconfserialized|unescape: "html" nofilter}';
+    </script>
+
     <div id="app">
         <section id="main" itemscope itemtype="https://schema.org/Product">
             <meta itemprop="url" content="{$product.url}">
@@ -39,11 +43,11 @@
                          alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;"
                          itemprop="image">
 
-                    <div class="color-sample" v-bind:style="{ backgroundColor: form.color, backgroundImage: 'url(' + form.color + ')', backgroundSize: 'contain' }"></div>
+                    <div class="color-sample" v-bind:style="{ backgroundColor: form.values[1], backgroundImage: 'url(' + form.values[1] + ')', backgroundSize: 'contain' }"></div>
 
                     <ul uk-accordion>
-                        {foreach from=$panoteqconf item=$step}
-                            <li class="uk-open--disabled">
+                        {foreach from=$panoteqconf->steps item=$step}
+                            <li class="uk-open--disabled" v-if="conditionalDisplay({$step->id})">
                                 <a class="uk-accordion-title" href="#">{$step->label}</a>
                                 <div class="uk-accordion-content">
                                     {if $step->widget_type == 'color'}
