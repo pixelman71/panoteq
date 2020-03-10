@@ -1,12 +1,13 @@
-var currentEditorTarget = null;
+var editor = null;
 
 $(document).ready(function () {
-    $('textarea[name=contents]').after('<div id="ajaxbox" style="width: 100%; height: 150px; overflow-y: scroll; margin-bottom: 5px;"></div>');
+    $('textarea[name=contents]').after('<div id="ajaxbox" style="width: 100%; height: 100px; overflow-y: scroll; margin-bottom: 5px;"></div>');
+    $('.control-label.col-lg-3').hide();
+    $('.col-lg-9').css('width', '100%');
+    $('#main').css("padding-bottom", '0');
 
-    $('textarea[name=contents]').after('<div id="jsoneditor" style="width: 100%; height: calc(100vh - 380px - 155px );"></div>');
+    $('textarea[name=contents]').after('<div id="jsoneditor" style="width: 100%; height: calc(100vh - 290px - 105px );"></div>');
     $('textarea[name=contents]').hide();
-
-    //$('body').after('<style>.blouf .jsoneditor-tree:last-child::before { content: " "; display: inline-block; width: 1em; height: 1em; border: 1px solid black; background-color: red}</style>');
 
 
     function getUrlQueryParams() {
@@ -218,8 +219,10 @@ $(document).ready(function () {
                 if(childEntityType.length > 0 && childEntityType[0].value == 'step') {
                     var childEntityWidgetType = n2.childs.filter((e) => { return e.field == 'widget_type' })[0].value;
                     var childEntityLabel = n2.childs.filter((e) => { return e.field == 'label' })[0].value;
+                    var childEntityId = n2.childs.filter((e) => { return e.field == 'id' })[0].value;
+                    var childEntityIsSubstep = n2.childs.filter((e) => { return e.field == 'is_substep' }).length > 0 && n2.childs.filter((e) => { return e.field == 'is_substep' })[0].value == true;
 
-                    return 'Step "' + childEntityLabel + '" (type: ' + childEntityWidgetType + ')';
+                    return (childEntityIsSubstep ? 'Substep' : 'Step') + '#' + childEntityId + ' "' + childEntityLabel + '" (type: ' + childEntityWidgetType + ')';
                 }
             }
 
@@ -247,6 +250,23 @@ $(document).ready(function () {
                 var childEntityLabel = n2.childs.filter((e) => { return e.field == 'label' })[0].value;
                 return childEntityLabel;
             }
+        },
+        onValidationError: function (errors) {
+            console.log('onValidationError');
+            errors.forEach((error) => {
+                switch (error.type) {
+                    case 'validation': // schema validation error
+                        console.log(error);
+                        break;
+                    case 'customValidation': // custom validation error
+                        console.log(error);
+                        break;
+                    default:
+                    case 'error':  // json parse error
+                        console.log(error);
+                        break;
+                }
+            });
         }
     };
 
@@ -263,7 +283,7 @@ $(document).ready(function () {
         });
     }
 
-    const editor = new JSONEditor(container, options);
+    editor = new JSONEditor(container, options);
 
     $('#panoteq_configuration_form_submit_btn').click((e) => {
         $('textarea[name=contents]').val(editor.getText());
@@ -278,6 +298,41 @@ $(document).ready(function () {
         "Object": {"a": "b", "c": "d"},
         "String": "Hello World"
     }
+
+    const schemaStep = {
+        "type": "object",
+        "properties": {
+            "is_substep": {
+                "type": "boolean"
+            },
+            "widget_type": {
+                "enum": ["dimensions", "color", "radio"]
+            }
+        },
+        "required": ['is_substep', 'widget_type']
+        // firstName: 'John',
+        // lastName: 'Doe',
+        // gender: null,
+        // age: "28",
+        // availableToHire: true,
+        // job: {
+        //     company: 'freelance',
+        //     role: 'developer',
+        //     salary: 100
+        // }
+    }
+
+    editor.setSchema({
+        "properties": {
+            'steps': {
+                "type": "array",
+                "items": {
+                    "$ref": "step"
+                }
+            }
+        },
+        "required": ['steps']
+    }, {'step': schemaStep});
 
     if ($('textarea[name=contents]').val().length > 0) {
         editor.setText($('textarea[name=contents]').val());
