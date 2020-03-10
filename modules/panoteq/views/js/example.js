@@ -157,21 +157,11 @@ $(document).ready(function () {
             }
         ],
         onEvent: function(node, event) {
-            // Update image previews
-            $('.blouf .jsoneditor-tree:last-child').each(function(index, value) {
-                var firstChild = $(this).children().first();
-
-                $(this).children().not(':first').remove().end().append(firstChild);
-
-                if(firstChild.text().endsWith('jpg')) {
-                    $(this).append('<div style="content: \' \'; display: inline-block; width: 1em; height: 1em; top: 3px; position: relative; border: 1px solid black; background-size: contain; background-image: url(' + $(firstChild).text() + ')"></div>');
-                }
-            });
+            //updateImagePreviews();
 
             // If focusing on element value
-            if(event.type == 'focusin') {
-                var $event = event;
-                var $node = node;
+            if(event.type == 'focusin' && node.field == 'swatch') {
+                console.log(node);
 
                 // Load images list
                 $.ajax({
@@ -200,6 +190,8 @@ $(document).ready(function () {
                             n2.updateDom();
                             n2._debouncedOnChangeValue();
 
+                            updateImagePreviews();
+
                             // Empty box after click
                             $('#ajaxbox').html('');
                         });
@@ -211,10 +203,65 @@ $(document).ready(function () {
             }
         },
         onClassName: function({path, field, value}) {
-            console.log('onClassName');
+            // console.log('onClassName');
+            updateImagePreviews();
+
             return 'blouf';
+        },
+        onNodeName({ path, type, size }) {
+            // Step name
+            if(path.length > 1 && path[path.length - 2] == 'steps') {
+                var n2 = editor.node.findNodeByPath(path);
+
+                var childEntityType = n2.childs.filter((e) => { return e.field == 'entity' });
+
+                if(childEntityType.length > 0 && childEntityType[0].value == 'step') {
+                    var childEntityWidgetType = n2.childs.filter((e) => { return e.field == 'widget_type' })[0].value;
+                    var childEntityLabel = n2.childs.filter((e) => { return e.field == 'label' })[0].value;
+
+                    return 'Step "' + childEntityLabel + '" (type: ' + childEntityWidgetType + ')';
+                }
+            }
+
+            // Values field list of values labels
+            if(path.length > 1 && path[path.length - 1] == 'values') {
+                var n2 = editor.node.findNodeByPath(path);
+                var allLabels = [];
+                var counter = 0;
+                var MAX_LABELS = 5;
+
+                n2.childs.forEach((value) => {
+                    var childEntityLabel = value.childs.filter((e) => { return e.field == 'label' })[0].value;
+
+                    if(++counter <= MAX_LABELS) {
+                        allLabels.push(childEntityLabel);
+                    }
+                });
+
+                return allLabels.join(', ') + (counter >= MAX_LABELS ? ', ...' : '');
+            }
+
+            // Value field label
+            if(path.length > 1 && path[path.length - 2] == 'values') {
+                var n2 = editor.node.findNodeByPath(path);
+                var childEntityLabel = n2.childs.filter((e) => { return e.field == 'label' })[0].value;
+                return childEntityLabel;
+            }
         }
     };
+
+    function updateImagePreviews() {
+        // Update image previews
+        $('.blouf .jsoneditor-tree:last-child').each(function(index, value) {
+            var firstChild = $(this).children().first();
+
+            $(this).children().not(':first').remove().end().append(firstChild);
+
+            if(firstChild.text().endsWith('jpg')) {
+                $(this).append('<div style="content: \' \'; display: inline-block; width: 1em; height: 1em; top: 3px; position: relative; border: 1px solid black; background-size: contain; background-image: url(' + $(firstChild).text() + ')"></div>');
+            }
+        });
+    }
 
     const editor = new JSONEditor(container, options);
 
@@ -237,4 +284,10 @@ $(document).ready(function () {
     } else {
         editor.set(initialJson);
     }
+
+    updateImagePreviews();
+
+    // editor.expandAll();
+
+    editor.focus();
 });

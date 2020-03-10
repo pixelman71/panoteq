@@ -175,7 +175,7 @@ EOT;
         foreach (glob("img/panoteqconf/textures/*.jpg") as $filename) {
             //echo "$filename size " . filesize($filename) . " <img src='/$filename' width='20'><br>\n";
 
-            $isCurrentSelectionClass = ('/' . $filename) == Tools::getValue('currentNodeValue') ? 'style="border: 2px solid black"' : '';
+            $isCurrentSelectionClass = ('/' . $filename) == Tools::getValue('currentNodeValue') ? 'style="border: 2px dotted red"' : '';
 
             $result .= "<img src='/$filename' title='$filename' $isCurrentSelectionClass>\n";
         }
