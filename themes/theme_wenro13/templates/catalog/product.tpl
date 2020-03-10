@@ -58,11 +58,13 @@
 
             <div class="row">
                 <div id="content-wrapper" class="left-column right-column col-md-3">
-                    <div class="color-sample" v-bind:style="{ backgroundColor: form.values[1]}"></div>
-
+                    <div class="">
+                        <h5>Pourcentage configuré: <span v-html="percentComplete"></span>%</h5>
+                        <progress class="uk-progress" v-bind:value="percentComplete" max="100"></progress>
+                    </div>
                     <ul uk-accordion>
                         {foreach from=$panoteqconf->steps item=$step}
-                            <li class="uk-open--disabled" v-if="conditionalDisplay({$step->id})">
+                            <li class="uk-open" v-if="conditionalDisplay({$step->id})">
                                 <a class="uk-accordion-title" href="#">{$step->label}</a>
                                 <div class="uk-accordion-content">
                                     {if $step->widget_type == 'color'}
@@ -80,25 +82,25 @@
                     </ul>
                 </div>
                 <div id="right-column" class="col-md-9">
-                    <div class="container">
+                    <div class="container" uk-sticky style="background-color: white;padding: 1em;">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div id="threevisualization" style="width: 100%; height: 300px; float: left"></div>
+                            <div class="col-md-12">
+                                <div id="threevisualization" style="width: 100%; height: 400px;border: 1px solid #f0f0f0;background-color: #eaeae8"></div>
 
 {*                                <img class="js-qv-product-cover" src="{$product.cover.bySize.large_default.url}"*}
 {*                                     alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;"*}
 {*                                     itemprop="image">*}
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-md-12">
                                 {block name='page_header_container'}
                                     {block name='page_header'}
-                                        <h1 class="h1 namne_details"
+                                        <h1 class="h1 namne_details" style="margin-top: 1em"
                                             itemprop="name">{block name='page_title'}{$product.name}{/block}</h1>
                                     {/block}
                                 {/block}
 
                                 {block name='product_prices'}
-                                    {include file='catalog/_partials/product-prices.tpl'}
+{*                                    {include file='catalog/_partials/product-prices.tpl'}*}
                                 {/block}
 
                                 <div class="product-information">
@@ -158,7 +160,6 @@
                                                 {/block}
 
                                                 {block name='product_add_to_cart'}
-                                                    <progress class="uk-progress" value="70" max="100"></progress>
                                                     {include file='catalog/_partials/product-add-to-cart.tpl'}
                                                 {/block}
 
@@ -174,7 +175,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-xs-12">
+                            <div class="col-xs-12" style="display: none">
                                 <div class="tabs">
                                     <ul class="nav nav-tabs">
                                         {if $product.description}

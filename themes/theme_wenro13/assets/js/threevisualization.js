@@ -1,5 +1,6 @@
 function Panoteq3dViewer() {
 }
+
 Panoteq3dViewer.prototype.container = null;
 Panoteq3dViewer.prototype.stats = null;
 Panoteq3dViewer.prototype.controls = null;
@@ -412,7 +413,7 @@ Panoteq3dViewer.prototype.scaleModelHorizontally = function () {
     this.params.middlePanel.scale.x = scaleX * this.params.middlePanel.originalScale.x * middlePanelScaleCoeff;
 
     var middlePanelNewWidth = (this.params.middlePanel.geometry.boundingBox.max.x - this.params.middlePanel.geometry.boundingBox.min.x)
-            * this.params.middlePanel.scale.x;
+        * this.params.middlePanel.scale.x;
 
     // Move left and right panels, and corners
     var widthDiff = this.params.middlePanel.origWidth - middlePanelNewWidth;
@@ -461,7 +462,7 @@ Panoteq3dViewer.prototype.scaleModelVertically = function () {
 
     // 
     var middlePanelNewHeight = (this.params.middlePanel.geometry.boundingBox.max.y - this.params.middlePanel.geometry.boundingBox.min.y)
-            * this.params.middlePanel.scale.y;
+        * this.params.middlePanel.scale.y;
 
     // Move top and bottom panels, and corners
     var heightDiff = this.params.middlePanel.origHeight - middlePanelNewHeight;
@@ -478,8 +479,8 @@ Panoteq3dViewer.prototype.scaleModelVertically = function () {
     var topPanelScaleCoeff = this.params.topPanel.origHeight / totalHeight;
     var bottomPanelScaleCoeff = this.params.bottomPanel.origHeight / totalHeight;
     var middlePanelScaleRatio =
-            (this.params.middlePanel.scale.y / this.params.middlePanel.originalScale.y) * middlePanelScaleCoeff
-            ;
+        (this.params.middlePanel.scale.y / this.params.middlePanel.originalScale.y) * middlePanelScaleCoeff
+    ;
     this.params.leftPanel.scale.y = middlePanelScaleRatio * this.params.topPanel.originalScale.y;
     this.params.rightPanel.scale.y = middlePanelScaleRatio * this.params.bottomPanel.originalScale.y;
 
@@ -616,11 +617,11 @@ Panoteq3dViewer.prototype.destroyObject = function (obj) {
 
     for (var i = 0; i < obj.children.length; i++) {
         if (obj.children[i].type !== "AmbientLight"
-                && obj.children[i].type !== "DirectionalLight"
-                && obj.children[i].type !== "PointLight"
-                && obj.children[i].type !== "HemisphereLight"
-                && obj.children[i].type !== "SpotLight"
-                ) {
+            && obj.children[i].type !== "DirectionalLight"
+            && obj.children[i].type !== "PointLight"
+            && obj.children[i].type !== "HemisphereLight"
+            && obj.children[i].type !== "SpotLight"
+        ) {
             console.log('Destroying: ' + obj.children[i].name);
             this.destroyObject(obj.children[i]);
             objectsToRemove.push(obj.children[i]);
@@ -1244,11 +1245,11 @@ Panoteq3dViewer.prototype.drillHoles = function (offsetsY, rightSide) {
 
     // Calculate model dimensions
     var rightEdgeX = this.params.middlePanel.origWidth * this.params.middlePanel.scale.x
-            + this.params.leftPanel.origWidth * this.params.leftPanel.scale.x
-            + this.params.rightPanel.origWidth * this.params.rightPanel.scale.x;
+        + this.params.leftPanel.origWidth * this.params.leftPanel.scale.x
+        + this.params.rightPanel.origWidth * this.params.rightPanel.scale.x;
     var rightEdgeY = this.params.middlePanel.origHeight * this.params.middlePanel.scale.y
-            + this.params.topPanel.origHeight * this.params.topPanel.scale.y
-            + this.params.bottomPanel.origHeight * this.params.bottomPanel.scale.y;
+        + this.params.topPanel.origHeight * this.params.topPanel.scale.y
+        + this.params.bottomPanel.origHeight * this.params.bottomPanel.scale.y;
 
     var baseOffsetX = 0;
     var baseOffsetY = 0;
@@ -1382,19 +1383,19 @@ Panoteq3dViewer.prototype.createColoredMaterial = function (colour) {
 Panoteq3dViewer.prototype.loadAndCreateTexturedMaterialAsync = function (panel, textureFileName, textureShininess) {
     var thisRef = this;
     new THREE.TextureLoader().load(textureFileName,
-            function (texture) {
-                thisRef.numMaterialsLoaded++;
-                if (thisRef.numMaterialsLoaded == 9) {
-                    thisRef.showModelAfterLoading();
-                }
-
-                panel.material = thisRef.createTexturedMaterial(texture, textureShininess);
-                thisRef.render();
-            },
-            undefined, // onProgress callback currently not supported
-            function (err) {
-                console.error('An error happened.');
+        function (texture) {
+            thisRef.numMaterialsLoaded++;
+            if (thisRef.numMaterialsLoaded == 9) {
+                thisRef.showModelAfterLoading();
             }
+
+            panel.material = thisRef.createTexturedMaterial(texture, textureShininess);
+            thisRef.render();
+        },
+        undefined, // onProgress callback currently not supported
+        function (err) {
+            console.error('An error happened.');
+        }
     );
 };
 
@@ -1483,9 +1484,9 @@ Panoteq3dViewer.prototype.autoPlaceCamera = function () {
     var size = BB.size();
 
     var totalHeight = this.params.middlePanel.origHeight * this.params.middlePanel.scale.y
-            + this.params.topPanel.origHeight + this.params.bottomPanel.origHeight;
+        + this.params.topPanel.origHeight + this.params.bottomPanel.origHeight;
     var totalWidth = this.params.middlePanel.origWidth * this.params.middlePanel.scale.x
-            + this.params.leftPanel.origWidth + this.params.rightPanel.origWidth;
+        + this.params.leftPanel.origWidth + this.params.rightPanel.origWidth;
 
     var aspect = this.renderer.getSize().width / this.renderer.getSize().height;
 

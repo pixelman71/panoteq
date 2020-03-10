@@ -5,11 +5,14 @@ var app = new Vue({
         form: {
             schemaVersion: 1,
             values: []
-        }
+        },
+        panoteq3dViewer: null,
+        percentComplete: 11
     },
     methods: {
-        showRalPopup: function () {
-//            UIkit.toggle('#modal-full').toggle()
+        showRalPopup: function (color) {
+            UIkit.modal('#modal-full').show();
+            this.panoteq3dViewer.loadDoorModel(1800, color, true, false, [], false, [4, 3], false);
         },
         setSwatch: function (swatch) {
             // console.log('setSwatch(' + swatch + ')');
@@ -62,8 +65,6 @@ var app = new Vue({
             return matchesConditions;
         },
         init3dVisualization: function () {
-            var panoteq3dViewer;
-
 //         $('#model-selector,#texture-selector,#left-right,#width,#height,#texture-orientation,#handle').change(function (e) {
 // //                    $('form').submit();
 // //                });
@@ -95,10 +96,10 @@ var app = new Vue({
             //     e.preventDefault();
             // });
 
-            panoteq3dViewer = new Panoteq3dViewer();
+            this.panoteq3dViewer = new Panoteq3dViewer();
 //                panoteq3dViewer2 = new Panoteq3dViewer();
 //                panoteq3dViewer2.init($("#threevisualization2"), 1800, 182, [ 1.0, 1.5 ], false, true); // Tenor
-            panoteq3dViewer.init($("#threevisualization"), 1800, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 4], true); // Tenor Ambassador
+            this.panoteq3dViewer.init($("#threevisualization"), 1800, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 4], true); // Tenor Ambassador
             //panoteq3dViewer.init($("#threevisualization"), 4393, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 10], true); // Alto
         }
     },
