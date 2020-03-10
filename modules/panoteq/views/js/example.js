@@ -315,7 +315,7 @@ $(document).ready(function () {
                 "type": "boolean"
             },
             "widget_type": {
-                "enum": ["dimensions", "color", "radio"]
+                "enum": ["dimensions", "color", "radio", "text", "selectbox", "color-sample", "group-start", "group-end"]
             },
             "values": {
                 "type": "array",

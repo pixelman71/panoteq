@@ -4,14 +4,15 @@ var app = new Vue({
         model: {},
         form: {
             schemaVersion: 1,
-            values: []
+            values: [],
         },
-        panoteq3dViewer: null,
-        percentComplete: 11
+        panoteq3dViewer: null
     },
     methods: {
         showRalPopup: function (color) {
             UIkit.modal('#modal-full').show();
+        },
+        setModelColor: function (color) {
             this.panoteq3dViewer.loadDoorModel(1800, color, true, false, [], false, [4, 3], false);
         },
         setSwatch: function (swatch) {
@@ -20,8 +21,9 @@ var app = new Vue({
             //     this.form.swatch = swatch;
             // }
         },
-        addPart: function (stepId) {
-            this.form.values[stepId].push(this.partFactory());
+        addPart: function (values, index) {
+            console.log('add');
+            Vue.set(values, index, this.form.values[index].concat([this.partFactory()]));
         },
         removePart: function (stepId, part) {
             if (this.form.values[stepId].length <= 1) {
@@ -103,29 +105,31 @@ var app = new Vue({
             //panoteq3dViewer.init($("#threevisualization"), 4393, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 10], true); // Alto
         }
     },
-    beforeMount: function () {
+    beforeCreate: function () {
+
+    },
+    created: function () {
         // Load model
         this.model = JSON.parse(panoteqConf);
 
         // Prepare default values
         this.form.schemaVersion = 1; // TODO
-        this.form.values = [];
+        // this.form.values = [];
 
         this.model.steps.forEach((step, index) => {
             if (step.widget_type == 'dimensions') {
-                this.form.values[index] = [
-                    {width: 1, height: 2},
-                    {width: 3, height: 4}
+                this.form.values[step.id] = [
+                    {width: 1, height: 2}
                 ];
             } else {
-                this.form.values[index] = null;
+                // this.form.values[index] = null;
             }
         });
 
         // Load from local storage
         if (localStorage['panoteq-config'] !== undefined) {
             // console.log('Loading from local storage');
-            // this.form = JSON.parse(localStorage['panoteq-config']);
+            this.form = JSON.parse(localStorage['panoteq-config']);
         }
     },
     mounted: function () {
@@ -169,6 +173,9 @@ var app = new Vue({
             // });
 
             return sum;
+        },
+        percentComplete: function() {
+            return 11; // TODO
         }
     }
 });
