@@ -22,7 +22,7 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<section class="product-customization">
+<section class="product-customization" style="display: none">
   {if !$configuration.is_catalog}
     <div class="card card-block">
       <h3 class="h4 card-title">{l s='Product customization' d='Shop.Theme.Catalog'}</h3>
@@ -34,7 +34,7 @@
               <label> {$field.label}</label>
               {if $field.type == 'text'}
                 <label>{$field.text}</label>
-                <textarea placeholder="{l s='Your message here' d='Shop.Forms.Help'}" class="product-message" maxlength="250" {if $field.required} required {/if} name="{$field.input_name}"></textarea>
+                <textarea placeholder="{l s='Your message here' d='Shop.Forms.Help'}" class="product-message" maxlength="250" name="{$field.input_name}"></textarea>
                 <small class="pull-xs-right">{l s='250 char. max' d='Shop.Forms.Help'}</small>
               {elseif $field.type == 'image'}
                 {if $field.is_customized}
@@ -53,7 +53,8 @@
           {/foreach}
         </ul>
         <div class="clearfix">
-          <button class="btn btn-primary pull-xs-right" type="submit" name="submitCustomizedData">{l s='Save Customization' d='Shop.Theme.Actions'}</button>
+          <input type="hidden" name="submitCustomizedData" value="1">
+          <button class="btn btn-primary pull-xs-right" type="submit" name="submitCustomizedData.old">{l s='Ajouter au panier' d='Shop.Theme.Actions'}</button>
         </div>
       </form>
     </div>

@@ -35,117 +35,29 @@
 
             <div class="row">
                 <div id="content-wrapper" class="left-column right-column col-md-3">
-                    <img class="js-qv-product-cover" src="{$product.cover.bySize.large_default.url}"
+                    <img class="js-qv-product-cover" v-bind:src="form.swatch"
                          alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;"
                          itemprop="image">
 
-                    <div class="color-sample" v-bind:style="{ backgroundColor: form.color }"></div>
+                    <div class="color-sample" v-bind:style="{ backgroundColor: form.color, backgroundImage: 'url(' + form.color + ')', backgroundSize: 'contain' }"></div>
 
                     <ul uk-accordion>
-                        <li class="uk-open--disabled">
-                            <a class="uk-accordion-title" href="#">Couleur</a>
-                            <div class="uk-accordion-content">
-                                <a class="uk-button uk-button-default" href="#modal-full" uk-toggle>Open</a>
-                                <div id="modal-full" class="uk-modal-full" uk-modal>
-                                    <div class="uk-modal-dialog">
-                                        <button class="uk-modal-close-full uk-close-large" type="button"
-                                                uk-close></button>
-                                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                                            <div class="uk-background-cover" v-bind:style="{ backgroundColor: form.color }"
-                                                 uk-height-viewport></div>
-                                            <div class="uk-padding-large">
-                                                <h1>Couleurs RAL</h1>
-                                                <p>Un éventail RAL est fortement recommandé car les couleurs
-                                                    d'écran sont simplement une indication des couleurs finales. Avec
-                                                    l'éventail
-                                                    de couleurs RAL physique vous pouvez être sûr de la bonne
-                                                    couleur.</p>
-                                                <button class="uk-button uk-button-primary" type="button">Save</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                        {foreach from=$panoteqconf item=$step}
+                            <li class="uk-open--disabled">
+                                <a class="uk-accordion-title" href="#">{$step->label}</a>
+                                <div class="uk-accordion-content">
+                                    {if $step->widget_type == 'color'}
+                                        {include file='catalog/_partials/panoteqconf/color.tpl'}
+                                    {/if}
+                                    {if $step->widget_type == 'radio'}
+                                        {include file='catalog/_partials/panoteqconf/radio.tpl'}
+                                    {/if}
+                                    {if $step->widget_type == 'dimensions'}
+                                        {include file='catalog/_partials/panoteqconf/dimensions.tpl'}
+                                    {/if}
                                 </div>
-                                <form>
-                                    <div class="ral-wrapper">
-                                        <br/><strong>Finition brillante</strong><br/>
-                                        {foreach from=$ralColors1 item=$ralColor}
-                                            <label class="ral-color" style="background-color:{$ralColor}"
-                                                   v-bind:class="{ selected: form.color == '{$ralColor}' }"
-                                                   v-on:click="showRalPopup">
-                                                <input name="color" type="radio" v-model="form.color" value="{$ralColor}">
-                                            </label>
-                                        {/foreach}
-                                        <br/><strong>Finition unie</strong><br/>
-                                        {foreach from=$ralColors2 item=$ralColor}
-                                            <div class="ral-color" style="background-color:{$ralColor}"></div>
-                                        {/foreach}
-                                        <br/><strong>Finition structurée</strong><br/>
-                                        {foreach from=$ralColors3 item=$ralColor}
-                                            <div class="ral-color" style="background-color:{$ralColor}"></div>
-                                        {/foreach}
-                                        <br/><strong>Finition laquée</strong><br/>
-                                        {foreach from=$ralColors4 item=$ralColor}
-                                            <div class="ral-color" style="background-color:{$ralColor}"></div>
-                                        {/foreach}
-                                    </div>
-                                </form>
-                            </div>
-                        </li>
-                        <li>
-                            <a class="uk-accordion-title" href="#">Type de pièce</a>
-                            <div class="uk-accordion-content">
-                                <div class="uk-margin uk-grid-small uk-child-width-1-1 uk-grid">
-                                    <div>
-                                        <label><input type="radio" class="uk-radio" name="type" value="porte"
-                                                      v-model="form.type"> Porte</label>
-                                    </div>
-                                    <div class="uk-margin-small-top">
-                                        <label><input type="radio" class="uk-radio" name="type" value="casserolier"
-                                                      v-model="form.type">
-                                            Casserolier</label>
-                                    </div>
-                                    <div class="uk-margin-small-top">
-                                        <label><input type="radio" class="uk-radio" name="type" value="tiroir"
-                                                      v-model="form.type"> Tiroir</label>
-                                    </div>
-                                    <div class="uk-margin-small-top">
-                                        <label><input type="radio" class="uk-radio" name="type" value="bandeau"
-                                                      v-model="form.type">
-                                            Bandeau</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="uk-open">
-                            <a class="uk-accordion-title" href="#">Dimensions</a>
-                            <div class="uk-accordion-content">
-                                <table class="uk-table uk-table-divider">
-                                    <thead>
-                                    <tr>
-                                        <th>Largeur</th>
-                                        <th>Hauteur</th>
-                                        <th>Charnières</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr v-for="(item, index) in form.parts">
-                                        <td><input type="text" class="uk-input" v-model="item.width"></td>
-                                        <td><input type="text" class="uk-input" v-model="item.height"></td>
-                                        <td><button class="uk-button" v-on:click="removePart(item)">X</button></td>
-                                    </tr>
-                                    <tr>
-                                        <button class="uk-button" v-on:click="addPart()">Ajouter</button>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </li>
-                        <li class="uk-open">
-                            <a class="uk-accordion-title" href="#">Emplacements charnières</a>
-                            <div class="uk-accordion-content">
-
-                            </div>
-                        </li>
+                            </li>
+                        {/foreach}
                     </ul>
                 </div>
                 <div id="right-column" class="col-md-9">
@@ -175,7 +87,7 @@
                                         <div class="">
                                             <h2 class="uk-h3">Résumé d'achat</h2>
                                             <div>
-                                                {$panoteqconf->contents}
+
                                             </div>
                                             <div v-html="summary">
 

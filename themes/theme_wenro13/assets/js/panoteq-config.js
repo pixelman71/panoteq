@@ -5,6 +5,7 @@ var app = new Vue({
         form: {
             formatVersion: 1,
             color: 'BEBD7F',
+            swatch: '/2-large_default/mandoline.jpg',
             type: 'porte',
             sqmPrice: 10,
             parts: [
@@ -15,13 +16,19 @@ var app = new Vue({
                 {
                     width: 3,
                     height: 4,
-                },
+                }
             ]
         }
     },
     methods: {
         showRalPopup: function () {
-//            UIkit.toggle('#modal-full').toggle();
+//            UIkit.toggle('#modal-full').toggle()
+        },
+        setSwatch: function (swatch) {
+            console.log('setSwatch(' + swatch + ')');
+            // if(swatch) {
+                this.form.swatch = swatch;
+            // }
         },
         addPart: function() {
             this.form.parts.push(this.partFactory());
@@ -42,10 +49,31 @@ var app = new Vue({
         }
     },
     beforeMount: function() {
-        if(localStorage['panoteq-config'] !== undefined) {
-            console.log('Loading from local storage');
-            this.form = JSON.parse(localStorage['panoteq-config']);
+        if (localStorage['panoteq-config'] !== undefined) {
+            // console.log('Loading from local storage');
+            // this.form = JSON.parse(localStorage['panoteq-config']);
         }
+    },
+    mounted: function() {
+        // Intercept click on add to cart button
+        $('form#add-to-cart-or-refresh button[type=button]').click((e) => {
+            e.preventDefault();
+
+            // Save custom option
+            $('.product-customization-item textarea').val(JSON.stringify(this.form));
+
+            // Add to cart
+            $('section.product-customization form').ajaxSubmit((data) => {
+                console.log('id_customization: ' + data);
+                $('form#add-to-cart-or-refresh input[name=id_customization]').val(data);
+
+                $('form#add-to-cart-or-refresh').append('<input type="hidden" name="qty" value="1">');
+                $('form#add-to-cart-or-refresh').append('<input type="hidden" name="add" value="1">');
+                $('form#add-to-cart-or-refresh').append('<input type="hidden" name="action" value="update">');
+
+                $('form#add-to-cart-or-refresh').submit();
+            });
+        });
     },
     computed: {
         summary: function () {

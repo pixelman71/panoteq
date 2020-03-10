@@ -59,11 +59,11 @@ class AdminPanoteqController extends ModuleAdminController
                 'align' => 'left',
                 'width' => 50
             ),
-            'contents' => array(
-                'title' => $this->module->getTranslator()->trans('Contents', array(), 'Admin.Global'),
-                'align' => 'left',
-//                    'width' => 25
-            ),
+//            'contents' => array(
+//                'title' => $this->module->getTranslator()->trans('Contents', array(), 'Admin.Global'),
+//                'align' => 'left',
+////                    'width' => 25
+//            ),
             'created' => array(
                 'title' => $this->module->getTranslator()->trans('Created', array(), 'Admin.Global'),
                 'align' => 'left',
@@ -77,6 +77,9 @@ class AdminPanoteqController extends ModuleAdminController
 //                "image" => $this->fieldImageSettings["dir"]
 //            );
 //
+
+        $this->_defautOrderBy = 'id_panoteq_configuration';
+        $this->_defaultOrderWay = 'DESC';
 
         $lists = parent::renderList();
         parent::initToolbar();
@@ -150,4 +153,34 @@ class AdminPanoteqController extends ModuleAdminController
     }
 
 
+    public function ajaxProcessCustom() {
+        return $this->processCustom();
+    }
+
+    public function processCustom() {
+        $abspath = dirname(dirname(__FILE__)) . '/';
+        chdir($abspath . '/../../..');
+
+        $result = '';
+
+        $result .= <<<EOT
+<style>
+img {
+    width: 50px;
+    margin: 1px;
+}
+</style>
+EOT;
+
+        foreach (glob("img/panoteqconf/textures/*.jpg") as $filename) {
+            //echo "$filename size " . filesize($filename) . " <img src='/$filename' width='20'><br>\n";
+
+            $isCurrentSelectionClass = ('/' . $filename) == Tools::getValue('currentNodeValue') ? 'style="border: 2px solid black"' : '';
+
+            $result .= "<img src='/$filename' title='$filename' $isCurrentSelectionClass>\n";
+        }
+
+        die(json_encode($result));
+//        return $result;
+    }
 }

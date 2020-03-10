@@ -26,8 +26,7 @@
 
 require_once 'modules/panoteq/src/Entity/PanoteqConfiguration.php';
 
-//use Entity\PanoteqConfiguration;
-//use Panoteq\Model\PanoteqConfiguration;
+
 use Panoteq\Configurator\Entity\PanoteqConfiguration;
 use PrestaShop\PrestaShop\Adapter\Image\ImageRetriever;
 use PrestaShop\PrestaShop\Adapter\Presenter\AbstractLazyArray;
@@ -231,6 +230,8 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
      */
     public function initContent()
     {
+        $isSavingCustomizedConfiguration = false;
+
         if (!$this->errors) {
             if (Pack::isPack((int) $this->product->id)
                 && !Pack::isInStock((int) $this->product->id, $this->product->minimal_quantity, $this->context->cart)
@@ -253,6 +254,8 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
             }
 
             if (Tools::isSubmit('submitCustomizedData')) {
+                $isSavingCustomizedConfiguration = true;
+
                 // If cart has not been saved, we need to do it so that customization fields can have an id_cart
                 // We check that the cookie exists first to avoid ghost carts
                 if (!$this->context->cart->id && isset($_COOKIE[$this->context->cookie->getName()])) {
@@ -350,6 +353,13 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
                 $customization_datas = $this->context->cart->getProductCustomization($this->product->id, null, true);
             }
 
+
+            if($isSavingCustomizedConfiguration) {
+                //'id_customization' => empty($customization_datas) ? null : $customization_datas[0]['id_customization'],
+                echo $customization_datas[0]['id_customization'];
+                die();
+            }
+
             $product_for_template = $this->getTemplateVarProduct();
 
             $filteredProduct = Hook::exec(
@@ -420,17 +430,21 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
         $entityManager = $this->container->get('doctrine.orm.entity_manager');
         $panoteqConfigurationRepository = $entityManager->getRepository(PanoteqConfiguration::class);
 
-        $panoteqConfiguration = $panoteqConfigurationRepository->findOneBy(['id_panoteq_configuration' => 4]);
+        $panoteqConfiguration = $panoteqConfigurationRepository->findOneBy([], ['id_panoteq_configuration' => 'DESC'], 0, 1);
+
+        $panoteqConf = json_decode($panoteqConfiguration->contents);
+//        var_dump($panoteqConf);die();
 
         $this->context->smarty->assign(array(
             'ralColors1' => $ralColors1,
             'ralColors2' => $ralColors2,
             'ralColors3' => $ralColors3,
             'ralColors4' => $ralColors4,
-            'panoteqconf' => $panoteqConfiguration
+            'panoteqconf' => $panoteqConf->model->steps
         ));
 //        var_dump($this->context->smarty);die();
 
+//        var_dump('aa');die();
         parent::initContent();
     }
 
@@ -903,11 +917,11 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
         $indexes = array_flip($authorized_text_fields);
         foreach ($_POST as $field_name => $value) {
             if (in_array($field_name, $authorized_text_fields) && $value != '') {
-                if (!Validate::isMessage($value)) {
-                    $this->errors[] = $this->trans('Invalid message', array(), 'Shop.Notifications.Error');
-                } else {
-                    $this->context->cart->addTextFieldToProduct($this->product->id, $indexes[$field_name], Product::CUSTOMIZE_TEXTFIELD, $value);
-                }
+//                if (!Validate::isMessage($value)) {
+//                    $this->errors[] = $this->trans('Invalid message', array(), 'Shop.Notifications.Error');
+//                } else {
+                $this->context->cart->addTextFieldToProduct($this->product->id, $indexes[$field_name], Product::CUSTOMIZE_TEXTFIELD, $value);
+//                }
             } elseif (in_array($field_name, $authorized_text_fields) && $value == '') {
                 $this->context->cart->deleteCustomizationToProduct((int) $this->product->id, $indexes[$field_name]);
             }

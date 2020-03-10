@@ -85,6 +85,7 @@ class panoteq extends Module
         // Set some defaults
         return parent::install()
             && $this->registerHook('actionAdminControllerSetMedia');
+//            && $this->registerHook('displayCustomization');
 //            && $this->registerHook('backOfficeHeader')
 //            && $this->registerHook('displayBackOfficeHeader');
 //		 $this->_installHookCustomer()&&
@@ -317,4 +318,10 @@ class panoteq extends Module
         $this->context->controller->addJS($this->_path . 'views/js/example.js');
         $this->context->controller->addJS($this->_path . 'views/node_modules/jsoneditor/dist/jsoneditor.js');
     }
+
+//    public function hookDisplayCustomization($params)
+//    {
+//        $id_row = (int)$params['customization']['value'];
+//        return 'ADX:' . $id_row;
+//    }
 }

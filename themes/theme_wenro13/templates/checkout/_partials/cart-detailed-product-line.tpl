@@ -56,6 +56,25 @@
       <br>
       {block name='cart_detailed_product_line_customization'}
         {foreach from=$product.customizations item="customization"}
+          {foreach from=$customization.fields item="field"}
+            <div class="product-customization-line row">
+              <div class="col-sm-3 col-xs-4 label">
+                {$field.label}
+              </div>
+              <div class="col-sm-9 col-xs-8 value">
+                {if $field.type == 'text'}
+                  {if (int)$field.id_module}
+                    {$field.text nofilter}
+                  {else}
+                    {$field.text}
+                  {/if}
+                {elseif $field.type == 'image'}
+                  <img src="{$field.image.small.url}">
+                {/if}
+              </div>
+            </div>
+          {/foreach}
+
           <a href="#" data-toggle="modal" data-target="#product-customizations-modal-{$customization.id_customization}">{l s='Product customization' d='Shop.Theme.Catalog'}</a>
           <div class="modal fade customization-modal" id="product-customizations-modal-{$customization.id_customization}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
