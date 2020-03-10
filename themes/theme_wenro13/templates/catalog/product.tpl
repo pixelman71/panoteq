@@ -19,6 +19,25 @@
         <meta property="product:weight:value" content="{$product.weight}">
         <meta property="product:weight:units" content="{$product.weight_unit}">
     {/if}
+
+
+{*    <script src="/facade-cuisine-salle-bain/js/jquery/jquery-1.11.0.min.js"></script>*}
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/build/three.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/loaders/FBXLoader.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/controls/OrbitControls.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/libs/inflate.min.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/WebGL.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/libs/stats.min.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/shaders/SSAOShader.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/postprocessing/SSAOPass.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/shaders/CopyShader.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/SimplexNoise.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/node_modules/three/examples/js/libs/dat.gui.min.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/csg.js/csg.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/ThreeCSG/ThreeCSG2.js"></script>
+    <script src="/themes/theme_wenro13/assets/js/threevisualization.js"></script>
 {/block}
 
 {block name='content'}
@@ -39,11 +58,7 @@
 
             <div class="row">
                 <div id="content-wrapper" class="left-column right-column col-md-3">
-                    <img class="js-qv-product-cover" v-bind:src="form.swatch"
-                         alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;"
-                         itemprop="image">
-
-                    <div class="color-sample" v-bind:style="{ backgroundColor: form.values[1], backgroundImage: 'url(' + form.values[1] + ')', backgroundSize: 'contain' }"></div>
+                    <div class="color-sample" v-bind:style="{ backgroundColor: form.values[1]}"></div>
 
                     <ul uk-accordion>
                         {foreach from=$panoteqconf->steps item=$step}
@@ -68,9 +83,11 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
-                                <img class="js-qv-product-cover" src="{$product.cover.bySize.large_default.url}"
-                                     alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;"
-                                     itemprop="image">
+                                <div id="threevisualization" style="width: 100%; height: 300px; float: left"></div>
+
+{*                                <img class="js-qv-product-cover" src="{$product.cover.bySize.large_default.url}"*}
+{*                                     alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;"*}
+{*                                     itemprop="image">*}
                             </div>
                             <div class="col-md-7">
                                 {block name='page_header_container'}

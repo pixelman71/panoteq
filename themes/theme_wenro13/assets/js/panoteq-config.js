@@ -1,8 +1,7 @@
 var app = new Vue({
     el: '#app',
     data: {
-        model: {
-        },
+        model: {},
         form: {
             schemaVersion: 1,
             values: []
@@ -18,24 +17,24 @@ var app = new Vue({
             //     this.form.swatch = swatch;
             // }
         },
-        addPart: function(stepId) {
+        addPart: function (stepId) {
             this.form.values[stepId].push(this.partFactory());
         },
-        removePart: function(stepId, part) {
-            if(this.form.values[stepId].length <= 1) {
+        removePart: function (stepId, part) {
+            if (this.form.values[stepId].length <= 1) {
                 console.log('Can\'t remove part.')
                 return;
             }
 
             this.form.values[stepId].splice(this.form.values[stepId].indexOf(part), 1);
         },
-        partFactory: function() {
+        partFactory: function () {
             return {
                 width: 0,
                 height: 0
             };
         },
-        stepValidates: function(stepId) {
+        stepValidates: function (stepId) {
             //condition.validates == true;
             // this.model.steps[stepId].
             return true; // TODO
@@ -43,8 +42,10 @@ var app = new Vue({
         conditionalDisplay(stepId) {
             var matchesConditions = true;
 
-            var foundConditions = this.model.conditional_display.filter((e) => { return e.step == stepId });
-            if(foundConditions.length > 0) {
+            var foundConditions = this.model.conditional_display.filter((e) => {
+                return e.step == stepId
+            });
+            if (foundConditions.length > 0) {
                 (foundConditions[0].conditions).forEach((condition) => {
                     // console.log('matchesConditions: ' + stepId + " - found: ");
                     // console.log(condition);
@@ -53,15 +54,55 @@ var app = new Vue({
                     matchesConditions &=
                         (this.form.values[condition.step] !== undefined && this.form.values[condition.step].length > 0)
                         && (this.form.values[condition.step].length > 0 && this.form.values[condition.step] == condition.value)
-                        //     || this.stepValidates(condition.step))
+                    //     || this.stepValidates(condition.step))
                     ;
                 });
             }
 
             return matchesConditions;
+        },
+        init3dVisualization: function () {
+            var panoteq3dViewer;
+
+//         $('#model-selector,#texture-selector,#left-right,#width,#height,#texture-orientation,#handle').change(function (e) {
+// //                    $('form').submit();
+// //                });
+// //
+// //                $('.model-button').click(function (e) {
+// //                    var modelName = $(this).attr('data-model');
+// //                    var textureName = $('#texture-selector').val();
+// //                    console.log('clicked ' + modelName);
+// //                    console.log(this);
+//             panoteq3dViewer.loadDoorModel($('#model-selector').val(), $('#texture-selector').val(),
+//                 false,
+//                 $('#handle').val() === 'bottom' ? true : false,
+//                 [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8],
+//                 $('#left-right').val() === '1' ? 1 : 0,
+//                 [$('#width').val(), $('#height').val()],
+//                 $('#texture-orientation').val() === 'horizontal' ? true : false
+//             );
+// //                    panoteq3dViewer2.loadDoorModel($('#model-selector').val(), $('#texture-selector').val(),
+// //                            false,
+// //                            [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8],
+// //                            $('#left-right').val() == '1' ? 1 : 0,
+// //                            [$('#width').val(), $('#height').val()],
+// //                            $('#texture-orientation').val() == 'horizontal' ? true : false
+// //                            );
+//         });
+
+            // $('#reset-camera').click(function (e) {
+            //     panoteq3dViewer.resetCameraPosition();
+            //     e.preventDefault();
+            // });
+
+            panoteq3dViewer = new Panoteq3dViewer();
+//                panoteq3dViewer2 = new Panoteq3dViewer();
+//                panoteq3dViewer2.init($("#threevisualization2"), 1800, 182, [ 1.0, 1.5 ], false, true); // Tenor
+            panoteq3dViewer.init($("#threevisualization"), 1800, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 4], true); // Tenor Ambassador
+            //panoteq3dViewer.init($("#threevisualization"), 4393, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 10], true); // Alto
         }
     },
-    beforeMount: function() {
+    beforeMount: function () {
         // Load model
         this.model = JSON.parse(panoteqConf);
 
@@ -70,13 +111,12 @@ var app = new Vue({
         this.form.values = [];
 
         this.model.steps.forEach((step, index) => {
-            if(step.widget_type == 'dimensions') {
+            if (step.widget_type == 'dimensions') {
                 this.form.values[index] = [
-                    { width: 1, height: 2},
-                    { width: 3, height: 4}
+                    {width: 1, height: 2},
+                    {width: 3, height: 4}
                 ];
-            }
-            else {
+            } else {
                 this.form.values[index] = null;
             }
         });
@@ -87,7 +127,10 @@ var app = new Vue({
             // this.form = JSON.parse(localStorage['panoteq-config']);
         }
     },
-    mounted: function() {
+    mounted: function () {
+        // Init 3D visualization
+        this.init3dVisualization();
+
         // Intercept click on add to cart button
         $('form#add-to-cart-or-refresh button[type=button]').click((e) => {
             e.preventDefault();
@@ -117,7 +160,7 @@ var app = new Vue({
 
             return JSON.stringify(serialized);
         },
-        totalAmount: function() {
+        totalAmount: function () {
             var sum = 0;
             // this.form.parts.forEach((part) => {
             //     console.log(part);
