@@ -14,6 +14,8 @@ class PanoteqConfiguration extends ObjectModel
         'fields' => array(
 //            'id_panoteq_conf' => array('id_panoteq_conf' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true),
             'contents' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 65535),
+            'associated_products' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 100),
+            'comment' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 200),
 //            'created' => array('created' => self::TYPE_DATE),
 //                    'description' => array('type' => self::TYPE_HTML, 'lang' => false, 'validate' => 'isString', 'size' => 3999999999999),
 //                    'image' => array('type' => self::TYPE_STRING, 'lang' => false, 'validate' => 'isString', 'required' => false, 'size' => 3999999999),

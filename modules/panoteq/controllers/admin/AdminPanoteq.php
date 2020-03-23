@@ -23,6 +23,8 @@ class AdminPanoteqController extends ModuleAdminController
         $this->bootstrap = true;
         $this->colorOnBackground = false;
         parent::__construct();
+
+
 //		$this->bulk_actions = array(
 //            'delete' => array(
 //                'text' => $this->module->getTranslator()->trans('Delete selected', array(), 'Admin.Global'),
@@ -39,6 +41,14 @@ class AdminPanoteqController extends ModuleAdminController
 //        $this->imageType = "jpg";
 
 //         $this->meta_title = $this->module->getTranslator()->trans('Manage Logo', array(), 'Admin.Global');
+    }
+
+    public function postProcess()
+    {
+        if (Tools::isSubmit('submitAddpanoteq_configuration')) {
+            $_POST['associated_products'] = implode(',', Tools::getValue('associated_products'));
+        }
+        parent::postProcess();
     }
 
     public function renderList()
@@ -64,6 +74,17 @@ class AdminPanoteqController extends ModuleAdminController
 //                'align' => 'left',
 ////                    'width' => 25
 //            ),
+            'comment' => array(
+                'title' => $this->module->getTranslator()->trans('Comment', array(), 'Admin.Global'),
+                'align' => 'left',
+//                    'width' => 25
+            ),
+            'associated_products' => array(
+                'title' => $this->module->getTranslator()->trans('Associated products', array(), 'Admin.Global'),
+                'align' => 'left',
+//                    'width' => 25,
+                'callback' => 'renderAssociatedProducts'
+            ),
             'created' => array(
                 'title' => $this->module->getTranslator()->trans('Created', array(), 'Admin.Global'),
                 'align' => 'left',
@@ -85,6 +106,19 @@ class AdminPanoteqController extends ModuleAdminController
         parent::initToolbar();
 
         return $lists;
+    }
+
+    public function renderAssociatedProducts($value, $val2)
+    {
+        $productIds = explode(',', $value);
+
+        $result = [];
+        foreach ($productIds as $productId) {
+            $p = new Product($productId);
+            $result[] = $p->name[(int)Context::getContext()->language->id];
+        }
+
+        return join(',', $result);
     }
 
     public function renderForm()
@@ -115,6 +149,31 @@ class AdminPanoteqController extends ModuleAdminController
 //                    'desc' => $this->module->getTranslator()->trans('Upload  a banner from your computer.', array(), 'Admin.Global')
 //                ),
                 array(
+                    'type' => 'select',
+                    'label' => $this->module->getTranslator()->trans('Contents', array(), 'Admin.Global'),
+                    'name' => 'associated_products[]',
+                    'options' => [
+                        'query' => Product::getProducts((int)Context::getContext()->language->id, 0, 100, 'id_product', 'ASC'), // el true es que solo los que estan activos
+                        'id' => 'id_product',
+                        'name' => 'name',
+                        'default' => array(
+                            'value' => '',
+                            'label' => $this->l('None')
+                        )
+                    ],
+                    'multiple' => true,
+                    'autoload_rte' => FALSE,
+                    'lang' => false,
+                    'required' => TRUE
+//                    'hint' => $this->module->getTranslator()->trans('Invalid characters:', array(), 'Admin.Global') . ' <>;=#{}'
+                ),
+                array(
+                    'type' => 'text',
+                    'label' => $this->module->getTranslator()->trans('Comment', array(), 'Admin.Global'),
+                    'name' => 'comment',
+                    'size' => 200
+                ),
+                array(
                     'type' => 'textarea',
                     'label' => $this->module->getTranslator()->trans('Contents', array(), 'Admin.Global'),
                     'name' => 'contents',
@@ -139,6 +198,8 @@ class AdminPanoteqController extends ModuleAdminController
             )
         );
 
+        $this->fields_value['associated_products[]'] = explode(',', $this->object->associated_products);
+
 //        if (Shop::isFeatureActive())
 //            $this->fields_form['input'][] = array(
 //                'type' => 'shop',
@@ -153,11 +214,13 @@ class AdminPanoteqController extends ModuleAdminController
     }
 
 
-    public function ajaxProcessCustom() {
+    public function ajaxProcessCustom()
+    {
         return $this->processCustom();
     }
 
-    public function processCustom() {
+    public function processCustom()
+    {
         $abspath = dirname(dirname(__FILE__)) . '/';
         chdir($abspath . '/../../..');
 
