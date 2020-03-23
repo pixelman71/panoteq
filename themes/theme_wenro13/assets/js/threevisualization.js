@@ -1,6 +1,14 @@
 function Panoteq3dViewer() {
 }
 
+Panoteq3dViewer.prototype.debug = false;
+
+Panoteq3dViewer.prototype.debugLog = function(msg) {
+    if(this.debug) {
+        console.log(msg);
+    }
+};
+
 Panoteq3dViewer.prototype.container = null;
 Panoteq3dViewer.prototype.stats = null;
 Panoteq3dViewer.prototype.controls = null;
@@ -301,7 +309,7 @@ Panoteq3dViewer.prototype.modelsFiles['2'] = {
 
 Panoteq3dViewer.prototype.prestashopParametersMappings = [];
 
-Panoteq3dViewer.prototype.texturesDirectory = '/threemodels/tex/';
+Panoteq3dViewer.prototype.texturesDirectory = '';
 
 Panoteq3dViewer.prototype.modelFile = null;
 Panoteq3dViewer.prototype.textureFileName = null;
@@ -369,8 +377,8 @@ Panoteq3dViewer.prototype.repositionTexture = function (panel) {
     var repeatY = newHeight / origHeight;
     var offsetY = -repeatY * middleOffsetSpeedY + middleOffsetSpeedY;
 
-//                console.log('repeat X: ' + repeatX + ' - offsetX: ' + offsetX + ' - norm: ' + offsetXNormalized);
-    console.log('repeatX: ' + repeatX + ' - offsetX: ' + offsetX + ' - middle width: ' + newWidth + ' - orig width: ' + origWidth);
+//                this.debugLog('repeat X: ' + repeatX + ' - offsetX: ' + offsetX + ' - norm: ' + offsetXNormalized);
+    this.debugLog('repeatX: ' + repeatX + ' - offsetX: ' + offsetX + ' - middle width: ' + newWidth + ' - orig width: ' + origWidth);
 
     this.params.middlePanel.material.map.repeat.x = repeatX;
     this.params.middlePanel.material.map.offset.x = offsetX;
@@ -402,7 +410,7 @@ Panoteq3dViewer.prototype.repositionTexture = function (panel) {
     this.params.topRightPanel.material.map.offset.y = this.params.topPanel.material.map.offset.y;
     this.params.topLeftPanel.material.map.offset.y = this.params.topPanel.material.map.offset.y;
 
-    console.log('right offset = ' + this.params.rightPanel.material.map.offset.x);
+    this.debugLog('right offset = ' + this.params.rightPanel.material.map.offset.x);
 };
 
 Panoteq3dViewer.prototype.scaleModelHorizontally = function () {
@@ -521,7 +529,7 @@ Panoteq3dViewer.prototype.createGui = function () {
     var gui = new dat.GUI();
 
     gui.addColor(this.params, 'ralColor').onChange(function () {
-        console.log('RAL Color: ' + thisRef.params.ralColor);
+        this.debugLog('RAL Color: ' + thisRef.params.ralColor);
 
         var newColor = new THREE.Color(parseInt('0x' + thisRef.params.ralColor.substring(1)));
 
@@ -581,8 +589,8 @@ Panoteq3dViewer.prototype.createGui = function () {
 
 Panoteq3dViewer.prototype.adjustLightIntensities = function (thisRef, factor) {
     var f = factor / 100.0;
-    console.log('Adjusting light intensities by factor: ' + f);
-    console.log(thisRef.scene);
+    this.debugLog('Adjusting light intensities by factor: ' + f);
+    this.debugLog(thisRef.scene);
     thisRef.params.frontLight.intensity = thisRef.params.frontLight.originalIntensity * f;
     thisRef.params.bottomRightLight.intensity = thisRef.params.bottomRightLight.originalIntensity * f;
     thisRef.params.leftEdgeLight.intensity = thisRef.params.leftEdgeLight.originalIntensity * f;
@@ -609,7 +617,7 @@ Panoteq3dViewer.prototype.createBackdrop = function () {
 
 Panoteq3dViewer.prototype.destroyObject = function (obj) {
     if (obj.name == 'backTopRightDuplicate') {
-        console.log('IN backTopRightDuplicate');
+        this.debugLog('IN backTopRightDuplicate');
     }
 
     // Process children
@@ -622,7 +630,7 @@ Panoteq3dViewer.prototype.destroyObject = function (obj) {
             && obj.children[i].type !== "HemisphereLight"
             && obj.children[i].type !== "SpotLight"
         ) {
-            console.log('Destroying: ' + obj.children[i].name);
+            this.debugLog('Destroying: ' + obj.children[i].name);
             this.destroyObject(obj.children[i]);
             objectsToRemove.push(obj.children[i]);
         }
@@ -632,7 +640,7 @@ Panoteq3dViewer.prototype.destroyObject = function (obj) {
         obj.remove(objectsToRemove[i]);
     }
 
-    console.log(obj.name + ' - num children: ' + obj.children.length);
+    this.debugLog(obj.name + ' - num children: ' + obj.children.length);
 
     if (obj.geometry !== undefined)
         obj.geometry.dispose();
@@ -646,7 +654,10 @@ Panoteq3dViewer.prototype.loadDoorModel = function (productId, attributeIdOrRal,
     this.hideModelWhileLoading();
 
     if (!isRALColor) {
-        var textureFileName = this.texturesPaths[attributeIdOrRal];
+        var textureFileName = attributeIdOrRal;
+
+        attributeIdOrRal = 177;
+
         var textureHasHorizontal = this.texturesHasHorizontal[attributeIdOrRal];
 
         if (horizontalTexture && textureHasHorizontal) {
@@ -673,12 +684,12 @@ Panoteq3dViewer.prototype.loadDoorModel = function (productId, attributeIdOrRal,
     this.destroyObject(thisRef.scene);
 
     var modelPath = inverted ? this.modelFile.path_inverted : this.modelFile.path;
-    console.log('Loading model ' + modelPath);
+    this.debugLog('Loading model ' + modelPath);
 
     this.loader.load(this.modelsDirectory + modelPath, function (object) {
         thisRef.model = object;
 
-        console.log(thisRef.model);
+        thisRef.debugLog(thisRef.model);
 
         thisRef.initParams(thisRef.model, thisRef.modelFile.type);
 
@@ -703,7 +714,7 @@ Panoteq3dViewer.prototype.loadDoorModel = function (productId, attributeIdOrRal,
             thisRef.loadAndCreateTexturedMaterialAsync(thisRef.params.bottomLeftPanel, thisRef.texturesDirectory + thisRef.textureFileName, thisRef.textureShininess);
             thisRef.loadAndCreateTexturedMaterialAsync(thisRef.params.leftPanel, thisRef.texturesDirectory + thisRef.textureFileName, thisRef.textureShininess);
         } else {
-            console.log('RAL Color: ' + attributeIdOrRal);
+            thisRef.debugLog('RAL Color: ' + attributeIdOrRal);
 
             thisRef.showModelAfterLoading();
 
@@ -781,14 +792,14 @@ Panoteq3dViewer.prototype.loadDoorModel = function (productId, attributeIdOrRal,
                 case 'backBottomLeftPanel':
                 case 'backLeftPanel':
                 case 'backPanel':
-                    console.log('Removing object: ' + child.name);
+                    thisRef.debugLog('Removing object: ' + child.name);
                     thisRef.scene.remove(child);
                     child.position.x = 10000;
                     break;
                 case 'Lamp':
                 case 'Lamp001':
                 case 'Lamp002':
-                    console.log('Removing object: ' + child.name);
+                    thisRef.debugLog('Removing object: ' + child.name);
                     child.intensity = 0;
                     break;
                 default:
@@ -940,113 +951,114 @@ Panoteq3dViewer.prototype.initParams = function () {
             switch (child.name) {
                 case 'middlePanel':
                 case 'middlePanel2':
-                    console.log('Found milieu');
+                    thisRef.debugLog('Found milieu');
                     ++numberOfFoundPanels;
                     thisRef.params.middlePanel = child;
                     break;
                 case 'topPanel':
                 case 'topPanel2':
-                    console.log('Found haut');
+                    thisRef.debugLog('Found haut');
                     ++numberOfFoundPanels;
                     thisRef.params.topPanel = child;
                     break;
                 case 'bottomPanel':
                 case 'bottomPanel2':
-                    console.log('Found bas');
+                    thisRef.debugLog('Found bas');
                     ++numberOfFoundPanels;
                     thisRef.params.bottomPanel = child;
                     break;
                 case 'rightPanel':
                 case 'rightPanel2':
                 case 'RightPanel':
-                    console.log('Found droite');
+                    thisRef.debugLog('Found droite');
                     ++numberOfFoundPanels;
                     thisRef.params.rightPanel = child;
                     break;
                 case 'leftPanel':
                 case 'LeftPanel':
                 case 'leftPanel2':
-                    console.log('Found left');
+                    thisRef.debugLog('Found left');
                     ++numberOfFoundPanels;
                     thisRef.params.leftPanel = child;
                     break;
                 case 'topLeftPanel':
                 case 'topLeftPanel2':
-                    console.log('Found top left');
+                    thisRef.debugLog('Found top left');
                     ++numberOfFoundPanels;
                     thisRef.params.topLeftPanel = child;
                     break;
                 case 'topRightPanel':
                 case 'topRightPanel2':
-                    console.log('Found top right');
+                    thisRef.debugLog('Found top right');
                     ++numberOfFoundPanels;
                     thisRef.params.topRightPanel = child;
                     break;
                 case 'bottomLeftPanel':
                 case 'bottomLeftPanel2':
-                    console.log('Found bottom left');
+                    thisRef.debugLog('Found bottom left');
                     ++numberOfFoundPanels;
                     thisRef.params.bottomLeftPanel = child;
                     break;
                 case 'bottomRightPanel':
                 case 'bottomRightPanel2':
-                    console.log('Found bottom right');
+                    thisRef.debugLog('Found bottom right');
                     ++numberOfFoundPanels;
                     thisRef.params.bottomRightPanel = child;
                     break;
                 case 'backMiddle':
                 case 'backPanel':
-                    console.log('Found back middle: ' + child.name);
+                    thisRef.debugLog('Found back middle: ' + child.name);
                     ++numberOfFoundPanels;
                     thisRef.params.backMiddle = child;
                     break;
                 case 'backTopLeft':
-                    console.log('Found back top left');
+                    thisRef.debugLog('Found back top left');
                     ++numberOfFoundPanels;
                     thisRef.params.backTopLeft = child;
                     break;
                 case 'backLeft':
-                    console.log('Found back left');
+                    thisRef.debugLog('Found back left');
                     ++numberOfFoundPanels;
                     thisRef.params.backLeft = child;
                     break;
                 case 'backTopRight':
-                    console.log('Found back top right');
+                    thisRef.debugLog('Found back top right');
                     ++numberOfFoundPanels;
                     thisRef.params.backTopRight = child;
                     break;
                 case 'backTop':
-                    console.log('Found back top');
+                    thisRef.debugLog('Found back top');
                     ++numberOfFoundPanels;
                     thisRef.params.backTop = child;
                     break;
                 case 'backRight':
-                    console.log('Found back right');
+                    thisRef.debugLog('Found back right');
                     ++numberOfFoundPanels;
                     thisRef.params.backRight = child;
                     break;
                 case 'backBottomRight':
-                    console.log('Found back bottom right');
+                    thisRef.debugLog('Found back bottom right');
                     ++numberOfFoundPanels;
                     thisRef.params.backBottomRight = child;
                     break;
                 case 'backBottom':
-                    console.log('Found back bottom');
+                    thisRef.debugLog('Found back bottom');
                     ++numberOfFoundPanels;
                     thisRef.params.backBottom = child;
                     break;
                 case 'backBottomLeft':
-                    console.log('Found back bottom left');
+                    thisRef.debugLog('Found back bottom left');
                     ++numberOfFoundPanels;
                     thisRef.params.backBottomLeft = child;
                     break;
                 default:
-                    console.log('Unidentified: ' + child.name);
+                    thisRef.debugLog('Unidentified: ' + child.name);
             }
         }
     });
 
-    console.log('Number of found panels: ' + numberOfFoundPanels);
+    this.debugLog('Number of found panels: ' + numberOfFoundPanels);
+
     if (numberOfFoundPanels !== 18) {
         console.error('Invalid number of panels');
     }
@@ -1070,8 +1082,8 @@ Panoteq3dViewer.prototype.initParams = function () {
         val = Math.abs(uvs[i + 5] - uvs[i + 0]);
         maxDistY = val > maxDistY ? val : maxDistY;
     }
-    console.log('max UV distance X: ' + maxDistX);
-    console.log('max UV distance Y: ' + maxDistY);
+    this.debugLog('max UV distance X: ' + maxDistX);
+    this.debugLog('max UV distance Y: ' + maxDistY);
 
     var maxX = 0;
     var minX = 1000;
@@ -1087,8 +1099,8 @@ Panoteq3dViewer.prototype.initParams = function () {
             minY = uvs[i + 1] < minY ? uvs[i + 1] : minY;
         }
     }
-    console.log('max UV X: ' + maxX + ' - min UV X: ' + minX);
-    console.log('max UV Y: ' + maxY + ' - min UV Y: ' + minY);
+    this.debugLog('max UV X: ' + maxX + ' - min UV X: ' + minX);
+    this.debugLog('max UV Y: ' + maxY + ' - min UV Y: ' + minY);
 
     var uvs = this.params.rightPanel.geometry.attributes.uv.array;
 
@@ -1109,8 +1121,8 @@ Panoteq3dViewer.prototype.initParams = function () {
         val = Math.abs(uvs[i + 5] - uvs[i + 0]);
         maxDistY = val > maxDistY ? val : maxDistY;
     }
-    console.log('max UV distance X: ' + maxDistX);
-    console.log('max UV distance Y: ' + maxDistY);
+    this.debugLog('max UV distance X: ' + maxDistX);
+    this.debugLog('max UV distance Y: ' + maxDistY);
 
     var maxX = 0;
     var minX = 1000;
@@ -1126,8 +1138,8 @@ Panoteq3dViewer.prototype.initParams = function () {
             minY = uvs[i + 1] < minY ? uvs[i + 1] : minY;
         }
     }
-    console.log('max UV X: ' + maxX + ' - min UV X: ' + minX);
-    console.log('max UV Y: ' + maxY + ' - min UV Y: ' + minY);
+    this.debugLog('max UV X: ' + maxX + ' - min UV X: ' + minX);
+    this.debugLog('max UV Y: ' + maxY + ' - min UV Y: ' + minY);
 
     this.params.middlePanel.originalScale = this.params.middlePanel.scale.clone();
     this.params.middlePanel.originalPosition = this.params.middlePanel.position.clone();
@@ -1177,18 +1189,18 @@ Panoteq3dViewer.prototype.initParams = function () {
     this.params.desiredHeight = totalHeight;
     this.params.desiredWidth = totalWidth;
 
-    console.log("middlePanelWidth: " + middlePanelWidth);
-    console.log("middlePanelHeight: " + middlePanelHeight);
-    console.log("topPanelHeight: " + topPanelHeight);
-    console.log("bottomPanelHeight: " + bottomPanelHeight);
-    console.log("leftPanelWidth: " + leftPanelWidth);
-    console.log("rightPanelWidth: " + rightPanelWidth);
-    console.log('total height: ' + totalHeight);
-    console.log('total width: ' + totalWidth);
+    this.debugLog("middlePanelWidth: " + middlePanelWidth);
+    this.debugLog("middlePanelHeight: " + middlePanelHeight);
+    this.debugLog("topPanelHeight: " + topPanelHeight);
+    this.debugLog("bottomPanelHeight: " + bottomPanelHeight);
+    this.debugLog("leftPanelWidth: " + leftPanelWidth);
+    this.debugLog("rightPanelWidth: " + rightPanelWidth);
+    this.debugLog('total height: ' + totalHeight);
+    this.debugLog('total width: ' + totalWidth);
 };
 
 Panoteq3dViewer.prototype.duplicateBackPanel = function (panel) {
-    console.log('Duplicate');
+    this.debugLog('Duplicate');
 //    if (panel.geometry.boundingBox == null || panel.geometry.boundingBox == undefined) {
     panel.geometry.computeBoundingBox();
 //    }
@@ -1207,9 +1219,9 @@ Panoteq3dViewer.prototype.duplicateBackPanel = function (panel) {
     var panelY = (box.max.y + box.min.y) / 2;
     var panelZ = (box.max.z + box.min.z) / 2;
 
-//    console.log(panelWidth);
-//    console.log(panelHeight);
-//    console.log(panelDepth);
+//    this.debugLog(panelWidth);
+//    this.debugLog(panelHeight);
+//    this.debugLog(panelDepth);
 
     var middle = new THREE.Vector3();
     var center = panel.geometry.boundingBox.getCenter();
@@ -1232,7 +1244,7 @@ Panoteq3dViewer.prototype.duplicateBackPanel = function (panel) {
 
     this.scene.add(cube);
 
-    console.log('Duplicate END');
+    this.debugLog('Duplicate END');
 
     return cube;
 };
@@ -1472,7 +1484,7 @@ Panoteq3dViewer.prototype.animate = function () {
 };
 
 Panoteq3dViewer.prototype.resetCameraPosition = function () {
-    console.log('Reset camera ');
+    this.debugLog('Reset camera ');
     this.controls.reset();
     this.autoPlaceCamera();
     this.render();
@@ -1500,7 +1512,7 @@ Panoteq3dViewer.prototype.autoPlaceCamera = function () {
     var camZpos = Math.max(camZposX, camZposY) * camZfactor;
 
     camZpos *= this.backSideView ? -1 : 1;
-    console.log('New camera position: (' + centerpoint.x + '; ' + centerpoint.y + '; ' + camZpos);
+    this.debugLog('New camera position: (' + centerpoint.x + '; ' + centerpoint.y + '; ' + camZpos);
 
     this.camera.position.set(centerpoint.x, centerpoint.y, camZpos);
     //this.camera.far = this.camera.near + 10 * size.z;

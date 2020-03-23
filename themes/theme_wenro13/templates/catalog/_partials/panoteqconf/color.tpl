@@ -1,5 +1,4 @@
 <span v-html="errors"></span>
-<span v-html="form.values"></span>
 <div v-if="errors[{$step->id}]">
     BUUG
 </div>
@@ -34,14 +33,14 @@
                            style="background-image:url('{$ralColor->swatch}'); background-size: contain"
                            v-bind:class="{ selected: form.color == '{$ralColor->swatch}' }">
                         <input name="color" type="radio" v-model="form.values[{$step->id}]"
-                               v-on:click="setModelColor('{$ralColor->swatch}')"
+                               v-on:change="updateDoorModel()"
                                value="{$ralColor->swatch}">
                     </label>
                 {else}
                     <label class="ral-color" style="background-color:{$ralColor->value}"
                            v-bind:class="{ selected: form.color == '{$ralColor->value}' }">
                         <input name="color" type="radio" v-model="form.values[{$step->id}]"
-                               v-on:click="setModelColor('{$ralColor->value}')"
+                               v-on:change="updateDoorModel()"
                                value="{$ralColor->value}">
                     </label>
                 {/if}

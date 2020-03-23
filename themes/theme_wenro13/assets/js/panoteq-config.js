@@ -14,8 +14,27 @@ var app = new Vue({
         showRalPopup: function (color) {
             UIkit.modal('#modal-full').show();
         },
-        setModelColor: function (color) {
-            //this.panoteq3dViewer.loadDoorModel(1800, color, true, false, [], false, [4, 3], false);
+        updateDoorModel: function () {
+            var percages = [];
+            this.getParamPercages().forEach((val) => {
+                percages.push(parseInt(val.value))
+            })
+            console.log(percages)
+
+            if (this.panoteq3dViewer == null) {
+                this.panoteq3dViewer = new Panoteq3dViewer();
+                this.panoteq3dViewer.init($("#threevisualization"), 1800,
+                    this.getParamColor(), false, percages,
+                    this.getParamEmplacementCharnieres() == 'droite',
+                    false, [this.getParamDimensions().width,
+                    this.getParamDimensions().height], this.getParamTextureHorizontal()); // Tenor Ambassador
+            } else {
+                this.panoteq3dViewer.loadDoorModel(1800, this.getParamColor(),
+                    this.getParamColor().startsWith('#'), false, percages,
+                    this.getParamEmplacementCharnieres() == 'droite',
+                    [this.getParamDimensions().width, this.getParamDimensions().height],
+                    this.getParamTextureHorizontal());
+            }
         },
         setSwatch: function (swatch) {
             // console.log('setSwatch(' + swatch + ')');
@@ -23,23 +42,16 @@ var app = new Vue({
             //     this.form.swatch = swatch;
             // }
         },
-        addPart: function (values, index) {
-            console.log('add');
-            Vue.set(values, index, this.form.values[index].concat([this.partFactory()]));
+        addValue: function (values, index) {
+            Vue.set(values, index, this.form.values[index].concat([{'value': 0}]));
         },
-        removePart: function (stepId, part) {
+        removeValue: function (stepId, part) {
             if (this.form.values[stepId].length <= 1) {
                 console.log('Can\'t remove part.')
                 return;
             }
 
             this.form.values[stepId].splice(this.form.values[stepId].indexOf(part), 1);
-        },
-        partFactory: function () {
-            return {
-                width: 0,
-                height: 0
-            };
         },
         stepValidates: function (stepId) {
             //condition.validates == true;
@@ -48,26 +60,25 @@ var app = new Vue({
         },
         conditionalDisplay(stepId) {
             var matchesConditions = true;
-
-            var foundConditions = this.model.conditional_display.filter((e) => {
-                return e.step == stepId
-            });
-            if (foundConditions.length > 0) {
-                (foundConditions[0].conditions).forEach((condition) => {
-                    // console.log('matchesConditions: ' + stepId + " - found: ");
-                    // console.log(condition);
-                    // console.log('len: ' + this.form.values[condition.step].length);
-
-                    matchesConditions &=
-                        (this.form.values[condition.step] !== undefined && this.form.values[condition.step].length > 0)
-                        && (this.form.values[condition.step].length > 0 && this.form.values[condition.step] == condition.value)
-                    //     || this.stepValidates(condition.step))
-                    ;
-                });
-            }
+            //
+            // var foundConditions = this.model.conditional_display.filter((e) => {
+            //     return e.step == stepId
+            // });
+            // if (foundConditions.length > 0) {
+            //     (foundConditions[0].conditions).forEach((condition) => {
+            //         // console.log('matchesConditions: ' + stepId + " - found: ");
+            //         // console.log(condition);
+            //         // console.log('len: ' + this.form.values[condition.step].length);
+            //
+            //         matchesConditions &=
+            //             (this.form.values[condition.step] !== undefined && this.form.values[condition.step].length > 0)
+            //             && (this.form.values[condition.step].length > 0 && this.form.values[condition.step] == condition.value)
+            //         //     || this.stepValidates(condition.step))
+            //         ;
+            //     });
+            // }
 
             return matchesConditions;
-            return true;
         },
         validateStep: function (stepId) {
             var step = this.model.steps[stepId];
@@ -132,11 +143,9 @@ var app = new Vue({
             //     e.preventDefault();
             // });
 
-            // this.panoteq3dViewer = new Panoteq3dViewer();
-//                panoteq3dViewer2 = new Panoteq3dViewer();
-//                panoteq3dViewer2.init($("#threevisualization2"), 1800, 182, [ 1.0, 1.5 ], false, true); // Tenor
-//             this.panoteq3dViewer.init($("#threevisualization"), 1800, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 4], true); // Tenor Ambassador
-            //panoteq3dViewer.init($("#threevisualization"), 4393, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 10], true); // Alto
+            this.updateDoorModel();
+
+            // panoteq3dViewer.init($("#threevisualization"), 4393, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 10], true); // Alto
         },
         isStepComplete: function (stepId) {
             if (!this.stepNeedsCompletion(stepId)) {
@@ -192,6 +201,61 @@ var app = new Vue({
             this.model.steps.forEach((step, index) => {
                 this.validateStep(step.id);
             });
+        },
+        getParamTextureHorizontal: function () {
+            var result = false;
+
+            this.model.steps.forEach((step, index) => {
+                if (step.label == 'Sens du fil' && this.form.values[step.id] == 'horizontal') {
+                    result = true;
+                }
+            });
+
+            return result;
+        },
+        getParamDimensions: function () {
+            var result = null;
+
+            this.model.steps.forEach((step, index) => {
+                if (step.label == 'Dimensions porte') {
+                    result = this.form.values[step.id];
+                }
+            });
+
+            return result;
+        },
+        getParamColor: function () {
+            var result = null;
+
+            this.model.steps.forEach((step, index) => {
+                if (step.label == 'Uni') {
+                    result = this.form.values[step.id];
+                }
+            });
+
+            return result;
+        },
+        getParamEmplacementCharnieres: function () {
+            var result = null;
+
+            this.model.steps.forEach((step, index) => {
+                if (step.label == 'Emplacements charnières') {
+                    result = this.form.values[step.id];
+                }
+            });
+
+            return result;
+        },
+        getParamPercages: function () {
+            var result = null;
+
+            this.model.steps.forEach((step, index) => {
+                if (step.label == 'Perçages') {
+                    result = this.form.values[step.id];
+                }
+            });
+
+            return result;
         }
     },
     beforeCreate: function () {
@@ -206,20 +270,25 @@ var app = new Vue({
         // this.form.values = [];
 
         this.model.steps.forEach((step, index) => {
-            if (step.widget_type == 'dimensions') {
-                this.form.values[step.id] = {
-                    width: 1,
-                    height: 2
-                }
-            } else {
-                // this.form.values[index] = null;
+            switch (step.widget_type) {
+                case 'dimensions':
+                    this.form.values[step.id] = {
+                        width: 1,
+                        height: 2
+                    }
+                    break;
+                case 'text':
+                    this.form.values[step.id] = [{'value': 0}];
+                default:
+                    // this.form.values[index] = [0];
+                    break;
             }
         });
 
         // Load from local storage
         if (localStorage['panoteq-config'] !== undefined) {
             // console.log('Loading from local storage');
-            //this.form = JSON.parse(localStorage['panoteq-config']);
+            this.form = JSON.parse(localStorage['panoteq-config']);
         }
     },
     mounted: function () {
@@ -271,7 +340,6 @@ var app = new Vue({
 
             this.model.steps.forEach((step, index) => {
                 if (modelValuesAlreadyChecked.indexOf(step.id) !== -1) {
-                    console.log("Duplicate: " + step.id);
                     // Is duplicate (accessing same value). Do not count in.
                     return;
                 }
@@ -281,8 +349,6 @@ var app = new Vue({
                 stepsComplete += this.isStepComplete(index) ? 1 : 0;
                 stepsNeedingCompletion += this.stepNeedsCompletion(index) ? 1 : 0;
             });
-
-            console.log('percentComplete: (' + stepsComplete + ' / ' + stepsNeedingCompletion + ')');
 
             var result = Math.round((stepsComplete / stepsNeedingCompletion) * 100);
             return result > 100 ? 100 : result;
