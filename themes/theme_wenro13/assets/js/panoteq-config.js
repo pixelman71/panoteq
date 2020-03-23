@@ -6,7 +6,8 @@ var app = new Vue({
             schemaVersion: 1,
             values: [],
         },
-        panoteq3dViewer: null
+        panoteq3dViewer: null,
+        someVariableUnderMyControl: ''
     },
     methods: {
         showRalPopup: function (color) {
@@ -65,6 +66,7 @@ var app = new Vue({
             }
 
             return matchesConditions;
+            return true;
         },
         init3dVisualization: function () {
 //         $('#model-selector,#texture-selector,#left-right,#width,#height,#texture-orientation,#handle').change(function (e) {
@@ -103,6 +105,54 @@ var app = new Vue({
 //                panoteq3dViewer2.init($("#threevisualization2"), 1800, 182, [ 1.0, 1.5 ], false, true); // Tenor
             this.panoteq3dViewer.init($("#threevisualization"), 1800, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 4], true); // Tenor Ambassador
             //panoteq3dViewer.init($("#threevisualization"), 4393, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 10], true); // Alto
+        },
+        isStepComplete: function(stepId) {
+            if(!this.stepNeedsCompletion(stepId)) {
+                return false;
+            }
+
+            var step = this.model.steps[stepId];
+            var value = this.form.values[step.id];
+
+            if(value === undefined) {
+                return false;
+            }
+
+            switch (step.widget_type) {
+                case 'text':
+                    return value.length > 0;
+                    break;
+                case 'radio':
+                case 'selectbox':
+                case 'color':
+                case 'color-sample':
+                    return true;
+                case 'dimensions':
+                    console.log(value);
+                    return value.width !== null && value.height !== null;
+                default:
+                    break;
+            }
+
+            return true;
+        },
+        stepNeedsCompletion: function(stepId) {
+            var step = this.model.steps[stepId];
+
+            switch (step.widget_type) {
+                case 'text':
+                case 'radio':
+                case 'selectbox':
+                case 'color':
+                case 'color-sample':
+                case 'dimensions':
+                    return true;
+                    break;
+                default:
+                    break;
+            }
+
+            return false;
         }
     },
     beforeCreate: function () {
@@ -118,9 +168,10 @@ var app = new Vue({
 
         this.model.steps.forEach((step, index) => {
             if (step.widget_type == 'dimensions') {
-                this.form.values[step.id] = [
-                    {width: 1, height: 2}
-                ];
+                this.form.values[step.id] = {
+                    width: 1,
+                    height: 2
+                }
             } else {
                 // this.form.values[index] = null;
             }
@@ -129,7 +180,7 @@ var app = new Vue({
         // Load from local storage
         if (localStorage['panoteq-config'] !== undefined) {
             // console.log('Loading from local storage');
-            this.form = JSON.parse(localStorage['panoteq-config']);
+            //this.form = JSON.parse(localStorage['panoteq-config']);
         }
     },
     mounted: function () {
@@ -175,7 +226,27 @@ var app = new Vue({
             return sum;
         },
         percentComplete: function() {
-            return 11; // TODO
+            var modelValuesAlreadyChecked = [];
+            var stepsComplete = 0;
+            var stepsNeedingCompletion = 0;
+
+            this.model.steps.forEach((step, index) => {
+                if(modelValuesAlreadyChecked.indexOf(step.id) !== -1) {
+                    console.log("Duplicate: " + step.id);
+                    // Is duplicate (accessing same value). Do not count in.
+                    return;
+                }
+
+                modelValuesAlreadyChecked.push(step.id);
+
+                stepsComplete += this.isStepComplete(index) ? 1 : 0;
+                stepsNeedingCompletion += this.stepNeedsCompletion(index) ? 1 : 0;
+            });
+
+            console.log('percentComplete: (' + stepsComplete + ' / ' + stepsNeedingCompletion + ')');
+
+            var result = Math.round((stepsComplete / stepsNeedingCompletion) * 100);
+            return result > 100 ? 100 : result;
         }
     }
 });

@@ -91,7 +91,7 @@
                 </ul>
             </div>
             <div id="right-column" class="col-md-9">
-                <div class="container" style="background-color: white;padding: 1em;" uk-sticky>
+                <div class="container" style="background-color: white;padding: 1em; height: 100%" uk-sticky="top: 10; bottom: true">
                     <div class="row">
                         <div class="col-md-12">
                             <div id="threevisualization"

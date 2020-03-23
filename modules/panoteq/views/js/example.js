@@ -39,8 +39,9 @@ $(document).ready(function () {
 
         mode: 'tree',
         // sortObjectKeys: true,
-        mainMenuBar: false,
+        mainMenuBar: true,
         colorPicker: true,
+        modes: ['tree', 'view', 'form', 'code', 'text', 'preview'],
         // onCreateMenu: function (items, node) {
         //     const path = node.path
         //

@@ -4,7 +4,7 @@
         {foreach from=$step->values item=$value}
             <div class="uk-margin-small-top">
                 <label>
-                    <input type="radio" class="uk-radio" name="type" value="{$value->value}"
+                    <input type="radio" class="uk-radio" name="radio{$step->id}" value="{$value->value}"
                            v-model="form.values[{$step->id}]">
                     {$value->label}
                 </label>
