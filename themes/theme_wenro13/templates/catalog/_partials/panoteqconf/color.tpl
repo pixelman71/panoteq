@@ -1,3 +1,8 @@
+<span v-html="errors"></span>
+<span v-html="form.values"></span>
+<div v-if="errors[{$step->id}]">
+    BUUG
+</div>
 <section v-if="conditionalDisplay({$step->id})">
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">

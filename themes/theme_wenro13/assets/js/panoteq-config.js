@@ -6,6 +6,7 @@ var app = new Vue({
             schemaVersion: 1,
             values: [],
         },
+        errors: [],
         panoteq3dViewer: null,
         someVariableUnderMyControl: ''
     },
@@ -14,7 +15,7 @@ var app = new Vue({
             UIkit.modal('#modal-full').show();
         },
         setModelColor: function (color) {
-            this.panoteq3dViewer.loadDoorModel(1800, color, true, false, [], false, [4, 3], false);
+            //this.panoteq3dViewer.loadDoorModel(1800, color, true, false, [], false, [4, 3], false);
         },
         setSwatch: function (swatch) {
             // console.log('setSwatch(' + swatch + ')');
@@ -68,6 +69,37 @@ var app = new Vue({
             return matchesConditions;
             return true;
         },
+        validateStep: function (stepId) {
+            var step = this.model.steps[stepId];
+            var value = this.form.values[step.id];
+
+            this.errors[step.id] = false;
+            console.log('validateStep')
+            console.log(this.errors)
+
+            if (!this.stepNeedsCompletion(step.id)) {
+                return true;
+            }
+
+            if (value === undefined) {
+                this.errors[step.id] = true;
+                return false;
+            }
+
+            switch (step.widget_type) {
+                case 'color':
+                    if (value == '#CDA434') {
+                        console.log('Wrong color')
+                        this.errors[step.id] = true;// 'Wrong color';
+                        return false;
+                    }
+                default:
+                    return true;
+            }
+
+            // return this.errors[stepId] === undefined;
+            return false;
+        },
         init3dVisualization: function () {
 //         $('#model-selector,#texture-selector,#left-right,#width,#height,#texture-orientation,#handle').change(function (e) {
 // //                    $('form').submit();
@@ -100,21 +132,21 @@ var app = new Vue({
             //     e.preventDefault();
             // });
 
-            this.panoteq3dViewer = new Panoteq3dViewer();
+            // this.panoteq3dViewer = new Panoteq3dViewer();
 //                panoteq3dViewer2 = new Panoteq3dViewer();
 //                panoteq3dViewer2.init($("#threevisualization2"), 1800, 182, [ 1.0, 1.5 ], false, true); // Tenor
-            this.panoteq3dViewer.init($("#threevisualization"), 1800, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 4], true); // Tenor Ambassador
+//             this.panoteq3dViewer.init($("#threevisualization"), 1800, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 4], true); // Tenor Ambassador
             //panoteq3dViewer.init($("#threevisualization"), 4393, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 10], true); // Alto
         },
-        isStepComplete: function(stepId) {
-            if(!this.stepNeedsCompletion(stepId)) {
+        isStepComplete: function (stepId) {
+            if (!this.stepNeedsCompletion(stepId)) {
                 return false;
             }
 
             var step = this.model.steps[stepId];
             var value = this.form.values[step.id];
 
-            if(value === undefined) {
+            if (value === undefined) {
                 return false;
             }
 
@@ -136,7 +168,7 @@ var app = new Vue({
 
             return true;
         },
-        stepNeedsCompletion: function(stepId) {
+        stepNeedsCompletion: function (stepId) {
             var step = this.model.steps[stepId];
 
             switch (step.widget_type) {
@@ -153,6 +185,13 @@ var app = new Vue({
             }
 
             return false;
+        },
+        validateAll: function () {
+            console.log('validateAll')
+
+            this.model.steps.forEach((step, index) => {
+                this.validateStep(step.id);
+            });
         }
     },
     beforeCreate: function () {
@@ -225,13 +264,13 @@ var app = new Vue({
 
             return sum;
         },
-        percentComplete: function() {
+        percentComplete: function () {
             var modelValuesAlreadyChecked = [];
             var stepsComplete = 0;
             var stepsNeedingCompletion = 0;
 
             this.model.steps.forEach((step, index) => {
-                if(modelValuesAlreadyChecked.indexOf(step.id) !== -1) {
+                if (modelValuesAlreadyChecked.indexOf(step.id) !== -1) {
                     console.log("Duplicate: " + step.id);
                     // Is duplicate (accessing same value). Do not count in.
                     return;

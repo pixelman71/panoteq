@@ -120,7 +120,7 @@
                                     <div class="">
                                         <h2 class="uk-h3">Résumé d'achat</h2>
                                         <div>
-
+                                            <button class="uk-button" v-on:click="validateAll">Validate</button>
                                         </div>
                                         <div v-html="summary">
 
