@@ -31,14 +31,14 @@
                 {if isset($ralColor->swatch)}
                     <label class="ral-color"
                            style="background-image:url('{$ralColor->swatch}'); background-size: contain"
-                           v-bind:class="{ selected: form.color == '{$ralColor->swatch}' }">
+                           v-bind:class="{ selected: form.values[{$step->id}] == '{$ralColor->swatch}' }">
                         <input name="color" type="radio" v-model="form.values[{$step->id}]"
                                v-on:change="updateDoorModel()"
                                value="{$ralColor->swatch}">
                     </label>
                 {else}
                     <label class="ral-color" style="background-color:{$ralColor->value}"
-                           v-bind:class="{ selected: form.color == '{$ralColor->value}' }">
+                           v-bind:class="{ selected: form.values[{$step->id}] == '{$ralColor->value}' }">
                         <input name="color" type="radio" v-model="form.values[{$step->id}]"
                                v-on:change="updateDoorModel()"
                                value="{$ralColor->value}">
