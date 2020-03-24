@@ -352,12 +352,13 @@ var app = new Vue({
         },
         totalAmount: function () {
             var sum = 0;
-            // this.form.parts.forEach((part) => {
-            //     console.log(part);
-            //     sum += part.width * part.height * this.form.sqmPrice
-            // });
+            this.model.steps.forEach((step, index) => {
+                if (step.label == 'Dimensions porte') {
+                    sum += this.form.values[step.id].width * this.form.values[step.id].height * step.price_impact;
+                }
+            });
 
-            return sum;
+            return Math.round(sum, 2);
         },
         percentComplete: function () {
             var modelValuesAlreadyChecked = [];
@@ -378,6 +379,6 @@ var app = new Vue({
 
             var result = Math.round((stepsComplete / stepsNeedingCompletion) * 100);
             return result > 100 ? 100 : result;
-        }
+        },
     }
 });
