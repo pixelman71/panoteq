@@ -151,7 +151,8 @@ $(document).ready(function () {
                         "price_impact_method": "factor",
                         "display_condition": [],
                         "is_default": false,
-                        "swatch": ""
+                        "swatch": "",
+                        "swatch_horiz": ""
                     }],
                     "tooltip": "Choisir une couleur",
                     "required": true,
@@ -167,7 +168,7 @@ $(document).ready(function () {
             //updateImagePreviews();
 
             // If focusing on element value
-            if(event.type == 'focusin' && node.field == 'swatch') {
+            if(event.type == 'focusin' && (node.field == 'swatch' || node.field == 'swatch_horiz')) {
                 console.log(node);
 
                 // Load images list

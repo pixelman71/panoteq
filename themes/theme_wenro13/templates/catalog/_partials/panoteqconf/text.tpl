@@ -5,7 +5,7 @@
             <table class="uk-table uk-table-divider">
                 <tbody>
                 <tr v-for="(item, index) in form.values[{$step->id}]" v-bind:key="index">
-                    <td><input type="text" class="uk-input" v-model="item.value"></td>
+                    <td><input type="text" class="uk-input" v-model="item.value" v-on:change="updateDoorModel()"></td>
                     <td>
                         <button class="uk-button" v-on:click="removeValue({$step->id}, item)">X</button>
                     </td>

@@ -15,25 +15,36 @@ var app = new Vue({
             UIkit.modal('#modal-full').show();
         },
         updateDoorModel: function () {
+            var productId = 2; // 1800
+
+            // Transform data: percages
             var percages = [];
             this.getParamPercages().forEach((val) => {
                 percages.push(parseInt(val.value))
             })
-            console.log(percages)
+
+            // Transform data: texture
+            var isRAL = this.getParamColor().startsWith('#');
+            var textureName = this.getParamColor();
+            if(!isRAL) {
+                if(this.getParamTextureHorizontal()) {
+                    textureName = this.getHorizontalTextureFromSteps();
+                }
+            }
 
             if (this.panoteq3dViewer == null) {
                 this.panoteq3dViewer = new Panoteq3dViewer();
-                this.panoteq3dViewer.init($("#threevisualization"), 1800,
-                    this.getParamColor(), false, percages,
+                this.panoteq3dViewer.init($("#threevisualization"), productId,
+                    textureName, false, percages,
                     this.getParamEmplacementCharnieres() == 'droite',
                     false, [this.getParamDimensions().width,
-                    this.getParamDimensions().height], this.getParamTextureHorizontal()); // Tenor Ambassador
+                    this.getParamDimensions().height], false);
             } else {
-                this.panoteq3dViewer.loadDoorModel(1800, this.getParamColor(),
-                    this.getParamColor().startsWith('#'), false, percages,
+                this.panoteq3dViewer.loadDoorModel(productId, textureName,
+                    isRAL, false, percages,
                     this.getParamEmplacementCharnieres() == 'droite',
                     [this.getParamDimensions().width, this.getParamDimensions().height],
-                    this.getParamTextureHorizontal());
+                    false);
             }
         },
         setSwatch: function (swatch) {
@@ -252,6 +263,21 @@ var app = new Vue({
             this.model.steps.forEach((step, index) => {
                 if (step.label == 'Perçages') {
                     result = this.form.values[step.id];
+                }
+            });
+
+            return result;
+        },
+        getHorizontalTextureFromSteps: function() {
+            var result = null;
+
+            this.model.steps.forEach((step, index) => {
+                if (step.label == 'Uni') {
+                    var textureToFind = step.values.filter((e) => { return e.swatch === this.form.values[step.id]});
+
+                    if(textureToFind.length > 0 && textureToFind[0].swatch_horiz !== undefined) {
+                        result = textureToFind[0].swatch_horiz;
+                    }
                 }
             });
 

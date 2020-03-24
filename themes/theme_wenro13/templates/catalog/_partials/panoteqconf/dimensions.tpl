@@ -9,8 +9,8 @@
         </thead>
         <tbody>
         <tr>
-            <td><input type="text" class="uk-input" v-model="form.values[{$step->id}].width"></td>
-            <td><input type="text" class="uk-input" v-model="form.values[{$step->id}].height"></td>
+            <td><input type="text" class="uk-input" v-model="form.values[{$step->id}].width" v-on:change="updateDoorModel()"></td>
+            <td><input type="text" class="uk-input" v-model="form.values[{$step->id}].height" v-on:change="updateDoorModel()"></td>
         </tr>
         </tbody>
     </table>
