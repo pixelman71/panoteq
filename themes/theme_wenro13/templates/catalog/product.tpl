@@ -59,6 +59,7 @@
                 <div id="content-wrapper" class="left-column right-column col-md-3">
                     <div class="">
                         <h5>Pourcentage configuré: <span v-html="percentComplete"></span>%</h5>
+                        <button v-on:click="unsetLocalStorage">Clear localstorage</button>
                         <progress class="uk-progress" v-bind:value="percentComplete" max="100"></progress>
                     </div>
                     <ul uk-accordion>
@@ -91,6 +92,7 @@
                 </ul>
             </div>
             <div id="right-column" class="col-md-9">
+                <div class="container" style="background-color: white;padding: 1em; height: 100%" uk-sticky>
                 <div class="container" style="background-color: white;padding: 1em; height: 100%" uk-sticky>
                     <div class="row">
                         <div class="col-md-12">

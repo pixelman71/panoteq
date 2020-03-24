@@ -8,11 +8,20 @@ var app = new Vue({
         },
         errors: [],
         panoteq3dViewer: null,
-        someVariableUnderMyControl: ''
+
+        WIDGET_TYPE_COLORSAMPLE: 'color-sample',
+        WIDGET_TYPE_COLOR: 'color',
+        WIDGET_TYPE_DIMENSIONS: 'dimensions',
+        WIDGET_TYPE_TEXT: 'text',
+        WIDGET_TYPE_SELECTBOX: 'selectbox',
+        WIDGET_TYPE_RADIO: 'radio'
     },
     methods: {
         showRalPopup: function (color) {
             UIkit.modal('#modal-full').show();
+        },
+        unsetLocalStorage: function () {
+            localStorage.removeItem('panoteq-config');
         },
         updateDoorModel: function () {
             var productId = 2; // 1800
@@ -26,8 +35,8 @@ var app = new Vue({
             // Transform data: texture
             var isRAL = this.getParamColor().startsWith('#');
             var textureName = this.getParamColor();
-            if(!isRAL) {
-                if(this.getParamTextureHorizontal()) {
+            if (!isRAL) {
+                if (this.getParamTextureHorizontal()) {
                     textureName = this.getHorizontalTextureFromSteps();
                 }
             }
@@ -38,7 +47,7 @@ var app = new Vue({
                     textureName, false, percages,
                     this.getParamEmplacementCharnieres() == 'droite',
                     false, [this.getParamDimensions().width,
-                    this.getParamDimensions().height], false);
+                        this.getParamDimensions().height], false);
             } else {
                 this.panoteq3dViewer.loadDoorModel(productId, textureName,
                     isRAL, false, percages,
@@ -47,27 +56,16 @@ var app = new Vue({
                     false);
             }
         },
-        setSwatch: function (swatch) {
-            // console.log('setSwatch(' + swatch + ')');
-            // if(swatch) {
-            //     this.form.swatch = swatch;
-            // }
-        },
         addValue: function (values, index) {
             Vue.set(values, index, this.form.values[index].concat([{'value': 0}]));
         },
         removeValue: function (stepId, part) {
-            if (this.form.values[stepId].length <= 1) {
+            if (this.form.values[stepId].length <= 0) {
                 console.log('Can\'t remove part.')
                 return;
             }
 
             this.form.values[stepId].splice(this.form.values[stepId].indexOf(part), 1);
-        },
-        stepValidates: function (stepId) {
-            //condition.validates == true;
-            // this.model.steps[stepId].
-            return true; // TODO
         },
         conditionalDisplay(stepId) {
             var matchesConditions = true;
@@ -122,42 +120,6 @@ var app = new Vue({
             // return this.errors[stepId] === undefined;
             return false;
         },
-        init3dVisualization: function () {
-//         $('#model-selector,#texture-selector,#left-right,#width,#height,#texture-orientation,#handle').change(function (e) {
-// //                    $('form').submit();
-// //                });
-// //
-// //                $('.model-button').click(function (e) {
-// //                    var modelName = $(this).attr('data-model');
-// //                    var textureName = $('#texture-selector').val();
-// //                    console.log('clicked ' + modelName);
-// //                    console.log(this);
-//             panoteq3dViewer.loadDoorModel($('#model-selector').val(), $('#texture-selector').val(),
-//                 false,
-//                 $('#handle').val() === 'bottom' ? true : false,
-//                 [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8],
-//                 $('#left-right').val() === '1' ? 1 : 0,
-//                 [$('#width').val(), $('#height').val()],
-//                 $('#texture-orientation').val() === 'horizontal' ? true : false
-//             );
-// //                    panoteq3dViewer2.loadDoorModel($('#model-selector').val(), $('#texture-selector').val(),
-// //                            false,
-// //                            [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8],
-// //                            $('#left-right').val() == '1' ? 1 : 0,
-// //                            [$('#width').val(), $('#height').val()],
-// //                            $('#texture-orientation').val() == 'horizontal' ? true : false
-// //                            );
-//         });
-
-            // $('#reset-camera').click(function (e) {
-            //     panoteq3dViewer.resetCameraPosition();
-            //     e.preventDefault();
-            // });
-
-            this.updateDoorModel();
-
-            // panoteq3dViewer.init($("#threevisualization"), 4393, 7391, false, [0, 1.5, 2.5, 3.5, 4.5, 5.5, 8], false, false, [4, 10], true); // Alto
-        },
         isStepComplete: function (stepId) {
             if (!this.stepNeedsCompletion(stepId)) {
                 return false;
@@ -171,15 +133,10 @@ var app = new Vue({
             }
 
             switch (step.widget_type) {
-                case 'text':
+                case this.WIDGET_TYPE_TEXT:
                     return value.length > 0;
                     break;
-                case 'radio':
-                case 'selectbox':
-                case 'color':
-                case 'color-sample':
-                    return true;
-                case 'dimensions':
+                case this.WIDGET_TYPE_DIMENSIONS:
                     console.log(value);
                     return value.width !== null && value.height !== null;
                 default:
@@ -192,12 +149,12 @@ var app = new Vue({
             var step = this.model.steps[stepId];
 
             switch (step.widget_type) {
-                case 'text':
-                case 'radio':
-                case 'selectbox':
-                case 'color':
-                case 'color-sample':
-                case 'dimensions':
+                case this.WIDGET_TYPE_TEXT:
+                case this.WIDGET_TYPE_RADIO:
+                case this.WIDGET_TYPE_SELECTBOX:
+                case this.WIDGET_TYPE_COLOR:
+                case this.WIDGET_TYPE_COLORSAMPLE:
+                case this.WIDGET_TYPE_DIMENSIONS:
                     return true;
                     break;
                 default:
@@ -268,93 +225,126 @@ var app = new Vue({
 
             return result;
         },
-        getHorizontalTextureFromSteps: function() {
+        getHorizontalTextureFromSteps: function () {
             var result = null;
 
             this.model.steps.forEach((step, index) => {
                 if (step.label == 'Uni') {
-                    var textureToFind = step.values.filter((e) => { return e.swatch === this.form.values[step.id]});
+                    var textureToFind = step.values.filter((e) => {
+                        return e.swatch === this.form.values[step.id]
+                    });
 
-                    if(textureToFind.length > 0 && textureToFind[0].swatch_horiz !== undefined) {
+                    if (textureToFind.length > 0 && textureToFind[0].swatch_horiz !== undefined) {
                         result = textureToFind[0].swatch_horiz;
                     }
                 }
             });
 
             return result;
-        }
-    },
-    beforeCreate: function () {
+        },
+        initInterceptOnAddToCartEvent: function() {
+            // Intercept click on add to cart button
+            $('form#add-to-cart-or-refresh button[type=button]').click((e) => {
+                e.preventDefault();
 
+                // Save custom option
+                $('.product-customization-item textarea').val(JSON.stringify(this.form));
+
+                // Add to cart
+                $('section.product-customization form').ajaxSubmit((data) => {
+                    $('form#add-to-cart-or-refresh input[name=id_customization]').val(data);
+
+                    $('form#add-to-cart-or-refresh').append('<input type="hidden" name="qty" value="1">');
+                    $('form#add-to-cart-or-refresh').append('<input type="hidden" name="add" value="1">');
+                    $('form#add-to-cart-or-refresh').append('<input type="hidden" name="action" value="update">');
+
+                    $('form#add-to-cart-or-refresh').submit();
+                });
+            });
+        },
+        readModelAndPrepareDefaultFormValues: function() {
+            this.model = JSON.parse(panoteqConf);
+
+            this.form.schemaVersion = 1; // TODO
+            // this.form.values = [];
+
+            this.model.steps.forEach((step, index) => {
+                switch (step.widget_type) {
+                    case this.WIDGET_TYPE_DIMENSIONS:
+                        this.form.values[step.id] = {
+                            width: 1,
+                            height: 2
+                        }
+                        break;
+                    case this.WIDGET_TYPE_TEXT:
+                        this.form.values[step.id] = [{'value': 0}];
+                    default:
+                        // this.form.values[index] = [0];
+                        break;
+                }
+            });
+        },
+        loadFormValuesFromLocalStorage: function() {
+            if (localStorage['panoteq-config'] !== undefined) {
+                // console.log('Loading from local storage');
+                this.form = JSON.parse(localStorage['panoteq-config'])
+            }
+        },
+        saveFormValuesToLocalStorage: function() {
+            localStorage['panoteq-config'] = JSON.stringify(this.form);
+        }
     },
     created: function () {
-        // Load model
-        this.model = JSON.parse(panoteqConf);
-
-        // Prepare default values
-        this.form.schemaVersion = 1; // TODO
-        // this.form.values = [];
-
-        this.model.steps.forEach((step, index) => {
-            switch (step.widget_type) {
-                case 'dimensions':
-                    this.form.values[step.id] = {
-                        width: 1,
-                        height: 2
-                    }
-                    break;
-                case 'text':
-                    this.form.values[step.id] = [{'value': 0}];
-                default:
-                    // this.form.values[index] = [0];
-                    break;
-            }
-        });
-
-        // Load from local storage
-        if (localStorage['panoteq-config'] !== undefined) {
-            // console.log('Loading from local storage');
-            this.form = JSON.parse(localStorage['panoteq-config']);
-        }
+        this.readModelAndPrepareDefaultFormValues()
+        this.loadFormValuesFromLocalStorage()
     },
     mounted: function () {
-        // Init 3D visualization
-        this.init3dVisualization();
-
-        // Intercept click on add to cart button
-        $('form#add-to-cart-or-refresh button[type=button]').click((e) => {
-            e.preventDefault();
-
-            // Save custom option
-            $('.product-customization-item textarea').val(JSON.stringify(this.form));
-
-            // Add to cart
-            $('section.product-customization form').ajaxSubmit((data) => {
-                console.log('id_customization: ' + data);
-                $('form#add-to-cart-or-refresh input[name=id_customization]').val(data);
-
-                $('form#add-to-cart-or-refresh').append('<input type="hidden" name="qty" value="1">');
-                $('form#add-to-cart-or-refresh').append('<input type="hidden" name="add" value="1">');
-                $('form#add-to-cart-or-refresh').append('<input type="hidden" name="action" value="update">');
-
-                $('form#add-to-cart-or-refresh').submit();
-            });
-        });
+        this.updateDoorModel()
+        this.initInterceptOnAddToCartEvent()
     },
     computed: {
         summary: function () {
-            var serialized = JSON.stringify(this.form);
-
-            // Save to local storage
-            localStorage['panoteq-config'] = serialized;
-
-            return JSON.stringify(serialized);
+            this.saveFormValuesToLocalStorage();
+            return JSON.stringify(JSON.stringify(this.form));
         },
         totalAmount: function () {
-            var sum = 0;
+            let sum = 0;
+            let modelValuesAlreadyChecked = [];
+            let stepsComplete = 0;
+            let stepsNeedingCompletion = 0;
+
             this.model.steps.forEach((step, index) => {
-                if (step.label == 'Dimensions porte') {
-                    sum += this.form.values[step.id].width * this.form.values[step.id].height * step.price_impact;
+                if (modelValuesAlreadyChecked.indexOf(step.id) !== -1) {
+                    // Is duplicate (accessing same value). Do not count in.
+                    return;
+                }
+
+                modelValuesAlreadyChecked.push(step.id);
+
+                if (this.isStepComplete(index)) {
+                    switch (step.widget_type) {
+                        case this.WIDGET_TYPE_DIMENSIONS:
+                            sum += this.form.values[step.id].width * this.form.values[step.id].height * step.price_impact;
+                            break;
+                        case this.WIDGET_TYPE_TEXT:
+                            if (!isNaN(step.price_impact)) {
+                                this.form.values[step.id].forEach(() => {
+                                    sum += step.price_impact;
+                                });
+                            }
+                            break;
+                        case this.WIDGET_TYPE_SELECTBOX:
+                            var priceImpacts = step.values.filter((e) => { return e.value == this.form.values[step.id]});
+                            if (priceImpacts.length > 0 && !isNaN(priceImpacts[0].price_impact)) {
+                                sum += priceImpacts[0].price_impact;
+                            }
+                            break;
+                        default:
+                            if (!isNaN(step.price_impact)) {
+                                sum += step.price_impact;
+                            }
+                            break;
+                    }
                 }
             });
 
