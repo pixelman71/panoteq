@@ -4,6 +4,8 @@ class PanoteqConfiguration extends ObjectModel
 {
 //    public $id_panoteq_conf;
     public $contents;
+    public $associated_products;
+    public $comment;
 
     /**
      * @see ObjectModel::$definition

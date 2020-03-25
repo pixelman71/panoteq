@@ -8,7 +8,7 @@ $(document).ready(function () {
     // $('.control-label.col-lg-3').addClass('pull-right');
     $('.control-label.col-lg-3').removeClass('required').css('padding', '0');
     //$('.control-label.col-lg-3').html('<iframe id="#preview-iframe" style="width: 100%; height: calc(100vh - 290px - 105px ); border: 1px solid #aaa"></iframe>');
-    $('.control-label.col-lg-3').html('<iframe id="#preview-iframe" style="width: 100%; height: calc(100vh - 290px - 105px );"></iframe>');
+    // $('.control-label.col-lg-3').html('<iframe id="#preview-iframe" style="width: 100%; height: calc(100vh - 290px - 105px );"></iframe>');
 
     $('textarea[name=contents]').after('<div id="jsoneditor" style="width: 100%; height: calc(100vh - 290px - 105px );"></div>');
     $('textarea[name=contents]').hide();
@@ -226,10 +226,22 @@ $(document).ready(function () {
                 if(childEntityType.length > 0 && childEntityType[0].value == 'step') {
                     var childEntityWidgetType = n2.childs.filter((e) => { return e.field == 'widget_type' })[0].value;
                     var childEntityLabel = n2.childs.filter((e) => { return e.field == 'label' })[0].value;
+
+                    var valueIds = n2.childs.filter((e) => { return e.field == 'value_id' });
+                    var childEntityValueId = valueIds.length > 0 ? valueIds[0].value : null;
+
+                    var valueBind3dParam = n2.childs.filter((e) => { return e.field == 'bind_3d_param' });
+                    var childEntityBind3dParam = valueBind3dParam.length > 0 ? valueBind3dParam[0].value : null;
+
                     var childEntityId = n2.childs.filter((e) => { return e.field == 'id' })[0].value;
                     var childEntityIsSubstep = n2.childs.filter((e) => { return e.field == 'is_substep' }).length > 0 && n2.childs.filter((e) => { return e.field == 'is_substep' })[0].value == true;
 
-                    return (childEntityIsSubstep ? 'Substep' : 'Step') + '#' + childEntityId + ' "' + childEntityLabel + '" (type: ' + childEntityWidgetType + ')';
+                    return (childEntityIsSubstep ? 'Substep' : 'Step') + '#'
+                        + childEntityId
+                        + (childEntityValueId !== null ? ' [Value #' + childEntityValueId + ']' : '')
+                        + (childEntityBind3dParam !== null ? ' [3d bind \'' + childEntityBind3dParam + '\']' : '')
+                        + ' "' + childEntityLabel
+                        + '" (type: ' + childEntityWidgetType + ')';
                 }
             }
 

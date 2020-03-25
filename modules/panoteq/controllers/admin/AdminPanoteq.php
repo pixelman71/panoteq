@@ -76,7 +76,8 @@ class AdminPanoteqController extends ModuleAdminController
 //            ),
             'comment' => array(
                 'title' => $this->module->getTranslator()->trans('Comment', array(), 'Admin.Global'),
-                'align' => 'left',
+                'align' => 'left
+                ',
 //                    'width' => 25
             ),
             'associated_products' => array(
@@ -198,7 +199,7 @@ class AdminPanoteqController extends ModuleAdminController
             )
         );
 
-        $this->fields_value['associated_products[]'] = explode(',', $this->object->associated_products);
+        $this->fields_value['associated_products[]'] = isset($this->object->associated_products) ? explode(',', $this->object->associated_products) : '';
 
 //        if (Shop::isFeatureActive())
 //            $this->fields_form['input'][] = array(

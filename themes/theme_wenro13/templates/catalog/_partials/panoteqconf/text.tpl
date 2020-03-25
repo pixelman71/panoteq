@@ -4,14 +4,14 @@
         <div class="uk-margin-small-top">
             <table class="uk-table uk-table-divider">
                 <tbody>
-                <tr v-for="(item, index) in form.values[{$step->id}]" v-bind:key="index">
+                <tr v-for="(item, index) in form.values[{$step->value_id}]" v-bind:key="index">
                     <td><input type="text" class="uk-input" v-model="item.value" v-on:change="updateDoorModel()"></td>
                     <td>
-                        <button class="uk-button" v-on:click="removeValue({$step->id}, item)">X</button>
+                        <button class="uk-button" v-on:click="modelWidgets[{$step->id}].removeValue(form.values, {$step->value_id}, item)">X</button>
                     </td>
                 </tr>
                 <tr>
-                    <button class="uk-button" v-on:click="addValue(form.values, {$step->id})">Ajouter</button>
+                    <button class="uk-button" v-on:click="modelWidgets[{$step->id}].addValue(form.values, {$step->value_id})">Ajouter</button>
                 </tr>
                 </tbody>
             </table>

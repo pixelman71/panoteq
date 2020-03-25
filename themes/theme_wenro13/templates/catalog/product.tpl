@@ -229,9 +229,7 @@
                                     {block name='product_details'}
                                         {include file='catalog/_partials/product-details.tpl'}
                                     {/block}
-                                    <div class="tab-pane fade in" id="idTab5">
-                                        {hook h='ProductTabContent'}
-                                    </div>
+
                                     {block name='product_attachments'}
                                         {if $product.attachments}
                                             <div class="tab-pane fade in" id="attachments">
