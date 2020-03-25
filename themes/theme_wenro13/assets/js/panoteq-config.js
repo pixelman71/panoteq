@@ -183,6 +183,10 @@ var app = new Vue({
             let modelValuesAlreadyChecked = []
 
             this.model.steps.forEach((step) => {
+                if(!this.modelWidgets[step.id].requiresCompletion()) {
+                    return
+                }
+
                 if (modelValuesAlreadyChecked.indexOf(step.value_id) !== -1) {
                     // Is duplicate (accessing same value). Do not count in.
                     return
@@ -201,7 +205,18 @@ var app = new Vue({
     computed: {
         summary: function () {
             this.saveFormValuesToLocalStorage()
-            return JSON.stringify(JSON.stringify(this.form))
+
+            let result = ''
+
+            // let result = JSON.stringify(JSON.stringify(this.form))
+            this.getStepsNoDuplicateValues().forEach((step) => {
+                let description = this.modelWidgets[step.id].description(this.getStepValue(step.value_id))
+                if(description !== null) {
+                    result += description + '<br>'
+                }
+            })
+
+            return result
         },
         totalAmount: function () {
             return Math.round(this.getStepsNoDuplicateValues().reduce((sum, step) => {

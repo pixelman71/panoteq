@@ -120,17 +120,12 @@
                                     <div id="product-description-short-{$product.id}" class="product-desc"
                                          itemprop="description">{$product.description_short nofilter}</div>
                                     <div class="">
-                                        <h2 class="uk-h3">Résumé d'achat</h2>
                                         <div>
                                             <button class="uk-button" v-on:click="validateAll">Validate</button>
                                         </div>
-                                        <div v-html="summary">
-
-                                        </div>
+                                        <div v-html="summary"></div>
                                         <h5>Prix total : <span v-html="totalAmount"></span></h5>
                                     </div>
-                                    <br/>
-                                    <br/>
                                     <br/>
                                 {/block}
 

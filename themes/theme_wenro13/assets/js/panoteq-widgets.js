@@ -6,19 +6,24 @@ class PanoteqWidget {
     }
 
     getDefaultValue() {
-        throw 'Not implemented exception'
+        return null
     }
 
     requiresCompletion() {
-        throw 'Not implemented exception'
+        return true
     }
 
     isComplete(value) {
-        throw 'Not implemented exception'
+        return value !== undefined && value !== null
     }
 
     isValid() {
         throw 'Not implemented exception'
+    }
+
+    description(value) {
+        return this.isComplete(value) ? this.step.label + ': '
+            + (this.step.values[value] !== undefined ? this.step.values[value].label : value) : null
     }
 
     priceImpact(value) {
@@ -35,31 +40,9 @@ class PanoteqWidget {
     }
 }
 
-class EmptyWidget extends PanoteqWidget {
-    getDefaultValue() {
-        return null
-    }
-
-    requiresCompletion() {
-        return false
-    }
-
-    isComplete(value) {
-        return true
-    }
-}
-
 class ColorWidget extends PanoteqWidget {
     getDefaultValue() {
         return "/img/panoteqconf/textures/Ambassador.jpg"
-    }
-
-    requiresCompletion() {
-        return true
-    }
-
-    isComplete(value) {
-        return value !== undefined && value !== null;
     }
 }
 
@@ -79,12 +62,12 @@ class DimensionsWidget extends PanoteqWidget {
         return 0
     }
 
-    requiresCompletion() {
-        return true
-    }
-
     isComplete(value) {
         return value !== undefined && value.width !== null && value.height !== null;
+    }
+
+    description(value) {
+        return this.isComplete(value) ? this.step.label + ': ' + value.width + this.step.suffix + ' x ' + value.height + this.step.suffix : null
     }
 }
 
@@ -104,10 +87,6 @@ class TextWidget extends PanoteqWidget {
         return sum
     }
 
-    requiresCompletion() {
-        return true
-    }
-
     isComplete(value) {
         return value !== undefined && value.length > 0
     }
@@ -123,32 +102,41 @@ class TextWidget extends PanoteqWidget {
         }
         values[stepIdValue].splice(values[stepIdValue].indexOf(part), 1)
     }
+
+    description(value) {
+        if(!this.isComplete(value)) {
+            return null
+        }
+
+        let result = []
+        value.forEach((val) => {
+            result.push(val.value + this.step.suffix)
+        })
+
+        return this.step.label + ': ' + result.join(', ')
+    }
 }
 
 class RadioWidget extends PanoteqWidget {
-    getDefaultValue() {
-        return null
-    }
-
-    requiresCompletion() {
-        return true
-    }
-
-    isComplete(value) {
-        return value !== undefined && value !== null
-    }
 }
 
 class SelectboxWidget extends PanoteqWidget {
+}
+
+class EmptyWidget extends PanoteqWidget {
     getDefaultValue() {
         return null
     }
 
     requiresCompletion() {
-        return true
+        return false
     }
 
     isComplete(value) {
-        return value !== undefined && value !== null
+        return true
+    }
+
+    description(value) {
+        return null
     }
 }
