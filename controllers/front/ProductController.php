@@ -406,7 +406,6 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
         /** @var EntityManagerInterface $entityManager */
         $entityManager = $this->container->get('doctrine.orm.entity_manager');
         $panoteqConfigurationRepository = $entityManager->getRepository(PanoteqConfiguration::class);
-
         $panoteqConfiguration = $panoteqConfigurationRepository->findOneBy([], ['id_panoteq_configuration' => 'DESC'], 0, 1);
         $panoteqConf = json_decode($panoteqConfiguration->contents);
 
@@ -887,11 +886,20 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
         $indexes = array_flip($authorized_text_fields);
         foreach ($_POST as $field_name => $value) {
             if (in_array($field_name, $authorized_text_fields) && $value != '') {
+
+                $panoteqConfiguration = json_decode($value);
+
+                if($panoteqConfiguration !== null) {
+                    $this->context->cart->addTextFieldToProduct($this->product->id, $indexes[$field_name], Product::CUSTOMIZE_TEXTFIELD, $value,
+                        $panoteqConfiguration->calculatedAmount, $panoteqConfiguration->calculatedWeight);
+                }
+                else {
 //                if (!Validate::isMessage($value)) {
 //                    $this->errors[] = $this->trans('Invalid message', array(), 'Shop.Notifications.Error');
 //                } else {
-                $this->context->cart->addTextFieldToProduct($this->product->id, $indexes[$field_name], Product::CUSTOMIZE_TEXTFIELD, $value);
+                    $this->context->cart->addTextFieldToProduct($this->product->id, $indexes[$field_name], Product::CUSTOMIZE_TEXTFIELD, $value);
 //                }
+                }
             } elseif (in_array($field_name, $authorized_text_fields) && $value == '') {
                 $this->context->cart->deleteCustomizationToProduct((int) $this->product->id, $indexes[$field_name]);
             }

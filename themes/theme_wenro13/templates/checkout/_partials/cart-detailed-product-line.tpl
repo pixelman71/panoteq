@@ -58,19 +58,8 @@
         {foreach from=$product.customizations item="customization"}
           {foreach from=$customization.fields item="field"}
             <div class="product-customization-line row">
-              <div class="col-sm-3 col-xs-4 label">
-                {$field.label}
-              </div>
-              <div class="col-sm-9 col-xs-8 value">
-                {if $field.type == 'text'}
-                  {if (int)$field.id_module}
-                    {$field.text nofilter}
-                  {else}
-                    {$field.text}
-                  {/if}
-                {elseif $field.type == 'image'}
-                  <img src="{$field.image.small.url}">
-                {/if}
+              <div class="col-sm-12 col-xs-12 value">
+                {$field.text nofilter}aa
               </div>
             </div>
           {/foreach}
@@ -88,19 +77,8 @@
                 <div class="modal-body">
                   {foreach from=$customization.fields item="field"}
                     <div class="product-customization-line row">
-                      <div class="col-sm-3 col-xs-4 label">
-                        {$field.label}
-                      </div>
-                      <div class="col-sm-9 col-xs-8 value">
-                        {if $field.type == 'text'}
-                          {if (int)$field.id_module}
-                            {$field.text nofilter}
-                          {else}
-                            {$field.text}
-                          {/if}
-                        {elseif $field.type == 'image'}
-                          <img src="{$field.image.small.url}">
-                        {/if}
+                      <div class="col-sm-12 col-xs-12 value">
+                        {$field.text nofilter}
                       </div>
                     </div>
                   {/foreach}

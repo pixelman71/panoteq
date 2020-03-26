@@ -11,7 +11,7 @@ if (!defined('_MYSQL_ENGINE_'))
 // Loading Models
 require_once(_PS_MODULE_DIR_ . 'panoteq/src/Entity/PanoteqConfiguration.php');
 
-class panoteq extends Module
+class panoteq extends Module implements PrestaShop\PrestaShop\Core\Module\WidgetInterface
 {
     private $_html = '';
     private $_postErrors = array();
@@ -300,11 +300,13 @@ class panoteq extends Module
 //        return true;
 //    }
 
-    public function hookBackOfficeHeader($params) {
+    public function hookBackOfficeHeader($params)
+    {
 //        $this->context->controller->addCSS($this->_path.'mycss.css');
     }
 
-    public function hookDisplayBackOfficeHeader($params){
+    public function hookDisplayBackOfficeHeader($params)
+    {
 //        $this->hookBackOfficeHeader($params);
     }
 
@@ -319,9 +321,97 @@ class panoteq extends Module
         $this->context->controller->addJS($this->_path . 'views/node_modules/jsoneditor/dist/jsoneditor.js');
     }
 
-//    public function hookDisplayCustomization($params)
-//    {
-//        $id_row = (int)$params['customization']['value'];
-//        return 'ADX:' . $id_row;
-//    }
+    public function widgetRequiresCompletion() {
+
+    }
+
+    public function getStepsNoDuplicateValues($model)
+    {
+        $steps = [];
+        $modelValuesAlreadyChecked = [];
+
+        foreach ($model->steps as $step) {
+            if(!isset($step->value_id)) {
+                continue;
+            }
+
+//            if (!this . modelWidgets[step . id] . requiresCompletion()) {
+//                return
+//                }
+            if(isset($modelValuesAlreadyChecked[$step->value_id])) {
+                // Is duplicate (accessing same value). Do not count in.
+                continue;
+            }
+
+            $modelValuesAlreadyChecked[$step->value_id] = $step->value_id;
+
+            $steps[] = $step;
+        }
+
+        return $steps;
+    }
+
+    public function formatProductCustomization($productCustomizationSerialized)
+    {
+        $productCustomization = json_decode($productCustomizationSerialized);
+        if ($productCustomization === null) {
+            // Unable to decode: return raw value
+            return $productCustomizationSerialized;
+        }
+
+        $panoteqConfigurationFound = (Db::getInstance())
+            ->getRow('select * from ' . _DB_PREFIX_ . 'panoteq_configuration 
+            ORDER BY id_panoteq_configuration DESC');
+
+        $panoteqConfiguration = json_decode($panoteqConfigurationFound['contents']);
+
+        $result = '';
+
+        foreach ($this->getStepsNoDuplicateValues($panoteqConfiguration) as $step) {
+            if (!isset($step->value_id)) {
+                continue;
+            }
+
+            if (!isset($productCustomization->values[$step->value_id])) {
+                continue;
+            }
+
+            $value = $productCustomization->values[$step->value_id];
+
+            $rowResult = $step->label . ' : ';
+
+            switch ($step->widget_type) {
+                case 'color-sample':
+                case 'color':
+                    $explodedParts = explode('/', $value);
+                    $rowResult .= $explodedParts[count($explodedParts) - 1];
+                    break;
+                case 'dimensions':
+                    $rowResult .= $value->width . $step->suffix . ' x ' . $value->height . $step->suffix;
+                    break;
+                case 'text':
+                    $rowResult .= 'text';
+                    break;
+                default:
+                    $rowResult .= $value;
+                    break;
+            }
+
+            $result .= $rowResult . "<br />";
+        }
+
+        return $result;
+
+        //{"schemaVersion":1,"values":["/img/panoteqconf/textures/Ambassador.jpg",null,null,[{"value":1}],{"width":3,"height":4},null,[{"value":1}],null]}Personnalisation
+    }
+
+    public function renderWidget($hookName, array $configuration)
+    {
+        return $this->formatProductCustomization($configuration['productConfiguration']['text']);
+    }
+
+    public function getWidgetVariables($hookName, array $configuration)
+    {
+
+    }
 }

@@ -219,7 +219,7 @@ var app = new Vue({
             return result
         },
         totalAmount: function () {
-            return Math.round(this.getStepsNoDuplicateValues().reduce((sum, step) => {
+            amount = Math.round(this.getStepsNoDuplicateValues().reduce((sum, step) => {
                 if (typeof (sum) === 'object') sum = 0
                 if (this.modelWidgets[step.id].isComplete(this.getStepValue(step.value_id))) {
                     return sum + this.modelWidgets[step.id].priceImpact(this.getStepValue(step.value_id))
@@ -227,6 +227,11 @@ var app = new Vue({
 
                 return sum
             }), 2)
+
+            this.form.calculatedAmount = amount
+            this.form.calculatedWeight = 10.4
+
+            return amount
         },
         percentComplete: function () {
             let stepsComplete = this.getStepsNoDuplicateValues().reduce((sum, step) => {

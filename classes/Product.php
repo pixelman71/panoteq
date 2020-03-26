@@ -33,6 +33,7 @@ define('_CUSTOMIZE_FILE_', 0);
  */
 define('_CUSTOMIZE_TEXTFIELD_', 1);
 
+use PrestaShop\PrestaShop\Adapter\Presenter\Cart\CartPresenter;
 use PrestaShop\PrestaShop\Adapter\ServiceLocator;
 use PrestaShop\PrestaShop\Core\Product\ProductInterface;
 
@@ -5100,6 +5101,10 @@ class ProductCore extends ObjectModel
                 // When a module saves a customization programmatically, it should add its ID in the `id_module` column
                 $row['value'] = Hook::exec('displayCustomization', array('customization' => $row), (int) $row['id_module']);
             }
+
+            // Panoteq transform customized data presentation
+            $row['value'] = CartPresenter::panoteqProductSummary($row['value']);
+
             $customized_datas[(int) $row['id_product']][(int) $row['id_product_attribute']][(int) $row['id_address_delivery']][(int) $row['id_customization']]['datas'][(int) $row['type']][] = $row;
         }
 
