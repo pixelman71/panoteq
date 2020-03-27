@@ -31,6 +31,7 @@
                 {if isset($ralColor->swatch)}
                     <label class="ral-color"
                            style="background-image:url('{$ralColor->swatch}'); background-size: contain"
+                           title="{$ralColor->label}"
                            v-bind:class="{ selected: form.values[{$step->value_id}] == '{$ralColor->swatch}' }">
                         <input name="color" type="radio" v-model="form.values[{$step->value_id}]"
                                v-on:change="updateDoorModel()"

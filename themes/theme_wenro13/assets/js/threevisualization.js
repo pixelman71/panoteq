@@ -215,7 +215,7 @@ Panoteq3dViewer.prototype.lightsIntensitiesFactors = {
 };
 
 Panoteq3dViewer.prototype.modelsFiles = {};
-Panoteq3dViewer.prototype.modelsFiles['4393'] = {
+Panoteq3dViewer.prototype.modelsFiles['alto-porte'] = {
     path: 'alto_104.fbx',
     path_inverted: 'altoinv_100.fbx',
     type: 'alto',
@@ -228,7 +228,7 @@ Panoteq3dViewer.prototype.modelsFiles['4393'] = {
         'top': -0.21
     }
 };
-Panoteq3dViewer.prototype.modelsFiles['39'] = {
+Panoteq3dViewer.prototype.modelsFiles['disco-porte'] = {
     path: 'disco_101.fbx',
     type: 'disco',
     offsetSpeeds: {
@@ -241,7 +241,7 @@ Panoteq3dViewer.prototype.modelsFiles['39'] = {
     }
 };
 
-Panoteq3dViewer.prototype.modelsFiles['22'] = {
+Panoteq3dViewer.prototype.modelsFiles['mandoline-porte'] = {
     path: 'mandoline_102.fbx',
     type: 'mandoline',
     offsetSpeeds: {
@@ -254,7 +254,7 @@ Panoteq3dViewer.prototype.modelsFiles['22'] = {
     }
 };
 
-Panoteq3dViewer.prototype.modelsFiles['41'] = {
+Panoteq3dViewer.prototype.modelsFiles['opera-porte'] = {
     path: 'opera_102.fbx',
     type: 'opera',
     offsetSpeeds: {
@@ -267,7 +267,7 @@ Panoteq3dViewer.prototype.modelsFiles['41'] = {
     }
 };
 
-Panoteq3dViewer.prototype.modelsFiles['1800'] = {
+Panoteq3dViewer.prototype.modelsFiles['tenor-porte'] = {
     path: 'tenor_102.fbx',
     type: 'tenor',
     offsetSpeeds: {
@@ -280,7 +280,7 @@ Panoteq3dViewer.prototype.modelsFiles['1800'] = {
     }
 };
 
-Panoteq3dViewer.prototype.modelsFiles['1'] = {
+Panoteq3dViewer.prototype.modelsFiles['atira-porte'] = {
     path: 'atira_103.fbx',
     path_inverted: 'atirainv_100.fbx',
     type: 'atira',
@@ -294,7 +294,7 @@ Panoteq3dViewer.prototype.modelsFiles['1'] = {
     }
 };
 
-Panoteq3dViewer.prototype.modelsFiles['2'] = {
+Panoteq3dViewer.prototype.modelsFiles['tablo-porte'] = {
     path: 'tablo_104.fbx',
     type: 'tablo',
     offsetSpeeds: {
@@ -655,8 +655,9 @@ Panoteq3dViewer.prototype.loadDoorModel = function (productId, attributeIdOrRal,
 
     if (!isRALColor) {
         var textureFileName = attributeIdOrRal;
-
-        attributeIdOrRal = 177;
+        var found = Object.entries(this.texturesPaths).filter((val) => attributeIdOrRal.split('/').splice(-1)[0] === val[1])[0]
+        attributeIdOrRal = parseInt(found[0]);
+        console.log('Select attributeIdOrRal texture params: ' + attributeIdOrRal);
 
         var textureHasHorizontal = this.texturesHasHorizontal[attributeIdOrRal];
 
@@ -874,7 +875,7 @@ Panoteq3dViewer.prototype.createScene = function () {
     // Scene
     this.scene = new THREE.Scene();
     this.scene.background = new THREE.Color(0xfafaf8);
-//    this.scene.background = new THREE.Color(0xa0a0a0);
+   //this.scene.background = new THREE.Color(0xa0a0a0);
 
     // Camera
     this.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 2000);
@@ -1532,7 +1533,20 @@ Panoteq3dViewer.prototype.showModelAfterLoading = function () {
     this.render();
 };
 
+Panoteq3dViewer.prototype.mapValue = (value, x1, y1, x2, y2) => (value - x1) * (y2 - x2) / (y1 - x1) + x2;
+
+Panoteq3dViewer.prototype.readjustBackgroundColorAccordingToCameraAngle = function() {
+    var vector = new THREE.Vector3(0,0,0);
+    this.camera.getWorldDirection(vector);
+    var theta = Math.atan2(vector.x,vector.z);
+    theta = Math.min(Math.max(0, Math.abs(theta)), 3.14);
+    var mappedValueLuminance = Math.round(this.mapValue(theta, 0, 3.14, 85, 98));
+    var mappedValueSaturation = Math.round(this.mapValue(theta, 0, 3.14, 0, 17));
+    this.scene.background = new THREE.Color("hsl(60, " + mappedValueSaturation + "%, " + mappedValueLuminance + "%)")
+}
+
 Panoteq3dViewer.prototype.render = function () {
+    this.readjustBackgroundColorAccordingToCameraAngle()
     this.renderer.render(this.scene, this.camera);
 };
 

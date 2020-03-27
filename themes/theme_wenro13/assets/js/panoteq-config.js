@@ -21,16 +21,18 @@ var app = new Vue({
     methods: {
         updateDoorModel: function () {
             // Prepare data
-            let productId = 2 // 1800
+            let productId = this.get3dBindParamValue('model'); // 1800
             let percages = this.get3dBindParamValue('percages').map((val) => {
                 return parseInt(val.value)
             })
             let emplacementCharnieresDroite = this.get3dBindParamValue('emplacement_charnieres') == 'droite'
             let isRAL = this.get3dBindParamValue('color').startsWith('#')
             let textureName = this.get3dBindParamValue('color')
+            let horizontalTexture = false
             if (!isRAL) {
                 if (this.get3dBindParamValue('sens_fil') == 'horizontal') {
-                    textureName = this.get3dBindParamSwatchHoriz('color')
+                    horizontalTexture = true
+                //     textureName = this.get3dBindParamSwatchHoriz('color')
                 }
             }
 
@@ -41,13 +43,13 @@ var app = new Vue({
                     emplacementCharnieresDroite, false, [
                         this.get3dBindParamValue('dimensions').width,
                         this.get3dBindParamValue('dimensions').height
-                    ], false)
+                    ], horizontalTexture)
             } else {
                 this.panoteq3dViewer.loadDoorModel(productId, textureName, isRAL, false, percages,
                     emplacementCharnieresDroite, [
                         this.get3dBindParamValue('dimensions').width,
                         this.get3dBindParamValue('dimensions').height
-                    ], false)
+                    ], horizontalTexture)
             }
         },
         conditionalDisplay(stepId) {

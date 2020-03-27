@@ -254,9 +254,10 @@ $(document).ready(function () {
 
                 n2.childs.forEach((value) => {
                     var childEntityLabel = value.childs.filter((e) => { return e.field == 'label' })[0].value;
+                    var childEntityIsDefault = value.childs.filter((e) => { return e.field == 'is_default' })[0].value;
 
                     if(++counter <= MAX_LABELS) {
-                        allLabels.push(childEntityLabel);
+                        allLabels.push(childEntityLabel + (childEntityIsDefault ? ' [X]' : ''));
                     }
                 });
 
@@ -267,7 +268,8 @@ $(document).ready(function () {
             if(path.length > 1 && path[path.length - 2] == 'values') {
                 var n2 = editor.node.findNodeByPath(path);
                 var childEntityLabel = n2.childs.filter((e) => { return e.field == 'label' })[0].value;
-                return childEntityLabel;
+                var childEntityIsDefault = n2.childs.filter((e) => { return e.field == 'is_default' })[0].value;
+                return childEntityLabel + (childEntityIsDefault ? ' [X]' : '');
             }
         },
         onValidationError: function (errors) {

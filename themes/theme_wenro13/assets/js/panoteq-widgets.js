@@ -6,7 +6,10 @@ class PanoteqWidget {
     }
 
     getDefaultValue() {
-        return null
+        var defaultValue = this.step.values.filter((e) => e.is_default)
+        if(defaultValue.length > 0) {
+            return defaultValue[0].value
+        }
     }
 
     requiresCompletion() {
