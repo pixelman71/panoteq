@@ -32,7 +32,7 @@ var app = new Vue({
             if (!isRAL) {
                 if (this.get3dBindParamValue('sens_fil') == 'horizontal') {
                     horizontalTexture = true
-                //     textureName = this.get3dBindParamSwatchHoriz('color')
+                    //     textureName = this.get3dBindParamSwatchHoriz('color')
                 }
             }
 
@@ -164,8 +164,10 @@ var app = new Vue({
                 } catch (e) {
                     this.modelWidgets[step.id] = new EmptyWidget(step, this.form.values[step.value_id])
                 }
-
-                this.form.values[step.value_id] = this.modelWidgets[step.id].getDefaultValue()
+                
+                if (this.modelWidgets[step.id].requiresCompletion() && this.modelWidgets[step.id].getDefaultValue() !== undefined) {
+                    this.form.values[step.value_id] = this.modelWidgets[step.id].getDefaultValue()
+                }
             })
         },
         loadFormValuesFromLocalStorage: function () {
@@ -185,7 +187,7 @@ var app = new Vue({
             let modelValuesAlreadyChecked = []
 
             this.model.steps.forEach((step) => {
-                if(!this.modelWidgets[step.id].requiresCompletion()) {
+                if (!this.modelWidgets[step.id].requiresCompletion()) {
                     return
                 }
 
@@ -213,7 +215,7 @@ var app = new Vue({
             // let result = JSON.stringify(JSON.stringify(this.form))
             this.getStepsNoDuplicateValues().forEach((step) => {
                 let description = this.modelWidgets[step.id].description(this.getStepValue(step.value_id))
-                if(description !== null) {
+                if (description !== null) {
                     result += description + '<br>'
                 }
             })
@@ -233,7 +235,7 @@ var app = new Vue({
             this.form.calculatedAmount = amount
             this.form.calculatedWeight = 10.4
 
-            return amount
+            return amount.toFixed(2)
         },
         percentComplete: function () {
             let stepsComplete = this.getStepsNoDuplicateValues().reduce((sum, step) => {

@@ -126,7 +126,7 @@
                                                         </button>
                                                     </div>
                                                     <div v-html="summary"></div>
-                                                    <h5>Prix total : <span v-html="totalAmount"></span></h5>
+                                                    <h5>Prix total : <span v-html="totalAmount"></span> €</h5>
                                                 </div>
                                                 <br/>
                                             {/block}

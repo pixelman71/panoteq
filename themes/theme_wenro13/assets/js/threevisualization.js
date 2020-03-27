@@ -1540,8 +1540,8 @@ Panoteq3dViewer.prototype.readjustBackgroundColorAccordingToCameraAngle = functi
     this.camera.getWorldDirection(vector);
     var theta = Math.atan2(vector.x,vector.z);
     theta = Math.min(Math.max(0, Math.abs(theta)), 3.14);
-    var mappedValueLuminance = Math.round(this.mapValue(theta, 0, 3.14, 85, 98));
-    var mappedValueSaturation = Math.round(this.mapValue(theta, 0, 3.14, 0, 17));
+    var mappedValueLuminance = Math.round(this.mapValue(theta, 0, 3.14, 90, 98));
+    var mappedValueSaturation = Math.round(this.mapValue(theta, 0, 3.14, 7, 17));
     this.scene.background = new THREE.Color("hsl(60, " + mappedValueSaturation + "%, " + mappedValueLuminance + "%)")
 }
 

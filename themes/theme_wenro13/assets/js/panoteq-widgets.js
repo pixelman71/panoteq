@@ -7,9 +7,11 @@ class PanoteqWidget {
 
     getDefaultValue() {
         var defaultValue = this.step.values.filter((e) => e.is_default)
-        if(defaultValue.length > 0) {
+        if (defaultValue.length > 0) {
             return defaultValue[0].value
         }
+
+        return null
     }
 
     requiresCompletion() {
@@ -25,8 +27,16 @@ class PanoteqWidget {
     }
 
     description(value) {
-        return this.isComplete(value) ? this.step.label + ': '
-            + (this.step.values[value] !== undefined ? this.step.values[value].label : value) : null
+        if (!this.isComplete(value)) {
+            return null
+        }
+
+        var defaultValue = this.step.values.filter((e) => e.value === value)
+        if (defaultValue.length > 0) {
+            return this.step.label + ': ' + defaultValue[0].label
+        }
+
+        return null
     }
 
     priceImpact(value) {
@@ -45,7 +55,25 @@ class PanoteqWidget {
 
 class ColorWidget extends PanoteqWidget {
     getDefaultValue() {
-        return "/img/panoteqconf/textures/Ambassador.jpg"
+        var defaultValue = this.step.values.filter((e) => e.is_default)
+        if (defaultValue.length > 0) {
+            return (defaultValue[0].swatch !== undefined) ? defaultValue[0].swatch : defaultValue[0].value
+        }
+
+        return undefined
+    }
+
+    description(value) {
+        if (!this.isComplete(value)) {
+            return null
+        }
+
+        var defaultValue = this.step.values.filter((e) => e.swatch === value || e.value === value)
+        if (defaultValue.length > 0) {
+            return this.step.label + ': ' + defaultValue[0].label
+        }
+
+        return null
     }
 }
 
@@ -107,7 +135,7 @@ class TextWidget extends PanoteqWidget {
     }
 
     description(value) {
-        if(!this.isComplete(value)) {
+        if (!this.isComplete(value)) {
             return null
         }
 
