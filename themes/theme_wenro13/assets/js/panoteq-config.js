@@ -216,14 +216,25 @@ var app = new Vue({
             this.recompute++
         },
         getFirstErrorStepId() {
+            var lastAccordionIndex = -1
             var firstStep = null
             this.model.steps.forEach((step) => {
+                if(firstStep == null && step.widget_type == 'group-start') {
+                    lastAccordionIndex++;
+                }
+
                 if (firstStep == null && this.errors[step.id].length > 0) {
                     firstStep = step.id
                 }
             })
 
+            if(lastAccordionIndex >= 0 && lastAccordionIndex !== $('#panoteq-configurator-accordion li.uk-open').index()) {
+                UIkit.accordion('#panoteq-configurator-accordion').toggle(lastAccordionIndex, true);
+            }
+
             console.log('getFirstErrorStepId: ' + firstStep)
+            console.log('lastAccordionIndex: ' + lastAccordionIndex)
+            console.log('this.currentAccordionIndex' + this.currentAccordionIndex)
         }
     },
     computed: {

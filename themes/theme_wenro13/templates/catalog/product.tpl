@@ -56,14 +56,14 @@
             {*        </div>*}
 
             <div class="row">
-                <div class="uk-grid-match uk-padding" uk-grid>
+                <div class="uk-grid-match uk-padding uk-flex uk-flex-top" uk-grid>
                     <div id="content-wrapper" class="uk-width-1-4">
                         <div class="">
                             <h5>Pourcentage configuré: <span v-html="percentComplete"></span>%</h5>
                             <button v-on:click="unsetLocalStorage">Clear localstorage</button>
                             <progress class="uk-progress" v-bind:value="percentComplete" max="100"></progress>
                         </div>
-                        <ul uk-accordion>
+                        <ul id="panoteq-configurator-accordion" uk-accordion>
                             {foreach from=$panoteqconf->steps item=$step}
                                 {if $step->widget_type == 'group-start'}
                                     {include file='catalog/_partials/panoteqconf/group-start.tpl'}

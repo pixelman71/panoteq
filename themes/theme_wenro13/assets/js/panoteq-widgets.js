@@ -23,7 +23,7 @@ class PanoteqWidget {
     }
 
     validateStep(value) {
-        return ['test']
+        return []
     }
 
     description(value) {
@@ -156,6 +156,9 @@ class RadioWidget extends PanoteqWidget {
 }
 
 class SelectboxWidget extends PanoteqWidget {
+    validateStep(value) {
+        return ['error']
+    }
 }
 
 class EmptyWidget extends PanoteqWidget {
@@ -173,9 +176,5 @@ class EmptyWidget extends PanoteqWidget {
 
     description(value) {
         return null
-    }
-
-    validateStep(value) {
-        return []
     }
 }
