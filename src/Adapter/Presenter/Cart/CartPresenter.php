@@ -617,8 +617,21 @@ class CartPresenter implements PresenterInterface
                 case 'dimensions':
                     $rowResult .= $value->width . $step->suffix . ' x ' . $value->height . $step->suffix;
                     break;
+                case 'radio':
+                case 'selectbox':
+                    $filtered = array_filter($step->values, function($step2) use ($value) { return $step2->value == $value; });
+                    foreach($filtered as $f) {
+                        $rowResult .= $f->label;
+                    }
+                    break;
                 case 'text':
-                    $rowResult .= 'text';
+                    $tmp = [];
+
+                    foreach($value as $val) {
+                        $tmp[] = $val->value . $step->suffix;
+                    }
+
+                    $rowResult .= join(', ', $tmp);
                     break;
                 default:
                     $rowResult .= $value;
@@ -629,7 +642,5 @@ class CartPresenter implements PresenterInterface
         }
 
         return $result;
-
-        //{"schemaVersion":1,"values":["/img/panoteqconf/textures/Ambassador.jpg",null,null,[{"value":1}],{"width":3,"height":4},null,[{"value":1}],null]}Personnalisation
     }
 }

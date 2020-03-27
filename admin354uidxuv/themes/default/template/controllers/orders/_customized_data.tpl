@@ -138,7 +138,7 @@
 							{elseif ($type == Product::CUSTOMIZE_TEXTFIELD)}
 								{foreach from=$datas item=data}
 									<div class="form-group">
-										<span class="col-lg-4 control-label"> q</span>
+										<span class="col-lg-4 control-label"></span>
 										<div class="col-lg-8">
 											<p class="form-control-static">{$data['value']}</p>
 										</div>

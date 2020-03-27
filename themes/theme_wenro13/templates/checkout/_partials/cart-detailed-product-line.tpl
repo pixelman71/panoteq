@@ -59,12 +59,11 @@
           {foreach from=$customization.fields item="field"}
             <div class="product-customization-line row">
               <div class="col-sm-12 col-xs-12 value">
-                {$field.text nofilter}aa
+                {$field.text nofilter}
               </div>
             </div>
           {/foreach}
 
-          <a href="#" data-toggle="modal" data-target="#product-customizations-modal-{$customization.id_customization}">{l s='Product customization' d='Shop.Theme.Catalog'}</a>
           <div class="modal fade customization-modal" id="product-customizations-modal-{$customization.id_customization}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
