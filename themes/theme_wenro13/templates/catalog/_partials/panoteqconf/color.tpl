@@ -1,7 +1,3 @@
-<span v-html="errors"></span>
-<div v-if="errors[{$step->id}]">
-    BUUG
-</div>
 <section v-if="conditionalDisplay({$step->id})">
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -48,4 +44,5 @@
             {/foreach}
         </div>
     </form>
+    <div v-if="errors[{$step->id}]" v-html="errors[{$step->id}]"></div>
 </section>

@@ -9,6 +9,7 @@ var app = new Vue({
         },
         errors: [],
         panoteq3dViewer: null,
+        recompute: 0
     },
     created: function () {
         this.readModelAndPrepareDefaultFormValues()
@@ -20,6 +21,8 @@ var app = new Vue({
     },
     methods: {
         updateDoorModel: function () {
+            this.forceRecomputeValues()
+
             // Prepare data
             let productId = this.get3dBindParamValue('model'); // 1800
             let percages = this.get3dBindParamValue('percages').map((val) => {
@@ -106,9 +109,13 @@ var app = new Vue({
             return false
         },
         validateAll: function () {
-            this.model.steps.forEach((step, index) => {
-                //this.validateStep(step.id)
+            this.model.steps.forEach(step => {
+                this.errors[step.id] = this.modelWidgets[step.id].validateStep(this.form.values[step.value_id])
             })
+
+            this.getFirstErrorStepId()
+
+            this.forceRecomputeValues()
         },
         get3dBindParamValue: function (bindParamName) {
             let result = null
@@ -164,7 +171,7 @@ var app = new Vue({
                 } catch (e) {
                     this.modelWidgets[step.id] = new EmptyWidget(step, this.form.values[step.value_id])
                 }
-                
+
                 if (this.modelWidgets[step.id].requiresCompletion() && this.modelWidgets[step.id].getDefaultValue() !== undefined) {
                     this.form.values[step.value_id] = this.modelWidgets[step.id].getDefaultValue()
                 }
@@ -204,6 +211,19 @@ var app = new Vue({
         },
         getStepValue(stepValueId) {
             return this.form.values[stepValueId]
+        },
+        forceRecomputeValues() {
+            this.recompute++
+        },
+        getFirstErrorStepId() {
+            var firstStep = null
+            this.model.steps.forEach((step) => {
+                if (firstStep == null && this.errors[step.id].length > 0) {
+                    firstStep = step.id
+                }
+            })
+
+            console.log('getFirstErrorStepId: ' + firstStep)
         }
     },
     computed: {
@@ -223,6 +243,8 @@ var app = new Vue({
             return result
         },
         totalAmount: function () {
+            const dummy = this.recompute
+
             amount = Math.round(this.getStepsNoDuplicateValues().reduce((sum, step) => {
                 if (typeof (sum) === 'object') sum = 0
                 if (this.modelWidgets[step.id].isComplete(this.getStepValue(step.value_id))) {

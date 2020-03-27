@@ -122,8 +122,7 @@
                                                      itemprop="description">{$product.description_short nofilter}</div>
                                                 <div class="">
                                                     <div>
-                                                        <button class="uk-button" v-on:click="validateAll">Validate
-                                                        </button>
+                                                        <button class="uk-button" v-on:click="validateAll()">Validate</button>
                                                     </div>
                                                     <div v-html="summary"></div>
                                                     <h5>Prix total : <span v-html="totalAmount"></span> €</h5>

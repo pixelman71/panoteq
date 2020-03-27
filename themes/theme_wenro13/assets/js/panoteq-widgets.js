@@ -22,8 +22,8 @@ class PanoteqWidget {
         return value !== undefined && value !== null
     }
 
-    isValid() {
-        throw 'Not implemented exception'
+    validateStep(value) {
+        return ['test']
     }
 
     description(value) {
@@ -74,6 +74,10 @@ class ColorWidget extends PanoteqWidget {
         }
 
         return null
+    }
+
+    validateStep(value) {
+        return []
     }
 }
 
@@ -169,5 +173,9 @@ class EmptyWidget extends PanoteqWidget {
 
     description(value) {
         return null
+    }
+
+    validateStep(value) {
+        return []
     }
 }

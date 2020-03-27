@@ -17,5 +17,5 @@
             </table>
         </div>
     </div>
-
+    <div v-if="errors[{$step->id}]" v-html="errors[{$step->id}]"></div>
 </section>
