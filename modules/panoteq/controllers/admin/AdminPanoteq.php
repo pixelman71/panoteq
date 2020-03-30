@@ -4,64 +4,49 @@ require_once(_PS_MODULE_DIR_ . 'panoteq/models/PanoteqConfiguration.php');
 
 class AdminPanoteqController extends ModuleAdminController
 {
-//    public function run() {
-//        return $this->render('@Modules/panoteq/views/templates/admin/demo.html.twig');
-//    }
-//
-//
-//    public function demoAction()
-//    {
-//        return $this->render('@Modules/your-module/templates/admin/demo.html.twig');
-//    }
-
     public function __construct()
     {
         $this->table = 'panoteq_configuration';
         $this->className = 'PanoteqConfiguration';
-        //$this->module->getTranslator()->transang = true;
         $this->deleted = false;
         $this->bootstrap = true;
         $this->colorOnBackground = false;
         parent::__construct();
-
-
-//		$this->bulk_actions = array(
-//            'delete' => array(
-//                'text' => $this->module->getTranslator()->trans('Delete selected', array(), 'Admin.Global'),
-//                 'confirm' => $this->module->getTranslator()->trans('Delete selected items?', array(), 'Admin.Global'),
-//                 )
-//            );
-//                Shop::addTableAssociation($this->table, array('type' => 'shop'));
-//		          $this->context = Context::getContext();
-//
-//                $this->fieldImageSettings = array(
-// 			'name' => 'image',
-// 			'dir' => 'blocklogo'
-// 		);
-//        $this->imageType = "jpg";
-
-//         $this->meta_title = $this->module->getTranslator()->trans('Manage Logo', array(), 'Admin.Global');
     }
 
     public function postProcess()
     {
+        if (Tools::getValue('enable_configuration')) {
+            $this->actionEnableConfiguration();
+        }
+
+        if (Tools::getValue('duplicate_configuration')) {
+            $this->actionDuplicateConfiguration();
+        }
+
         if (Tools::isSubmit('submitAddpanoteq_configuration')) {
             $_POST['associated_products'] = implode(',', Tools::getValue('associated_products'));
         }
+
+        $productsInSeveralActiveConfigurations = $this->checkProductsConfigurationsAssociations();
+        if (count($productsInSeveralActiveConfigurations) > 0) {
+            $this->warnings[] = 'Ces produits sont associés à plusieurs configurations actives : ' . join(', ', $productsInSeveralActiveConfigurations);
+        }
+
+        $notAssociatedProducts = $this->checkProductsAssociationsWithActiveConfigurations();
+        if (count($notAssociatedProducts) > 0) {
+            $this->warnings[] = 'Ces produits ne sont associés à aucune configuration active : ' . join(', ', $notAssociatedProducts);
+        }
+
+
         parent::postProcess();
     }
 
     public function renderList()
     {
-
-        $this->addRowAction('duplicate');
-//            $this->addRowAction('delete');
-//            $this->bulk_actions = array(
-//                'delete' => array(
-//                    'text' => $this->module->getTranslator()->trans('Delete selected'),
-//                    'confirm' => $this->module->getTranslator()->trans('Delete selected items?')
-//                )
-//            );
+        $this->addRowAction('enable');
+        $this->addRowAction('dupliquer');
+        $this->addRowAction('delete');
 
         $this->fields_list = array(
             'id_panoteq_configuration' => array(
@@ -69,11 +54,6 @@ class AdminPanoteqController extends ModuleAdminController
                 'align' => 'left',
                 'width' => 50
             ),
-//            'contents' => array(
-//                'title' => $this->module->getTranslator()->trans('Contents', array(), 'Admin.Global'),
-//                'align' => 'left',
-////                    'width' => 25
-//            ),
             'comment' => array(
                 'title' => $this->module->getTranslator()->trans('Comment', array(), 'Admin.Global'),
                 'align' => 'left
@@ -91,14 +71,12 @@ class AdminPanoteqController extends ModuleAdminController
                 'align' => 'left',
 //                    'width' => 25
             ),
+            'active' => array(
+                'title' => $this->module->getTranslator()->trans('Active', array(), 'Admin.Global'),
+                'align' => 'left',
+                'callback' => 'renderActive'
+            ),
         );
-
-//            $this->fields_list['image'] = array(
-//                'title' => $this->module->getTranslator()->trans('Image', array(), 'Admin.Global'),
-//                'width' => 70,
-//                "image" => $this->fieldImageSettings["dir"]
-//            );
-//
 
         $this->_defautOrderBy = 'id_panoteq_configuration';
         $this->_defaultOrderWay = 'DESC';
@@ -119,36 +97,19 @@ class AdminPanoteqController extends ModuleAdminController
             $result[] = $p->name[(int)Context::getContext()->language->id];
         }
 
-        return join(',', $result);
+        return join(', ', $result);
+    }
+
+    public function renderActive($value, $val2)
+    {
+        return $value == 1 ? '<strong>OUI</strong>' : 'NON';
     }
 
     public function renderForm()
     {
         $this->fields_form = array(
             'tinymce' => false,
-//            'legend' => array(
-//                'title' => $this->module->getTranslator()->trans('Slideshow', array(), 'Admin.Global'),
-//                'image' => '../img/admin/edit.gif'
-//            ),
             'input' => array(
-//                array(
-//                    'type' => 'text',
-//                    'label' => $this->module->getTranslator()->trans('Contents', array(), 'Admin.Global'),
-//                    'name' => 'title',
-//                    'size' => 40
-//                ),
-//                array(
-//                    'type' => 'text',
-//                    'label' => $this->module->getTranslator()->trans('Link:', array(), 'Admin.Global'),
-//                    'name' => 'link',
-//                    'size' => 40
-//                ),
-//                array(
-//                    'type' => 'file',
-//                    'label' => $this->module->getTranslator()->trans('Image:', array(), 'Admin.Global'),
-//                    'name' => 'image',
-//                    'desc' => $this->module->getTranslator()->trans('Upload  a banner from your computer.', array(), 'Admin.Global')
-//                ),
                 array(
                     'type' => 'select',
                     'label' => $this->module->getTranslator()->trans('Contents', array(), 'Admin.Global'),
@@ -165,7 +126,7 @@ class AdminPanoteqController extends ModuleAdminController
                     'multiple' => true,
                     'autoload_rte' => FALSE,
                     'lang' => false,
-                    'required' => TRUE
+                    'required' => FALSE
 //                    'hint' => $this->module->getTranslator()->trans('Invalid characters:', array(), 'Admin.Global') . ' <>;=#{}'
                 ),
                 array(
@@ -201,16 +162,6 @@ class AdminPanoteqController extends ModuleAdminController
 
         $this->fields_value['associated_products[]'] = isset($this->object->associated_products) ? explode(',', $this->object->associated_products) : '';
 
-//        if (Shop::isFeatureActive())
-//            $this->fields_form['input'][] = array(
-//                'type' => 'shop',
-//                'label' => $this->module->getTranslator()->trans('Shop association:', array(), 'Admin.Global'),
-//                'name' => 'checkBoxShopAsso',
-//            );
-
-//        if (!($obj = $this->loadObject(true)))
-//            return;
-
         return parent::renderForm();
     }
 
@@ -237,14 +188,139 @@ img {
 EOT;
 
         foreach (glob("img/panoteqconf/textures/*.jpg") as $filename) {
-            //echo "$filename size " . filesize($filename) . " <img src='/$filename' width='20'><br>\n";
-
             $isCurrentSelectionClass = ('/' . $filename) == Tools::getValue('currentNodeValue') ? 'style="border: 2px dotted red"' : '';
-
             $result .= "<img src='/$filename' title='$filename' $isCurrentSelectionClass>\n";
         }
 
         die(json_encode($result));
-//        return $result;
+    }
+
+    public function displayEnableLink($token = null, $id, $name = null)
+    {
+        $tpl = $this->createTemplate('helpers/list/list_action_edit.tpl');
+        if (!array_key_exists('Activation', self::$cache_lang)) {
+            self::$cache_lang['Activation'] = $this->trans('Activation', array(), 'Admin.Actions');
+        }
+
+        $tpl->assign(array(
+            'href' => $this->context->link->getAdminLink('AdminPanoteq', true, array(), array('enable_configuration' => 1, 'id_panoteq_configuration' => (int)$id)),
+            'action' => self::$cache_lang['Activation'],
+            'id' => $id,
+        ));
+
+        return $tpl->fetch();
+    }
+
+    public function displayDupliquerLink($token = null, $id, $name = null)
+    {
+        $tpl = $this->createTemplate('helpers/list/list_action_edit.tpl');
+        if (!array_key_exists('Dupliquer', self::$cache_lang)) {
+            self::$cache_lang['Dupliquer'] = $this->trans('Dupliquer', array(), 'Admin.Actions');
+        }
+
+        $tpl->assign(array(
+            'href' => $this->context->link->getAdminLink('AdminPanoteq', true, array(), array('duplicate_configuration' => 1, 'id_panoteq_configuration' => (int)$id)),
+            'action' => self::$cache_lang['Dupliquer'],
+            'id' => $id,
+        ));
+
+        return $tpl->fetch();
+    }
+
+
+    public function checkProductsAssociationsWithActiveConfigurations()
+    {
+        $allRows = (Db::getInstance())->query('select * from ' . _DB_PREFIX_ . 'panoteq_configuration where active = TRUE');
+        $allProductsResult = Product::getProducts((int)Context::getContext()->language->id, 0, 100, 'id_product', 'ASC');
+
+        $allProducts = [];
+
+        foreach ($allProductsResult as $product) {
+            $allProducts[$product['id_product']] = $product['name'];
+        }
+
+        foreach ($allRows as $row) {
+            $rowAssociatedProducts = explode(',', $row['associated_products']);
+            foreach ($rowAssociatedProducts as $rowAssociatedProduct) {
+                if (strlen($rowAssociatedProduct) === 0) {
+                    continue;
+                }
+
+                $productsInUse[$rowAssociatedProduct] = $allProducts[$rowAssociatedProduct];
+            }
+        }
+
+        $notAssociatedProducts = [];
+        foreach ($allProducts as $key => $allProduct) {
+            if (!isset($productsInUse[$key])) {
+                $notAssociatedProducts[$key] = $allProduct;
+            }
+        }
+
+        return $notAssociatedProducts;
+    }
+
+    public function checkProductsConfigurationsAssociations()
+    {
+        $configsAssociatedProducts = [];
+
+        $allRows = (Db::getInstance())->query('select * from ' . _DB_PREFIX_ . 'panoteq_configuration WHERE active = TRUE');
+        foreach ($allRows as $row) {
+            $rowAssociatedProducts = explode(',', $row['associated_products']);
+
+            $configsAssociatedProducts[$row['id_panoteq_configuration']] = $rowAssociatedProducts;
+        }
+
+        $productsInSeveralActiveConfigurations = [];
+
+        $allProductsResult = Product::getProducts((int)Context::getContext()->language->id, 0, 100, 'id_product', 'ASC');
+        foreach ($allProductsResult as $product) {
+            $timesFound = 0;
+
+            foreach ($configsAssociatedProducts as $configsAssociatedProduct) {
+                if (in_array($product['id_product'], $configsAssociatedProduct)) {
+                    $timesFound++;
+                }
+            }
+
+            if ($timesFound > 1) {
+                $productsInSeveralActiveConfigurations[] = $product['name'];
+            }
+        }
+
+        return $productsInSeveralActiveConfigurations;
+    }
+
+    public function actionEnableConfiguration()
+    {
+        $idConfigurationToChange = Tools::getValue('id_panoteq_configuration');
+
+        $row = (Db::getInstance())->getRow('select * from ' . _DB_PREFIX_ . 'panoteq_configuration '
+            . 'WHERE id_panoteq_configuration = ' . $idConfigurationToChange);
+
+        (Db::getInstance())->update(
+            'panoteq_configuration',
+            ['active' => $row['active'] == '1' ? false : true],
+            'id_panoteq_configuration = ' . $idConfigurationToChange
+        );
+    }
+
+    public function actionDuplicateConfiguration()
+    {
+        $idConfigurationToDuplicate = Tools::getValue('id_panoteq_configuration');
+
+        $row = (Db::getInstance())->getRow('select * from ' . _DB_PREFIX_ . 'panoteq_configuration '
+            . 'WHERE id_panoteq_configuration = ' . $idConfigurationToDuplicate);
+
+        (Db::getInstance())->insert(
+            'panoteq_configuration',
+            [
+                'contents' => $row['contents'],
+                'associated_products' => $row['associated_products'],
+                'comment' => $row['comment'] . ' (copie)',
+            ]
+        );
+
+        $this->confirmations[] = 'La ligne a été dupliquée avec succès !';
     }
 }

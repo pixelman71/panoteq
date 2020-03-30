@@ -1,3 +1,5 @@
+@p-color-primary: #1e87f0;
+
 .color-sample {
   display: block;
   width: 100%;
@@ -43,6 +45,23 @@
   width: 100vw;
   height: 100vh;
   z-index: 9999;
+}
+
+.p-background-danger {
+  background-color: #ff8b8d;
+}
+
+.p-tooltip {
+  display: inline-block;
+  width: auto;
+  padding: 0.2em;
+  background-color: @p-color-primary;
+  color: white !important;
+  float: right;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
 }
 
 // Theme overrides ----------------------------

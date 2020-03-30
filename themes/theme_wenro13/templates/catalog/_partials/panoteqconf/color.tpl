@@ -44,5 +44,5 @@
             {/foreach}
         </div>
     </form>
-    <div v-if="errors[{$step->id}]" v-html="errors[{$step->id}]"></div>
+    <div v-if="errors[{$step->id}] !== undefined && errors[{$step->id}].length > 0" v-html="errors[{$step->id}]" class="p-background-danger">ERROR</div>
 </section>

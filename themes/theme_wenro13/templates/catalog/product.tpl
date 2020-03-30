@@ -123,9 +123,14 @@
                                                 <div class="">
                                                     <div>
                                                         <button class="uk-button" v-on:click="validateAll()">Validate</button>
+                                                        <strong>Result: </strong> <span v-html="debugValidationResult"></span>
                                                     </div>
                                                     <div v-html="summary"></div>
-                                                    <h5>Prix total : <span v-html="totalAmount"></span> €</h5>
+                                                    <h5>Prix final (TTC) : <span v-html="totalAmountFormatted"></span> €</h5>
+                                                    <div>
+                                                        <strong>LIVRAISON OFFERTE</strong>
+                                                        Délai de livraison : depuis l'état "en cours de préparation" 30 jours ouvrés (40 jours ouvrés pour finitions laquées)
+                                                    </div>
                                                 </div>
                                                 <br/>
                                             {/block}

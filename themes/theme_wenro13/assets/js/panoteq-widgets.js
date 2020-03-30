@@ -22,8 +22,12 @@ class PanoteqWidget {
         return value !== undefined && value !== null
     }
 
-    validateStep(value) {
+    getValidationErrors(value) {
         return []
+    }
+
+    isValid(value) {
+        return this.getValidationErrors(value).length == 0
     }
 
     description(value) {
@@ -76,7 +80,7 @@ class ColorWidget extends PanoteqWidget {
         return null
     }
 
-    validateStep(value) {
+    getValidationErrors(value) {
         return []
     }
 }
@@ -84,17 +88,34 @@ class ColorWidget extends PanoteqWidget {
 class DimensionsWidget extends PanoteqWidget {
     getDefaultValue() {
         return {
-            width: 3,
-            height: 4
+            width: 300,
+            height: 500
         }
     }
 
     priceImpact(value) {
         if (this.step.price_impact !== undefined) {
-            return value.width * value.height * this.step.price_impact
+            return value.width * value.height * this.step.price_impact * 0.001 * 0.001
         }
 
         return 0
+    }
+
+    getValidationErrors(value) {
+        var errorsHoriz = []
+        var errorsVert = []
+
+        if (value.width < this.step.value_min_horiz || value.width > this.step.value_max_horiz) {
+            errorsHoriz = ['La largeur doit être comprise entre ' + this.step.value_min_horiz + this.step.suffix
+            + ' et ' + this.step.value_max_horiz + this.step.suffix]
+        }
+
+        if (value.height < this.step.value_min_vert || value.height > this.step.value_max_vert) {
+            errorsVert = ['La hauteur doit être comprise entre ' + this.step.value_min_vert + this.step.suffix
+            + ' et ' + this.step.value_max_vert + this.step.suffix]
+        }
+
+        return [errorsHoriz, errorsVert]
     }
 
     isComplete(value) {
@@ -103,6 +124,10 @@ class DimensionsWidget extends PanoteqWidget {
 
     description(value) {
         return this.isComplete(value) ? this.step.label + ': ' + value.width + this.step.suffix + ' x ' + value.height + this.step.suffix : null
+    }
+
+    isValid(value) {
+        return this.getValidationErrors(value)[0].length == 0 && this.getValidationErrors(value)[1].length == 0
     }
 }
 
@@ -156,8 +181,12 @@ class RadioWidget extends PanoteqWidget {
 }
 
 class SelectboxWidget extends PanoteqWidget {
-    validateStep(value) {
-        return ['error']
+    getValidationErrors(value) {
+        if (!this.isComplete(value)) {
+            return ['Select a value']
+        }
+
+        return []
     }
 }
 

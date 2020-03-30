@@ -6,6 +6,7 @@ class PanoteqConfiguration extends ObjectModel
     public $contents;
     public $associated_products;
     public $comment;
+    public $active;
 
     /**
      * @see ObjectModel::$definition
@@ -18,6 +19,7 @@ class PanoteqConfiguration extends ObjectModel
             'contents' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 65535),
             'associated_products' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 100),
             'comment' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 200),
+            'active' => array('type' => self::TYPE_BOOL, 'required' => true),
 //            'created' => array('created' => self::TYPE_DATE),
 //                    'description' => array('type' => self::TYPE_HTML, 'lang' => false, 'validate' => 'isString', 'size' => 3999999999999),
 //                    'image' => array('type' => self::TYPE_STRING, 'lang' => false, 'validate' => 'isString', 'required' => false, 'size' => 3999999999),

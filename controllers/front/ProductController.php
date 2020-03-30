@@ -406,8 +406,27 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
         /** @var EntityManagerInterface $entityManager */
         $entityManager = $this->container->get('doctrine.orm.entity_manager');
         $panoteqConfigurationRepository = $entityManager->getRepository(PanoteqConfiguration::class);
-        $panoteqConfiguration = $panoteqConfigurationRepository->findOneBy([], ['id_panoteq_configuration' => 'DESC'], 0, 1);
+        $panoteqConfiguration = $panoteqConfigurationRepository->findBy(['active' => true], ['id_panoteq_configuration' => 'DESC']);
+
+        $found = false;
+        foreach($panoteqConfiguration as $conf) {
+            if(!$found) {
+                $associatedProductsIds = explode(',', $conf->associatedProducts);
+                if(in_array($this->product->id, $associatedProductsIds)) {
+                    $found = true;
+                    $panoteqConfiguration = $conf;
+                }
+            }
+        }
+
         $panoteqConf = json_decode($panoteqConfiguration->contents);
+
+        // Transform tooltips
+        foreach($panoteqConf->steps as $step) {
+            if(isset($step->tooltip) && substr($step->tooltip, 0, 4) == 'url(') {
+                $step->tooltipImage = substr(substr($step->tooltip, 0,-1), 4);
+            }
+        }
 
         $this->context->smarty->assign(array(
             'panoteqconf' => $panoteqConf,

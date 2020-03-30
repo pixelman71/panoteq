@@ -9,7 +9,9 @@ var app = new Vue({
         },
         errors: [],
         panoteq3dViewer: null,
-        recompute: 0
+        recompute: 0,
+        debugValidationResult: null,
+        alreadyValidatedOnce: false
     },
     created: function () {
         this.readModelAndPrepareDefaultFormValues()
@@ -25,9 +27,20 @@ var app = new Vue({
 
             // Prepare data
             let productId = this.get3dBindParamValue('model'); // 1800
-            let percages = this.get3dBindParamValue('percages').map((val) => {
-                return parseInt(val.value)
-            })
+            let percages = [];
+            // this.get3dBindParamValue('percages').map((val) => {
+            //     return parseInt(val.value)
+            // })
+
+            percages.push(parseInt(this.get3dBindParamValue('percage_1')[0].value))
+            percages.push(parseInt(this.get3dBindParamValue('percage_2')[0].value))
+            percages.push(parseInt(this.get3dBindParamValue('percage_3')[0].value))
+            percages.push(parseInt(this.get3dBindParamValue('percage_4')[0].value))
+            percages.push(parseInt(this.get3dBindParamValue('percage_5')[0].value))
+
+            console.log('percages')
+            console.log(percages)
+
             let emplacementCharnieresDroite = this.get3dBindParamValue('emplacement_charnieres') == 'droite'
             let isRAL = this.get3dBindParamValue('color').startsWith('#')
             let textureName = this.get3dBindParamValue('color')
@@ -44,78 +57,95 @@ var app = new Vue({
                 this.panoteq3dViewer = new Panoteq3dViewer()
                 this.panoteq3dViewer.init($("#threevisualization"), productId, textureName, false, percages,
                     emplacementCharnieresDroite, false, [
-                        this.get3dBindParamValue('dimensions').width,
-                        this.get3dBindParamValue('dimensions').height
+                        this.get3dBindParamValue('dimensions').width / 100,
+                        this.get3dBindParamValue('dimensions').height / 100
                     ], horizontalTexture)
             } else {
                 this.panoteq3dViewer.loadDoorModel(productId, textureName, isRAL, false, percages,
                     emplacementCharnieresDroite, [
-                        this.get3dBindParamValue('dimensions').width,
-                        this.get3dBindParamValue('dimensions').height
+                        this.get3dBindParamValue('dimensions').width / 100,
+                        this.get3dBindParamValue('dimensions').height / 100
                     ], horizontalTexture)
             }
         },
         conditionalDisplay(stepId) {
             var matchesConditions = true
-            //
-            // var foundConditions = this.model.conditional_display.filter((e) => {
-            //     return e.step == stepId
-            // })
-            // if (foundConditions.length > 0) {
-            //     (foundConditions[0].conditions).forEach((condition) => {
-            //         // console.log('matchesConditions: ' + stepId + " - found: ")
-            //         // console.log(condition)
-            //         // console.log('len: ' + this.form.values[condition.step].length)
-            //
-            //         matchesConditions &=
-            //             (this.form.values[condition.step] !== undefined && this.form.values[condition.step].length > 0)
-            //             && (this.form.values[condition.step].length > 0 && this.form.values[condition.step] == condition.value)
-            //         //     || this.stepValidates(condition.step))
-            //
-            //     })
-            // }
+
+            var foundConditions = this.model.conditional_display.filter((e) => {
+                return e.step == stepId
+            })
+
+            //console.log('conditional_display(' + stepId)
+
+            if (foundConditions.length > 0) {
+                let cond = foundConditions[0].condition;
+                let matchesThisCondition;
+
+                switch (cond.operator) {
+                    case 'OR':
+                        matchesThisCondition = false;
+                        break;
+                    default:
+                    case 'AND':
+                        matchesThisCondition = true;
+                        break;
+                }
+
+                (cond.values).forEach((condition) => {
+                    //console.log(condition)
+                    var conditionStep = this.model.steps.filter((e) => e.id == condition.step)[0]
+
+                    // console.log('matchesConditions: ' + stepId + " - found: ")
+                    // console.log(condition)
+                    // console.log('len: ' + this.form.values[conditionStep.value_id].length)
+                    // console.log('step ' + condition.step + ' must be ' + condition.value + ' and is ' + this.form.values[conditionStep.value_id] + ' (index: ' + conditionStep.value_id + ')')
+
+                    var result = (this.form.values[conditionStep.value_id] !== undefined && this.form.values[conditionStep.value_id].length > 0)
+                        && (this.form.values[conditionStep.value_id].length > 0 && this.form.values[conditionStep.value_id] == condition.value)
+
+                    switch (cond.operator) {
+                        case 'OR':
+                            matchesThisCondition |= result
+                            break;
+                        default:
+                        case 'AND':
+                            matchesThisCondition &= result
+                            break;
+                    }
+                })
+
+                matchesConditions &= matchesThisCondition
+            }
 
             return matchesConditions
         },
-        validateStep: function (stepId) {
-            // var step = this.model.steps[stepId]
-            // var value = this.form.values[step.id]
-            //
-            // this.errors[step.id] = false
-            // console.log('validateStep')
-            // console.log(this.errors)
-            //
-            // if (!this.stepNeedsCompletion(step.id)) {
-            //     return true
-            // }
-            //
-            // if (value === undefined) {
-            //     this.errors[step.id] = true
-            //     return false
-            // }
-            //
-            // switch (step.widget_type) {
-            //     case 'color':
-            //         if (value == '#CDA434') {
-            //             console.log('Wrong color')
-            //             this.errors[step.id] = true// 'Wrong color'
-            //             return false
-            //         }
-            //     default:
-            //         return true
-            // }
-
-            // return this.errors[stepId] === undefined
-            return false
-        },
         validateAll: function () {
+            this.alreadyValidatedOnce = true
+
+            var hasErrors = false
+
             this.model.steps.forEach(step => {
-                this.errors[step.id] = this.modelWidgets[step.id].validateStep(this.form.values[step.value_id])
+                // Clear previous errors
+                this.errors[step.id] = []
+
+                if (!this.conditionalDisplay(step.id)) {
+                    console.log('!this.conditionalDisplay(' + step.id)
+                    return
+                }
+
+                // Validate and add errors
+                this.errors[step.id] = this.modelWidgets[step.id].getValidationErrors(this.form.values[step.value_id])
+
+                hasErrors |= !this.modelWidgets[step.id].isValid(this.form.values[step.value_id])
             })
 
-            this.getFirstErrorStepId()
+            this.openAccordionOnFirstError()
+
+            this.debugValidationResult = !hasErrors
 
             this.forceRecomputeValues()
+
+            return this.debugValidationResult
         },
         get3dBindParamValue: function (bindParamName) {
             let result = null
@@ -198,6 +228,10 @@ var app = new Vue({
                     return
                 }
 
+                if (!this.conditionalDisplay(step.id)) {
+                    return
+                }
+
                 if (modelValuesAlreadyChecked.indexOf(step.value_id) !== -1) {
                     // Is duplicate (accessing same value). Do not count in.
                     return
@@ -209,17 +243,14 @@ var app = new Vue({
 
             return steps
         },
-        getStepValue(stepValueId) {
-            return this.form.values[stepValueId]
-        },
         forceRecomputeValues() {
             this.recompute++
         },
-        getFirstErrorStepId() {
+        openAccordionOnFirstError() {
             var lastAccordionIndex = -1
             var firstStep = null
             this.model.steps.forEach((step) => {
-                if(firstStep == null && step.widget_type == 'group-start') {
+                if (firstStep == null && step.widget_type == 'group-start') {
                     lastAccordionIndex++;
                 }
 
@@ -228,13 +259,26 @@ var app = new Vue({
                 }
             })
 
-            if(lastAccordionIndex >= 0 && lastAccordionIndex !== $('#panoteq-configurator-accordion li.uk-open').index()) {
+            if (firstStep !== null && lastAccordionIndex !== $('#panoteq-configurator-accordion li.uk-open').index()) {
                 UIkit.accordion('#panoteq-configurator-accordion').toggle(lastAccordionIndex, true);
             }
+        },
+        totalAmount: function () {
+            const dummy = this.recompute
 
-            console.log('getFirstErrorStepId: ' + firstStep)
-            console.log('lastAccordionIndex: ' + lastAccordionIndex)
-            console.log('this.currentAccordionIndex' + this.currentAccordionIndex)
+            amount = Math.round(this.getStepsNoDuplicateValues().reduce((sum, step) => {
+                if (typeof (sum) === 'object') sum = 0
+                if (this.modelWidgets[step.id].isComplete(this.form.values[step.value_id])) {
+                    return sum + this.modelWidgets[step.id].priceImpact(this.form.values[step.value_id])
+                }
+
+                return sum
+            }), 2)
+
+            this.form.calculatedAmount = amount
+            this.form.calculatedWeight = 10.4
+
+            return amount.toFixed(2)
         }
     },
     computed: {
@@ -245,7 +289,7 @@ var app = new Vue({
 
             // let result = JSON.stringify(JSON.stringify(this.form))
             this.getStepsNoDuplicateValues().forEach((step) => {
-                let description = this.modelWidgets[step.id].description(this.getStepValue(step.value_id))
+                let description = this.modelWidgets[step.id].description(this.form.values[step.value_id])
                 if (description !== null) {
                     result += description + '<br>'
                 }
@@ -253,32 +297,22 @@ var app = new Vue({
 
             return result
         },
-        totalAmount: function () {
-            const dummy = this.recompute
-
-            amount = Math.round(this.getStepsNoDuplicateValues().reduce((sum, step) => {
-                if (typeof (sum) === 'object') sum = 0
-                if (this.modelWidgets[step.id].isComplete(this.getStepValue(step.value_id))) {
-                    return sum + this.modelWidgets[step.id].priceImpact(this.getStepValue(step.value_id))
-                }
-
-                return sum
-            }), 2)
-
-            this.form.calculatedAmount = amount
-            this.form.calculatedWeight = 10.4
-
-            return amount.toFixed(2)
+        totalAmountFormatted: function () {
+            return this.totalAmount().replace('.', ',')
         },
         percentComplete: function () {
+            if (this.alreadyValidatedOnce) {
+                this.validateAll()
+            }
+
             let stepsComplete = this.getStepsNoDuplicateValues().reduce((sum, step) => {
                     if (typeof (sum) === 'object') sum = 0
-                    return sum + (this.modelWidgets[step.id].isComplete(this.getStepValue(step.value_id)) ? 1 : 0)
+                    return sum + (this.modelWidgets[step.id].isComplete(this.form.values[step.value_id]) ? 1 : 0)
                 }
             )
             let stepsNeedingCompletion = this.getStepsNoDuplicateValues().reduce((sum, step) => {
                     if (typeof (sum) === 'object') sum = 0
-                    return sum + (this.modelWidgets[step.id].requiresCompletion(this.getStepValue(step.value_id)) ? 1 : 0)
+                    return sum + (this.modelWidgets[step.id].requiresCompletion(this.form.values[step.value_id]) ? 1 : 0)
                 }
             )
 
