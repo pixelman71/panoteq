@@ -69,55 +69,23 @@ var app = new Vue({
             }
         },
         conditionalDisplay(stepId) {
-            var matchesConditions = true
+            var andConditions = true;
 
-            var foundConditions = this.model.conditional_display.filter((e) => {
-                return e.step == stepId
-            })
+            (this.model.conditional_display.filter((e) => e.step == stepId)).forEach((condition) => {
+                var orConditions = false;
 
-            //console.log('conditional_display(' + stepId)
+                condition.or_values.forEach((orValue) => {
+                    var conditionStep = this.model.steps.filter((e) => e.id == orValue.step)[0]
 
-            if (foundConditions.length > 0) {
-                let cond = foundConditions[0].condition;
-                let matchesThisCondition;
-
-                switch (cond.operator) {
-                    case 'OR':
-                        matchesThisCondition = false;
-                        break;
-                    default:
-                    case 'AND':
-                        matchesThisCondition = true;
-                        break;
-                }
-
-                (cond.values).forEach((condition) => {
-                    //console.log(condition)
-                    var conditionStep = this.model.steps.filter((e) => e.id == condition.step)[0]
-
-                    // console.log('matchesConditions: ' + stepId + " - found: ")
-                    // console.log(condition)
-                    // console.log('len: ' + this.form.values[conditionStep.value_id].length)
-                    // console.log('step ' + condition.step + ' must be ' + condition.value + ' and is ' + this.form.values[conditionStep.value_id] + ' (index: ' + conditionStep.value_id + ')')
-
-                    var result = (this.form.values[conditionStep.value_id] !== undefined && this.form.values[conditionStep.value_id].length > 0)
-                        && (this.form.values[conditionStep.value_id].length > 0 && this.form.values[conditionStep.value_id] == condition.value)
-
-                    switch (cond.operator) {
-                        case 'OR':
-                            matchesThisCondition |= result
-                            break;
-                        default:
-                        case 'AND':
-                            matchesThisCondition &= result
-                            break;
-                    }
+                    orConditions |= (this.form.values[conditionStep.value_id] !== undefined
+                        && this.form.values[conditionStep.value_id] !== null && this.form.values[conditionStep.value_id].length > 0)
+                        && (this.form.values[conditionStep.value_id].length > 0 && this.form.values[conditionStep.value_id] == orValue.value)
                 })
 
-                matchesConditions &= matchesThisCondition
-            }
+                andConditions &= orConditions
+            })
 
-            return matchesConditions
+            return andConditions
         },
         validateAll: function () {
             this.alreadyValidatedOnce = true

@@ -5,16 +5,17 @@
   width: 100%;
   height: 3em;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .ral-wrapper {
   .ral-color {
     display: inline-block;
-    margin-right: 1px;
-    width: 15px;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: calc(100% / 7 - 3px);
     height: 15px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     outline: 1px solid white;
 
     &.selected {
@@ -24,17 +25,11 @@
     input {
       visibility: hidden;
     }
+  }
 
-    //
-    //label {
-    //  content: '';
-    //  background-color: red;
-    //  display: inline-block;
-    //  margin-right: 1px;
-    //  width: 15px;
-    //  height: 15px;
-    //  border: 1px solid black;
-    //}
+  .ral-swatch {
+    width: calc(100% / 4 - 3px);
+    height: 50px;
   }
 }
 

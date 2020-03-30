@@ -177,6 +177,10 @@ class TextWidget extends PanoteqWidget {
     }
 }
 
+class NumberWidget extends TextWidget {
+
+}
+
 class RadioWidget extends PanoteqWidget {
 }
 

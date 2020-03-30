@@ -16,14 +16,13 @@ $(document).ready(function () {
 
     function getUrlQueryParams() {
         let uri = window.location.href.split('?');
-        if (uri.length == 2)
-        {
+        if (uri.length == 2) {
             let vars = uri[1].split('&');
             let getVars = {};
             let tmp = '';
-            vars.forEach(function(v){
+            vars.forEach(function (v) {
                 tmp = v.split('=');
-                if(tmp.length == 2)
+                if (tmp.length == 2)
                     getVars[tmp[0]] = tmp[1];
             });
 
@@ -164,11 +163,11 @@ $(document).ready(function () {
                 }
             }
         ],
-        onEvent: function(node, event) {
+        onEvent: function (node, event) {
             //updateImagePreviews();
 
             // If focusing on element value
-            if(event.type == 'focusin' && (node.field == 'swatch' || node.field == 'swatch_horiz')) {
+            if (event.type == 'focusin' && (node.field == 'swatch' || node.field == 'swatch_horiz')) {
                 console.log(node);
 
                 // Load images list
@@ -194,7 +193,7 @@ $(document).ready(function () {
 
                             // Set value to node element
                             var n2 = editor.node.findNodeByPath(node.path);
-                            n2.value = $(clickEvent.target).attr('src');
+                            n2.value = $(clickEvent.target).attr('data-filepath');
                             n2.updateDom();
                             n2._debouncedOnChangeValue();
 
@@ -210,31 +209,47 @@ $(document).ready(function () {
                 });
             }
         },
-        onClassName: function({path, field, value}) {
+        onClassName: function ({path, field, value}) {
             // console.log('onClassName');
             updateImagePreviews();
 
             return 'blouf';
         },
-        onNodeName({ path, type, size }) {
+        onNodeName({path, type, size}) {
             // Step name
-            if(path.length > 1 && path[path.length - 2] == 'steps') {
+            if (path.length > 1 && path[path.length - 2] == 'steps') {
                 var n2 = editor.node.findNodeByPath(path);
 
-                var childEntityType = n2.childs.filter((e) => { return e.field == 'entity' });
+                var childEntityType = n2.childs.filter((e) => {
+                    return e.field == 'entity'
+                });
 
-                if(childEntityType.length > 0 && childEntityType[0].value == 'step') {
-                    var childEntityWidgetType = n2.childs.filter((e) => { return e.field == 'widget_type' })[0].value;
-                    var childEntityLabel = n2.childs.filter((e) => { return e.field == 'label' })[0].value;
+                if (childEntityType.length > 0 && childEntityType[0].value == 'step') {
+                    var childEntityWidgetType = n2.childs.filter((e) => {
+                        return e.field == 'widget_type'
+                    })[0].value;
+                    var childEntityLabel = n2.childs.filter((e) => {
+                        return e.field == 'label'
+                    })[0].value;
 
-                    var valueIds = n2.childs.filter((e) => { return e.field == 'value_id' });
+                    var valueIds = n2.childs.filter((e) => {
+                        return e.field == 'value_id'
+                    });
                     var childEntityValueId = valueIds.length > 0 ? valueIds[0].value : null;
 
-                    var valueBind3dParam = n2.childs.filter((e) => { return e.field == 'bind_3d_param' });
+                    var valueBind3dParam = n2.childs.filter((e) => {
+                        return e.field == 'bind_3d_param'
+                    });
                     var childEntityBind3dParam = valueBind3dParam.length > 0 ? valueBind3dParam[0].value : null;
 
-                    var childEntityId = n2.childs.filter((e) => { return e.field == 'id' })[0].value;
-                    var childEntityIsSubstep = n2.childs.filter((e) => { return e.field == 'is_substep' }).length > 0 && n2.childs.filter((e) => { return e.field == 'is_substep' })[0].value == true;
+                    var childEntityId = n2.childs.filter((e) => {
+                        return e.field == 'id'
+                    })[0].value;
+                    var childEntityIsSubstep = n2.childs.filter((e) => {
+                        return e.field == 'is_substep'
+                    }).length > 0 && n2.childs.filter((e) => {
+                        return e.field == 'is_substep'
+                    })[0].value == true;
 
                     return (childEntityIsSubstep ? 'Substep' : 'Step') + '#'
                         + childEntityId
@@ -246,17 +261,21 @@ $(document).ready(function () {
             }
 
             // Values field list of values labels
-            if(path.length > 1 && path[path.length - 1] == 'values') {
+            if (path.length > 1 && path[path.length - 1] == 'values') {
                 var n2 = editor.node.findNodeByPath(path);
                 var allLabels = [];
                 var counter = 0;
                 var MAX_LABELS = 5;
 
                 n2.childs.forEach((value) => {
-                    var childEntityLabel = value.childs.filter((e) => { return e.field == 'label' })[0].value;
-                    var childEntityIsDefault = value.childs.filter((e) => { return e.field == 'is_default' })[0].value;
+                    var childEntityLabel = value.childs.filter((e) => {
+                        return e.field == 'label'
+                    })[0].value;
+                    var childEntityIsDefault = value.childs.filter((e) => {
+                        return e.field == 'is_default'
+                    })[0].value;
 
-                    if(++counter <= MAX_LABELS) {
+                    if (++counter <= MAX_LABELS) {
                         allLabels.push(childEntityLabel + (childEntityIsDefault ? ' [X]' : ''));
                     }
                 });
@@ -265,11 +284,40 @@ $(document).ready(function () {
             }
 
             // Value field label
-            if(path.length > 1 && path[path.length - 2] == 'values') {
+            if (path.length > 1 && path[path.length - 2] == 'values') {
                 var n2 = editor.node.findNodeByPath(path);
-                var childEntityLabel = n2.childs.filter((e) => { return e.field == 'label' })[0].value;
-                var childEntityIsDefault = n2.childs.filter((e) => { return e.field == 'is_default' })[0].value;
+                var childEntityLabel = n2.childs.filter((e) => {
+                    return e.field == 'label'
+                })[0].value;
+                var childEntityIsDefault = n2.childs.filter((e) => {
+                    return e.field == 'is_default'
+                })[0].value;
                 return childEntityLabel + (childEntityIsDefault ? ' [X]' : '');
+            }
+
+            // Conditional display field label
+            if (path.length > 1 && path[path.length - 2] == 'conditional_display') {
+                var n2 = editor.node.findNodeByPath(path);
+                var childEntityStep = n2.childs.filter((e) => {
+                    return e.field == 'step'
+                })[0].value;
+                var childEntityStep2 = n2.childs.filter((e) => {
+                    return e.field == 'or_values'
+                })[0].childs;
+
+                var result = childEntityStep2.map((val) => {
+                        var childValue = val.childs.filter((e) => {
+                            return e.field == 'value'
+                        })[0]
+                        var childStep = val.childs.filter((e) => {
+                            return e.field == 'step'
+                        })[0]
+
+                        return '#' + childStep.value + ' = ' + childValue.value
+                    }
+                );
+
+                return 'AND step #' + childEntityStep + ' if (' + result.join(' OR ') + ')';
             }
         },
         onValidationError: function (errors) {
@@ -293,12 +341,12 @@ $(document).ready(function () {
 
     function updateImagePreviews() {
         // Update image previews
-        $('.blouf .jsoneditor-tree:last-child').each(function(index, value) {
+        $('.blouf .jsoneditor-tree:last-child').each(function (index, value) {
             var firstChild = $(this).children().first();
 
             $(this).children().not(':first').remove().end().append(firstChild);
 
-            if(firstChild.text().endsWith('jpg')) {
+            if (firstChild.text().endsWith('jpg')) {
                 $(this).append('<div style="content: \' \'; display: inline-block; width: 1em; height: 1em; top: 3px; position: relative; border: 1px solid black; background-size: contain; background-image: url(' + $(firstChild).text() + ')"></div>');
             }
         });
@@ -313,12 +361,12 @@ $(document).ready(function () {
     const schemaValue = {
         "type": "object",
         "properties": {
-            "value": { "type": "string" },
-            "label": { "type": "string" },
-            "tooltip": { "type": "string" },
-            "price_impact": { "type": "number" },
-            "price_impact_method": { "enum": ["factor"] },
-            "is_default": { "type": "boolean" }
+            "value": {"type": "string"},
+            "label": {"type": "string"},
+            "tooltip": {"type": "string"},
+            "price_impact": {"type": "number"},
+            "price_impact_method": {"enum": ["factor"]},
+            "is_default": {"type": "boolean"}
         },
         "required": ["value", "label", "is_default"],
         "additionalProperties": false
@@ -331,7 +379,7 @@ $(document).ready(function () {
                 "type": "boolean"
             },
             "widget_type": {
-                "enum": ["dimensions", "color", "radio", "text", "selectbox", "color-sample", "group-start", "group-end"]
+                "enum": ["dimensions", "color", "radio", "text", "number", "selectbox", "color-sample", "group-start", "group-end"]
             },
             "values": {
                 "type": "array",

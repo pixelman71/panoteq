@@ -22,10 +22,10 @@
     </div>
     <form>
         <div class="ral-wrapper">
-            <br/><strong>{$step->label}</strong><br/>
+            <br/><strong>{$step->label} {include file='catalog/_partials/panoteqconf/_tooltip.tpl'}</strong><br/>
             {foreach from=$step->values item=$ralColor}
                 {if isset($ralColor->swatch)}
-                    <label class="ral-color"
+                    <label class="ral-color ral-swatch"
                            style="background-image:url('{$ralColor->swatch}'); background-size: contain"
                            title="{$ralColor->label}"
                            v-bind:class="{ selected: form.values[{$step->value_id}] == '{$ralColor->swatch}' }">
@@ -35,6 +35,7 @@
                     </label>
                 {else}
                     <label class="ral-color" style="background-color:{$ralColor->value}"
+                           title="{$ralColor->label}"
                            v-bind:class="{ selected: form.values[{$step->value_id}] == '{$ralColor->value}' }">
                         <input name="color" type="radio" v-model="form.values[{$step->value_id}]"
                                v-on:change="updateDoorModel()"

@@ -184,12 +184,23 @@ img {
     width: 50px;
     margin: 1px;
 }
+
+.ajax-image {
+    display: inline-flex;
+    flex-direction: column;
+    width: 52px;
+    overflow: hidden;
+    margin-right: 5px;
+}
 </style>
 EOT;
 
-        foreach (glob("img/panoteqconf/textures/*.jpg") as $filename) {
-            $isCurrentSelectionClass = ('/' . $filename) == Tools::getValue('currentNodeValue') ? 'style="border: 2px dotted red"' : '';
-            $result .= "<img src='/$filename' title='$filename' $isCurrentSelectionClass>\n";
+        foreach (glob("img/panoteqconf/textures/mini/*.jpg") as $filename) {
+            $filenameWithoutMini = str_replace('/mini', '', $filename);
+            $exploded = explode('/', $filename);
+            $filenameWithoutPath = end($exploded);
+            $isCurrentSelectionClass = ('/' . $filenameWithoutMini) == Tools::getValue('currentNodeValue') ? 'style="border: 2px dotted red"' : '';
+            $result .= "<div class=\"ajax-image\"><img src='/$filename' data-filepath='/$filenameWithoutMini' title='$filenameWithoutMini' $isCurrentSelectionClass>$filenameWithoutPath</div>";
         }
 
         die(json_encode($result));

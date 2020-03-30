@@ -80,6 +80,9 @@
                                 {if $step->widget_type == 'text'}
                                     {include file='catalog/_partials/panoteqconf/text.tpl'}
                                 {/if}
+                                {if $step->widget_type == 'number'}
+                                    {include file='catalog/_partials/panoteqconf/number.tpl'}
+                                {/if}
                                 {if $step->widget_type == 'selectbox'}
                                     {include file='catalog/_partials/panoteqconf/selectbox.tpl'}
                                 {/if}

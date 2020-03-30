@@ -1,6 +1,6 @@
 <section v-if="conditionalDisplay({$step->id})">
-    <br/><strong>{$step->label}</strong>
-    <br/><br/>
+    <br/><strong>{$step->label} {include file='catalog/_partials/panoteqconf/_tooltip.tpl'}</strong><br/>
+    <br/>
     <dl class="uk-description-list">
         <dt>Largeur (en mm)</dt>
         <dd><input type="number" class="uk-input" v-model="form.values[{$step->value_id}].width"
