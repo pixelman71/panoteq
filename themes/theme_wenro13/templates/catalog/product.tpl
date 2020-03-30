@@ -94,7 +94,7 @@
                     </div>
                     <div id="right-column" class="uk-width-3-4">
                         <div style="height: 100%">
-                            <div class="" uk-sticky="bottom: true; offset: 15">
+                            <div class="" uk-sticky="bottom: true; offset: 15" id="#panoteq-sticky-right-panel">
                                 <div class="">
                                     <div class="">
                                         <div id="threevisualization"
