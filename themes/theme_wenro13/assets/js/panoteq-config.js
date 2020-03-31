@@ -15,15 +15,17 @@ var app = new Vue({
     },
     created: function () {
         this.readModelAndPrepareDefaultFormValues()
-        // this.loadFormValuesFromLocalStorage()
+        //this.loadFormValuesFromLocalStorage()
     },
     mounted: function () {
         this.updateDoorModel()
         this.initInterceptOnAddToCartEvent()
+
+        this.$watch('form.values', this.watchHandler)
     },
     methods: {
-        updateDoorModel: function () {
-            this.forceRecomputeValues()
+        updateDoorModel: _.debounce(function () {
+            //this.forceRecomputeValues()
 
             // Prepare data
             let productId = this.get3dBindParamValue('model'); // 1800
@@ -67,7 +69,7 @@ var app = new Vue({
                         this.get3dBindParamValue('dimensions').height / 100
                     ], horizontalTexture)
             }
-        },
+        }, 500),
         conditionalDisplay(stepId) {
             var andConditions = true;
 
@@ -97,7 +99,7 @@ var app = new Vue({
                 this.errors[step.id] = []
 
                 if (!this.conditionalDisplay(step.id)) {
-                    console.log('!this.conditionalDisplay(' + step.id)
+                    //console.log('!this.conditionalDisplay(' + step.id)
                     return
                 }
 
@@ -107,11 +109,9 @@ var app = new Vue({
                 hasErrors |= !this.modelWidgets[step.id].isValid(this.form.values[step.value_id])
             })
 
-            this.openAccordionOnFirstError()
+            //this.openAccordionOnFirstError()
 
             this.debugValidationResult = !hasErrors
-
-            this.forceRecomputeValues()
 
             return this.debugValidationResult
         },
@@ -213,6 +213,13 @@ var app = new Vue({
         },
         forceRecomputeValues() {
             this.recompute++
+            this.watchHandler();
+        },
+        watchHandler(newVal, oldVal) {
+            console.log('watch')
+            this.validateAll()
+            this.saveFormValuesToLocalStorage()
+            this.updateDoorModel()
         },
         openAccordionOnFirstError() {
             var lastAccordionIndex = -1
@@ -251,8 +258,6 @@ var app = new Vue({
     },
     computed: {
         summary: function () {
-            this.saveFormValuesToLocalStorage()
-
             let result = ''
 
             // let result = JSON.stringify(JSON.stringify(this.form))
@@ -269,10 +274,6 @@ var app = new Vue({
             return this.totalAmount().replace('.', ',')
         },
         percentComplete: function () {
-            if (this.alreadyValidatedOnce) {
-                this.validateAll()
-            }
-
             let stepsComplete = this.getStepsNoDuplicateValues().reduce((sum, step) => {
                     if (typeof (sum) === 'object') sum = 0
                     return sum + (this.modelWidgets[step.id].isComplete(this.form.values[step.value_id]) ? 1 : 0)

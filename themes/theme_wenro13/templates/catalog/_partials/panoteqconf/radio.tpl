@@ -7,7 +7,7 @@
             <div class="uk-margin-small-top">
                 <label>
                     <input type="radio" class="uk-radio" name="radio{$step->value_id}" value="{$value->value}"
-                           v-model="form.values[{$step->value_id}]" v-on:change="updateDoorModel()">
+                           v-model="form.values[{$step->value_id}]">
                     {$value->label}
                 </label>
             </div>

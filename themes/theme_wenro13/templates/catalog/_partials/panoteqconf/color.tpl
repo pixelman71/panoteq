@@ -30,7 +30,6 @@
                            title="{$ralColor->label}"
                            v-bind:class="{ selected: form.values[{$step->value_id}] == '{$ralColor->swatch}' }">
                         <input name="color" type="radio" v-model="form.values[{$step->value_id}]"
-                               v-on:change="updateDoorModel()"
                                value="{$ralColor->swatch}">
                     </label>
                 {else}
@@ -38,7 +37,6 @@
                            title="{$ralColor->label}"
                            v-bind:class="{ selected: form.values[{$step->value_id}] == '{$ralColor->value}' }">
                         <input name="color" type="radio" v-model="form.values[{$step->value_id}]"
-                               v-on:change="updateDoorModel()"
                                value="{$ralColor->value}">
                     </label>
                 {/if}
