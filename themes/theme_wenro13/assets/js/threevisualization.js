@@ -1442,7 +1442,7 @@ Panoteq3dViewer.prototype.createTexturedMaterial = function (texture, textureShi
     return newMaterial;
 };
 
-Panoteq3dViewer.prototype.init = function (element, productId, attributeId, inverted, holesOffsetsY, rightSide, backSideView, dimensions, horizontalTexture) {
+Panoteq3dViewer.prototype.init = function (element, productId, attributeId, inverted, holesOffsetsY, rightSide, backSideView, dimensions, horizontalTexture, isRal) {
     var thisRef = this;
 
     this.backSideView = backSideView;
@@ -1459,7 +1459,7 @@ Panoteq3dViewer.prototype.init = function (element, productId, attributeId, inve
         thisRef.onWindowResize();
     }, false);
 
-    this.loadDoorModel(productId, attributeId, false, inverted, holesOffsetsY, rightSide, dimensions, horizontalTexture);
+    this.loadDoorModel(productId, attributeId, isRal, inverted, holesOffsetsY, rightSide, dimensions, horizontalTexture);
 };
 
 Panoteq3dViewer.prototype.animate = function () {

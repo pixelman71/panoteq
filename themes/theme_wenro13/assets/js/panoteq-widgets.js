@@ -14,6 +14,26 @@ class PanoteqWidget {
         return null
     }
 
+    getDefaultEmptyValue() {
+        return null
+    }
+
+    differsFromDefaultValue(value) {
+        return value !== this.getDefaultEmptyValue()
+    }
+
+    getValidValueFor3d(value) {
+        // console.log('getValidValueFor3d: ' + this.step.id)
+        // console.log('value: ' + value)
+        // console.log('complete: ' + this.isComplete())
+        // console.log('valid: ' + this.isValid(value))
+        return this.isComplete(value) && this.isValid(value) ? value : this.getDefaultValue()
+    }
+
+    hasValidValueFor3d(value) {
+        return this.getValidValueFor3d(value) !== undefined
+    }
+
     requiresCompletion() {
         return true
     }
@@ -93,6 +113,17 @@ class DimensionsWidget extends PanoteqWidget {
         }
     }
 
+    getDefaultEmptyValue() {
+        return {
+            width: null,
+            height: null
+        }
+    }
+
+    differsFromDefaultValue(value) {
+        return value.width !== this.getDefaultEmptyValue().width || value.height !== this.getDefaultEmptyValue().height
+    }
+
     priceImpact(value) {
         if (this.step.price_impact !== undefined) {
             return value.width * value.height * this.step.price_impact * 0.001 * 0.001
@@ -148,7 +179,7 @@ class TextWidget extends PanoteqWidget {
     }
 
     isComplete(value) {
-        return value !== undefined && value.length > 0
+        return value !== null && value !== undefined && value.length > 0
     }
 
     addValue(values, index) {

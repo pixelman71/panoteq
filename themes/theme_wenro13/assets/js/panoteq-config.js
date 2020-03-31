@@ -25,8 +25,6 @@ var app = new Vue({
     },
     methods: {
         updateDoorModel: _.debounce(function () {
-            //this.forceRecomputeValues()
-
             // Prepare data
             let productId = this.get3dBindParamValue('model'); // 1800
             let percages = [];
@@ -40,19 +38,13 @@ var app = new Vue({
             percages.push(parseInt(this.get3dBindParamValue('percage_4')[0].value))
             percages.push(parseInt(this.get3dBindParamValue('percage_5')[0].value))
 
-            console.log('percages')
-            console.log(percages)
+            // console.log('percages')
+            // console.log(percages)
 
             let emplacementCharnieresDroite = this.get3dBindParamValue('emplacement_charnieres') == 'droite'
             let isRAL = this.get3dBindParamValue('color').startsWith('#')
             let textureName = this.get3dBindParamValue('color')
-            let horizontalTexture = false
-            if (!isRAL) {
-                if (this.get3dBindParamValue('sens_fil') == 'horizontal') {
-                    horizontalTexture = true
-                    //     textureName = this.get3dBindParamSwatchHoriz('color')
-                }
-            }
+            let horizontalTexture = !isRAL && this.get3dBindParamValue('sens_fil') == 'horizontal'
 
             // Init 3d instance
             if (this.panoteq3dViewer == null) {
@@ -61,7 +53,7 @@ var app = new Vue({
                     emplacementCharnieresDroite, false, [
                         this.get3dBindParamValue('dimensions').width / 100,
                         this.get3dBindParamValue('dimensions').height / 100
-                    ], horizontalTexture)
+                    ], horizontalTexture, isRAL)
             } else {
                 this.panoteq3dViewer.loadDoorModel(productId, textureName, isRAL, false, percages,
                     emplacementCharnieresDroite, [
@@ -103,6 +95,14 @@ var app = new Vue({
                     return
                 }
 
+                if (!this.modelWidgets[step.id].differsFromDefaultValue(this.form.values[step.value_id])) {
+                    console.log('!this.differsFromDefaultValue(' + step.id)
+                    return
+                }
+                else {
+                    console.log('=> this.differsFromDefaultValue(' + step.id)
+                }
+
                 // Validate and add errors
                 this.errors[step.id] = this.modelWidgets[step.id].getValidationErrors(this.form.values[step.value_id])
 
@@ -116,13 +116,16 @@ var app = new Vue({
             return this.debugValidationResult
         },
         get3dBindParamValue: function (bindParamName) {
+            // console.log('get3dBindParamValue(' + bindParamName)
             let result = null
             this.model.steps.forEach((step) => {
-                if (step.bind_3d_param == bindParamName) {
-                    result = this.form.values[step.value_id]
+                if (step.bind_3d_param == bindParamName
+                    && this.modelWidgets[step.id].hasValidValueFor3d(this.form.values[step.value_id])) {
+                    result = this.modelWidgets[step.id].getValidValueFor3d(this.form.values[step.value_id])
                 }
             })
 
+            // console.log('3dBindParam[' + bindParamName + '] = ' + result)
             return result
         },
         get3dBindParamSwatchHoriz: function (bindParamName) {
@@ -170,8 +173,9 @@ var app = new Vue({
                     this.modelWidgets[step.id] = new EmptyWidget(step, this.form.values[step.value_id])
                 }
 
-                if (this.modelWidgets[step.id].requiresCompletion() && this.modelWidgets[step.id].getDefaultValue() !== undefined) {
-                    this.form.values[step.value_id] = this.modelWidgets[step.id].getDefaultValue()
+                if (this.modelWidgets[step.id].requiresCompletion() && this.modelWidgets[step.id].getDefaultEmptyValue() !== undefined) {
+                    this.form.values[step.value_id] = this.modelWidgets[step.id].getDefaultEmptyValue()
+                    this.errors[step.value_id] = [];
                 }
             })
         },
@@ -290,3 +294,4 @@ var app = new Vue({
         },
     }
 })
+1
