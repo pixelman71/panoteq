@@ -11,7 +11,8 @@ var app = new Vue({
         panoteq3dViewer: null,
         recompute: 0,
         debugValidationResult: null,
-        alreadyValidatedOnce: false
+        alreadyValidatedOnce: false,
+        userHasInteractedWith3dVisualization: false
     },
     created: function () {
         this.readModelAndPrepareDefaultFormValues()
@@ -144,6 +145,20 @@ var app = new Vue({
             return null
         },
         initInterceptOnAddToCartEvent: function () {
+            var $this = this
+
+            $('#threevisualization').mouseover((e) => {
+                $('#threevisualization > div').hide()
+            })
+            $('#threevisualization').mouseout((e) => {
+                if(!$this.userHasInteractedWith3dVisualization) {
+                    $('#threevisualization > div').show()
+                }
+            })
+            $('#threevisualization').mousedown((e) => {
+                $this.userHasInteractedWith3dVisualization = true
+            })
+
             // Intercept click on add to cart button
             $('form#add-to-cart-or-refresh button[type=button]').click((e) => {
                 e.preventDefault()

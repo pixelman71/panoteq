@@ -100,8 +100,17 @@
                             <div class="" uk-sticky="bottom: true; offset: 15" id="#panoteq-sticky-right-panel">
                                 <div class="">
                                     <div class="">
-                                        <div id="threevisualization"
-                                             style="width: 100%; height: 400px;border: 1px solid #f0f0f0;background-color: #eaeae8"></div>
+                                        <div>
+                                        <div id="threevisualization" class="uk-inline"
+                                             style="width: 100%; height: 400px;border: 1px solid #f0f0f0;background-color: #eaeae8">
+{*                                            <div class="uk-overlay-primary uk-position-cover"></div>*}
+{*                                            <div class="uk-overlay uk-position-center uk-light">*}
+{*                                                <div class="uk-position-center">*}
+{*                                                    <span uk-overlay-icon></span>*}
+{*                                                </div>*}
+{*                                            </div>*}
+                                        </div>
+                                        </div>
 
                                         {*                                <img class="js-qv-product-cover" src="{$product.cover.bySize.large_default.url}"*}
                                         {*                                     alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;"*}

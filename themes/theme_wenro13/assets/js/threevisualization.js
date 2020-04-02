@@ -3,8 +3,8 @@ function Panoteq3dViewer() {
 
 Panoteq3dViewer.prototype.debug = false;
 
-Panoteq3dViewer.prototype.debugLog = function(msg) {
-    if(this.debug) {
+Panoteq3dViewer.prototype.debugLog = function (msg) {
+    if (this.debug) {
         console.log(msg);
     }
 };
@@ -38,180 +38,136 @@ Panoteq3dViewer.prototype.numMaterialsLoaded = 0;
 
 Panoteq3dViewer.prototype.modelsDirectory = '/threemodels/';
 
-Panoteq3dViewer.prototype.texturesPaths = {
-    // Brillant
-    '177': 'BrillantWhite.jpg',
-    '181': 'BrillantGenet.jpg',
-    '182': 'BrillantLagon.jpg',
-    '219': 'BrillantGrisFoncé.jpg',
-    // Uni
-    '202': 'Beige.jpg',
-    '203': 'Brun.jpg',
-    '204': 'BlancNeige.jpg',
-    '205': 'A-Laquer.jpg',
-    '206': 'Argile.jpg',
-    '210': 'Malaga.jpg',
-    '211': 'RougeFoncé.jpg',
-    '212': 'BlancLisse.jpg',
-    '213': 'Macadam.jpg',
-    '214': 'Mineral.jpg',
-    '7389': 'BleuCaraibe.jpg',
-    '39901': 'NoireGrainé.jpg',
-    // Structuré - Horizontal
-    '184': 'CheneDeFil.jpg',
-    '187': 'Ebene.jpg',
-    '189': 'Chene Brun Brossé.jpg',
-    '2448': 'AcaciaBlanc.jpg',
-    '192': 'PinAnthraciteBrossé.jpg',
-    '193': 'PinEcruBrossé.jpg',
-    '194': 'PinSabléBrossé.jpg',
-    '195': 'CotonStructuré.jpg',
-    '196': 'NoirStructuré.jpg',
-    '198': 'CheneDoré.jpg',
-    '199': 'CheneScieNaturel.jpg',
-    '200': 'CheneGris.jpg',
-    '7391': 'Ambassador.jpg',
-    '7392': 'LinGris.jpg',
-    '15507': 'VertAnisseBrossé.jpg',
-    // Nouveaux
-    '1': 'BlancSerica.jpg',
-    '2': 'BrillantAluBrossé-(2).jpg',
-    '3': 'BrillantBeigeSahara.jpg',
-    '4': 'BrillantPimentRose.jpg',
-    '5': 'CassisBrillant.jpg',
-    '6': 'NoirLisse.jpg'
-};
-
 Panoteq3dViewer.prototype.texturesHasHorizontal = {
     // Brillant
-    '177': false,
-    '181': false,
-    '182': false,
-    '219': false,
+    'BrillantWhite.jpg': false,
+    'BrillantGenet.jpg': false,
+    'BrillantLagon.jpg': false,
+    'BrillantGrisFoncé.jpg': false,
     // Uni
-    '202': false,
-    '203': false,
-    '204': false,
-    '205': false,
-    '206': false,
-    '210': false,
-    '211': false,
-    '212': false,
-    '213': false,
-    '214': false,
-    '7389': false,
-    '39901': false,
+    'Beige.jpg': false,
+    'Brun.jpg': false,
+    'BlancNeige.jpg': false,
+    'A-Laquer.jpg': false,
+    'Argile.jpg': false,
+    'Malaga.jpg': false,
+    'RougeFoncé.jpg': false,
+    'BlancLisse.jpg': false,
+    'Macadam.jpg': false,
+    'Mineral.jpg': false,
+    'BleuCaraibe.jpg': false,
+    'NoireGrainé.jpg': false,
     // Structuré - Horizontal
-    '184': true,
-    '187': true,
-    '189': true,
-    '2448': true,
-    '192': true,
-    '193': true,
-    '194': true,
-    '195': true,
-    '196': true,
-    '198': true,
-    '199': true,
-    '200': true,
-    '7391': true,
-    '7392': true,
-    '15507': true,
+    'CheneDeFil.jpg': true,
+    'Ebene.jpg': true,
+    'Chene Brun Brossé.jpg': true,
+    'AcaciaBlanc.jpg': true,
+    'PinAnthraciteBrossé.jpg': true,
+    'PinEcruBrossé.jpg': true,
+    'PinSabléBrossé.jpg': true,
+    'CotonStructuré.jpg': true,
+    'NoirStructuré.jpg': true,
+    'CheneDoré.jpg': true,
+    'CheneScieNaturel.jpg': true,
+    'CheneGris.jpg': true,
+    'Ambassador.jpg': true,
+    'LinGris.jpg': true,
+    'VertAnisseBrossé.jpg': true,
     // Nouveaux
-    '1': false,
-    '2': false,
-    '3': false,
-    '4': false,
-    '5': false,
-    '6': false
+    'BlancSerica.jpg': false,
+    'BrillantAluBrossé-(2).jpg': false,
+    'BrillantBeigeSahara.jpg': false,
+    'BrillantPimentRose.jpg': false,
+    'CassisBrillant.jpg': false,
+    'NoirLisse.jpg': false
 };
 
 Panoteq3dViewer.prototype.texturesShininess = {
     // Brillant
-    '177': 120, //'BrillantWhite.jpg',
-    '181': 100, //'BrillantGenet.jpg',
-    '182': 100, //'BrillantLagon.jpg',
-    '219': 100, //'BrillantGrisFoncé.jpg',
+    'BrillantWhite.jpg': 120,
+    'BrillantGenet.jpg': 100,
+    'BrillantLagon.jpg': 100,
+    'BrillantGrisFoncé.jpg': 100,
     // Uni
-    '202': 40, //'Beige.jpg',
-    '203': 40, //'Brun.jpg',
-    '204': 0, //'BlancNeige.jpg',
-    '205': 0, //'A-Laquer.jpg',
-    '206': 40, //'Argile.jpg',
-    '210': 40, //'Malaga.jpg',
-    '211': 40, //'RougeFoncé.jpg',
-    '212': 0, // Blanclisse
-    '213': 40, //'Macadam.jpg',
-    '214': 40, //'Mineral.jpg',
-    '7389': 40, //'BleuCaraibe.jpg',
-    '39901': 25, //'NoireGrainé.jpg',
+    'Beige.jpg': 40,
+    'Brun.jpg': 40,
+    'BlancNeige.jpg': 0,
+    'A-Laquer.jpg': 0,
+    'Argile.jpg': 40,
+    'Malaga.jpg': 40,
+    'RougeFoncé.jpg': 40,
+    'BlancLisse.jpg': 0,
+    'Macadam.jpg': 40,
+    'Mineral.jpg': 40,
+    'BleuCaraibe.jpg': 40,
+    'NoireGrainé.jpg': 25,
     // Structuré - Horizontal
-    '184': 5, //'CheneDeFil.jpg',
-    '187': 5, //'Ebene.jpg',
-    '189': 5, //'Chene Brun Brossé.jpg',
-    '2448': 5, //'AcaciaBlanc.jpg',
-    '192': 5, //'PinAnthraciteBrossé.jpg',
-    '193': 5, //'PinEcruBrossé.jpg',
-    '194': 5, //'PinSabléBrossé.jpg',
-    '195': 5, //'CotonStructuré.jpg',
-    '196': 5, //'NoirStructuré.jpg',
-    '198': 5, //'CheneDoré.jpg',
-    '199': 5, //'CheneScieNaturel.jpg',
-    '200': 5, //'CheneGris.jpg',
-    '7391': 5, //'Ambassador.jpg',
-    '7392': 5, //'LinGris.jpg',
-    '15507': 5, //'VertAnisseBrossé.jpg',
+    'CheneDeFil.jpg': 5,
+    'Ebene.jpg': 5,
+    'Chene Brun Brossé.jpg': 5,
+    'AcaciaBlanc.jpg': 5,
+    'PinAnthraciteBrossé.jpg': 5,
+    'PinEcruBrossé.jpg': 5,
+    'PinSabléBrossé.jpg': 5,
+    'CotonStructuré.jpg': 5,
+    'NoirStructuré.jpg': 5,
+    'CheneDoré.jpg': 5,
+    'CheneScieNaturel.jpg': 5,
+    'CheneGris.jpg': 5,
+    'Ambassador.jpg': 5,
+    'LinGris.jpg': 5,
+    'VertAnisseBrossé.jpg': 5,
     // Nouveaux
-    '1': 0, //'BlancSerica.jpg',
-    '2': 65, //'BrillantAluBrossé-(2).jpg',
-    '3': 25, //'BrillantBeigeSahara.jpg',
-    '4': 100, //'BrillantPimentRose.jpg',
-    '5': 75, //'CassisBrillant.jpg',
-    '6': 25, //'NoirLisse.jpg'
+    'BlancSerica.jpg': 0,
+    'BrillantAluBrossé-(2).jpg': 65,
+    'BrillantBeigeSahara.jpg': 25,
+    'BrillantPimentRose.jpg': 100,
+    'CassisBrillant.jpg': 75,
+    'NoirLisse.jpg': 25
 };
 
 Panoteq3dViewer.prototype.lightsIntensitiesFactors = {
     // Brillant
-    '177': 80, //'BrillantWhite.jpg',
-    '181': 100, //'BrillantGenet.jpg',
-    '182': 100, //'BrillantLagon.jpg',
-    '219': 100, //'BrillantGrisFoncé.jpg',
+    'BrillantWhite.jpg': 80,
+    'BrillantGenet.jpg': 100,
+    'BrillantLagon.jpg': 100,
+    'BrillantGrisFoncé.jpg': 100,
     // Uni
-    '202': 85, //'Beige.jpg',
-    '203': 85, //'Brun.jpg',
-    '204': 75, //'BlancNeige.jpg',
-    '205': 75, //'A-Laquer.jpg',
-    '206': 85, //'Argile.jpg',
-    '210': 85, //'Malaga.jpg',
-    '211': 85, //'RougeFoncé.jpg',
-    '212': 60, // Blanclisse
-    '213': 85, //'Macadam.jpg',
-    '214': 60, //'Mineral.jpg',
-    '7389': 85, //'BleuCaraibe.jpg',
-    '39901': 80, //'NoireGrainé.jpg',
+    'Beige.jpg': 85,
+    'Brun.jpg': 85,
+    'BlancNeige.jpg': 75,
+    'A-Laquer.jpg': 75,
+    'Argile.jpg': 85,
+    'Malaga.jpg': 85,
+    'RougeFoncé.jpg': 85,
+    'BlancLisse.jpg': 60,
+    'Macadam.jpg': 85,
+    'Mineral.jpg': 60,
+    'BleuCaraibe.jpg': 85,
+    'NoireGrainé.jpg': 80,
     // Structuré - Horizontal
-    '184': 75, //'CheneDeFil.jpg',
-    '187': 75, //'Ebene.jpg',
-    '189': 75, //'Chene Brun Brossé.jpg',
-    '2448': 65, //'AcaciaBlanc.jpg',
-    '192': 75, //'PinAnthraciteBrossé.jpg',
-    '193': 75, //'PinEcruBrossé.jpg',
-    '194': 75, //'PinSabléBrossé.jpg',
-    '195': 75, //'CotonStructuré.jpg',
-    '196': 75, //'NoirStructuré.jpg',
-    '198': 75, //'CheneDoré.jpg',
-    '199': 70, //'CheneScieNaturel.jpg',
-    '200': 75, //'CheneGris.jpg',
-    '7391': 75, //'Ambassador.jpg',
-    '7392': 75, //'LinGris.jpg',
-    '15507': 75, //'VertAnisseBrossé.jpg',
+    'CheneDeFil.jpg': 75,
+    'Ebene.jpg': 75,
+    'Chene Brun Brossé.jpg': 75,
+    'AcaciaBlanc.jpg': 65,
+    'PinAnthraciteBrossé.jpg': 75,
+    'PinEcruBrossé.jpg': 75,
+    'PinSabléBrossé.jpg': 75,
+    'CotonStructuré.jpg': 75,
+    'NoirStructuré.jpg': 75,
+    'CheneDoré.jpg': 75,
+    'CheneScieNaturel.jpg': 70,
+    'CheneGris.jpg': 75,
+    'Ambassador.jpg': 75,
+    'LinGris.jpg': 75,
+    'VertAnisseBrossé.jpg': 75,
     // Nouveaux
-    '1': 65, //'BlancSerica.jpg',
-    '2': 150, //'BrillantAluBrossé-(2).jpg',
-    '3': 70, //'BrillantBeigeSahara.jpg',
-    '4': 100, //'BrillantPimentRose.jpg',
-    '5': 150, //'CassisBrillant.jpg',
-    '6': 80, //'NoirLisse.jpg'
+    'BlancSerica.jpg': 65,
+    'BrillantAluBrossé-(2).jpg': 150,
+    'BrillantBeigeSahara.jpg': 70,
+    'BrillantPimentRose.jpg': 100,
+    'CassisBrillant.jpg': 150,
+    'NoirLisse.jpg': 80
 };
 
 Panoteq3dViewer.prototype.modelsFiles = {};
@@ -655,8 +611,7 @@ Panoteq3dViewer.prototype.loadDoorModel = function (productId, attributeIdOrRal,
 
     if (!isRALColor) {
         var textureFileName = attributeIdOrRal;
-        var found = Object.entries(this.texturesPaths).filter((val) => attributeIdOrRal.split('/').splice(-1)[0] === val[1])[0]
-        attributeIdOrRal = parseInt(found[0]);
+        attributeIdOrRal = attributeIdOrRal.split('/').splice(-1)[0];
         console.log('Select attributeIdOrRal texture params: ' + attributeIdOrRal);
 
         var textureHasHorizontal = this.texturesHasHorizontal[attributeIdOrRal];
@@ -875,7 +830,7 @@ Panoteq3dViewer.prototype.createScene = function () {
     // Scene
     this.scene = new THREE.Scene();
     this.scene.background = new THREE.Color(0xfafaf8);
-   //this.scene.background = new THREE.Color(0xa0a0a0);
+    //this.scene.background = new THREE.Color(0xa0a0a0);
 
     // Camera
     this.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 2000);
@@ -1535,10 +1490,10 @@ Panoteq3dViewer.prototype.showModelAfterLoading = function () {
 
 Panoteq3dViewer.prototype.mapValue = (value, x1, y1, x2, y2) => (value - x1) * (y2 - x2) / (y1 - x1) + x2;
 
-Panoteq3dViewer.prototype.readjustBackgroundColorAccordingToCameraAngle = function() {
-    var vector = new THREE.Vector3(0,0,0);
+Panoteq3dViewer.prototype.readjustBackgroundColorAccordingToCameraAngle = function () {
+    var vector = new THREE.Vector3(0, 0, 0);
     this.camera.getWorldDirection(vector);
-    var theta = Math.atan2(vector.x,vector.z);
+    var theta = Math.atan2(vector.x, vector.z);
     theta = Math.min(Math.max(0, Math.abs(theta)), 3.14);
     var mappedValueLuminance = Math.round(this.mapValue(theta, 0, 3.14, 90, 98));
     var mappedValueSaturation = Math.round(this.mapValue(theta, 0, 3.14, 7, 17));
