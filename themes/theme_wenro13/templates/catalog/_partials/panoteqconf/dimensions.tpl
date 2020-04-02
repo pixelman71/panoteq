@@ -3,7 +3,7 @@
     <br/>
     <dl class="uk-description-list">
         <dt>Largeur (en mm)</dt>
-        <dd><input type="number" class="uk-input" v-model="form.values[{$step->value_id}].width"
+        <dd><input type="number" class="uk-input" v-model="form.values[{$step->value_id}].width" min="[{$step->value_min_horiz}]" max="[{$step->value_max_horiz}]"
                    v-on:keyup="forceRecomputeValues()"
                    v-bind:class="{ 'uk-form-danger': errors[{$step->id}] !== undefined && errors[{$step->id}].length > 0 && errors[{$step->id}][0].length > 0 }">
             <div v-if="errors[{$step->id}] !== undefined && errors[{$step->id}].length > 0 && errors[{$step->id}][0].length > 0"

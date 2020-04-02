@@ -69,24 +69,31 @@
                                     {include file='catalog/_partials/panoteqconf/group-start.tpl'}
                                 {/if}
                                 {if $step->widget_type == 'color'}
+                                    <a name="step{$step->id}"></a>
                                     {include file='catalog/_partials/panoteqconf/color.tpl'}
                                 {/if}
                                 {if $step->widget_type == 'color-sample'}
+                                    <a name="step{$step->id}"></a>
                                     {include file='catalog/_partials/panoteqconf/color-sample.tpl'}
                                 {/if}
                                 {if $step->widget_type == 'radio'}
+                                    <a name="step{$step->id}"></a>
                                     {include file='catalog/_partials/panoteqconf/radio.tpl'}
                                 {/if}
                                 {if $step->widget_type == 'text'}
+                                    <a name="step{$step->id}"></a>
                                     {include file='catalog/_partials/panoteqconf/text.tpl'}
                                 {/if}
                                 {if $step->widget_type == 'number'}
+                                    <a name="step{$step->id}"></a>
                                     {include file='catalog/_partials/panoteqconf/number.tpl'}
                                 {/if}
                                 {if $step->widget_type == 'selectbox'}
+                                    <a name="step{$step->id}"></a>
                                     {include file='catalog/_partials/panoteqconf/selectbox.tpl'}
                                 {/if}
                                 {if $step->widget_type == 'dimensions'}
+                                    <a name="step{$step->id}"></a>
                                     {include file='catalog/_partials/panoteqconf/dimensions.tpl'}
                                 {/if}
                                 {if $step->widget_type == 'group-end'}
@@ -134,7 +141,7 @@
                                                      itemprop="description">{$product.description_short nofilter}</div>
                                                 <div class="">
                                                     <div>
-                                                        <button class="uk-button" v-on:click="validateAll()">Validate</button>
+                                                        <button class="uk-button" v-on:click="validateAll(true)">Validate</button>
                                                         <strong>Result: </strong> <span v-html="debugValidationResult"></span>
                                                     </div>
                                                     <div v-html="summary"></div>

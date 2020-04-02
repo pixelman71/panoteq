@@ -23,10 +23,11 @@ class PanoteqWidget {
     }
 
     getValidValueFor3d(value) {
-        // console.log('getValidValueFor3d: ' + this.step.id)
-        // console.log('value: ' + value)
-        // console.log('complete: ' + this.isComplete())
-        // console.log('valid: ' + this.isValid(value))
+        // console.log('getValidValueFor3d')
+        // console.log(value)
+        // console.log(this.isComplete(value))
+        // console.log(this.getDefaultValue())
+
         return this.isComplete(value) && this.isValid(value) ? value : this.getDefaultValue()
     }
 
@@ -136,6 +137,18 @@ class DimensionsWidget extends PanoteqWidget {
         var errorsHoriz = []
         var errorsVert = []
 
+        console.log('dimensions getValidationErrors')
+        console.log(value)
+        // console.log('this.step.value_min_horiz')
+        // console.log('this.step.value_min_horiz')
+        // console.log(this.step.value_min_horiz)
+        // if(this.step.value_min_horiz === undefined) {
+        //     console.log('bug!')
+        // }
+        //
+        // value.width = parseInt(value.width)
+        // value.height = parseInt(value.height)
+
         if (value.width < this.step.value_min_horiz || value.width > this.step.value_max_horiz) {
             errorsHoriz = ['La largeur doit être comprise entre ' + this.step.value_min_horiz + this.step.suffix
             + ' et ' + this.step.value_max_horiz + this.step.suffix]
@@ -150,6 +163,8 @@ class DimensionsWidget extends PanoteqWidget {
     }
 
     isComplete(value) {
+        console.log('dimensions isComplete')
+        console.log(value)
         return value !== undefined && value.width !== null && value.height !== null;
     }
 
@@ -158,6 +173,10 @@ class DimensionsWidget extends PanoteqWidget {
     }
 
     isValid(value) {
+        console.log('isValid dimensions')
+        console.log(value)
+        console.log(this.getValidationErrors(value)[0].length == 0 && this.getValidationErrors(value)[1].length == 0)
+        console.log(this.getValidationErrors(value))
         return this.getValidationErrors(value)[0].length == 0 && this.getValidationErrors(value)[1].length == 0
     }
 }
@@ -165,6 +184,10 @@ class DimensionsWidget extends PanoteqWidget {
 class TextWidget extends PanoteqWidget {
     getDefaultValue() {
         return [{'value': 1}]
+    }
+
+    getDefaultEmptyValue() {
+        return [{'value': null}]
     }
 
     priceImpact(value) {
@@ -179,7 +202,7 @@ class TextWidget extends PanoteqWidget {
     }
 
     isComplete(value) {
-        return value !== null && value !== undefined && value.length > 0
+        return value !== null && value !== undefined && value.length > 0 && value[0].value !== null;
     }
 
     addValue(values, index) {

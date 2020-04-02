@@ -28,16 +28,37 @@ var app = new Vue({
         updateDoorModel: _.debounce(function () {
             // Prepare data
             let productId = this.get3dBindParamValue('model'); // 1800
-            let percages = [];
-            // this.get3dBindParamValue('percages').map((val) => {
-            //     return parseInt(val.value)
-            // })
 
-            percages.push(parseInt(this.get3dBindParamValue('percage_1')[0].value))
-            percages.push(parseInt(this.get3dBindParamValue('percage_2')[0].value))
-            percages.push(parseInt(this.get3dBindParamValue('percage_3')[0].value))
-            percages.push(parseInt(this.get3dBindParamValue('percage_4')[0].value))
-            percages.push(parseInt(this.get3dBindParamValue('percage_5')[0].value))
+            let percages = [];
+            let nombrePercages = 0
+            switch (this.get3dBindParamValue('nombre_percages')) {
+                case 'deux':
+                    nombrePercages = 2
+                    break
+                case 'trois':
+                    nombrePercages = 3
+                    break
+                case 'quatre':
+                    nombrePercages = 4
+                    break
+                case 'cinq':
+                    nombrePercages = 5
+                    break
+            }
+
+            if (nombrePercages >= 2) {
+                percages.push(parseFloat(this.get3dBindParamValue('percage_1')[0].value) / 100)
+                percages.push(parseFloat(this.get3dBindParamValue('percage_2')[0].value) / 100)
+            }
+            if (nombrePercages >= 3) {
+                percages.push(parseFloat(this.get3dBindParamValue('percage_3')[0].value) / 100)
+            }
+            if (nombrePercages >= 4) {
+                percages.push(parseFloat(this.get3dBindParamValue('percage_4')[0].value) / 100)
+            }
+            if (nombrePercages >= 5) {
+                percages.push(parseFloat(this.get3dBindParamValue('percage_5')[0].value) / 100)
+            }
 
             // console.log('percages')
             // console.log(percages)
@@ -46,6 +67,9 @@ var app = new Vue({
             let isRAL = this.get3dBindParamValue('color').startsWith('#')
             let textureName = this.get3dBindParamValue('color')
             let horizontalTexture = !isRAL && this.get3dBindParamValue('sens_fil') == 'horizontal'
+
+            console.log('3d dimensions: ')
+            console.log(this.get3dBindParamValue('dimensions'))
 
             // Init 3d instance
             if (this.panoteq3dViewer == null) {
@@ -82,7 +106,7 @@ var app = new Vue({
 
             return andConditions
         },
-        validateAll: function () {
+        validateAll: function (openAccordionAndScroll) {
             this.alreadyValidatedOnce = true
 
             var hasErrors = false
@@ -99,8 +123,7 @@ var app = new Vue({
                 if (!this.modelWidgets[step.id].differsFromDefaultValue(this.form.values[step.value_id])) {
                     console.log('!this.differsFromDefaultValue(' + step.id)
                     return
-                }
-                else {
+                } else {
                     console.log('=> this.differsFromDefaultValue(' + step.id)
                 }
 
@@ -110,7 +133,7 @@ var app = new Vue({
                 hasErrors |= !this.modelWidgets[step.id].isValid(this.form.values[step.value_id])
             })
 
-            //this.openAccordionOnFirstError()
+            this.openAccordionOnFirstError(openAccordionAndScroll)
 
             this.debugValidationResult = !hasErrors
 
@@ -151,7 +174,7 @@ var app = new Vue({
                 $('#threevisualization > div').hide()
             })
             $('#threevisualization').mouseout((e) => {
-                if(!$this.userHasInteractedWith3dVisualization) {
+                if (!$this.userHasInteractedWith3dVisualization) {
                     $('#threevisualization > div').show()
                 }
             })
@@ -212,14 +235,17 @@ var app = new Vue({
 
             this.model.steps.forEach((step) => {
                 if (!this.modelWidgets[step.id].requiresCompletion()) {
+                    //console.log('!requiresCompletion: ' + step.label)
                     return
                 }
 
                 if (!this.conditionalDisplay(step.id)) {
+                    //console.log('!conditionalDisplay: ' + step.label)
                     return
                 }
 
                 if (modelValuesAlreadyChecked.indexOf(step.value_id) !== -1) {
+                    //console.log('duplicate: ' + step.label)
                     // Is duplicate (accessing same value). Do not count in.
                     return
                 }
@@ -228,19 +254,24 @@ var app = new Vue({
                 steps.push(step)
             })
 
+            console.log('getStepsNoDuplicateValues')
+            console.log(steps)
+
             return steps
         },
         forceRecomputeValues() {
+            console.log('forceRecomputeValues')
             this.recompute++
             this.watchHandler();
         },
         watchHandler(newVal, oldVal) {
             console.log('watch')
-            this.validateAll()
+            this.recompute++
+            this.validateAll(false)
             this.saveFormValuesToLocalStorage()
             this.updateDoorModel()
         },
-        openAccordionOnFirstError() {
+        openAccordionOnFirstError(openAccordionAndScroll) {
             var lastAccordionIndex = -1
             var firstStep = null
             this.model.steps.forEach((step) => {
@@ -248,35 +279,52 @@ var app = new Vue({
                     lastAccordionIndex++;
                 }
 
-                if (firstStep == null && this.errors[step.id].length > 0) {
+                //if (firstStep == null && this.errors[step.id].length > 0) {
+                if (firstStep == null &&
+                    this.conditionalDisplay(step.id) &&
+                    (!this.modelWidgets[step.id].isComplete(this.form.values[step.value_id]) ||
+                        !this.modelWidgets[step.id].isValid(this.form.values[step.value_id]))) {
                     firstStep = step.id
                 }
             })
 
-            if (firstStep !== null && lastAccordionIndex !== $('#panoteq-configurator-accordion li.uk-open').index()) {
-                UIkit.accordion('#panoteq-configurator-accordion').toggle(lastAccordionIndex, true);
+            console.log('firstStep')
+            console.log(firstStep)
+
+            if (openAccordionAndScroll && firstStep !== null) {
+                if(lastAccordionIndex !== $('#panoteq-configurator-accordion li.uk-open').index())
+                {
+                    UIkit.accordion('#panoteq-configurator-accordion').toggle(lastAccordionIndex, true);
+                    window.setTimeout(() => this.scrollToAnchor('step' + firstStep), 1000)
+                }
+                else {
+                    this.scrollToAnchor('step' + firstStep);
+                }
             }
         },
         totalAmount: function () {
-            const dummy = this.recompute
+            let sum = 0;
 
-            amount = Math.round(this.getStepsNoDuplicateValues().reduce((sum, step) => {
-                if (typeof (sum) === 'object') sum = 0
+            Math.round(this.getStepsNoDuplicateValues().forEach((step) => {
                 if (this.modelWidgets[step.id].isComplete(this.form.values[step.value_id])) {
-                    return sum + this.modelWidgets[step.id].priceImpact(this.form.values[step.value_id])
-                }
+                    console.log(this.modelWidgets[step.id].priceImpact(this.form.values[step.value_id]))
 
-                return sum
+                    sum += this.modelWidgets[step.id].priceImpact(this.form.values[step.value_id])
+                }
             }), 2)
 
-            this.form.calculatedAmount = amount
+            this.form.calculatedAmount = sum
             this.form.calculatedWeight = 10.4
 
-            return amount.toFixed(2)
+            return sum.toFixed(2)
+        },
+        scrollToAnchor: function (anchorId) {
+            $('html,body').animate({scrollTop: $("a[name='" + anchorId + "']").offset().top}, 'slow');
         }
     },
     computed: {
         summary: function () {
+            const dummy = this.recompute
             let result = ''
 
             // let result = JSON.stringify(JSON.stringify(this.form))
@@ -290,21 +338,27 @@ var app = new Vue({
             return result
         },
         totalAmountFormatted: function () {
+            const dummy = this.recompute
+
             return this.totalAmount().replace('.', ',')
         },
         percentComplete: function () {
-            let stepsComplete = this.getStepsNoDuplicateValues().reduce((sum, step) => {
-                    if (typeof (sum) === 'object') sum = 0
-                    return sum + (this.modelWidgets[step.id].isComplete(this.form.values[step.value_id]) ? 1 : 0)
+            const dummy = this.recompute
+
+            let stepsComplete = 0;
+            this.getStepsNoDuplicateValues().forEach((step) => {
+                    stepsComplete += (this.modelWidgets[step.id].isComplete(this.form.values[step.value_id]) ? 1 : 0)
                 }
             )
-            let stepsNeedingCompletion = this.getStepsNoDuplicateValues().reduce((sum, step) => {
-                    if (typeof (sum) === 'object') sum = 0
-                    return sum + (this.modelWidgets[step.id].requiresCompletion(this.form.values[step.value_id]) ? 1 : 0)
+            let stepsNeedingCompletion = 0;
+            this.getStepsNoDuplicateValues().forEach((step) => {
+                    //console.log('stepsNeedingCompletion: ' + step.id + ' ' + step.label + ' -> ' + this.modelWidgets[step.id].requiresCompletion(this.form.values[step.value_id]))
+                    stepsNeedingCompletion += (this.modelWidgets[step.id].requiresCompletion(this.form.values[step.value_id]) ? 1 : 0)
                 }
             )
 
             console.log('percentComplete: ' + stepsComplete + '/' + stepsNeedingCompletion)
+            //return stepsComplete + '/' + stepsNeedingCompletion;
             return Math.min(100, Math.round((stepsComplete / stepsNeedingCompletion) * 100))
         },
     }
