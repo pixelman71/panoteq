@@ -6675,9 +6675,7 @@ body {
     display: none !important;
   }
 }
-main {
-  overflow: hidden;
-}
+main {overflow: initial;}
 
 #header {
   padding: 0;
@@ -12020,7 +12018,7 @@ li.product-flag {
 
 #main {
   background: white;
-  position: relative;
+  position: inherit;
   padding: 30px;
   margin-bottom: 30px;
   -webkit-box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.05);

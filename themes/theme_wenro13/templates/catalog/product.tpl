@@ -63,7 +63,7 @@
                             <button v-on:click="unsetLocalStorage">Clear localstorage</button>
                             <progress class="uk-progress" v-bind:value="percentComplete" max="100"></progress>
                         </div>
-                        <ul id="panoteq-configurator-accordion" uk-accordion>
+                        <ul id="panoteq-configurator-accordion" uk-accordion="multiple: false">
                             {foreach from=$panoteqconf->steps item=$step}
                                 {if $step->widget_type == 'group-start'}
                                     {include file='catalog/_partials/panoteqconf/group-start.tpl'}
@@ -102,9 +102,9 @@
                             {/foreach}
                         </ul>
                     </div>
-                    <div id="right-column" class="uk-width-3-4">
+                    <div id="right-column" class="uk-width-3-4" style="position: sticky; top: 15px">
                         <div style="height: 100%">
-                            <div class="" uk-sticky="bottom: true; offset: 15" id="#panoteq-sticky-right-panel">
+                            <div class="" id="#panoteq-sticky-right-panel">
                                 <div class="">
                                     <div class="">
                                         <div>

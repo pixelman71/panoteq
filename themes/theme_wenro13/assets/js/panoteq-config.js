@@ -288,17 +288,14 @@ var app = new Vue({
                 }
             })
 
-            console.log('firstStep')
-            console.log(firstStep)
-
             if (openAccordionAndScroll && firstStep !== null) {
                 if(lastAccordionIndex !== $('#panoteq-configurator-accordion li.uk-open').index())
                 {
                     UIkit.accordion('#panoteq-configurator-accordion').toggle(lastAccordionIndex, true);
-                    window.setTimeout(() => this.scrollToAnchor('step' + firstStep), 1000)
+                    // window.setTimeout(() => this.scrollToAnchor('step' + firstStep), 1000)
                 }
                 else {
-                    this.scrollToAnchor('step' + firstStep);
+                    // this.scrollToAnchor('step' + firstStep);
                 }
             }
         },
