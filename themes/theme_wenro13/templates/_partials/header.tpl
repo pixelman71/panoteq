@@ -27,30 +27,26 @@
 		{hook h='displayNav'}
   </nav>
 {/block}
-<div class="header-content">
+
 {block name='header_top'}
   <div class="header-top">
     <div class="container">
-       <div class="row">
-	     <div class="col col-xs-12 col-lg-5 col-md-12 display_nav">
-			{hook h='displayNav1'}
-        </div>
-        <div class="header_logo col col-lg-2 col-md-12 col-xs-12">
- <!--         <a href="{$urls.base_url}">
-            <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-          </a>
--->        </div>
-        <div class="col col-xs-12 col-lg-12 col-md-12 display_top">
-			{hook h='displayTop'}
-        </div>
-      </div>
+		{hook h='displayMegamenu'}
+		{hook h='displayTop'}
     </div>
 
-    <div class="col col-xs-12 col-lg-12 col-md-12 header-middle">
-		{hook h='displayMegamenu'}
-	</div>
 </div>
+<div class="header-bottom">
+	{if $page.page_name == 'index'}
+	<a href="{$urls.base_url}">
+	<img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+	</a>
+	{else}
+	<a href="{$urls.base_url}">
+	<img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+	</a>
+	{/if}
 
+</div>
   {hook h='displayNavFullWidth'}
 {/block}
-</div>
