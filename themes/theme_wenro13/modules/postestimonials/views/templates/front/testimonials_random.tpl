@@ -4,7 +4,7 @@
 	<div class="container">
 
 		<div class="pos_title">
-			<h2>Témoignages</h2>
+			<h2>{l s='Testimonials' mod='postestimonials'}</h2>
 		</div>
 
 		<div class="block-content pos_content">
