@@ -6895,7 +6895,7 @@ main {
     z-index: 2;
   }
   #header.scroll-menu .header-top {
-    display: none;
+    top: -13px;
   }
   #header.scroll-menu .blockcart .header a {
     height: 70px;
@@ -6905,6 +6905,7 @@ main {
   }
   #header.scroll-menu .pt_custommenu {
     border: 0;
+	    padding-left: 50px;
   }
   #header.scroll-menu .pt_custommenu .pt_menu .parentMenu a {
     padding: 20px;
@@ -7566,6 +7567,7 @@ main {
   text-align: center;
   left: 0;
   right: 0;
+  display: block !important;
 }
 .poslistcategories .owl-carousel .owl-wrapper .owl-item {
   padding: 0;
