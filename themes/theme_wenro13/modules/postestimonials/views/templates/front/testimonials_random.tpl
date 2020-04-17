@@ -3,7 +3,7 @@
 
 	<div class="container">
 
-		<div class="pos_title">
+		<div class="pos_title_homepage">
 			<h2>{l s='Testimonials' mod='postestimonials'}</h2>
 		</div>
 

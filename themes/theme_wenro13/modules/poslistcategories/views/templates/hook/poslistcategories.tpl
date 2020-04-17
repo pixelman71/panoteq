@@ -25,7 +25,7 @@
 *}
 
 <div class="poslistcategories">
-	<div class="pos_title">
+	<div class="pos_title_homepage">
 		<h2>{l s='Shop by collection' mod='poslistcategories'}</h2>
 	</div>
 	<div class="row  pos_content">
@@ -35,8 +35,7 @@
 			<div class="list-categories">
 				{if $category.image}
 				<div class="thumb-category">
-					<a href="{$link->getCategoryLink($category['id_category'])}" target="_blank"><img src="{$link->getMediaLink("`$smarty.const._MODULE_DIR_`poslistcategories/images/`$category.image|escape:'htmlall':'UTF-8'`")}" alt="" /></a>
-			
+					<a href="{$link->getCategoryLink($category['id_category'])}" target="_blank"><img src="{$link->getMediaLink("`$smarty.const._MODULE_DIR_`poslistcategories/images/`$category.image|escape:'htmlall':'UTF-8'`")}" alt="" /></a>			
 				</div>
 				{/if}
 				<div class="desc-listcategoreis">
@@ -75,6 +74,7 @@
 			addClassActive: true,
 			navigation : {if $slider_options.show_arrow} true {else} false {/if},
 			pagination : {if $slider_options.show_pagination} true {else} false {/if},
+			autoWidth:true,
 		});
 	});
 </script>
