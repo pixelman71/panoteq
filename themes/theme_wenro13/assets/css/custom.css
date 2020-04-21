@@ -6996,9 +6996,9 @@ main {
   }
 }
 .pos_title:before {
-  content: url(../img/icon_title.png);
+/*  content: url(../img/icon_title.png);
   display: block;
-  text-align: center;
+  text-align: center; */
 }
 .pos_title h2 {
   position: relative;
@@ -7015,7 +7015,7 @@ main {
   }
 }
 .pos_title h2:before {
-  content: "";
+/*  content: "";
   background: url(../img/line_title.png) no-repeat;
   height: 9px;
   width: 83px;
@@ -7027,6 +7027,7 @@ main {
   -o-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+*/
 }
 .pos_title h2 a {
   color: #2d2d2d;
@@ -8115,7 +8116,7 @@ ul#pt_custommenu_itemmobile li .grower.active a:after {
   font-weight: 300;
   font-size: 12px;
   line-height: 25px;
-  text-transform: capitalize;
+/*  text-transform: capitalize; */
   color: #606060;
   padding: 35px 150px;
   letter-spacing: 0.2em;
