@@ -51,7 +51,7 @@
 								
 						</div>
 						{/if}
-						<a href="{$link->getCategoryLink($category['id_category'])}" target="_blank" class="links_cate" >shop now</a>
+						<a href="{$link->getCategoryLink($category['id_category'])}" target="_blank" class="links_cate" >{l s='shop now' mod='poslistcategories'}</a>
 					</div>
 				</div>		
 			</div>			
