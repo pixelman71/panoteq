@@ -4,7 +4,7 @@
 	<div class="container">
 
 		<div class="pos_title_homepage">
-			<h2>{l s='Testimonials' mod='postestimonials'}</h2>
+			<h2>{l s='Testimonials' d='Modules.Postestimonials.Shop'}</h2>
 		</div>
 
 		<div class="block-content pos_content">
