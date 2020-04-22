@@ -26,7 +26,7 @@
 
 <div class="poslistcategories">
 	<div class="pos_title_homepage">
-		<h2>{l s='Shop by collection' mod='poslistcategories'}</h2>
+		<h2>{l s='Shop by collection' d='Modules.Poslistcategories.Shop'}</h2>
 	</div>
 	<div class="row  pos_content">
 		<div class="block_content">
@@ -51,7 +51,7 @@
 								
 						</div>
 						{/if}
-						<a href="{$link->getCategoryLink($category['id_category'])}" target="_blank" class="links_cate" >{l s='shop now' mod='poslistcategories'}</a>
+						<a href="{$link->getCategoryLink($category['id_category'])}" target="_blank" class="links_cate" >{l s='shop now' d='Modules.Poslistcategories.Shop'}</a>
 					</div>
 				</div>		
 			</div>			
