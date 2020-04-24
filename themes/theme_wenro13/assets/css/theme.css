@@ -6311,7 +6311,7 @@ body#checkout {
   border-radius: 2px;
   margin-bottom: 1.5rem;
   padding: 3.125rem 3.125rem;
-  text-align: center; }
+/*  text-align: center; */ }
   #custom-text h3 {
     text-transform: uppercase;
     color: #414141;
@@ -6320,11 +6320,16 @@ body#checkout {
   #custom-text p {
     color: #414141;
     font-weight: 400;
-    font-size: 1.1em; }
+    font-size: 1.1em;
+    margin-bottom:0.5em; }
     #custom-text p .dark {
       color: #acaaa6;
       font-weight: 400; }
-
+	#custom-text ul {
+		list-style-type:disc; margin-bottom:16px; padding-left:30px;
+		margin-left: 0;
+		margin-bottom: 1rem;
+	}
 .page-content.page-cms {
   background: white;
   padding: 1.25rem;
