@@ -6311,6 +6311,7 @@ body#checkout {
   border-radius: 2px;
   margin-bottom: 1.5rem;
   padding: 3.125rem 3.125rem;
+  font-weight:300;
 /*  text-align: center; */ }
   #custom-text h3 {
     text-transform: uppercase;
