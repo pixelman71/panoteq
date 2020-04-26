@@ -24,6 +24,7 @@
  *}
 <div class="footer_block col-xs-12 links wrapper">
   <div class="row">
+
   {foreach $linkBlocks as $linkBlock}
     <div class="col-md-3 col-xs-12 wrapper pos_title">
       <h2 class="" style="color:white;">{$linkBlock.title}</h2>
@@ -38,7 +39,7 @@
         </span>
       </div>
 
-      <ul id="footer_sub_menu_{$_expand_id}" class="links_list">
+      <ul id="footer_sub_menu_{$_expand_id}" class="links_list" style="text-align:left;">
         {foreach $linkBlock.links as $link}
           <li>
             <a
@@ -54,9 +55,24 @@
         {/foreach}
       </ul>
     </div>
-  {/foreach}
-  </div>
-    
+  {/foreach}  
+
+
+<div class="col-md-3 col-xs-12 wrapper pos_title">
+	<h2 class="" style="color:white;">Panoteq</h2>
+	<div class="links_list clearfix">
+		<ul class="toggle-footer" style="color:#808080;font-size:15px;">
+			<li><i class="icon-map-marker"></i> Panoteq, ZA la Croisette 38930 Clelles en Trièves</li>
+			<li><i class="icon-phone"></i> <em>04 76 34 46 09</em><br />du lundi au vendredi 9/12h et 14/17h</li>
+			<li><i class="icon-envelope-alt"></i> <a href="{$urls.pages.contact}">{l s='Contact Us' d='Modules.Linklist.Shop'}</a></li>
+		</ul>
+	</div>
+	
+</div>
+
+
+
+</div>    
 </div>
 
 
