@@ -6986,9 +6986,9 @@ main {
 .pos_title {
   position: relative;
   display: block;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   color: #2e2e2e;
-  text-align: center;
+  text-align: left!important;
 }
 @media (max-width: 767px) {
   .pos_title {
@@ -7810,7 +7810,7 @@ main {
 }
 .pt_custommenu .pt_menu .popup .block1 .column {
   float: left;
-  width: 200px;
+  width: auto; /* 200px */
   padding: 20px 30px;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
