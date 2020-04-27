@@ -49,6 +49,7 @@ class ContactFormOverride extends Contactform {
             }
         }
         $this->contact['name'] = html_entity_decode(Tools::getValue('name'));
+        $this->contact['phone'] = html_entity_decode(Tools::getValue('phone'));
         
         $this->contact['contacts'] = $this->getTemplateVarContact();
         $this->contact['message'] = html_entity_decode(Tools::getValue('message'));
@@ -92,6 +93,8 @@ class ContactFormOverride extends Contactform {
         $file_attachment = Tools::fileAttachment('fileUpload');
         $message = trim(Tools::getValue('message'));
 $name = trim(Tools::getValue('name'));
+$phone = trim(Tools::getValue('phone'));
+
         $url = Tools::getValue('url');
         $clientToken = Tools::getValue('token');
         $serverToken = $this->context->cookie->contactFormToken;
@@ -111,8 +114,10 @@ $name = trim(Tools::getValue('name'));
             );
         } elseif (!Validate::isCleanHtml($message)) {
             $this->context->controller->errors[] = $this->trans('Invalid message',[],'Shop.Notifications.Error');
-        } elseif (!Validate::isCleanHtml($name)) {//contrôle de notre champ supplémentaire.
-			$this->context->controller->errors[] = $this->trans('Problème avec votre nom...', array(), 'Shop.Notifications.Error');
+        } elseif (!Validate::isCleanHtml($name)) {//contrôle de notre champ supplémentaire NAME.
+			$this->context->controller->errors[] = $this->trans('Problem with your name...', array(), 'Shop.Notifications.Error');
+        } elseif (!Validate::isCleanHtml($phone)) {//contrôle de notre champ supplémentaire PHONE.
+			$this->context->controller->errors[] = $this->trans('Problem with your phone number...', array(), 'Shop.Notifications.Error');
 		} elseif (!($id_contact = (int)Tools::getValue('id_contact')) ||
                   !(Validate::isLoadedObject($contact = new Contact($id_contact, $this->context->language->id)))
         ) {
@@ -245,6 +250,7 @@ $name = trim(Tools::getValue('name'));
                     '{email}' =>  $from,
                     '{product_name}' => '',
                     '{name}' => '',
+                    '{phone}' => '',
                 ];
 
                 if (isset($file_attachment['name'])) {

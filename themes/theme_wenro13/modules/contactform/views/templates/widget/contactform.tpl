@@ -21,7 +21,7 @@
 
       <div class="form-group row">
         <div class="col-md-9 col-md-offset-3">
-          <h3>{l s='Contact us' d='Shop.Theme'}</h3>
+          <h3>{l s='Contact us' d='Modules.Contactform.Shop'}</h3>
         </div>
       </div>
 
@@ -37,9 +37,9 @@
       </div>
 
 <div class="form-group row">
-    <label class="col-md-3 form-control-label">{l s='Your name' d='Shop.Forms.Labels'}</label>
+    <label class="col-md-3 form-control-label">{l s='Your name' d='Modules.Contactform.Shop'}</label>
     <div class="col-md-6">
-        <input class="form-control" name="name" type="text" placeholder="Your name" value="{$contact.name}">
+        <input class="form-control" name="name" type="text" placeholder="{l s='Your name' d='Modules.Contactform.Shop'}" value="{$contact.name}">
     </div>
 </div>
 
@@ -55,6 +55,23 @@
           >
         </div>
       </div>
+
+<div class="form-group row">
+	<label class="col-md-3 form-control-label">{l s='Phone' d='Shop.Forms.Labels'}</label>
+        <div class="col-md-6">
+          <input
+            class="form-control"
+            name="phone"
+            type="text"
+            value="{$contact.phone}"
+            placeholder="{l s='Your phone' d='Modules.Contactform.Shop'}"
+          >
+        </div>
+</div>
+
+
+
+
 
       {if $contact.orders}
         <div class="form-group row">
