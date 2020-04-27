@@ -20,6 +20,7 @@
 			{/foreach}
 		  </ul>
 		{/block}
+<!--		
 		<ul class="add-to-links">
 			<li class="cart">
 				{include file='catalog/_partials/customize/button-cart.tpl' product=$product}
@@ -27,9 +28,13 @@
 			<li>
 				<a href="#" class="quick-view" data-link-action="quickview" title="{l s='Quick view' d='Shop.Theme.Actions'}">{l s='Quick view' d='Shop.Theme.Actions'}</a>
 			</li>
+			<li>
+				<a href="{$product.url}" class="links-details" title="{l s='Details' d='Shop.Theme.Actions'}">{l s='Details' d='Shop.Theme.Actions'}</a>
+			</li>
 		
 		</ul>
-		{block name='product_price_and_shipping'}
+-->
+		{*block name='product_price_and_shipping'}
 			{if $product.show_price}
 			  <div class="product-price-and-shipping">
 				{if $product.has_discount}
@@ -50,7 +55,7 @@
 				{hook h='displayProductPriceBlock' product=$product type='weight'}
 			  </div>
 			{/if}
-		{/block}
+		{/block*}
 	</div>
     <div class="product_desc">
       {block name='product_name'}

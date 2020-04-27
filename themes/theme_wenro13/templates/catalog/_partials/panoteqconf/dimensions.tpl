@@ -1,22 +1,24 @@
 <section v-if="conditionalDisplay({$step->id})">
-    <br/><strong>{$step->label} {include file='catalog/_partials/panoteqconf/_tooltip.tpl'}</strong><br/>
-    <br/>
-    <dl class="uk-description-list">
-        <dt>Largeur (en mm)</dt>
-        <dd><input type="number" class="uk-input" v-model="form.values[{$step->value_id}].width" min="[{$step->value_min_horiz}]" max="[{$step->value_max_horiz}]"
-                   v-on:keyup="forceRecomputeValues()"
-                   v-bind:class="{ 'uk-form-danger': errors[{$step->id}] !== undefined && errors[{$step->id}].length > 0 && errors[{$step->id}][0].length > 0 }">
-            <div v-if="errors[{$step->id}] !== undefined && errors[{$step->id}].length > 0 && errors[{$step->id}][0].length > 0"
-                 v-html="errors[{$step->id}][0]" class="p-background-danger">ERROR
-            </div>
-        </dd>
-        <dt>Hauteur (en mm)</dt>
-        <dd><input type="number" class="uk-input" v-model="form.values[{$step->value_id}].height"
-                   v-on:keyup="forceRecomputeValues()"
-                   v-bind:class="{ 'uk-form-danger': errors[{$step->id}] !== undefined && errors[{$step->id}].length > 1 && errors[{$step->id}][1].length > 0 }">
-            <div v-if="errors[{$step->id}] !== undefined && errors[{$step->id}].length > 1 && errors[{$step->id}][1].length > 0"
-                 v-html="errors[{$step->id}][1]" class="p-background-danger">ERROR
-            </div>
-        </dd>
-    </dl>
+    <br/><strong>{$step->label}</strong><br/>
+    <table class="uk-table uk-table-divider">
+        <thead>
+        <tr>
+            <th>Largeur</th>
+            <th>Hauteur</th>
+            <th>Charnières</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr v-for="(item, index) in form.values[{$step->id}]" v-bind:key="index">
+            <td><input type="text" class="uk-input" v-model="item.width"></td>
+            <td><input type="text" class="uk-input" v-model="item.height"></td>
+            <td>
+                <button class="uk-button" v-on:click="removePart({$step->id}, item)">X</button>
+            </td>
+        </tr>
+        <tr>
+            <button class="uk-button" v-on:click="addPart(form.values, {$step->id})">Ajouter</button>
+        </tr>
+        </tbody>
+    </table>
 </section>

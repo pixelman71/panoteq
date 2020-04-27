@@ -6649,7 +6649,7 @@ i, cite, em, var, address, dfn {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   color: #878787;
   font-weight: 400;
 }
@@ -8055,7 +8055,7 @@ ul#pt_custommenu_itemmobile li .grower.active a:after {
 
 .item-testimonials {
   position: relative;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
 }
 .item-testimonials .item {
@@ -8083,6 +8083,8 @@ ul#pt_custommenu_itemmobile li .grower.active a:after {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   display: inline-block;
+  padding-left:0; /* 25px */
+  margin-left:175px;
 }
 .item-testimonials .item .content_test .des_namepost:hover {
   color: #ffa800;
@@ -8101,7 +8103,7 @@ ul#pt_custommenu_itemmobile li .grower.active a:after {
 .item-testimonials .item .content_test .des_namepost span {
   background: #f9f9f9;
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 1em;
 }
 .item-testimonials .item .content_test .des_email {
   font-weight: 300;
@@ -8111,6 +8113,11 @@ ul#pt_custommenu_itemmobile li .grower.active a:after {
   color: #606060;
   font-style: italic;
   letter-spacing: 0.2em;
+  padding-top: 35px;
+  padding-right: 150px;
+  padding-bottom: 0;
+  padding-left: 150px;
+
 }
 .item-testimonials .item .content_test .des_testimonial {
   font-weight: 300;
@@ -11700,7 +11707,7 @@ div.star a:hover {
 }
 .block-categories .category-sub-menu li[data-depth="0"] > a {
   font-weight: normal;
-  color: #797979;
+  color: #414141;
   display: block;
   font-size: 14px;
   text-transform: capitalize;
