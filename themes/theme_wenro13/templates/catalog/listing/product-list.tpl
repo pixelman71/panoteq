@@ -22,7 +22,9 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{extends file=$layout}
+{*extends file=$layout*}
+
+{extends file='layouts/layout-full-width.tpl'}
 
 {block name='content'}
   <section id="main">
