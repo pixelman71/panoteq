@@ -38,7 +38,7 @@
       {block name='product_activation'}
         {include file='catalog/_partials/product-activation.tpl'}
       {/block}
-	  <div class="header-container" style="background:url({$urls.img_url}logo.svg); background-size:cover; height:300px;">
+	  <div class="header-container">
 		  <header id="header">
 			{block name='header'}
 			  {include file='_partials/header.tpl'}

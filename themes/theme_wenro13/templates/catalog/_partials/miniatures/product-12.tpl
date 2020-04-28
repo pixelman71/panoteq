@@ -1,6 +1,6 @@
 <article class="js-product-miniature item_in" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}" itemscope itemtype="http://schema.org/Product">
 	<div class="img_block">
-		{block name='product_thumbnail'}
+		{*block name='product_thumbnail'}
 		  <a href="{$product.url}" class="thumbnail product-thumbnail">
 			<img
 			  src = "{$product.cover.bySize.home_default.url}"
@@ -9,7 +9,20 @@
 			>
 			{hook h="rotatorImg" product=$product}		
 		  </a>
+		{/block*}
+		
+		{block name='product_thumbnail'}
+		  <div class="thumbnail product-thumbnail">
+			<img
+			  src = "{$product.cover.bySize.home_default.url}"
+			  alt = "{$product.cover.legend}"
+			  data-full-size-image-url = "{$product.cover.large.url}"
+			>
+			{*hook h="rotatorImg" product=$product*}		
+		  </div>
 		{/block}
+		
+		
 		{block name='product_flags'}
 		  <ul class="product-flag">
 			{foreach from=$product.flags item=flag}
@@ -24,10 +37,11 @@
 			<li class="cart">
 				{include file='catalog/_partials/customize/button-cart.tpl' product=$product}
 			</li>
+<!--
 			<li>
 				<a href="#" class="quick-view" data-link-action="quickview" title="{l s='Quick view' d='Shop.Theme.Actions'}">{l s='Quick view' d='Shop.Theme.Actions'}</a>
 			</li>
-		
+-->		
 		</ul>
 		{block name='product_price_and_shipping'}
 			{if $product.show_price}

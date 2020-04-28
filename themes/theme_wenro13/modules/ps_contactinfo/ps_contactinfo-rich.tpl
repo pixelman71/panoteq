@@ -24,7 +24,7 @@
 *}
 
 <div class="contact-rich">
-  <h4>{l s='Store information' d='Shop.Theme'}</h4>
+  <h4>{l s='Store information' d='Modules.Pscontactinfo.Shop'}</h4>
   <div class="block">
     <div class="icon"><i class="material-icons">&#xE55F;</i></div>
     <div class="data">{$contact_infos.address.formatted nofilter}</div>
@@ -34,29 +34,30 @@
     <div class="block">
       <div class="icon"><i class="material-icons">&#xE0CD;</i></div>
       <div class="data">
-        {l s='Call us:' d='Shop.Theme'}<br/>
-        <a href="tel:{$contact_infos.phone}">{$contact_infos.phone}</a>
+        {l s='Call us:' d='Modules.Pscontactinfo.Shop'}<br/>
+        <strong><a href="tel:{$contact_infos.phone}">{$contact_infos.phone}</a></strong><br />
+        <small><em>{$contact_infos.fax}</em></small>
        </div>
     </div>
   {/if}
-  {if $contact_infos.fax}
+  {*if $contact_infos.fax}
     <hr/>
     <div class="block">
       <div class="icon"><i class="material-icons">&#xE0DF;</i></div>
       <div class="data">
-        {l s='Fax:' d='Shop.Theme'}<br/>
+        {l s='Fax:' d='Modules.Pscontactinfo.Shop'}<br/>
         {$contact_infos.fax}
       </div>
     </div>
-  {/if}
-  {if $contact_infos.email}
+  {/if*}
+  {*if $contact_infos.email}
     <hr/>
     <div class="block">
       <div class="icon"><i class="material-icons">&#xE158;</i></div>
       <div class="data email">
-        {l s='Email us:' d='Shop.Theme'}<br/>
+        {l s='Email us:' d='Modules.Pscontactinfo.Shop'}<br/>
        </div>
        <a href="mailto:{$contact_infos.email}">{$contact_infos.email}</a>
     </div>
-  {/if}
+  {/if*}
 </div>

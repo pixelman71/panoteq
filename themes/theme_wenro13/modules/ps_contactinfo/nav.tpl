@@ -28,19 +28,20 @@
 		<span class="icon-phone current" data-toggle="dropdown"></span>
 		<div class="content-phone dropdown-menu">
 			  {* [1][/1] is for a HTML tag. *}
-			  {l
-				s='Call us : [1]%phone%[/1]'
+			  {l s='Call us : [1]%phone%[/1]'
 				sprintf=[
 				  '[1]' => '<span>',
 				  '[/1]' => '</span>',
 				  '%phone%' => $contact_infos.phone
 				]
-				d='Shop.Theme'
+				d='Modules.Pscontactinfo.Shop'
 			 }
+			 <span>{$contact_infos.fax}</span>
 		</div>
 	 </div>
 	 {/if}
-	 {if $contact_infos.fax}
+
+	 {*if $contact_infos.fax}
 		<div class="info_box dropdown js-dropdown">
 			<span class="icon-fax current" data-toggle="dropdown"></span>
 			<div class="content-fax dropdown-menu">
@@ -55,16 +56,15 @@
 				}
 			</div>	
 		</div>
-	{/if}
+	{/if*}
+	
 	{if $contact_infos.email}
 		<div class="info_box dropdown js-dropdown">
 			<span class="icon-email current" data-toggle="dropdown"></span>
 			<div class="content-email dropdown-menu">
-				{l s='email :' d='Shop.Theme'}  <a href="mailto:{$contact_infos.email}">{$contact_infos.email}</a>
+				<a href="{$urls.pages.contact}">{l s='Contact Us' d='Modules.Pscontactinfo.Shop'}</a>
 			</div>
 		</div>
-    {else}
-      <a href="{$urls.pages.contact}">{l s='Contact us' d='Shop.Theme'}</a>
     {/if}
   </div>
 

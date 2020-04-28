@@ -22,31 +22,25 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{block name='header_nav'}
-  <nav class="header-nav">
-		{hook h='displayNav'}
-  </nav>
-{/block}
+<div id="js-product-list">
+  <div class="products row product_content grid">
+    {foreach from=$listing.products item="product"}
+      {block name='product_miniature'}
+		<div class="item-product col-xs-12 col-sm-6 col-md-6 col-lg-4">
+			{include file='catalog/_partials/miniatures/product-no-price.tpl' product=$product}
+		</div>
+      {/block}
+    {/foreach}
+  </div>
 
-{block name='header_top'}
-  <div class="header-top">
-    <div class="container">
-		{hook h='displayMegamenu'}
-		{hook h='displayTop'}
-    </div>
+  {block name='pagination'}
+    {include file='_partials/pagination.tpl' pagination=$listing.pagination}
+  {/block}
 
+  <div class="hidden-xl-down text-xs-right up">
+    <a href="#header" class="btn btn-secondary">
+      {l s='Back to top' d='Shop.Actions'}
+      <i class="material-icons">&#xE316;</i>
+    </a>
+  </div>
 </div>
-<div class="header-bottom">
-	{if $page.page_name == 'index'}
-	<a href="{$urls.base_url}">
-	<img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-	</a>
-	{else}
-	<a href="{$urls.base_url}">
-	<img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-	</a>
-	{/if}
-
-</div>
-  {hook h='displayNavFullWidth'}
-{/block}

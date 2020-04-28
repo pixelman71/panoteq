@@ -1,6 +1,12 @@
 <section class="contact-form">
   <form action="{$urls.pages.contact}" method="post" {if $contact.allow_file_upload}enctype="multipart/form-data"{/if}>
 
+    <header>
+      <h1 class="h3">{l s='Send a message' d='Modules.Contactform.Shop'}</h1>
+      <p>{l s='If you would like to add a comment about your order, please write it in the field below.' d='Modules.Contactform.Shop'}</p>
+    </header>
+
+
     {if $notifications}
       <div class="col-xs-12 alert {if $notifications.nw_error}alert-danger{else}alert-success{/if}">
         <ul>
@@ -15,7 +21,7 @@
 
       <div class="form-group row">
         <div class="col-md-9 col-md-offset-3">
-          <h3>{l s='Contact us' d='Shop.Theme'}</h3>
+          <h3>{l s='Contact us' d='Modules.Contactform.Shop'}</h3>
         </div>
       </div>
 
@@ -30,6 +36,13 @@
         </div>
       </div>
 
+<div class="form-group row">
+    <label class="col-md-3 form-control-label">{l s='Your name' d='Modules.Contactform.Shop'}</label>
+    <div class="col-md-6">
+        <input class="form-control" name="name" type="text" placeholder="{l s='Your name' d='Modules.Contactform.Shop'}" value="{$contact.name}">
+    </div>
+</div>
+
       <div class="form-group row">
         <label class="col-md-3 form-control-label">{l s='Email address' d='Shop.Forms.Labels'}</label>
         <div class="col-md-6">
@@ -42,6 +55,23 @@
           >
         </div>
       </div>
+
+<div class="form-group row">
+	<label class="col-md-3 form-control-label">{l s='Phone' d='Shop.Forms.Labels'}</label>
+        <div class="col-md-6">
+          <input
+            class="form-control"
+            name="phone"
+            type="text"
+            value="{$contact.phone}"
+            placeholder="{l s='Your phone' d='Modules.Contactform.Shop'}"
+          >
+        </div>
+</div>
+
+
+
+
 
       {if $contact.orders}
         <div class="form-group row">
@@ -87,7 +117,9 @@
     </section>
 
     <footer class="form-footer text-xs-right">
-      <input class="btn btn-primary" type="submit" name="submitMessage" value="{l s='Send' d='Shop.Theme.Actions'}">
+		<input type="hidden" name="url" value=""/>
+		<input type="hidden" name="token" value="{$token}">      	
+		<input class="btn btn-primary" type="submit" name="submitMessage" value="{l s='Send' d='Shop.Theme.Actions'}">
     </footer>
 
   </form>

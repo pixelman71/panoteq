@@ -5,7 +5,7 @@
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle"
                  uk-grid>
                 <div class="uk-background-cover"
-                     v-bind:style="{ backgroundColor: form.values[{$step->value_id}] }"
+                     v-bind:style="{ backgroundColor: form.values[{$step->id}] }"
                      uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>Couleurs RAL</h1>
@@ -22,26 +22,25 @@
     </div>
     <form>
         <div class="ral-wrapper">
-            <br/><strong>{$step->label} {include file='catalog/_partials/panoteqconf/_tooltip.tpl'}</strong><br/>
+            <br/><strong>{$step->label}</strong><br/>
             {foreach from=$step->values item=$ralColor}
                 {if isset($ralColor->swatch)}
-                    <label class="ral-color ral-swatch"
+                    <label class="ral-color"
                            style="background-image:url('{$ralColor->swatch}'); background-size: contain"
-                           title="{$ralColor->label}"
-                           v-bind:class="{ selected: form.values[{$step->value_id}] == '{$ralColor->swatch}' }">
-                        <input name="color" type="radio" v-model="form.values[{$step->value_id}]"
+                           v-bind:class="{ selected: form.color == '{$ralColor->swatch}' }">
+                        <input name="color" type="radio" v-model="form.values[{$step->id}]"
+                               v-on:click="setModelColor('{$ralColor->swatch}')"
                                value="{$ralColor->swatch}">
                     </label>
                 {else}
                     <label class="ral-color" style="background-color:{$ralColor->value}"
-                           title="{$ralColor->label}"
-                           v-bind:class="{ selected: form.values[{$step->value_id}] == '{$ralColor->value}' }">
-                        <input name="color" type="radio" v-model="form.values[{$step->value_id}]"
+                           v-bind:class="{ selected: form.color == '{$ralColor->value}' }">
+                        <input name="color" type="radio" v-model="form.values[{$step->id}]"
+                               v-on:click="setModelColor('{$ralColor->value}')"
                                value="{$ralColor->value}">
                     </label>
                 {/if}
             {/foreach}
         </div>
     </form>
-    <div v-if="errors[{$step->id}] !== undefined && errors[{$step->id}].length > 0" v-html="errors[{$step->id}]" class="p-background-danger">ERROR</div>
 </section>

@@ -22,31 +22,17 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{block name='header_nav'}
-  <nav class="header-nav">
-		{hook h='displayNav'}
-  </nav>
-{/block}
+{extends file='catalog/listing/product-list-12.tpl'}
 
-{block name='header_top'}
-  <div class="header-top">
-    <div class="container">
-		{hook h='displayMegamenu'}
-		{hook h='displayTop'}
+{block name='product_list_header'}
+    <div class="block-category card card-block hidden-sm-down">
+		{if $category.description}
+        <div id="category-description" class="text-muted">{$category.description nofilter}</div>
+		{/if}
+		{if $category.image}
+        <div class="category-cover">
+          <img src="{$category.image.large.url}" alt="{$category.image.legend}">
+        </div>
+		{/if}
     </div>
-
-</div>
-<div class="header-bottom">
-	{if $page.page_name == 'index'}
-	<a href="{$urls.base_url}">
-	<img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-	</a>
-	{else}
-	<a href="{$urls.base_url}">
-	<img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-	</a>
-	{/if}
-
-</div>
-  {hook h='displayNavFullWidth'}
 {/block}
