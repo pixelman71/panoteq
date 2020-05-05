@@ -823,9 +823,9 @@ namespace PrestaShopBundle\Install {
                 }
 
                 $this->upgradeDb($sqlContentVersion);
-                $this->upgradeDoctrineSchema();
+//                $this->upgradeDoctrineSchema();
 
-                $this->enableNativeModules();
+//                $this->enableNativeModules();
 
                 $this->cleanCache();
 

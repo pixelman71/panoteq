@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<tax_rules_group><id_tax_rules_group><![CDATA[1]]></id_tax_rules_group>
+<name><![CDATA[FR Taux standard (20%)]]></name>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2016-05-22 12:12:07]]></date_add>
+<date_upd><![CDATA[2016-05-22 12:12:07]]></date_upd>
+<datashop id_shop="1"></datashop>
+</tax_rules_group>
+<tax_rules_group><id_tax_rules_group><![CDATA[2]]></id_tax_rules_group>
+<name><![CDATA[FR Taux réduit (10%)]]></name>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2016-05-22 12:12:08]]></date_add>
+<date_upd><![CDATA[2016-05-22 12:12:08]]></date_upd>
+<datashop id_shop="1"></datashop>
+</tax_rules_group>
+<tax_rules_group><id_tax_rules_group><![CDATA[3]]></id_tax_rules_group>
+<name><![CDATA[FR Taux réduit (5.5%)]]></name>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2016-05-22 12:12:10]]></date_add>
+<date_upd><![CDATA[2016-05-22 12:12:10]]></date_upd>
+<datashop id_shop="1"></datashop>
+</tax_rules_group>
+<tax_rules_group><id_tax_rules_group><![CDATA[4]]></id_tax_rules_group>
+<name><![CDATA[FR Taux super réduit (2.1%)]]></name>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2016-05-22 12:12:11]]></date_add>
+<date_upd><![CDATA[2016-05-22 12:12:11]]></date_upd>
+<datashop id_shop="1"></datashop>
+</tax_rules_group>
+<tax_rules_group><id_tax_rules_group><![CDATA[5]]></id_tax_rules_group>
+<name><![CDATA[EU VAT For Virtual Products]]></name>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2016-05-22 12:12:12]]></date_add>
+<date_upd><![CDATA[2016-05-22 12:12:12]]></date_upd>
+<datashop id_shop="1"></datashop>
+</tax_rules_group>
+<tax_rules_group><id_tax_rules_group><![CDATA[6]]></id_tax_rules_group>
+<name><![CDATA[Taxe à 0%]]></name>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2019-10-25 17:17:01]]></date_add>
+<date_upd><![CDATA[2019-10-25 17:17:37]]></date_upd>
+<datashop id_shop="1"></datashop>
+</tax_rules_group>
+</entity_profile>

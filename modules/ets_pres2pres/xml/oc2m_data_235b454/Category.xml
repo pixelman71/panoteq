@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<category><id_category><![CDATA[1]]></id_category>
+<id_parent><![CDATA[0]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[0]]></level_depth>
+<nleft><![CDATA[1]]></nleft>
+<nright><![CDATA[20]]></nright>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2016-05-22 12:11:34]]></date_add>
+<date_upd><![CDATA[2016-05-22 12:11:34]]></date_upd>
+<position><![CDATA[0]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[1]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[Racine]]></name>
+<description><![CDATA[]]></description>
+<link_rewrite><![CDATA[racine]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[2]]></id_category>
+<id_parent><![CDATA[1]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[1]]></level_depth>
+<nleft><![CDATA[2]]></nleft>
+<nright><![CDATA[19]]></nright>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2016-05-22 12:11:35]]></date_add>
+<date_upd><![CDATA[2016-05-22 12:11:35]]></date_upd>
+<position><![CDATA[0]]></position>
+<is_root_category><![CDATA[1]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[2]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[Accueil]]></name>
+<description><![CDATA[]]></description>
+<link_rewrite><![CDATA[accueil]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[12]]></id_category>
+<id_parent><![CDATA[2]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[2]]></level_depth>
+<nleft><![CDATA[3]]></nleft>
+<nright><![CDATA[4]]></nright>
+<active><![CDATA[0]]></active>
+<date_add><![CDATA[2016-05-23 14:05:35]]></date_add>
+<date_upd><![CDATA[2018-05-31 12:04:12]]></date_upd>
+<position><![CDATA[0]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[12]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[FAÇADES]]></name>
+<description><![CDATA[<h2><strong>Envie de relooker votre cuisine ou votre salle de bain ? </strong></h2>
+<p>Pour créer un style qui vous ressemble, Panoteq vous propose un très large choix de matières et coloris qui sauront s'adapter à vos envies ! </p>
+<p>Ces façades sont également réalisables en grandes dimensions  et peuvent parfaitement s'intégrer dans des espaces ouverts  pour apporter unité et harmonies (cuisine ouverture sur salon,  bibliothèque, ...).</p>
+<p>  </p>
+<p>   </p>
+<p style="padding-left:30px;"></p>]]></description>
+<link_rewrite><![CDATA[facades]]></link_rewrite>
+<meta_title><![CDATA[Facades - Portes de Cuisine]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[porte facade cuisine surmesure]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[13]]></id_category>
+<id_parent><![CDATA[2]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[2]]></level_depth>
+<nleft><![CDATA[5]]></nleft>
+<nright><![CDATA[14]]></nright>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2016-06-26 15:52:23]]></date_add>
+<date_upd><![CDATA[2020-01-01 10:16:25]]></date_upd>
+<position><![CDATA[1]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[13]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[Nuanciers]]></name>
+<description><![CDATA[<p>Vous souhaitez vérifier les différents coloris de film polymère que nous proposons avant de choisir vos façades ?<br /><br />Nous proposons 2 versions :<br /><br /></p>
+<ol><li>Notre nuancier complet au format 13x8cm à 10.00€ ht</li>
+<li>La feuille individuelle de film polymère PVC A4 à 1.17€ ht</li>
+</ol>]]></description>
+<link_rewrite><![CDATA[nuanciers]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[17]]></id_category>
+<id_parent><![CDATA[13]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[3]]></level_depth>
+<nleft><![CDATA[6]]></nleft>
+<nright><![CDATA[7]]></nright>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2017-05-05 17:27:06]]></date_add>
+<date_upd><![CDATA[2017-07-26 07:09:49]]></date_upd>
+<position><![CDATA[0]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[17]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[Gamme complète]]></name>
+<description><![CDATA[]]></description>
+<link_rewrite><![CDATA[gamme-complete]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[18]]></id_category>
+<id_parent><![CDATA[13]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[3]]></level_depth>
+<nleft><![CDATA[8]]></nleft>
+<nright><![CDATA[9]]></nright>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2017-05-05 17:27:30]]></date_add>
+<date_upd><![CDATA[2017-07-26 07:10:24]]></date_upd>
+<position><![CDATA[1]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[18]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[Feuille A4 décor Brillant]]></name>
+<description><![CDATA[]]></description>
+<link_rewrite><![CDATA[feuille-a4-decor-brillant]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[19]]></id_category>
+<id_parent><![CDATA[13]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[3]]></level_depth>
+<nleft><![CDATA[10]]></nleft>
+<nright><![CDATA[11]]></nright>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2017-05-05 17:27:45]]></date_add>
+<date_upd><![CDATA[2017-07-26 07:10:47]]></date_upd>
+<position><![CDATA[2]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[19]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[Feuille A4 décor Structuré]]></name>
+<description><![CDATA[]]></description>
+<link_rewrite><![CDATA[feuille-a4-decor-structure]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[20]]></id_category>
+<id_parent><![CDATA[13]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[3]]></level_depth>
+<nleft><![CDATA[12]]></nleft>
+<nright><![CDATA[13]]></nright>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2017-05-05 17:28:09]]></date_add>
+<date_upd><![CDATA[2017-07-26 07:11:18]]></date_upd>
+<position><![CDATA[3]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[20]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[Feuille A4 décor Uni]]></name>
+<description><![CDATA[]]></description>
+<link_rewrite><![CDATA[feuille-a4-decor-uni]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[16]]></id_category>
+<id_parent><![CDATA[2]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[2]]></level_depth>
+<nleft><![CDATA[15]]></nleft>
+<nright><![CDATA[16]]></nright>
+<active><![CDATA[0]]></active>
+<date_add><![CDATA[2016-07-10 21:12:30]]></date_add>
+<date_upd><![CDATA[2016-12-22 17:04:07]]></date_upd>
+<position><![CDATA[2]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[16]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[Charnières]]></name>
+<description><![CDATA[]]></description>
+<link_rewrite><![CDATA[charnieres]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category><category><id_category><![CDATA[21]]></id_category>
+<id_parent><![CDATA[2]]></id_parent>
+<id_shop_default><![CDATA[1]]></id_shop_default>
+<level_depth><![CDATA[2]]></level_depth>
+<nleft><![CDATA[17]]></nleft>
+<nright><![CDATA[18]]></nright>
+<active><![CDATA[0]]></active>
+<date_add><![CDATA[2018-02-23 14:25:17]]></date_add>
+<date_upd><![CDATA[2018-05-31 12:04:14]]></date_upd>
+<position><![CDATA[3]]></position>
+<is_root_category><![CDATA[0]]></is_root_category>
+<datalanguage iso_code="fr" default="1" >
+<id_category><![CDATA[21]]></id_category>
+<id_shop><![CDATA[1]]></id_shop>
+<id_lang><![CDATA[1]]></id_lang>
+<name><![CDATA[ACCESSOIRES]]></name>
+<description><![CDATA[]]></description>
+<link_rewrite><![CDATA[accessoires]]></link_rewrite>
+<meta_title><![CDATA[]]></meta_title>
+<meta_keywords><![CDATA[]]></meta_keywords>
+<meta_description><![CDATA[]]></meta_description>
+</datalanguage>
+<datashop id_shop="1"></datashop>
+</category></entity_profile>

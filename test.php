@@ -14,7 +14,7 @@ class PhpPsInfo
 
     protected $requirements = [
         'versions' => [
-            'php' => '5.6',
+            'php' => '7.1',
             'mysql' => '5.5',
         ],
         'extensions' => [
@@ -23,6 +23,7 @@ class PhpPsInfo
             'fileinfo' => true,
             'gd' => true,
             'imagick' => false,
+            'iconv' => true,
             'intl' => true,
             'json' => true,
             'openssl' => true,
@@ -64,7 +65,7 @@ class PhpPsInfo
 
     protected $recommended = [
         'versions' => [
-            'php' => '7.1',
+            'php' => '7.3',
             'mysql' => '5.6',
         ],
         'extensions' => [
@@ -73,6 +74,7 @@ class PhpPsInfo
             'fileinfo' => true,
             'gd' => true,
             'imagick' => true,
+            'iconv' => true,
             'intl' => true,
             'json' => true,
             'openssl' => true,
@@ -213,6 +215,7 @@ class PhpPsInfo
             'Client URL Library (Curl)' => 'curl',
             'Image Processing and GD' => 'gd',
             'Image Processing (ImageMagick)' => 'imagick',
+            'Human Language and Character Encoding Support (Iconv)' => 'iconv',
             'Internationalization Functions (Intl)' => 'intl',
             'Memcache' => 'memcache',
             'Memcached' => 'memcached',

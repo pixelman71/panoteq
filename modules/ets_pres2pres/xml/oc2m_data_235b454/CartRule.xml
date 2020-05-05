@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<cart_rule><id_cart_rule><![CDATA[2]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2016-07-12 08:00:00]]></date_from>
+<date_to><![CDATA[2030-01-01 08:00:00]]></date_to>
+<description><![CDATA[]]></description>
+<quantity><![CDATA[585]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[WELCOMEPANOTEQ]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[1]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2016-07-12 08:22:28]]></date_add>
+<date_upd><![CDATA[2020-04-23 15:59:52]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Offre de lancement de Panoteq.fr : profitez de 5% de remise (valable sur n'importe quelle commande, maintenant ou plus tard, sans minimum d'achat mais valable qu'une seule fois).]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[4]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2018-03-27 08:00:00]]></date_from>
+<date_to><![CDATA[2019-03-27 08:00:00]]></date_to>
+<description><![CDATA[Avoir de 7.5€ pour un client ayant acheté le nuancier complet]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[FGNQ44KM]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[7.50]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[1]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2017-07-11 15:59:39]]></date_add>
+<date_upd><![CDATA[2018-03-27 06:25:33]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Remboursement nuancier complet]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[5]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2017-08-28 15:17:01]]></date_from>
+<date_to><![CDATA[2017-08-28 17:21:06]]></date_to>
+<description><![CDATA[]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[0]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.04]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[0]]></active>
+<date_add><![CDATA[2017-08-28 16:21:06]]></date_add>
+<date_upd><![CDATA[2017-08-28 16:21:06]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[GREGOIRE/ODIN]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[6]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2017-08-28 15:17:01]]></date_from>
+<date_to><![CDATA[2017-08-28 17:55:19]]></date_to>
+<description><![CDATA[]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[0]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.01]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[0]]></active>
+<date_add><![CDATA[2017-08-28 16:55:19]]></date_add>
+<date_upd><![CDATA[2017-08-28 16:55:19]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[GREGOIRE/ODIN]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[7]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2018-02-16 14:00:00]]></date_from>
+<date_to><![CDATA[2018-07-07 14:00:00]]></date_to>
+<description><![CDATA[Remise pour retour sur le fonctionnement du site.]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[VM55YWPI]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[10.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-02-16 14:40:36]]></date_add>
+<date_upd><![CDATA[2018-06-20 17:06:56]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Remise M Lespour]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[8]]></id_cart_rule>
+<id_customer><![CDATA[147]]></id_customer>
+<date_from><![CDATA[2018-02-20 10:00:00]]></date_from>
+<date_to><![CDATA[2018-04-20 10:00:00]]></date_to>
+<description><![CDATA[Remise 5% suite à la commande ZLMJEPBRM. Accord ADV / oubli du client de saisir le code de remise]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[41G8BS4A]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[38.94]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-02-20 10:08:53]]></date_add>
+<date_upd><![CDATA[2018-03-26 09:10:53]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Albert MARTINEAU ]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[9]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2018-02-22 17:00:00]]></date_from>
+<date_to><![CDATA[2018-03-22 17:00:00]]></date_to>
+<description><![CDATA[Remboursement par un code de sa commande YOGANATHAN suite litige transporte et qualité médiocre]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[QDLJX6AQ]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[23.81]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-02-22 17:04:55]]></date_add>
+<date_upd><![CDATA[2018-03-26 09:10:45]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[YOGANATHAN]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[10]]></id_cart_rule>
+<id_customer><![CDATA[104]]></id_customer>
+<date_from><![CDATA[2018-02-23 14:00:00]]></date_from>
+<date_to><![CDATA[2018-05-08 14:00:00]]></date_to>
+<description><![CDATA[QQUOZLSLP Porte livrée fissurée. ]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[EJ82WKJW]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[9.02]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-02-23 14:37:17]]></date_add>
+<date_upd><![CDATA[2018-05-07 22:52:57]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[PICHENOT]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[11]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2018-02-28 08:00:00]]></date_from>
+<date_to><![CDATA[2019-03-28 08:00:00]]></date_to>
+<description><![CDATA[Merci pour l'image]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[5SYB73ZY]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[10.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-02-28 08:33:12]]></date_add>
+<date_upd><![CDATA[2018-02-28 08:33:12]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Chassin]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[12]]></id_cart_rule>
+<id_customer><![CDATA[166]]></id_customer>
+<date_from><![CDATA[2018-03-05 09:00:00]]></date_from>
+<date_to><![CDATA[2018-04-05 09:00:00]]></date_to>
+<description><![CDATA[Remise complémentaire 5% pour cde montant mini 1200€]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[B6Y2SC8X]]></code>
+<minimum_amount><![CDATA[1200.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[10.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-03-05 09:07:03]]></date_add>
+<date_upd><![CDATA[2018-03-29 12:48:42]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[pascal.dumoulin4@orange.fr ]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[13]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2018-03-05 10:00:00]]></date_from>
+<date_to><![CDATA[2018-04-05 10:00:00]]></date_to>
+<description><![CDATA[Promo pour trouver un bug sur le site]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[ISSU67FH]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[10.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-03-05 10:06:19]]></date_add>
+<date_upd><![CDATA[2018-03-26 09:09:32]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Jean-Marc Prin]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[14]]></id_cart_rule>
+<id_customer><![CDATA[172]]></id_customer>
+<date_from><![CDATA[2018-03-16 16:00:00]]></date_from>
+<date_to><![CDATA[2018-04-16 16:00:00]]></date_to>
+<description><![CDATA[Accord adv pour 5 % sur une prochaine cde. La1ere étant pour cde essai, echantillon]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[IKWWJHWB]]></code>
+<minimum_amount><![CDATA[100.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-03-16 16:59:18]]></date_add>
+<date_upd><![CDATA[2018-04-14 19:29:06]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[CLAEIS]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[15]]></id_cart_rule>
+<id_customer><![CDATA[146]]></id_customer>
+<date_from><![CDATA[2018-03-21 14:00:00]]></date_from>
+<date_to><![CDATA[2018-04-21 14:00:00]]></date_to>
+<description><![CDATA[Accord exceptionnel d'avoir une remise de 5% sous  conditions (car remise déjà appliquée sur petite commande)]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[B8F3BQZN]]></code>
+<minimum_amount><![CDATA[200.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-03-21 14:03:37]]></date_add>
+<date_upd><![CDATA[2018-03-27 10:35:25]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[PETIT JP]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[16]]></id_cart_rule>
+<id_customer><![CDATA[175]]></id_customer>
+<date_from><![CDATA[2018-03-27 11:00:00]]></date_from>
+<date_to><![CDATA[2018-04-27 11:00:00]]></date_to>
+<description><![CDATA[Remboursement du nuancier]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[6YZMR3ZR]]></code>
+<minimum_amount><![CDATA[8.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[7.50]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-03-27 11:53:32]]></date_add>
+<date_upd><![CDATA[2018-03-27 11:53:32]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[David mouscardes]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[17]]></id_cart_rule>
+<id_customer><![CDATA[102]]></id_customer>
+<date_from><![CDATA[2018-04-02 19:02:15]]></date_from>
+<date_to><![CDATA[2019-04-03 01:02:15]]></date_to>
+<description><![CDATA[Avoir concernant la commande n°179]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[V17C102O179]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.50]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-04-02 19:02:16]]></date_add>
+<date_upd><![CDATA[2018-04-02 19:02:16]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[V17C102O179]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[18]]></id_cart_rule>
+<id_customer><![CDATA[213]]></id_customer>
+<date_from><![CDATA[2018-04-18 15:00:00]]></date_from>
+<date_to><![CDATA[2018-05-18 15:00:00]]></date_to>
+<description><![CDATA[Remboursement nuancier]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[ZM8C89SQ]]></code>
+<minimum_amount><![CDATA[7.50]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[7.50]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-04-18 15:38:12]]></date_add>
+<date_upd><![CDATA[2018-05-01 18:11:50]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[TARIOL Patrick]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[19]]></id_cart_rule>
+<id_customer><![CDATA[182]]></id_customer>
+<date_from><![CDATA[2018-04-20 14:00:00]]></date_from>
+<date_to><![CDATA[2018-07-04 14:00:00]]></date_to>
+<description><![CDATA[Remboursement echantillon à laquer]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[ZZ7IALWQ]]></code>
+<minimum_amount><![CDATA[36.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[36.00]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-04-20 14:25:07]]></date_add>
+<date_upd><![CDATA[2018-06-20 17:06:56]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LESPOUR ECHANTILLON]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[20]]></id_cart_rule>
+<id_customer><![CDATA[202]]></id_customer>
+<date_from><![CDATA[2018-05-14 10:00:00]]></date_from>
+<date_to><![CDATA[2018-06-14 23:59:00]]></date_to>
+<description><![CDATA[Accord 5% sur prochaine commande]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[9P5YVK5M]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-05-14 10:16:09]]></date_add>
+<date_upd><![CDATA[2018-05-15 14:13:38]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[DESCLOITRE MARIA]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[21]]></id_cart_rule>
+<id_customer><![CDATA[217]]></id_customer>
+<date_from><![CDATA[2018-05-30 09:00:00]]></date_from>
+<date_to><![CDATA[2018-06-30 09:00:00]]></date_to>
+<description><![CDATA[Offre pro (retard livraison ral)]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[MDFLU7GD]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[10.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-05-30 10:00:04]]></date_add>
+<date_upd><![CDATA[2018-06-08 18:14:11]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[ Studio Mariekke FROIDEVAL]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[24]]></id_cart_rule>
+<id_customer><![CDATA[287]]></id_customer>
+<date_from><![CDATA[2018-07-24 14:00:00]]></date_from>
+<date_to><![CDATA[2018-08-24 14:00:00]]></date_to>
+<description><![CDATA[Erreur site internet sens de fil incompatible avec dimensions]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[1991RS6E]]></code>
+<minimum_amount><![CDATA[31.64]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[31.64]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-07-24 14:22:32]]></date_add>
+<date_upd><![CDATA[2018-07-24 17:58:30]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Jean-Patrice LEBLANC]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[25]]></id_cart_rule>
+<id_customer><![CDATA[374]]></id_customer>
+<date_from><![CDATA[2018-09-12 08:00:00]]></date_from>
+<date_to><![CDATA[2018-10-12 08:00:00]]></date_to>
+<description><![CDATA[Réduction suite erreur sur le site : proposition de mandoline en Brillant ====>incompatible]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[JR4422U2]]></code>
+<minimum_amount><![CDATA[10.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-09-12 08:17:34]]></date_add>
+<date_upd><![CDATA[2018-09-13 11:34:35]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[BRANDEL Isabelle]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[26]]></id_cart_rule>
+<id_customer><![CDATA[341]]></id_customer>
+<date_from><![CDATA[2018-09-13 08:00:00]]></date_from>
+<date_to><![CDATA[2018-10-13 08:00:00]]></date_to>
+<description><![CDATA[Remise de la valeur de la porte : erreur d'usinage Panoteq]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[ZXUPBU32]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[32.81]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-09-13 08:19:44]]></date_add>
+<date_upd><![CDATA[2018-10-07 19:56:00]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[SOCIETE AIGA DE CAEZEMAEKER]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[27]]></id_cart_rule>
+<id_customer><![CDATA[338]]></id_customer>
+<date_from><![CDATA[2018-10-05 13:00:00]]></date_from>
+<date_to><![CDATA[2018-11-05 13:00:00]]></date_to>
+<description><![CDATA[Erreur sens de fil PAB 110X700 : reçu horizontal]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[5UNZS13K]]></code>
+<minimum_amount><![CDATA[7.70]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[7.70]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-10-05 13:56:30]]></date_add>
+<date_upd><![CDATA[2018-10-07 19:41:49]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[DEZECACHE LUC]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[28]]></id_cart_rule>
+<id_customer><![CDATA[258]]></id_customer>
+<date_from><![CDATA[2018-10-09 17:00:00]]></date_from>
+<date_to><![CDATA[2018-11-30 17:00:00]]></date_to>
+<description><![CDATA[Geste commercial pour avoir accepter la commande avec erreur de ral PLUS VALABLE DATE PASSEE REFAIT UN CODE SUITE COMPLEMENT DE PORTE NON CONFORME J AI FAIS UN CODE GENERAL EU7I78ZG]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[F3N8MMTQ]]></code>
+<minimum_amount><![CDATA[51.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[60.00]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-10-09 17:10:18]]></date_add>
+<date_upd><![CDATA[2018-11-12 08:48:48]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[POILET LAURENT]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[30]]></id_cart_rule>
+<id_customer><![CDATA[258]]></id_customer>
+<date_from><![CDATA[2018-11-12 08:00:00]]></date_from>
+<date_to><![CDATA[2018-12-13 08:00:00]]></date_to>
+<description><![CDATA[Remboursement sur défaut laquage (boursoufflure, granuleux..) + geste commercial]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[EU7I78ZG]]></code>
+<minimum_amount><![CDATA[61.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[266.98]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-11-12 08:47:07]]></date_add>
+<date_upd><![CDATA[2018-11-13 18:12:45]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[POILET LAURENT]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[31]]></id_cart_rule>
+<id_customer><![CDATA[341]]></id_customer>
+<date_from><![CDATA[2018-11-26 09:00:00]]></date_from>
+<date_to><![CDATA[2018-12-26 09:00:00]]></date_to>
+<description><![CDATA[erreur dimension, erreur sens pdm erreur cote percage]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[6N55JTME]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[137.83]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-11-26 09:51:18]]></date_add>
+<date_upd><![CDATA[2018-11-29 22:29:56]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[DE CAEZEMAEKER Arnaud]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[32]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2018-11-27 15:00:00]]></date_from>
+<date_to><![CDATA[2018-12-27 15:00:00]]></date_to>
+<description><![CDATA[]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[LTJXU25X]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-11-27 15:09:04]]></date_add>
+<date_upd><![CDATA[2018-11-27 16:26:38]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[MAGNAT CLAUDE]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[33]]></id_cart_rule>
+<id_customer><![CDATA[491]]></id_customer>
+<date_from><![CDATA[2018-12-11 08:00:00]]></date_from>
+<date_to><![CDATA[2019-01-31 08:00:00]]></date_to>
+<description><![CDATA[Réception d'une porte avec un décollement sur chant  540x350 BLI (porte pour tester le produit) Remise 5% sur prochaine commande]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[AS1JGST5]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2018-12-11 08:09:08]]></date_add>
+<date_upd><![CDATA[2018-12-11 08:28:09]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[FIORUCCI GILBET]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[34]]></id_cart_rule>
+<id_customer><![CDATA[356]]></id_customer>
+<date_from><![CDATA[2019-01-10 16:00:00]]></date_from>
+<date_to><![CDATA[2019-02-10 16:00:00]]></date_to>
+<description><![CDATA[Percage oublie par ADV.]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[EVXMN1LA]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[10.00]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-01-10 16:53:21]]></date_add>
+<date_upd><![CDATA[2019-01-13 21:58:03]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LADIRE PASCAL]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[35]]></id_cart_rule>
+<id_customer><![CDATA[385]]></id_customer>
+<date_from><![CDATA[2019-02-06 15:00:00]]></date_from>
+<date_to><![CDATA[2019-06-30 20:00:00]]></date_to>
+<description><![CDATA[Geste commercial pour ne pas avoir demandé à refaire toute sa commande : constat : RAL différent entre 2 commandes et trace de pistolet....]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[A95173HE]]></code>
+<minimum_amount><![CDATA[66.52]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[66.52]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-02-06 15:48:09]]></date_add>
+<date_upd><![CDATA[2019-02-07 11:35:38]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LUSSIEZ STEPHANIE]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[36]]></id_cart_rule>
+<id_customer><![CDATA[385]]></id_customer>
+<date_from><![CDATA[2019-02-06 15:00:00]]></date_from>
+<date_to><![CDATA[2019-06-30 20:00:00]]></date_to>
+<description><![CDATA[Geste commercial pour avoir accepter la qualité reçue (non conforme)]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[Z4XJYC23]]></code>
+<minimum_amount><![CDATA[60.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[60.00]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-02-06 15:53:50]]></date_add>
+<date_upd><![CDATA[2019-02-07 11:48:20]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LUSSIEZ STEPHANIE]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[37]]></id_cart_rule>
+<id_customer><![CDATA[578]]></id_customer>
+<date_from><![CDATA[2019-02-08 14:00:00]]></date_from>
+<date_to><![CDATA[2019-03-08 14:00:00]]></date_to>
+<description><![CDATA[]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[1BBT4TIW]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-02-08 14:31:40]]></date_add>
+<date_upd><![CDATA[2019-02-08 15:01:16]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[millard]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[38]]></id_cart_rule>
+<id_customer><![CDATA[611]]></id_customer>
+<date_from><![CDATA[2019-02-11 08:00:00]]></date_from>
+<date_to><![CDATA[2019-03-11 08:00:00]]></date_to>
+<description><![CDATA[Cde annulée suite erreur dimension client. Donc redonne code de 5%]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[H56TE5LE]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-02-11 08:17:41]]></date_add>
+<date_upd><![CDATA[2019-02-11 08:47:02]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[CARANCHINI CHRISTOPHE]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[39]]></id_cart_rule>
+<id_customer><![CDATA[578]]></id_customer>
+<date_from><![CDATA[2019-02-15 10:00:00]]></date_from>
+<date_to><![CDATA[2019-03-15 10:00:00]]></date_to>
+<description><![CDATA[]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[2CCDHP7F]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-02-15 10:06:55]]></date_add>
+<date_upd><![CDATA[2019-02-15 10:18:05]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Jean-Marc MILLARD]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[40]]></id_cart_rule>
+<id_customer><![CDATA[447]]></id_customer>
+<date_from><![CDATA[2019-03-12 16:00:00]]></date_from>
+<date_to><![CDATA[2019-04-12 16:00:00]]></date_to>
+<description><![CDATA[Accord d'une remise supplémentaire de 5% (suite echantillon de qualité médiocre, puis échantillon perdu...)]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[QZRDG6RA]]></code>
+<minimum_amount><![CDATA[700.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-03-12 16:54:16]]></date_add>
+<date_upd><![CDATA[2019-03-14 20:50:45]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[BERT CHRISTIAN]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[41]]></id_cart_rule>
+<id_customer><![CDATA[38]]></id_customer>
+<date_from><![CDATA[2019-03-21 09:00:00]]></date_from>
+<date_to><![CDATA[2019-04-21 09:00:00]]></date_to>
+<description><![CDATA[Suite  ALTO incompatible avec perçage 80. la cliente change de modèle]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[MFRRWY54]]></code>
+<minimum_amount><![CDATA[250.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[7.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-03-21 09:23:23]]></date_add>
+<date_upd><![CDATA[2019-03-22 18:11:07]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[SILVA-RODRIGUEZ MANUEL]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[42]]></id_cart_rule>
+<id_customer><![CDATA[385]]></id_customer>
+<date_from><![CDATA[2019-03-21 15:00:00]]></date_from>
+<date_to><![CDATA[2019-03-26 11:49:00]]></date_to>
+<description><![CDATA[Suite plusieurs anomalies de qualité laquage, puis différente teinte puis arrêt du nacré...]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[0]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[XN8WTQJW]]></code>
+<minimum_amount><![CDATA[550.80]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[540.80]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-03-21 15:40:09]]></date_add>
+<date_upd><![CDATA[2019-03-26 11:50:36]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LUSSIEZ STEPHANIE]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[43]]></id_cart_rule>
+<id_customer><![CDATA[516]]></id_customer>
+<date_from><![CDATA[2019-04-12 10:00:00]]></date_from>
+<date_to><![CDATA[2019-12-31 23:59:00]]></date_to>
+<description><![CDATA[SERVICE PLUS  - PROFESSIONNEL]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[6]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[CJ6L7US8]]></code>
+<minimum_amount><![CDATA[10.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[12.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-04-12 10:52:51]]></date_add>
+<date_upd><![CDATA[2019-10-15 16:16:55]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Fabien LEITES (leites.fabien@orange.fr)]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[44]]></id_cart_rule>
+<id_customer><![CDATA[684]]></id_customer>
+<date_from><![CDATA[2019-04-15 09:00:00]]></date_from>
+<date_to><![CDATA[2019-04-15 09:00:00]]></date_to>
+<description><![CDATA[defaut transport, accord un geste co----ATTENTION LE CLIENT NE SOUHAITE PAS COMMANDER CAR PEUR QUE CA ARRIVE ENDOMMAGER. JE SUPPRIME LE BON DE REDUCTON]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[0]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[Y8HMESVJ]]></code>
+<minimum_amount><![CDATA[70.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[3.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-04-15 09:15:24]]></date_add>
+<date_upd><![CDATA[2020-03-06 09:58:15]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Pierre VIVIAND]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[45]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2019-05-19 14:42:42]]></date_from>
+<date_to><![CDATA[2019-05-20 12:02:09]]></date_to>
+<description><![CDATA[]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[0]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[0]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[0]]></active>
+<date_add><![CDATA[2019-05-20 11:02:09]]></date_add>
+<date_upd><![CDATA[2019-05-20 11:02:09]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[WELCOMEPANOTEQ]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[46]]></id_cart_rule>
+<id_customer><![CDATA[0]]></id_customer>
+<date_from><![CDATA[2019-05-19 14:42:42]]></date_from>
+<date_to><![CDATA[2019-05-20 12:02:54]]></date_to>
+<description><![CDATA[]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[]]></code>
+<minimum_amount><![CDATA[0.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[0]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[0]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[5.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[0]]></active>
+<date_add><![CDATA[2019-05-20 11:02:54]]></date_add>
+<date_upd><![CDATA[2019-05-20 11:02:54]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[WELCOMEPANOTEQ]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[47]]></id_cart_rule>
+<id_customer><![CDATA[793]]></id_customer>
+<date_from><![CDATA[2019-06-12 10:00:00]]></date_from>
+<date_to><![CDATA[2019-10-31 10:00:00]]></date_to>
+<description><![CDATA[Modification de quantité  par le client. Passera une commande de complément]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[YQG42SH1]]></code>
+<minimum_amount><![CDATA[10.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[22.57]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-06-12 10:39:16]]></date_add>
+<date_upd><![CDATA[2019-09-03 09:20:58]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[CORNIQUET Isabelle EARL CORNIQUET]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[48]]></id_cart_rule>
+<id_customer><![CDATA[447]]></id_customer>
+<date_from><![CDATA[2019-07-23 14:00:00]]></date_from>
+<date_to><![CDATA[2019-12-31 23:59:00]]></date_to>
+<description><![CDATA[Geste commercial car plusieurs SAV et traitement long des commandes en laquage....]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[W3IVPM24]]></code>
+<minimum_amount><![CDATA[10.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[40.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-07-23 14:13:02]]></date_add>
+<date_upd><![CDATA[2019-07-23 14:13:02]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[BERT CHRISTIAN]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[49]]></id_cart_rule>
+<id_customer><![CDATA[812]]></id_customer>
+<date_from><![CDATA[2019-09-16 07:00:00]]></date_from>
+<date_to><![CDATA[2019-12-19 12:00:00]]></date_to>
+<description><![CDATA[Mauvais laquage (coulure) sur commande RTGWQKZUJ 570*500 ALTO le client me prépare le colis pour analyse]]></description>
+<quantity><![CDATA[1]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[FXIEK7LF]]></code>
+<minimum_amount><![CDATA[40.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[80.00]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-09-16 07:15:15]]></date_add>
+<date_upd><![CDATA[2019-09-16 07:15:15]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[BERTHOU CELINE]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[50]]></id_cart_rule>
+<id_customer><![CDATA[824]]></id_customer>
+<date_from><![CDATA[2019-10-11 16:00:00]]></date_from>
+<date_to><![CDATA[2020-10-11 16:00:00]]></date_to>
+<description><![CDATA[FIDELITE]]></description>
+<quantity><![CDATA[499]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[H7DALQER]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[10.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-10-11 16:19:35]]></date_add>
+<date_upd><![CDATA[2019-10-28 11:25:08]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[marie@mariekke.fr]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[51]]></id_cart_rule>
+<id_customer><![CDATA[261]]></id_customer>
+<date_from><![CDATA[2019-10-15 15:00:00]]></date_from>
+<date_to><![CDATA[2020-10-15 15:00:00]]></date_to>
+<description><![CDATA[Fidélité PRO]]></description>
+<quantity><![CDATA[500]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[FHCCQEIS]]></code>
+<minimum_amount><![CDATA[20.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[20.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-10-15 15:58:09]]></date_add>
+<date_upd><![CDATA[2019-10-15 16:15:55]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Philippe Bourgeois ]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[52]]></id_cart_rule>
+<id_customer><![CDATA[516]]></id_customer>
+<date_from><![CDATA[2019-10-15 16:00:00]]></date_from>
+<date_to><![CDATA[2020-10-15 15:00:00]]></date_to>
+<description><![CDATA[Fidélité PRO]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[CXUH6XPW]]></code>
+<minimum_amount><![CDATA[20.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[0]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[20.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-10-15 16:14:58]]></date_add>
+<date_upd><![CDATA[2020-03-03 08:16:26]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LEITES FABIEN]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[53]]></id_cart_rule>
+<id_customer><![CDATA[921]]></id_customer>
+<date_from><![CDATA[2019-10-17 11:00:00]]></date_from>
+<date_to><![CDATA[2020-10-17 12:00:00]]></date_to>
+<description><![CDATA[PROF]]></description>
+<quantity><![CDATA[499]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[3S3SQXBF]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[20.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-10-17 11:48:35]]></date_add>
+<date_upd><![CDATA[2019-12-10 19:01:10]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[ROMAIN BACH RENOUV'O]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[54]]></id_cart_rule>
+<id_customer><![CDATA[926]]></id_customer>
+<date_from><![CDATA[2019-10-21 16:00:00]]></date_from>
+<date_to><![CDATA[2020-11-21 16:00:00]]></date_to>
+<description><![CDATA[FIDELITE PRO]]></description>
+<quantity><![CDATA[499]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[D2RJ6AE8]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[20.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-10-21 16:37:45]]></date_add>
+<date_upd><![CDATA[2019-10-21 16:54:00]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[VR.RENOVATION]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[55]]></id_cart_rule>
+<id_customer><![CDATA[929]]></id_customer>
+<date_from><![CDATA[2019-10-23 18:00:00]]></date_from>
+<date_to><![CDATA[2020-11-23 16:00:00]]></date_to>
+<description><![CDATA[Fidelite pro]]></description>
+<quantity><![CDATA[499]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[WTCT8I1K]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[1]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[20.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2019-10-23 18:33:18]]></date_add>
+<date_upd><![CDATA[2019-12-17 00:00:26]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[SPRB DECO  - C&B TRAVAUX]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[56]]></id_cart_rule>
+<id_customer><![CDATA[516]]></id_customer>
+<date_from><![CDATA[2020-03-03 08:00:00]]></date_from>
+<date_to><![CDATA[2020-12-31 08:00:00]]></date_to>
+<description><![CDATA[PRO]]></description>
+<quantity><![CDATA[99]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[FDZYC59B]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[0]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[10.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[1]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2020-03-03 08:17:45]]></date_add>
+<date_upd><![CDATA[2020-03-10 17:12:38]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LEITES FABIEN]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[57]]></id_cart_rule>
+<id_customer><![CDATA[1123]]></id_customer>
+<date_from><![CDATA[2020-03-06 08:00:00]]></date_from>
+<date_to><![CDATA[2020-03-09 08:00:00]]></date_to>
+<description><![CDATA[offre promo pour échantillon ]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[0]]></partial_use>
+<code><![CDATA[J2GKKIYI]]></code>
+<minimum_amount><![CDATA[10.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[0]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[0]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[50.00]]></reduction_percent>
+<reduction_amount><![CDATA[0.00]]></reduction_amount>
+<reduction_tax><![CDATA[0]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2020-03-06 08:22:38]]></date_add>
+<date_upd><![CDATA[2020-03-06 16:01:44]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[pierig carrer]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[58]]></id_cart_rule>
+<id_customer><![CDATA[1023]]></id_customer>
+<date_from><![CDATA[2020-03-23 07:00:00]]></date_from>
+<date_to><![CDATA[2020-05-31 21:00:00]]></date_to>
+<description><![CDATA[défaut de laquage 1 porte avec 1 point blanc + 1 autre avec une rayure sur mélamine = 2 sur 5]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[6GCQ5AZ4]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[0]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[1]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[147.89]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2020-03-23 07:23:13]]></date_add>
+<date_upd><![CDATA[2020-03-25 20:45:18]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LUET STEPHANE]]></name>
+</datalanguage>
+</cart_rule>
+<cart_rule><id_cart_rule><![CDATA[59]]></id_cart_rule>
+<id_customer><![CDATA[1023]]></id_customer>
+<date_from><![CDATA[2020-03-23 07:00:00]]></date_from>
+<date_to><![CDATA[2020-05-31 21:00:00]]></date_to>
+<description><![CDATA[défaut de laquage 1 porte avec 1 point blanc + 1 autre avec une rayure sur mélamine = 2 sur 5]]></description>
+<quantity><![CDATA[0]]></quantity>
+<quantity_per_user><![CDATA[1]]></quantity_per_user>
+<priority><![CDATA[1]]></priority>
+<partial_use><![CDATA[1]]></partial_use>
+<code><![CDATA[6GCQ5AZ4-2]]></code>
+<minimum_amount><![CDATA[50.00]]></minimum_amount>
+<minimum_amount_tax><![CDATA[1]]></minimum_amount_tax>
+<minimum_amount_currency><![CDATA[1]]></minimum_amount_currency>
+<minimum_amount_shipping><![CDATA[1]]></minimum_amount_shipping>
+<country_restriction><![CDATA[0]]></country_restriction>
+<carrier_restriction><![CDATA[0]]></carrier_restriction>
+<group_restriction><![CDATA[0]]></group_restriction>
+<cart_rule_restriction><![CDATA[0]]></cart_rule_restriction>
+<product_restriction><![CDATA[0]]></product_restriction>
+<shop_restriction><![CDATA[0]]></shop_restriction>
+<free_shipping><![CDATA[0]]></free_shipping>
+<reduction_percent><![CDATA[0.00]]></reduction_percent>
+<reduction_amount><![CDATA[6.37]]></reduction_amount>
+<reduction_tax><![CDATA[1]]></reduction_tax>
+<reduction_currency><![CDATA[1]]></reduction_currency>
+<reduction_product><![CDATA[0]]></reduction_product>
+<gift_product><![CDATA[0]]></gift_product>
+<gift_product_attribute><![CDATA[0]]></gift_product_attribute>
+<highlight><![CDATA[0]]></highlight>
+<active><![CDATA[1]]></active>
+<date_add><![CDATA[2020-03-25 20:45:18]]></date_add>
+<date_upd><![CDATA[2020-03-26 11:09:03]]></date_upd>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[LUET STEPHANE]]></name>
+</datalanguage>
+</cart_rule>
+</entity_profile>

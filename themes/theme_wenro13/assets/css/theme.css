@@ -4584,7 +4584,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   font-style: italic; }
 
 .text-muted {
-  color: #acaaa6 !important; }
+  color: #414141 !important; }
 
 a.text-muted:focus, a.text-muted:hover {
   color: #93918c !important; }
@@ -6320,8 +6320,10 @@ body#checkout {
     font-weight: 700; }
   #custom-text p {
     color: #414141;
-    font-weight: 400;
-    font-size: 1.1em;
+    font-weight: 300;
+    font-size: 12px;
+	line-height: 25px;
+	letter-spacing: 0.2em;
     margin-bottom:0.5em; }
     #custom-text p .dark {
       color: #acaaa6;

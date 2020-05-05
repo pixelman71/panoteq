@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<tax><id_tax><![CDATA[1]]></id_tax>
+<rate><![CDATA[20.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[TVA FR 20%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[2]]></id_tax>
+<rate><![CDATA[10.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[TVA FR 10%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[3]]></id_tax>
+<rate><![CDATA[5.500]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[TVA FR 5.5%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[4]]></id_tax>
+<rate><![CDATA[2.100]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[TVA FR 2.1%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[5]]></id_tax>
+<rate><![CDATA[20.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[USt. AT 20%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[6]]></id_tax>
+<rate><![CDATA[21.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[TVA BE 21%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[7]]></id_tax>
+<rate><![CDATA[20.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[ДДС BG 20%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[8]]></id_tax>
+<rate><![CDATA[19.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[ΦΠΑ CY 19%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[9]]></id_tax>
+<rate><![CDATA[21.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[DPH CZ 21%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[10]]></id_tax>
+<rate><![CDATA[19.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[MwSt. DE 19%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[11]]></id_tax>
+<rate><![CDATA[25.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[moms DK 25%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[12]]></id_tax>
+<rate><![CDATA[20.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[km EE 20%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[13]]></id_tax>
+<rate><![CDATA[21.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[IVA ES 21%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[14]]></id_tax>
+<rate><![CDATA[24.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[ALV FI 24%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[15]]></id_tax>
+<rate><![CDATA[20.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[VAT UK 20%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[16]]></id_tax>
+<rate><![CDATA[23.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[ΦΠΑ GR 23%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[17]]></id_tax>
+<rate><![CDATA[25.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Croatia PDV 25%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[18]]></id_tax>
+<rate><![CDATA[27.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[ÁFA HU 27%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[19]]></id_tax>
+<rate><![CDATA[23.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[VAT IE 23%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[20]]></id_tax>
+<rate><![CDATA[22.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[IVA IT 22%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[21]]></id_tax>
+<rate><![CDATA[21.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[PVM LT 21%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[22]]></id_tax>
+<rate><![CDATA[17.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[TVA LU 17%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[23]]></id_tax>
+<rate><![CDATA[21.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[PVN LV 21%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[24]]></id_tax>
+<rate><![CDATA[18.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[VAT MT 18%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[25]]></id_tax>
+<rate><![CDATA[21.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[BTW NL 21%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[26]]></id_tax>
+<rate><![CDATA[23.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[PTU PL 23%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[27]]></id_tax>
+<rate><![CDATA[23.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[IVA PT 23%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[28]]></id_tax>
+<rate><![CDATA[24.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[TVA RO 24%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[29]]></id_tax>
+<rate><![CDATA[25.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Moms SE 25%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[30]]></id_tax>
+<rate><![CDATA[22.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[DDV SI 22%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[31]]></id_tax>
+<rate><![CDATA[20.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[DPH SK 20%]]></name>
+</datalanguage>
+</tax>
+<tax><id_tax><![CDATA[32]]></id_tax>
+<rate><![CDATA[0.000]]></rate>
+<active><![CDATA[1]]></active>
+<deleted><![CDATA[0]]></deleted>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Taxe 0%]]></name>
+</datalanguage>
+</tax>
+</entity_profile>

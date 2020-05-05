@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<order_message><id_order_message><![CDATA[1]]></id_order_message>
+<date_add><![CDATA[2016-05-22 12:13:17]]></date_add>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Retard]]></name>
+<message><![CDATA[Bonjour,
+
+Malheureusement, un article que vous avez commandé est actuellement en rupture de stock. Pour cette raison, il est possible que la livraison de votre commande soit légèrement retardée.
+Nous vous prions de bien vouloir accepter nos excuses. Nous faisons tout notre possible pour remédier à cette situation.
+
+Cordialement,]]></message>
+</datalanguage>
+</order_message>
+<order_message><id_order_message><![CDATA[2]]></id_order_message>
+<date_add><![CDATA[2018-11-16 07:50:41]]></date_add>
+<datalanguage iso_code="fr" default="1" >
+<name><![CDATA[Trp Kuehne Livraison]]></name>
+<message><![CDATA[Bonjour, merci de contacter le transporteur au 04.76.56.40.40 pour convenir d'un rendez vous pour la livraison de votre commande. Cordialement]]></message>
+</datalanguage>
+</order_message>
+</entity_profile>

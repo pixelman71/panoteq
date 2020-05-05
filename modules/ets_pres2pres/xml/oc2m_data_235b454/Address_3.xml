@@ -1,0 +1,2550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<address><id_address><![CDATA[1009]]></id_address>
+<id_customer><![CDATA[1024]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DEROLIN]]></lastname>
+<firstname><![CDATA[Jennyfer]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[9 rue henri jaquot]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[14114]]></postcode>
+<city><![CDATA[ver sur mer]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0952625250]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-12 00:33:59]]></date_add>
+<date_upd><![CDATA[2020-01-12 00:33:59]]></date_upd>
+</address>
+<address><id_address><![CDATA[1010]]></id_address>
+<id_customer><![CDATA[1025]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LELONG]]></lastname>
+<firstname><![CDATA[Marthe]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[5 BIS RUE DE PORT LA BLANCHE]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[44300]]></postcode>
+<city><![CDATA[NANTES]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0674183433]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-12 18:32:01]]></date_add>
+<date_upd><![CDATA[2020-01-12 18:32:01]]></date_upd>
+</address>
+<address><id_address><![CDATA[1011]]></id_address>
+<id_customer><![CDATA[1026]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Maison droite]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[PLAT]]></lastname>
+<firstname><![CDATA[Grégory]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[VILLENEUVE]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[53150]]></postcode>
+<city><![CDATA[LIVET]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0699343410]]></phone>
+<phone_mobile><![CDATA[0603023049]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-13 14:51:45]]></date_add>
+<date_upd><![CDATA[2020-01-13 14:51:45]]></date_upd>
+</address>
+<address><id_address><![CDATA[1012]]></id_address>
+<id_customer><![CDATA[1027]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LACOSTE]]></lastname>
+<firstname><![CDATA[Frederic]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[103 route de leognan]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[33170]]></postcode>
+<city><![CDATA[Gradignan]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0685021957]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-13 16:08:36]]></date_add>
+<date_upd><![CDATA[2020-01-13 16:08:36]]></date_upd>
+</address>
+<address><id_address><![CDATA[1013]]></id_address>
+<id_customer><![CDATA[1029]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[13 avenue Theodore Prevost]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LECOURT]]></lastname>
+<firstname><![CDATA[Bernard]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[13 avenue Theodore Prevost]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[95290]]></postcode>
+<city><![CDATA[L'Isle Adam]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0685546006]]></phone>
+<phone_mobile><![CDATA[0685546006]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-15 09:20:01]]></date_add>
+<date_upd><![CDATA[2020-01-15 09:20:01]]></date_upd>
+</address>
+<address><id_address><![CDATA[1014]]></id_address>
+<id_customer><![CDATA[1030]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Maison]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[METRAL]]></lastname>
+<firstname><![CDATA[Thomas]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[135 Avenue du Jura]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[74890]]></postcode>
+<city><![CDATA[Bons-en-Chablais]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0658701171]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[1]]></deleted>
+<date_add><![CDATA[2020-01-15 16:54:23]]></date_add>
+<date_upd><![CDATA[2020-01-19 17:48:55]]></date_upd>
+</address>
+<address><id_address><![CDATA[1015]]></id_address>
+<id_customer><![CDATA[1028]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[CIOTOLI]]></lastname>
+<firstname><![CDATA[Pierre]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[56 avenue hameau du golf]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[34990]]></postcode>
+<city><![CDATA[Juvignac]]></city>
+<other><![CDATA[Suite à notre échange de ce jour
+par avance Merci]]></other>
+<phone><![CDATA[0607542777]]></phone>
+<phone_mobile><![CDATA[0607542777]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-16 10:22:06]]></date_add>
+<date_upd><![CDATA[2020-01-16 10:22:06]]></date_upd>
+</address>
+<address><id_address><![CDATA[1016]]></id_address>
+<id_customer><![CDATA[1032]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[julien adresse]]></alias>
+<company><![CDATA[-]]></company>
+<lastname><![CDATA[TORILLEC]]></lastname>
+<firstname><![CDATA[Julien]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[19 rue des hauts de l'étang]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[29860]]></postcode>
+<city><![CDATA[BOURG-BLANC]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0626970429]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-16 10:36:41]]></date_add>
+<date_upd><![CDATA[2020-01-16 10:36:41]]></date_upd>
+</address>
+<address><id_address><![CDATA[1017]]></id_address>
+<id_customer><![CDATA[1033]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LABORIE]]></lastname>
+<firstname><![CDATA[Alain]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[59 Rue PREVOST]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[33520]]></postcode>
+<city><![CDATA[BRUGES]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0661447995]]></phone>
+<phone_mobile><![CDATA[0661447995]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-16 17:05:35]]></date_add>
+<date_upd><![CDATA[2020-01-16 17:05:35]]></date_upd>
+</address>
+<address><id_address><![CDATA[1018]]></id_address>
+<id_customer><![CDATA[1034]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[GONZALEZ]]></lastname>
+<firstname><![CDATA[Manuel]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[59 Rue PREVOST]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[33520]]></postcode>
+<city><![CDATA[BRUGES]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0686370995]]></phone>
+<phone_mobile><![CDATA[0686370995]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-17 00:34:49]]></date_add>
+<date_upd><![CDATA[2020-01-17 00:34:49]]></date_upd>
+</address>
+<address><id_address><![CDATA[1019]]></id_address>
+<id_customer><![CDATA[547]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[PETIT]]></lastname>
+<firstname><![CDATA[Joel]]></firstname>
+<vat_number><![CDATA[France]]></vat_number>
+<address1><![CDATA[Résidence les vignes de Bures]]></address1>
+<address2><![CDATA[Bâtiment B5 - Avenue de Champagne]]></address2>
+<postcode><![CDATA[91940]]></postcode>
+<city><![CDATA[LES ULIS]]></city>
+<other><![CDATA[En cas d'absence lors de la livraison, possibilité de déposer le colis chez le gardien 7h30/12h et 15h30/19h30.]]></other>
+<phone><![CDATA[0610693146]]></phone>
+<phone_mobile><![CDATA[0610693146]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-17 18:58:51]]></date_add>
+<date_upd><![CDATA[2020-01-17 18:58:51]]></date_upd>
+</address>
+<address><id_address><![CDATA[1020]]></id_address>
+<id_customer><![CDATA[1037]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DELAIN]]></lastname>
+<firstname><![CDATA[Helene]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[63 rue raymond patenotre]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[78120]]></postcode>
+<city><![CDATA[rambouillet]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0620174615]]></phone>
+<phone_mobile><![CDATA[0620174615]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-18 10:47:02]]></date_add>
+<date_upd><![CDATA[2020-01-18 10:47:02]]></date_upd>
+</address>
+<address><id_address><![CDATA[1021]]></id_address>
+<id_customer><![CDATA[1020]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[1957]]></company>
+<lastname><![CDATA[LOVATO]]></lastname>
+<firstname><![CDATA[Jean-Louis]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[541 Route de Meylan]]></address1>
+<address2><![CDATA[Le Clos Saint Vincent]]></address2>
+<postcode><![CDATA[38330]]></postcode>
+<city><![CDATA[38330 - BIVIERS]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0476905001]]></phone>
+<phone_mobile><![CDATA[0646392306]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-18 10:57:01]]></date_add>
+<date_upd><![CDATA[2020-01-18 10:57:01]]></date_upd>
+</address>
+<address><id_address><![CDATA[1022]]></id_address>
+<id_customer><![CDATA[1038]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[POTDEVIN]]></lastname>
+<firstname><![CDATA[Philippe]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[16a rue de la faiencerie]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[57565]]></postcode>
+<city><![CDATA[niderviller]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0964051535]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-18 15:53:34]]></date_add>
+<date_upd><![CDATA[2020-01-18 15:53:34]]></date_upd>
+</address>
+<address><id_address><![CDATA[1023]]></id_address>
+<id_customer><![CDATA[1038]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Paypal_Address]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[POTDEVIN]]></lastname>
+<firstname><![CDATA[Philippe]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[16a rue de la faiencerie]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[57565]]></postcode>
+<city><![CDATA[NIDERVILLER]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0964051535]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-18 16:02:55]]></date_add>
+<date_upd><![CDATA[2020-01-18 16:02:55]]></date_upd>
+</address>
+<address><id_address><![CDATA[1024]]></id_address>
+<id_customer><![CDATA[1036]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[CARPI]]></lastname>
+<firstname><![CDATA[Serge]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[17 impasse des champs passeret]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[25000]]></postcode>
+<city><![CDATA[BESANCON]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0381537136]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-19 13:51:47]]></date_add>
+<date_upd><![CDATA[2020-01-19 13:51:47]]></date_upd>
+</address>
+<address><id_address><![CDATA[1025]]></id_address>
+<id_customer><![CDATA[1039]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BRUNEAU]]></lastname>
+<firstname><![CDATA[Aurélien]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[50 rue saint Denis]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[77400]]></postcode>
+<city><![CDATA[Lagny sur marne]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0674518409]]></phone>
+<phone_mobile><![CDATA[0674518409]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-19 14:05:37]]></date_add>
+<date_upd><![CDATA[2020-01-19 14:05:37]]></date_upd>
+</address>
+<address><id_address><![CDATA[1026]]></id_address>
+<id_customer><![CDATA[1040]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BERNEUIL]]></lastname>
+<firstname><![CDATA[Paul]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[5 Square Auguste renoir]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[75014]]></postcode>
+<city><![CDATA[Paris]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0610048396]]></phone>
+<phone_mobile><![CDATA[0610048396]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-19 16:12:30]]></date_add>
+<date_upd><![CDATA[2020-01-19 16:12:30]]></date_upd>
+</address>
+<address><id_address><![CDATA[1027]]></id_address>
+<id_customer><![CDATA[1041]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[maison]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DUBUS]]></lastname>
+<firstname><![CDATA[Christophe]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[3 allee du chevrefeuille]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[36130]]></postcode>
+<city><![CDATA[deols]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0254222074]]></phone>
+<phone_mobile><![CDATA[0608237061]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-19 17:18:40]]></date_add>
+<date_upd><![CDATA[2020-01-19 17:18:40]]></date_upd>
+</address>
+<address><id_address><![CDATA[1028]]></id_address>
+<id_customer><![CDATA[1030]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Livraison]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[METRAL]]></lastname>
+<firstname><![CDATA[Christian]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[71 Chemin Pré Varin]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[74420]]></postcode>
+<city><![CDATA[Burdignin]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0450390413]]></phone>
+<phone_mobile><![CDATA[0680375813]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-19 17:48:55]]></date_add>
+<date_upd><![CDATA[2020-01-19 17:48:55]]></date_upd>
+</address>
+<address><id_address><![CDATA[1029]]></id_address>
+<id_customer><![CDATA[1030]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Facturation]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[METRAL]]></lastname>
+<firstname><![CDATA[Thomas]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[12A Rue Henri Dunant]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[74100]]></postcode>
+<city><![CDATA[Ville-la-Grand]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0658701171]]></phone>
+<phone_mobile><![CDATA[0658701171]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-19 17:50:21]]></date_add>
+<date_upd><![CDATA[2020-01-19 17:50:21]]></date_upd>
+</address>
+<address><id_address><![CDATA[1030]]></id_address>
+<id_customer><![CDATA[1043]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[FELD]]></lastname>
+<firstname><![CDATA[Jerome]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[9 chemin du Béchet ]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[42170]]></postcode>
+<city><![CDATA[Saint just saint rambert]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0621390609]]></phone>
+<phone_mobile><![CDATA[0621390609]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-19 19:10:00]]></date_add>
+<date_upd><![CDATA[2020-01-19 19:10:00]]></date_upd>
+</address>
+<address><id_address><![CDATA[1031]]></id_address>
+<id_customer><![CDATA[1046]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[MOUCHEL]]></lastname>
+<firstname><![CDATA[Fanny]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[20 allée jean françois le gonidec]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[35000]]></postcode>
+<city><![CDATA[35000 - RENNES]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0698307110]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-20 20:56:29]]></date_add>
+<date_upd><![CDATA[2020-01-20 20:56:29]]></date_upd>
+</address>
+<address><id_address><![CDATA[1032]]></id_address>
+<id_customer><![CDATA[1044]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Maison]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[ROGER]]></lastname>
+<firstname><![CDATA[Pascal]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[Lieu dit Gardian]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[47160]]></postcode>
+<city><![CDATA[ST LEON]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0781246257]]></phone>
+<phone_mobile><![CDATA[0781246257]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-21 11:09:07]]></date_add>
+<date_upd><![CDATA[2020-01-21 11:09:07]]></date_upd>
+</address>
+<address><id_address><![CDATA[1033]]></id_address>
+<id_customer><![CDATA[1048]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[TROU]]></lastname>
+<firstname><![CDATA[Martine]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[3 rue des Halles]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[53290]]></postcode>
+<city><![CDATA[St Denis D'Anjou]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0644854833]]></phone>
+<phone_mobile><![CDATA[0644854833]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-22 19:08:53]]></date_add>
+<date_upd><![CDATA[2020-01-22 19:08:53]]></date_upd>
+</address>
+<address><id_address><![CDATA[1034]]></id_address>
+<id_customer><![CDATA[935]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Paypal_Address]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[MICLO]]></lastname>
+<firstname><![CDATA[Francois]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[5 rue des jardins]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[67117]]></postcode>
+<city><![CDATA[ITTENHEIM]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0390290842]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-22 21:08:18]]></date_add>
+<date_upd><![CDATA[2020-03-21 20:41:42]]></date_upd>
+</address>
+<address><id_address><![CDATA[1035]]></id_address>
+<id_customer><![CDATA[1049]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[ROBERT]]></lastname>
+<firstname><![CDATA[Sandra]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[18 place de l Europe ]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[31270]]></postcode>
+<city><![CDATA[Cugnaux]]></city>
+<other><![CDATA[Pas de livraison le lundi]]></other>
+<phone><![CDATA[0561927680]]></phone>
+<phone_mobile><![CDATA[0609411244]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-23 10:05:58]]></date_add>
+<date_upd><![CDATA[2020-01-23 10:05:58]]></date_upd>
+</address>
+<address><id_address><![CDATA[1036]]></id_address>
+<id_customer><![CDATA[1050]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse nandax]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BARBIER]]></lastname>
+<firstname><![CDATA[JEROME]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[390 MONTEE CHANEL]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[42720]]></postcode>
+<city><![CDATA[NANDAX]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0666182747]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-25 12:01:20]]></date_add>
+<date_upd><![CDATA[2020-01-25 12:01:20]]></date_upd>
+</address>
+<address><id_address><![CDATA[1037]]></id_address>
+<id_customer><![CDATA[1052]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LE BEUX]]></lastname>
+<firstname><![CDATA[Anthony]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[68 résidence Élysée 2]]></address1>
+<address2><![CDATA[18 avenue de la Jonchère ]]></address2>
+<postcode><![CDATA[78170]]></postcode>
+<city><![CDATA[La Celle St Cloud]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0635167066]]></phone>
+<phone_mobile><![CDATA[0635167066]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-25 16:50:22]]></date_add>
+<date_upd><![CDATA[2020-01-25 16:50:22]]></date_upd>
+</address>
+<address><id_address><![CDATA[1038]]></id_address>
+<id_customer><![CDATA[1047]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[CHARLOTIN]]></lastname>
+<firstname><![CDATA[Anne]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[11 rue du Douanier Rousseau]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[78370]]></postcode>
+<city><![CDATA[Plaisir]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0134811150]]></phone>
+<phone_mobile><![CDATA[0621525590]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-26 15:31:02]]></date_add>
+<date_upd><![CDATA[2020-01-26 15:31:02]]></date_upd>
+</address>
+<address><id_address><![CDATA[1039]]></id_address>
+<id_customer><![CDATA[1053]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresses sylvie paris]]></alias>
+<company><![CDATA[1951]]></company>
+<lastname><![CDATA[ROSENBAUM]]></lastname>
+<firstname><![CDATA[Sylvie]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[60 boulevard de charonne]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[75020]]></postcode>
+<city><![CDATA[paris]]></city>
+<other><![CDATA[code 25876
+interphone rosenbaum]]></other>
+<phone><![CDATA[0622645734]]></phone>
+<phone_mobile><![CDATA[0622645734]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-26 16:09:31]]></date_add>
+<date_upd><![CDATA[2020-01-26 16:09:31]]></date_upd>
+</address>
+<address><id_address><![CDATA[1040]]></id_address>
+<id_customer><![CDATA[1054]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DUBOIS]]></lastname>
+<firstname><![CDATA[Véronique]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[40 rue des asphodèles]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[34470]]></postcode>
+<city><![CDATA[Pérols]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0614247889]]></phone>
+<phone_mobile><![CDATA[0667002509]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-27 16:18:16]]></date_add>
+<date_upd><![CDATA[2020-02-07 11:46:30]]></date_upd>
+</address>
+<address><id_address><![CDATA[1041]]></id_address>
+<id_customer><![CDATA[1044]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Paypal_Address]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[ROGER]]></lastname>
+<firstname><![CDATA[Pascal]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[Lieu dit Gardian]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[47160]]></postcode>
+<city><![CDATA[ST LEON]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0781246257]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-28 18:15:28]]></date_add>
+<date_upd><![CDATA[2020-01-28 18:17:53]]></date_upd>
+</address>
+<address><id_address><![CDATA[1042]]></id_address>
+<id_customer><![CDATA[1056]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[mag]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[GARCIA]]></lastname>
+<firstname><![CDATA[Boulangerie L Epi D Or ]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[Centre commercial le castanet place des goelands ]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[30900]]></postcode>
+<city><![CDATA[Nimes]]></city>
+<other><![CDATA[Ouvert tous les jours de 7ha12h16h19h
+Fermé le lundi]]></other>
+<phone><![CDATA[0608164321]]></phone>
+<phone_mobile><![CDATA[0608164321]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-29 08:06:48]]></date_add>
+<date_upd><![CDATA[2020-01-29 08:06:48]]></date_upd>
+</address>
+<address><id_address><![CDATA[1043]]></id_address>
+<id_customer><![CDATA[1057]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[KIEFFER]]></lastname>
+<firstname><![CDATA[Bernard]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[13 site des sapins]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[67220]]></postcode>
+<city><![CDATA[breitenbach]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0388589945]]></phone>
+<phone_mobile><![CDATA[0781024190]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-29 08:12:31]]></date_add>
+<date_upd><![CDATA[2020-01-29 08:12:31]]></date_upd>
+</address>
+<address><id_address><![CDATA[1044]]></id_address>
+<id_customer><![CDATA[1057]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Paypal_Address]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[KIEFFER]]></lastname>
+<firstname><![CDATA[Bernard]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[ 13 site des sapins]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[67220]]></postcode>
+<city><![CDATA[breitenbach]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0388589945]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-29 08:21:20]]></date_add>
+<date_upd><![CDATA[2020-02-06 18:43:13]]></date_upd>
+</address>
+<address><id_address><![CDATA[1045]]></id_address>
+<id_customer><![CDATA[1058]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[CHANTILLON]]></lastname>
+<firstname><![CDATA[Richard]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[12 rue de malpalu]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[27600]]></postcode>
+<city><![CDATA[ailly]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0232694101]]></phone>
+<phone_mobile><![CDATA[0614085534]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-29 19:04:33]]></date_add>
+<date_upd><![CDATA[2020-01-29 19:04:33]]></date_upd>
+</address>
+<address><id_address><![CDATA[1046]]></id_address>
+<id_customer><![CDATA[1059]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DEVILLARD]]></lastname>
+<firstname><![CDATA[Bastien]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[41 rue de la république]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[71450]]></postcode>
+<city><![CDATA[blanzy]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0640110651]]></phone>
+<phone_mobile><![CDATA[0640110651]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-01-30 21:18:49]]></date_add>
+<date_upd><![CDATA[2020-01-30 21:18:49]]></date_upd>
+</address>
+<address><id_address><![CDATA[1047]]></id_address>
+<id_customer><![CDATA[1061]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[POREE]]></lastname>
+<firstname><![CDATA[Aurélie]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[38 rue Chateaubriand]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[29000]]></postcode>
+<city><![CDATA[Quimper]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0631826928]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-01 15:02:21]]></date_add>
+<date_upd><![CDATA[2020-02-01 15:02:21]]></date_upd>
+</address>
+<address><id_address><![CDATA[1048]]></id_address>
+<id_customer><![CDATA[1063]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon Domicile ]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[SEBASTIEN]]></lastname>
+<firstname><![CDATA[Izzi]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[239, route du verger]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[74250]]></postcode>
+<city><![CDATA[74250 - Viuz en Sallaz]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0664107550]]></phone>
+<phone_mobile><![CDATA[0664107550]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-01 18:47:37]]></date_add>
+<date_upd><![CDATA[2020-02-01 18:47:37]]></date_upd>
+</address>
+<address><id_address><![CDATA[1049]]></id_address>
+<id_customer><![CDATA[1064]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LEPISSIER]]></lastname>
+<firstname><![CDATA[Dominique]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[67 rue de la Colline]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[54700]]></postcode>
+<city><![CDATA[PONT A MOUSSON]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0686130559]]></phone>
+<phone_mobile><![CDATA[0686130559]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-01 19:48:19]]></date_add>
+<date_upd><![CDATA[2020-02-01 19:48:19]]></date_upd>
+</address>
+<address><id_address><![CDATA[1050]]></id_address>
+<id_customer><![CDATA[1065]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[3]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[livraison]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[FRIGENI]]></lastname>
+<firstname><![CDATA[Michel]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[rue haute 135]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[7321]]></postcode>
+<city><![CDATA[blaton]]></city>
+<other><![CDATA[impossible d'enregistrer mon numéro]]></other>
+<phone><![CDATA[0695623221]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-02 10:24:57]]></date_add>
+<date_upd><![CDATA[2020-02-02 15:25:40]]></date_upd>
+</address>
+<address><id_address><![CDATA[1051]]></id_address>
+<id_customer><![CDATA[972]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[adresse livraison]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[PAULIN - GAUJARD BRIGITTE]]></lastname>
+<firstname><![CDATA[Christian]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[19 rue Franchet d'esperey]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[21000]]></postcode>
+<city><![CDATA[DIJON]]></city>
+<other><![CDATA[Monsieur PAULIN chez Madame GAUJARD]]></other>
+<phone><![CDATA[0617184348]]></phone>
+<phone_mobile><![CDATA[0617184348]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-02 10:54:44]]></date_add>
+<date_upd><![CDATA[2020-02-07 20:50:52]]></date_upd>
+</address>
+<address><id_address><![CDATA[1052]]></id_address>
+<id_customer><![CDATA[1067]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[cuisine]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LALANNE]]></lastname>
+<firstname><![CDATA[Richard]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[32 chemin du moulin de lartigue]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[33750]]></postcode>
+<city><![CDATA[camarsac]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0556863590]]></phone>
+<phone_mobile><![CDATA[0620090399]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-02 11:50:17]]></date_add>
+<date_upd><![CDATA[2020-02-02 11:50:17]]></date_upd>
+</address>
+<address><id_address><![CDATA[1053]]></id_address>
+<id_customer><![CDATA[1068]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Perso Appart]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DOS SANTOS]]></lastname>
+<firstname><![CDATA[Wilton]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[5 B rue de l'Ecole]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[67370]]></postcode>
+<city><![CDATA[Griesheim sur Souffel]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0614495997]]></phone>
+<phone_mobile><![CDATA[0614495997]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-04 00:05:25]]></date_add>
+<date_upd><![CDATA[2020-02-04 00:05:25]]></date_upd>
+</address>
+<address><id_address><![CDATA[1054]]></id_address>
+<id_customer><![CDATA[1016]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[atelier]]></alias>
+<company><![CDATA[l'art du bois]]></company>
+<lastname><![CDATA[DE OLIVEIRA]]></lastname>
+<firstname><![CDATA[Mario]]></firstname>
+<vat_number><![CDATA[FR64750411191]]></vat_number>
+<address1><![CDATA[lieu dit foce]]></address1>
+<address2><![CDATA[route de chera]]></address2>
+<postcode><![CDATA[20146]]></postcode>
+<city><![CDATA[sotta]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0613697083]]></phone>
+<phone_mobile><![CDATA[0613697083]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-05 09:15:07]]></date_add>
+<date_upd><![CDATA[2020-02-05 09:15:07]]></date_upd>
+</address>
+<address><id_address><![CDATA[1055]]></id_address>
+<id_customer><![CDATA[1070]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BOISSIN]]></lastname>
+<firstname><![CDATA[Olivier]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[9 parc des Platanes]]></address1>
+<address2><![CDATA[chemin de la Pérussonne]]></address2>
+<postcode><![CDATA[13400]]></postcode>
+<city><![CDATA[AUBAGNE]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0442033955]]></phone>
+<phone_mobile><![CDATA[0689858237]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-08 18:03:22]]></date_add>
+<date_upd><![CDATA[2020-02-08 18:05:53]]></date_upd>
+</address>
+<address><id_address><![CDATA[1056]]></id_address>
+<id_customer><![CDATA[1072]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[MATHIEU]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[STALDER]]></lastname>
+<firstname><![CDATA[Mathieu]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[22 chemin de Collex]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[01210]]></postcode>
+<city><![CDATA[FERNEY-VOLTAIRE]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[1786892832]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-09 18:24:40]]></date_add>
+<date_upd><![CDATA[2020-02-09 18:25:54]]></date_upd>
+</address>
+<address><id_address><![CDATA[1057]]></id_address>
+<id_customer><![CDATA[1074]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[NEGRONI]]></lastname>
+<firstname><![CDATA[Brendan]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[4, impasse de la Chartreuse]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[44470]]></postcode>
+<city><![CDATA[Thouaré-sur-Loire]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0611843298]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-10 22:21:39]]></date_add>
+<date_upd><![CDATA[2020-02-10 22:21:39]]></date_upd>
+</address>
+<address><id_address><![CDATA[1058]]></id_address>
+<id_customer><![CDATA[1076]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Les Calfats]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LANGLAIS]]></lastname>
+<firstname><![CDATA[Henri]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[8, chemin des Calfats]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[56340]]></postcode>
+<city><![CDATA[Carnac]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0963594638]]></phone>
+<phone_mobile><![CDATA[0672166278]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-11 22:36:39]]></date_add>
+<date_upd><![CDATA[2020-02-11 22:36:39]]></date_upd>
+</address>
+<address><id_address><![CDATA[1059]]></id_address>
+<id_customer><![CDATA[1077]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DERCHE]]></lastname>
+<firstname><![CDATA[Pascal]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[34 BIS Avenue du Maréchal Leclerc ]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[95740]]></postcode>
+<city><![CDATA[FREPILLON]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0651994722]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-12 14:45:37]]></date_add>
+<date_upd><![CDATA[2020-02-12 14:45:37]]></date_upd>
+</address>
+<address><id_address><![CDATA[1060]]></id_address>
+<id_customer><![CDATA[1078]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[PEIX]]></lastname>
+<firstname><![CDATA[Fabien]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[1317 CHEMIN DES ESPILLIERES]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[13400]]></postcode>
+<city><![CDATA[AUBAGNE]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0661791916]]></phone>
+<phone_mobile><![CDATA[0661791916]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-13 21:57:33]]></date_add>
+<date_upd><![CDATA[2020-02-13 21:57:33]]></date_upd>
+</address>
+<address><id_address><![CDATA[1061]]></id_address>
+<id_customer><![CDATA[1079]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[PEREZ]]></lastname>
+<firstname><![CDATA[Elodie]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[56 route de mantes]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[78200]]></postcode>
+<city><![CDATA[BUCHELAY]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0670157189]]></phone>
+<phone_mobile><![CDATA[0670157189]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-13 23:09:39]]></date_add>
+<date_upd><![CDATA[2020-02-13 23:09:39]]></date_upd>
+</address>
+<address><id_address><![CDATA[1062]]></id_address>
+<id_customer><![CDATA[1081]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[CLUZEL]]></lastname>
+<firstname><![CDATA[Stephane]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[95 Avenue de la Patouillerie]]></address1>
+<address2><![CDATA[Bâtiment 5C]]></address2>
+<postcode><![CDATA[44700]]></postcode>
+<city><![CDATA[ORVAULT]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0249105419]]></phone>
+<phone_mobile><![CDATA[0676544570]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-14 17:54:39]]></date_add>
+<date_upd><![CDATA[2020-02-14 17:54:39]]></date_upd>
+</address>
+<address><id_address><![CDATA[1063]]></id_address>
+<id_customer><![CDATA[1082]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BENSAMOUN]]></lastname>
+<firstname><![CDATA[Mickaël]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[14 RUE DES GELTINES]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[69390]]></postcode>
+<city><![CDATA[MILLERY]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0478562152]]></phone>
+<phone_mobile><![CDATA[0618090045]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-15 11:52:12]]></date_add>
+<date_upd><![CDATA[2020-02-15 11:52:12]]></date_upd>
+</address>
+<address><id_address><![CDATA[1064]]></id_address>
+<id_customer><![CDATA[1083]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[mplardy]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LARDY]]></lastname>
+<firstname><![CDATA[Marie Pascale]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[6 avenue Jean Perrin]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[78330]]></postcode>
+<city><![CDATA[Fontenay le Fleury]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0967016375]]></phone>
+<phone_mobile><![CDATA[0645789302]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-15 13:07:59]]></date_add>
+<date_upd><![CDATA[2020-02-15 13:07:59]]></date_upd>
+</address>
+<address><id_address><![CDATA[1065]]></id_address>
+<id_customer><![CDATA[1055]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[domicile]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[TIBLE]]></lastname>
+<firstname><![CDATA[Jérôme ]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[444 rue st exupery]]></address1>
+<address2><![CDATA[6 lot domaine st exupery]]></address2>
+<postcode><![CDATA[38420]]></postcode>
+<city><![CDATA[le versoud]]></city>
+<other><![CDATA[villa blanche au fond]]></other>
+<phone><![CDATA[0614819154]]></phone>
+<phone_mobile><![CDATA[0614819154]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-16 14:40:43]]></date_add>
+<date_upd><![CDATA[2020-02-16 14:40:43]]></date_upd>
+</address>
+<address><id_address><![CDATA[1066]]></id_address>
+<id_customer><![CDATA[1086]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[M.]]></company>
+<lastname><![CDATA[JOURNEL]]></lastname>
+<firstname><![CDATA[PHILIPPE]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[3 RUELLE ST AUGUSTIN]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[62134]]></postcode>
+<city><![CDATA[Teneur]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0321416078]]></phone>
+<phone_mobile><![CDATA[0675683680]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-16 14:51:57]]></date_add>
+<date_upd><![CDATA[2020-02-16 14:51:57]]></date_upd>
+</address>
+<address><id_address><![CDATA[1067]]></id_address>
+<id_customer><![CDATA[1084]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DELAMARE]]></lastname>
+<firstname><![CDATA[Jean-Yves]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[186 Route de St Nicolas,]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[76630]]></postcode>
+<city><![CDATA[Bellengreville]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0235845827]]></phone>
+<phone_mobile><![CDATA[0658758288]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-16 15:33:43]]></date_add>
+<date_upd><![CDATA[2020-02-16 15:33:43]]></date_upd>
+</address>
+<address><id_address><![CDATA[1068]]></id_address>
+<id_customer><![CDATA[1087]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DESMOULINS]]></lastname>
+<firstname><![CDATA[Mickael]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[5 rue des caves]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[45310]]></postcode>
+<city><![CDATA[VILLAMBLAIN]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0238809816]]></phone>
+<phone_mobile><![CDATA[0627261384]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-17 09:15:17]]></date_add>
+<date_upd><![CDATA[2020-02-17 09:15:17]]></date_upd>
+</address>
+<address><id_address><![CDATA[1069]]></id_address>
+<id_customer><![CDATA[1080]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BONTRON]]></lastname>
+<firstname><![CDATA[Michel]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[11 allée des saules]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[73490]]></postcode>
+<city><![CDATA[La Ravoire]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0479710045]]></phone>
+<phone_mobile><![CDATA[0649958423]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-17 10:27:11]]></date_add>
+<date_upd><![CDATA[2020-02-17 10:27:11]]></date_upd>
+</address>
+<address><id_address><![CDATA[1070]]></id_address>
+<id_customer><![CDATA[1088]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LAPLANTE]]></lastname>
+<firstname><![CDATA[Frederic]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[13 CLOS DES COLOMBES]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[01800]]></postcode>
+<city><![CDATA[VIILIEU]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0631050981]]></phone>
+<phone_mobile><![CDATA[0631050981]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-17 19:07:31]]></date_add>
+<date_upd><![CDATA[2020-02-17 19:07:31]]></date_upd>
+</address>
+<address><id_address><![CDATA[1071]]></id_address>
+<id_customer><![CDATA[1090]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[19]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[Mr]]></company>
+<lastname><![CDATA[GARNIER]]></lastname>
+<firstname><![CDATA[Nicolas]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[Thomas-Scherr-Strasse 3]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[8700]]></postcode>
+<city><![CDATA[Küsnacht]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0798749608]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-18 14:27:39]]></date_add>
+<date_upd><![CDATA[2020-02-18 14:27:39]]></date_upd>
+</address>
+<address><id_address><![CDATA[1072]]></id_address>
+<id_customer><![CDATA[1091]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[VERBRUGGE]]></lastname>
+<firstname><![CDATA[Philippe]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[6, RUE DE LA GRANGE AUX DIMES]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[91680]]></postcode>
+<city><![CDATA[BRUYERES LE CHATEL]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0164902510]]></phone>
+<phone_mobile><![CDATA[0779824434]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-18 14:57:02]]></date_add>
+<date_upd><![CDATA[2020-02-18 14:57:02]]></date_upd>
+</address>
+<address><id_address><![CDATA[1073]]></id_address>
+<id_customer><![CDATA[1092]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[GREFFE]]></lastname>
+<firstname><![CDATA[Sandrine]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[124 rue Gaston Angelier]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[38920]]></postcode>
+<city><![CDATA[Crolles]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0618317156]]></phone>
+<phone_mobile><![CDATA[0618317156]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-18 17:53:37]]></date_add>
+<date_upd><![CDATA[2020-02-18 17:53:37]]></date_upd>
+</address>
+<address><id_address><![CDATA[1074]]></id_address>
+<id_customer><![CDATA[1093]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[TY]]></lastname>
+<firstname><![CDATA[Azer]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[36 rue des roses]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[40100]]></postcode>
+<city><![CDATA[dax]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0214652401]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-19 07:11:15]]></date_add>
+<date_upd><![CDATA[2020-02-19 07:11:15]]></date_upd>
+</address>
+<address><id_address><![CDATA[1075]]></id_address>
+<id_customer><![CDATA[1094]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LARROUX]]></lastname>
+<firstname><![CDATA[Yves]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[25 impasse de versailles]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[40350]]></postcode>
+<city><![CDATA[POUILLON]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0558983211]]></phone>
+<phone_mobile><![CDATA[0674063037]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-19 08:18:38]]></date_add>
+<date_upd><![CDATA[2020-02-19 08:18:38]]></date_upd>
+</address>
+<address><id_address><![CDATA[1076]]></id_address>
+<id_customer><![CDATA[1095]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[LOTISSEMENT]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BALDUCCI]]></lastname>
+<firstname><![CDATA[Bernard]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[379 RUE LES TERRASSES DE LA ROMANCHE]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[38220]]></postcode>
+<city><![CDATA[NOTRE DAME DE MESAGE]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0476786535]]></phone>
+<phone_mobile><![CDATA[0610339528]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-19 18:22:13]]></date_add>
+<date_upd><![CDATA[2020-02-19 18:22:13]]></date_upd>
+</address>
+<address><id_address><![CDATA[1077]]></id_address>
+<id_customer><![CDATA[1097]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[GABRIELLI]]></lastname>
+<firstname><![CDATA[Marc]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[2 allée du loup]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[54600]]></postcode>
+<city><![CDATA[VILLERS LES NANCY]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0383963336]]></phone>
+<phone_mobile><![CDATA[0622857730]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-21 08:12:50]]></date_add>
+<date_upd><![CDATA[2020-02-21 08:12:50]]></date_upd>
+</address>
+<address><id_address><![CDATA[1078]]></id_address>
+<id_customer><![CDATA[1098]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LEBORGNE]]></lastname>
+<firstname><![CDATA[Aymar]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[4 rue de fleurines]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[60810]]></postcode>
+<city><![CDATA[villers st frambourg]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0344531087]]></phone>
+<phone_mobile><![CDATA[0638833854]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-21 17:38:53]]></date_add>
+<date_upd><![CDATA[2020-02-21 17:38:53]]></date_upd>
+</address>
+<address><id_address><![CDATA[1079]]></id_address>
+<id_customer><![CDATA[1100]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[maison]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[RAPINI]]></lastname>
+<firstname><![CDATA[Stephane]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[Place de la fontaine]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[20117]]></postcode>
+<city><![CDATA[Eccica suarella]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0603506131]]></phone>
+<phone_mobile><![CDATA[0603506131]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-22 11:48:36]]></date_add>
+<date_upd><![CDATA[2020-02-22 11:48:36]]></date_upd>
+</address>
+<address><id_address><![CDATA[1080]]></id_address>
+<id_customer><![CDATA[1002]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse LIVRAISON]]></alias>
+<company><![CDATA[S PLUS]]></company>
+<lastname><![CDATA[CHEVASSUT]]></lastname>
+<firstname><![CDATA[Jean]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[8 RUE DU PAQUIER]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[21600]]></postcode>
+<city><![CDATA[LONGVIC]]></city>
+<other><![CDATA[ADRESSE LIVRAISON]]></other>
+<phone><![CDATA[0621232872]]></phone>
+<phone_mobile><![CDATA[0621232872]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-23 12:50:41]]></date_add>
+<date_upd><![CDATA[2020-02-23 12:50:41]]></date_upd>
+</address>
+<address><id_address><![CDATA[1081]]></id_address>
+<id_customer><![CDATA[1103]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[MIRANDA]]></lastname>
+<firstname><![CDATA[JOCELYNE]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[13 RUE DE LA GARIOLE]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[18700]]></postcode>
+<city><![CDATA[Aubigny Sur Nere]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0787340046]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-23 16:56:52]]></date_add>
+<date_upd><![CDATA[2020-02-23 16:56:52]]></date_upd>
+</address>
+<address><id_address><![CDATA[1082]]></id_address>
+<id_customer><![CDATA[1103]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Paypal_Address]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[MIRANDA]]></lastname>
+<firstname><![CDATA[JOCELYNE]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[13 rue de la Gariole]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[18700]]></postcode>
+<city><![CDATA[AUBIGNY SUR NERE]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0787340046]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-23 17:09:24]]></date_add>
+<date_upd><![CDATA[2020-02-23 17:09:24]]></date_upd>
+</address>
+<address><id_address><![CDATA[1083]]></id_address>
+<id_customer><![CDATA[1104]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[TRAN]]></lastname>
+<firstname><![CDATA[Dang]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[17 avenue Oudinot]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[94340]]></postcode>
+<city><![CDATA[JOINVILLE LE PONT]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0672874442]]></phone>
+<phone_mobile><![CDATA[0672874442]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-24 10:15:14]]></date_add>
+<date_upd><![CDATA[2020-02-24 10:15:14]]></date_upd>
+</address>
+<address><id_address><![CDATA[1084]]></id_address>
+<id_customer><![CDATA[1105]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Eric]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[FOURREAU]]></lastname>
+<firstname><![CDATA[Eric]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[8 rue JF de la Pérouse]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[31600]]></postcode>
+<city><![CDATA[MURET]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0561569904]]></phone>
+<phone_mobile><![CDATA[0781671695]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-24 23:33:03]]></date_add>
+<date_upd><![CDATA[2020-02-24 23:33:03]]></date_upd>
+</address>
+<address><id_address><![CDATA[1085]]></id_address>
+<id_customer><![CDATA[1106]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[JAKUBOWSKI]]></lastname>
+<firstname><![CDATA[Henry]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[15 B, rue des maraichers]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[67000]]></postcode>
+<city><![CDATA[strasbourg]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0388316695]]></phone>
+<phone_mobile><![CDATA[0672767811]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-25 15:23:36]]></date_add>
+<date_upd><![CDATA[2020-02-25 15:23:36]]></date_upd>
+</address>
+<address><id_address><![CDATA[1086]]></id_address>
+<id_customer><![CDATA[1109]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LEBEDEL]]></lastname>
+<firstname><![CDATA[Didier]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[5 rue champ des eaux]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[79400]]></postcode>
+<city><![CDATA[azay le brulé]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0549055040]]></phone>
+<phone_mobile><![CDATA[0695151942]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-27 10:19:38]]></date_add>
+<date_upd><![CDATA[2020-02-27 10:19:38]]></date_upd>
+</address>
+<address><id_address><![CDATA[1087]]></id_address>
+<id_customer><![CDATA[1107]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BERTELLE]]></lastname>
+<firstname><![CDATA[Alain]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[6 rue de la marniere]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[77210]]></postcode>
+<city><![CDATA[samoreau]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0164123456]]></phone>
+<phone_mobile><![CDATA[0781988580]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-28 12:24:50]]></date_add>
+<date_upd><![CDATA[2020-02-28 12:26:01]]></date_upd>
+</address>
+<address><id_address><![CDATA[1088]]></id_address>
+<id_customer><![CDATA[1112]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[COURALET]]></lastname>
+<firstname><![CDATA[Gilles]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[26 rue d'Orbesson]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[31100]]></postcode>
+<city><![CDATA[Toulouse]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0630715859]]></phone>
+<phone_mobile><![CDATA[0630715859]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-28 17:01:17]]></date_add>
+<date_upd><![CDATA[2020-02-28 17:01:17]]></date_upd>
+</address>
+<address><id_address><![CDATA[1089]]></id_address>
+<id_customer><![CDATA[1113]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DEYBACH]]></lastname>
+<firstname><![CDATA[Vincent]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[25 Route du Grand Chemin]]></address1>
+<address2><![CDATA[La Poterie]]></address2>
+<postcode><![CDATA[22400]]></postcode>
+<city><![CDATA[Lamballe]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0296308574]]></phone>
+<phone_mobile><![CDATA[0698451740]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-29 07:12:08]]></date_add>
+<date_upd><![CDATA[2020-02-29 10:44:11]]></date_upd>
+</address>
+<address><id_address><![CDATA[1090]]></id_address>
+<id_customer><![CDATA[1101]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[COMPTE]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[KLEIN]]></lastname>
+<firstname><![CDATA[PAUL]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[24 RUE DE L'EGLISE]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[68700]]></postcode>
+<city><![CDATA[ASPACH LE HAUT]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0613944232]]></phone>
+<phone_mobile><![CDATA[0613944232]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-29 17:30:05]]></date_add>
+<date_upd><![CDATA[2020-02-29 17:31:17]]></date_upd>
+</address>
+<address><id_address><![CDATA[1091]]></id_address>
+<id_customer><![CDATA[1101]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[BITSCHWILLER]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[AZIZ]]></lastname>
+<firstname><![CDATA[MELIANA]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[6 RUE JOFFRE]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[68620]]></postcode>
+<city><![CDATA[BITSCHWILLER LES THANN]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0613944232]]></phone>
+<phone_mobile><![CDATA[0613944232]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-02-29 17:32:45]]></date_add>
+<date_upd><![CDATA[2020-02-29 17:32:45]]></date_upd>
+</address>
+<address><id_address><![CDATA[1092]]></id_address>
+<id_customer><![CDATA[1115]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[BAILLAT]]></lastname>
+<firstname><![CDATA[Annie]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[13 Grande rue]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[89300]]></postcode>
+<city><![CDATA[CHAMPLAY]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0386621481]]></phone>
+<phone_mobile><![CDATA[0687149399]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-02 18:39:44]]></date_add>
+<date_upd><![CDATA[2020-03-02 18:39:44]]></date_upd>
+</address>
+<address><id_address><![CDATA[1093]]></id_address>
+<id_customer><![CDATA[1116]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[CABRERA]]></lastname>
+<firstname><![CDATA[Dana]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[Brousse]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[19500]]></postcode>
+<city><![CDATA[NOAILHAC]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0555253555]]></phone>
+<phone_mobile><![CDATA[0652152455]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-02 19:16:42]]></date_add>
+<date_upd><![CDATA[2020-03-02 19:16:42]]></date_upd>
+</address>
+<address><id_address><![CDATA[1094]]></id_address>
+<id_customer><![CDATA[1118]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[MICHEL]]></lastname>
+<firstname><![CDATA[RANCOULE]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[14 RUE NEGRESKO]]></address1>
+<address2><![CDATA[Bât 1]]></address2>
+<postcode><![CDATA[13008]]></postcode>
+<city><![CDATA[MARSEILLE]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0614818019]]></phone>
+<phone_mobile><![CDATA[0614818019]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-03 14:28:06]]></date_add>
+<date_upd><![CDATA[2020-03-03 14:29:29]]></date_upd>
+</address>
+<address><id_address><![CDATA[1095]]></id_address>
+<id_customer><![CDATA[1121]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[chez moi]]></alias>
+<company><![CDATA[particulier]]></company>
+<lastname><![CDATA[LOMER]]></lastname>
+<firstname><![CDATA[Michel]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[1 Allée des lilas]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[26600]]></postcode>
+<city><![CDATA[LA ROCHE DE GLUN]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0475845109]]></phone>
+<phone_mobile><![CDATA[0651620672]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-05 15:36:45]]></date_add>
+<date_upd><![CDATA[2020-03-05 15:36:45]]></date_upd>
+</address>
+<address><id_address><![CDATA[1096]]></id_address>
+<id_customer><![CDATA[1111]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Domicile]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[FARGEIX]]></lastname>
+<firstname><![CDATA[Cristina]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[35 Route de St Julien]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[63160]]></postcode>
+<city><![CDATA[Billom]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0473734904]]></phone>
+<phone_mobile><![CDATA[0608762678]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-05 21:12:13]]></date_add>
+<date_upd><![CDATA[2020-03-05 21:12:29]]></date_upd>
+</address>
+<address><id_address><![CDATA[1097]]></id_address>
+<id_customer><![CDATA[1123]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[CARRER]]></lastname>
+<firstname><![CDATA[Pierig ]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[16 bis rue de la madeleine]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[17290]]></postcode>
+<city><![CDATA[BALLON]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0546286617]]></phone>
+<phone_mobile><![CDATA[0661383591]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-06 16:00:21]]></date_add>
+<date_upd><![CDATA[2020-03-06 16:00:21]]></date_upd>
+</address>
+<address><id_address><![CDATA[1098]]></id_address>
+<id_customer><![CDATA[1125]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[ALAIN]]></lastname>
+<firstname><![CDATA[VERNADAT]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[100 Avenue de Paris]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[78000]]></postcode>
+<city><![CDATA[Versailles]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0621071824]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-07 20:13:31]]></date_add>
+<date_upd><![CDATA[2020-03-07 20:13:31]]></date_upd>
+</address>
+<address><id_address><![CDATA[1099]]></id_address>
+<id_customer><![CDATA[1127]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[domicile]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DESRIAC]]></lastname>
+<firstname><![CDATA[Philippe]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[17 rue des aubepines]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[91470]]></postcode>
+<city><![CDATA[LIMOURS]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0982294520]]></phone>
+<phone_mobile><![CDATA[0695672201]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-08 10:47:02]]></date_add>
+<date_upd><![CDATA[2020-03-08 10:47:02]]></date_upd>
+</address>
+<address><id_address><![CDATA[1100]]></id_address>
+<id_customer><![CDATA[1130]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[SCHNEIDER]]></lastname>
+<firstname><![CDATA[Georges]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[15 rue des jardins]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[67590]]></postcode>
+<city><![CDATA[SCHWEIGHOUSE sur Moder]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0388720608]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-17 17:30:35]]></date_add>
+<date_upd><![CDATA[2020-03-17 17:30:35]]></date_upd>
+</address>
+<address><id_address><![CDATA[1101]]></id_address>
+<id_customer><![CDATA[1131]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[MENARD]]></lastname>
+<firstname><![CDATA[Philippe]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[32 Chemin de Larriou]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[31820]]></postcode>
+<city><![CDATA[PIBRAC]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0561864823]]></phone>
+<phone_mobile><![CDATA[0622452408]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-20 22:26:19]]></date_add>
+<date_upd><![CDATA[2020-03-20 22:26:19]]></date_upd>
+</address>
+<address><id_address><![CDATA[1102]]></id_address>
+<id_customer><![CDATA[1133]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[VIVIER]]></lastname>
+<firstname><![CDATA[Jean Luc]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[4 le manoir]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[50270]]></postcode>
+<city><![CDATA[baubigny]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0652634591]]></phone>
+<phone_mobile><![CDATA[0652634591]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-21 17:12:49]]></date_add>
+<date_upd><![CDATA[2020-03-21 17:12:49]]></date_upd>
+</address>
+<address><id_address><![CDATA[1103]]></id_address>
+<id_customer><![CDATA[1134]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[RUDEAU]]></lastname>
+<firstname><![CDATA[Stephane]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[34 ter route de paris]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[54570]]></postcode>
+<city><![CDATA[FOUG]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0664199554]]></phone>
+<phone_mobile><![CDATA[0664199555]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-21 18:04:25]]></date_add>
+<date_upd><![CDATA[2020-03-21 18:04:25]]></date_upd>
+</address>
+<address><id_address><![CDATA[1104]]></id_address>
+<id_customer><![CDATA[1135]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[ETCHEBES]]></lastname>
+<firstname><![CDATA[Xavier]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[4 rue Descartes]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[33140]]></postcode>
+<city><![CDATA[Villenave d Ornon]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0626455345]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-21 21:27:34]]></date_add>
+<date_upd><![CDATA[2020-03-21 21:27:34]]></date_upd>
+</address>
+<address><id_address><![CDATA[1105]]></id_address>
+<id_customer><![CDATA[1137]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DESPREZ]]></lastname>
+<firstname><![CDATA[Philippe]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[rue des aires]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[05200]]></postcode>
+<city><![CDATA[crots]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0612186430]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-31 13:49:57]]></date_add>
+<date_upd><![CDATA[2020-03-31 13:49:57]]></date_upd>
+</address>
+<address><id_address><![CDATA[1106]]></id_address>
+<id_customer><![CDATA[1138]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DENTRESSANGLE]]></lastname>
+<firstname><![CDATA[Jean Pierre]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[68 chemin de villedieu]]></address1>
+<address2><![CDATA[le chardonneret n°7]]></address2>
+<postcode><![CDATA[07100]]></postcode>
+<city><![CDATA[annonay]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0475330899]]></phone>
+<phone_mobile><![CDATA[0781053874]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-03-31 18:57:40]]></date_add>
+<date_upd><![CDATA[2020-03-31 18:57:40]]></date_upd>
+</address>
+<address><id_address><![CDATA[1107]]></id_address>
+<id_customer><![CDATA[1140]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[SCIALPI]]></lastname>
+<firstname><![CDATA[Denis]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[16 allee des chenes]]></address1>
+<address2><![CDATA[le village de l'ouest]]></address2>
+<postcode><![CDATA[69340]]></postcode>
+<city><![CDATA[FRANCHEVILLE]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0981376394]]></phone>
+<phone_mobile><![CDATA[0614916858]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-04-03 19:03:44]]></date_add>
+<date_upd><![CDATA[2020-04-03 19:04:07]]></date_upd>
+</address>
+<address><id_address><![CDATA[1108]]></id_address>
+<id_customer><![CDATA[1141]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[ROSENFELD]]></lastname>
+<firstname><![CDATA[Antoine]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[25 RUE FERNAND PELLOUTIER]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[30900]]></postcode>
+<city><![CDATA[NIMES]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0618057536]]></phone>
+<phone_mobile><![CDATA[0618057536]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-04-04 20:08:32]]></date_add>
+<date_upd><![CDATA[2020-04-04 20:08:32]]></date_upd>
+</address>
+<address><id_address><![CDATA[1109]]></id_address>
+<id_customer><![CDATA[1143]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[cuisine]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[PANNETIER]]></lastname>
+<firstname><![CDATA[Romuald]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[12 rue du Cardinal Louis Marie BILLE]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[53000]]></postcode>
+<city><![CDATA[LAVAL]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0632463678]]></phone>
+<phone_mobile><![CDATA[0632463678]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-04-08 17:08:40]]></date_add>
+<date_upd><![CDATA[2020-04-08 17:08:40]]></date_upd>
+</address>
+<address><id_address><![CDATA[1110]]></id_address>
+<id_customer><![CDATA[1144]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Floirac]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[PERRUCHE-JOUBERT]]></lastname>
+<firstname><![CDATA[Olivier]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[31 rue des tourterelles]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[33270]]></postcode>
+<city><![CDATA[FLOIRAC]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0625824035]]></phone>
+<phone_mobile><![CDATA[0625824035]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-04-10 09:06:59]]></date_add>
+<date_upd><![CDATA[2020-04-10 09:06:59]]></date_upd>
+</address>
+<address><id_address><![CDATA[1111]]></id_address>
+<id_customer><![CDATA[1149]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[DEFAUX]]></lastname>
+<firstname><![CDATA[Sylvain ]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[24 route de Camarsac ]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[33370]]></postcode>
+<city><![CDATA[Loupes]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0557954881]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-04-14 22:33:02]]></date_add>
+<date_upd><![CDATA[2020-04-14 22:33:02]]></date_upd>
+</address>
+<address><id_address><![CDATA[1112]]></id_address>
+<id_customer><![CDATA[910]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[GOUMA]]></lastname>
+<firstname><![CDATA[YOANN]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[3 avenue de Champagne]]></address1>
+<address2><![CDATA[Résidence Val de Cimiez]]></address2>
+<postcode><![CDATA[06100]]></postcode>
+<city><![CDATA[NICE]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0625810327]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-04-15 15:30:24]]></date_add>
+<date_upd><![CDATA[2020-04-15 15:30:29]]></date_upd>
+</address>
+<address><id_address><![CDATA[1113]]></id_address>
+<id_customer><![CDATA[1151]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Cuisine 1]]></alias>
+<company><![CDATA[]]></company>
+<lastname><![CDATA[LLORET]]></lastname>
+<firstname><![CDATA[Pierre]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[8 rue Robert desnos]]></address1>
+<address2><![CDATA[]]></address2>
+<postcode><![CDATA[11000]]></postcode>
+<city><![CDATA[Carcassonne]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0624145456]]></phone>
+<phone_mobile><![CDATA[]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-04-18 17:04:04]]></date_add>
+<date_upd><![CDATA[2020-04-18 17:04:04]]></date_upd>
+</address>
+<address><id_address><![CDATA[1114]]></id_address>
+<id_customer><![CDATA[1153]]></id_customer>
+<id_manufacturer><![CDATA[0]]></id_manufacturer>
+<id_supplier><![CDATA[0]]></id_supplier>
+<id_warehouse><![CDATA[0]]></id_warehouse>
+<id_country><![CDATA[8]]></id_country>
+<id_state><![CDATA[0]]></id_state>
+<alias><![CDATA[Mon adresse]]></alias>
+<company><![CDATA[1970]]></company>
+<lastname><![CDATA[SIMONNET]]></lastname>
+<firstname><![CDATA[ROSELINE]]></firstname>
+<vat_number><![CDATA[]]></vat_number>
+<address1><![CDATA[15 rue ernest ferroul]]></address1>
+<address2><![CDATA[RUE ERNERST FERROUL]]></address2>
+<postcode><![CDATA[66330]]></postcode>
+<city><![CDATA[cabestany]]></city>
+<other><![CDATA[]]></other>
+<phone><![CDATA[0468345919]]></phone>
+<phone_mobile><![CDATA[0749461957]]></phone_mobile>
+<dni><![CDATA[]]></dni>
+<deleted><![CDATA[0]]></deleted>
+<date_add><![CDATA[2020-04-20 18:08:50]]></date_add>
+<date_upd><![CDATA[2020-04-20 18:08:50]]></date_upd>
+</address>
+</entity_profile>

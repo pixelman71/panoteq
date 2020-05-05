@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<employee><id_employee><![CDATA[2]]></id_employee>
+<lastname><![CDATA[Romeo]]></lastname>
+<firstname><![CDATA[Eric]]></firstname>
+<email><![CDATA[eric@sistemimoderni.com]]></email>
+<id_lang><![CDATA[1]]></id_lang>
+<passwd><![CDATA[ad3a568aec1eab0182106ec71097c23e]]></passwd>
+<last_passwd_gen><![CDATA[2016-07-18 15:49:38]]></last_passwd_gen>
+<active><![CDATA[1]]></active>
+<optin><![CDATA[0]]></optin>
+<id_profile><![CDATA[5]]></id_profile>
+<bo_color><![CDATA[]]></bo_color>
+<default_tab><![CDATA[1]]></default_tab>
+<bo_theme><![CDATA[default]]></bo_theme>
+<bo_css><![CDATA[admin-theme.css]]></bo_css>
+<bo_width><![CDATA[0]]></bo_width>
+<bo_menu><![CDATA[1]]></bo_menu>
+<stats_date_from><![CDATA[2019-01-01]]></stats_date_from>
+<stats_date_to><![CDATA[2019-07-07]]></stats_date_to>
+<stats_compare_from><![CDATA[0000-00-00]]></stats_compare_from>
+<stats_compare_to><![CDATA[0000-00-00]]></stats_compare_to>
+<stats_compare_option><![CDATA[1]]></stats_compare_option>
+<preselect_date_range><![CDATA[year]]></preselect_date_range>
+<id_last_order><![CDATA[1209]]></id_last_order>
+<id_last_customer_message><![CDATA[1540]]></id_last_customer_message>
+<id_last_customer><![CDATA[1151]]></id_last_customer>
+<datashop id_shop="1"></datashop>
+</employee>
+<employee><id_employee><![CDATA[3]]></id_employee>
+<lastname><![CDATA[Panoteq]]></lastname>
+<firstname><![CDATA[Service ADV]]></firstname>
+<email><![CDATA[contact@panoteq.fr]]></email>
+<id_lang><![CDATA[1]]></id_lang>
+<passwd><![CDATA[6136db45fb504edb0b609e29607bf0ca]]></passwd>
+<last_passwd_gen><![CDATA[2019-08-26 08:23:54]]></last_passwd_gen>
+<active><![CDATA[1]]></active>
+<optin><![CDATA[1]]></optin>
+<id_profile><![CDATA[5]]></id_profile>
+<bo_color><![CDATA[]]></bo_color>
+<default_tab><![CDATA[1]]></default_tab>
+<bo_theme><![CDATA[default]]></bo_theme>
+<bo_css><![CDATA[admin-theme.css]]></bo_css>
+<bo_width><![CDATA[0]]></bo_width>
+<bo_menu><![CDATA[1]]></bo_menu>
+<stats_date_from><![CDATA[2019-01-01]]></stats_date_from>
+<stats_date_to><![CDATA[2019-05-31]]></stats_date_to>
+<stats_compare_from><![CDATA[0000-00-00]]></stats_compare_from>
+<stats_compare_to><![CDATA[0000-00-00]]></stats_compare_to>
+<stats_compare_option><![CDATA[1]]></stats_compare_option>
+<preselect_date_range><![CDATA[year]]></preselect_date_range>
+<id_last_order><![CDATA[1212]]></id_last_order>
+<id_last_customer_message><![CDATA[1540]]></id_last_customer_message>
+<id_last_customer><![CDATA[1156]]></id_last_customer>
+<datashop id_shop="1"></datashop>
+</employee>
+<employee><id_employee><![CDATA[4]]></id_employee>
+<lastname><![CDATA[VANNET]]></lastname>
+<firstname><![CDATA[Jack]]></firstname>
+<email><![CDATA[jacques.vannet@gmail.com]]></email>
+<id_lang><![CDATA[1]]></id_lang>
+<passwd><![CDATA[79e55be455eb4e1c09d7bd2e7422ff2c]]></passwd>
+<last_passwd_gen><![CDATA[2016-12-16 05:06:56]]></last_passwd_gen>
+<active><![CDATA[1]]></active>
+<optin><![CDATA[0]]></optin>
+<id_profile><![CDATA[1]]></id_profile>
+<bo_color><![CDATA[]]></bo_color>
+<default_tab><![CDATA[21]]></default_tab>
+<bo_theme><![CDATA[default]]></bo_theme>
+<bo_css><![CDATA[admin-theme.css]]></bo_css>
+<bo_width><![CDATA[0]]></bo_width>
+<bo_menu><![CDATA[1]]></bo_menu>
+<stats_date_from><![CDATA[2019-01-01]]></stats_date_from>
+<stats_date_to><![CDATA[2019-12-31]]></stats_date_to>
+<stats_compare_from><![CDATA[0000-00-00]]></stats_compare_from>
+<stats_compare_to><![CDATA[0000-00-00]]></stats_compare_to>
+<stats_compare_option><![CDATA[1]]></stats_compare_option>
+<preselect_date_range><![CDATA[month]]></preselect_date_range>
+<id_last_order><![CDATA[1213]]></id_last_order>
+<id_last_customer_message><![CDATA[1545]]></id_last_customer_message>
+<id_last_customer><![CDATA[1156]]></id_last_customer>
+<datashop id_shop="1"></datashop>
+</employee>
+<employee><id_employee><![CDATA[7]]></id_employee>
+<lastname><![CDATA[Dezayes]]></lastname>
+<firstname><![CDATA[Ivan]]></firstname>
+<email><![CDATA[ivan.dezayes@groupe-fdl.fr]]></email>
+<id_lang><![CDATA[1]]></id_lang>
+<passwd><![CDATA[ad3a568aec1eab0182106ec71097c23e]]></passwd>
+<last_passwd_gen><![CDATA[2020-02-24 14:53:35]]></last_passwd_gen>
+<active><![CDATA[1]]></active>
+<optin><![CDATA[0]]></optin>
+<id_profile><![CDATA[1]]></id_profile>
+<bo_color><![CDATA[]]></bo_color>
+<default_tab><![CDATA[1]]></default_tab>
+<bo_theme><![CDATA[default]]></bo_theme>
+<bo_css><![CDATA[admin-theme.css]]></bo_css>
+<bo_width><![CDATA[0]]></bo_width>
+<bo_menu><![CDATA[1]]></bo_menu>
+<stats_date_from><![CDATA[2020-02-01]]></stats_date_from>
+<stats_date_to><![CDATA[2020-02-29]]></stats_date_to>
+<stats_compare_from><![CDATA[0000-00-00]]></stats_compare_from>
+<stats_compare_to><![CDATA[0000-00-00]]></stats_compare_to>
+<stats_compare_option><![CDATA[1]]></stats_compare_option>
+<preselect_date_range><![CDATA[]]></preselect_date_range>
+<id_last_order><![CDATA[1163]]></id_last_order>
+<id_last_customer_message><![CDATA[1473]]></id_last_customer_message>
+<id_last_customer><![CDATA[1104]]></id_last_customer>
+<datashop id_shop="1"></datashop>
+</employee>
+</entity_profile>

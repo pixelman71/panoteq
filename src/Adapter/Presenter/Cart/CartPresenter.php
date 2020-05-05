@@ -30,7 +30,6 @@ use Cart;
 use CartRule;
 use Configuration;
 use Context;
-use Db;
 use Hook;
 use PrestaShop\PrestaShop\Adapter\Image\ImageRetriever;
 use PrestaShop\PrestaShop\Adapter\Presenter\PresenterInterface;
@@ -221,8 +220,8 @@ class CartPresenter implements PresenterInterface
                                                 break;
                                             case Product::CUSTOMIZE_TEXTFIELD:
                                                 $field['type'] = 'text';
-                                                $field['text'] = $this->panoteqProductSummary($data['value']);
-//                                                $field['text'] = $data['value'];
+                                                $field['text'] = $data['value'];
+
                                                 break;
                                             default:
                                                 $field['type'] = null;
@@ -550,97 +549,5 @@ class CartPresenter implements PresenterInterface
         }
 
         return $attributesArray;
-    }
-
-
-    public static function getStepsNoDuplicateValues($model)
-    {
-        $steps = [];
-        $modelValuesAlreadyChecked = [];
-
-        foreach ($model->steps as $step) {
-            if(!isset($step->value_id)) {
-                continue;
-            }
-
-//            if (!this . modelWidgets[step . id] . requiresCompletion()) {
-//                return
-//                }
-            if(isset($modelValuesAlreadyChecked[$step->value_id])) {
-                // Is duplicate (accessing same value). Do not count in.
-                continue;
-            }
-
-            $modelValuesAlreadyChecked[$step->value_id] = $step->value_id;
-
-            $steps[] = $step;
-        }
-
-        return $steps;
-    }
-
-    public static function panoteqProductSummary($productCustomizationSerialized)
-    {
-        $productCustomization = json_decode($productCustomizationSerialized);
-        if ($productCustomization === null) {
-            // Unable to decode: return raw value
-            return $productCustomizationSerialized;
-        }
-
-        $panoteqConfigurationFound = (Db::getInstance())
-            ->getRow('select * from ' . _DB_PREFIX_ . 'panoteq_configuration 
-            ORDER BY id_panoteq_configuration DESC');
-
-        $panoteqConfiguration = json_decode($panoteqConfigurationFound['contents']);
-
-        $result = '';
-
-        foreach (self::getStepsNoDuplicateValues($panoteqConfiguration) as $step) {
-            if (!isset($step->value_id)) {
-                continue;
-            }
-
-            if (!isset($productCustomization->values[$step->value_id])) {
-                continue;
-            }
-
-            $value = $productCustomization->values[$step->value_id];
-
-            $rowResult = $step->label . ' : ';
-
-            switch ($step->widget_type) {
-                case 'color-sample':
-                case 'color':
-                    $explodedParts = explode('/', $value);
-                    $rowResult .= $explodedParts[count($explodedParts) - 1];
-                    break;
-                case 'dimensions':
-                    $rowResult .= $value->width . $step->suffix . ' x ' . $value->height . $step->suffix;
-                    break;
-                case 'radio':
-                case 'selectbox':
-                    $filtered = array_filter($step->values, function($step2) use ($value) { return $step2->value == $value; });
-                    foreach($filtered as $f) {
-                        $rowResult .= $f->label;
-                    }
-                    break;
-                case 'text':
-                    $tmp = [];
-
-                    foreach($value as $val) {
-                        $tmp[] = $val->value . $step->suffix;
-                    }
-
-                    $rowResult .= join(', ', $tmp);
-                    break;
-                default:
-                    $rowResult .= $value;
-                    break;
-            }
-
-            $result .= $rowResult . "<br />";
-        }
-
-        return $result;
     }
 }

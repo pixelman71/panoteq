@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<order_return><id_order_return><![CDATA[1]]></id_order_return>
+<id_customer><![CDATA[287]]></id_customer>
+<id_order><![CDATA[270]]></id_order>
+<question><![CDATA[il y a un defaut sur un angle de la poignée et le sens du fil est horizontal]]></question>
+<state><![CDATA[1]]></state>
+<date_add><![CDATA[2018-07-17 06:55:00]]></date_add>
+<date_upd><![CDATA[2018-07-17 06:55:00]]></date_upd>
+</order_return>
+<order_return><id_order_return><![CDATA[2]]></id_order_return>
+<id_customer><![CDATA[98]]></id_customer>
+<id_order><![CDATA[336]]></id_order>
+<question><![CDATA[Bonjour,
+Les facades commandées n'ont pas la bonne teinte par rapport aux facades déjà commandées (pourtant même ref : 7004 gris de sécurité mat).
+Je ne peux pas accepter cette marchandise.
+Est-il possible de refaire la laque?
+
+Cordialement.]]></question>
+<state><![CDATA[1]]></state>
+<date_add><![CDATA[2018-10-13 16:11:23]]></date_add>
+<date_upd><![CDATA[2018-10-13 16:11:23]]></date_upd>
+</order_return>
+<order_return><id_order_return><![CDATA[3]]></id_order_return>
+<id_customer><![CDATA[1004]]></id_customer>
+<id_order><![CDATA[1053]]></id_order>
+<question><![CDATA[La cote H2 commandée  ne correspond pas à la cote livrée ]]></question>
+<state><![CDATA[1]]></state>
+<date_add><![CDATA[2020-02-23 18:32:27]]></date_add>
+<date_upd><![CDATA[2020-02-23 18:32:27]]></date_upd>
+</order_return>
+</entity_profile>

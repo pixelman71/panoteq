@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2020 PrestaShop and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -13,7 +13,7 @@
  * to license@prestashop.com so we can send you a copy immediately.
  *
  * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2019 PrestaShop SA and Contributors
+ * @copyright 2007-2020 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  */
@@ -42,7 +42,7 @@ class Translations
      */
     public function getTranslations()
     {
-        $locale = \Context::getContext()->language->locale;
+        $locale = \Context::getContext()->language->iso_code;
         $linkTranslations = new LinksTranslations($locale);
 
         $translations[$locale] = [
@@ -56,10 +56,23 @@ class Translations
             'general' => [
                 'save' => $this->module->l('Save', 'translations'),
                 'testModeOn' => $this->module->l('Test mode is turned on', 'translations'),
+                'multiShop' => [
+                    'title' => $this->module->l('Multistore detected', 'translations'),
+                    'subtitle' => $this->module->l('Each shop must be configured separately, even if you configure the same account on all of them.', 'translations'),
+                    'chooseOne' => $this->module->l('Please select the first shop to configure from the list below :', 'translations'),
+                    'group' => 'Group:',
+                    'configure' => 'Configure',
+                    'tips' => $this->module->l('Once you are done with the first shop, you can configure the others: select them one by one with the shop selector, in the horizontal menu.', 'translations'),
+                ],
             ],
             'pages' => [
                 'accounts' => [
+                    'approved' => $this->module->l('Approved', 'translations'),
                     'approvalPending' => $this->module->l('Approval pending', 'translations'),
+                    'accountLinkingInProgress' => $this->module->l('Account Linking in progress', 'translations'),
+                    'waitingPaypalLinkingTitle' => $this->module->l('Onboarding almost done!', 'translations'),
+                    'waitingPaypalLinking' => $this->module->l('Synchronization between your store and your PayPal account is in progress. Please wait.', 'translations'),
+                    'emailValidationNeeded' => $this->module->l('Email validation needed', 'translations'),
                     'waitingEmail' => $this->module->l('A confirmation email has been sent. Check your inbox and click on the link to activate your account.', 'translations'),
                     'didntReceiveEmail' => $this->module->l('No confirmation email?', 'translations'),
                     'sendEmailAgain' => $this->module->l('Send it again', 'translations'),
@@ -182,15 +195,22 @@ class Translations
                 ],
                 'active-payment' => [
                     'activePaymentMethods' => $this->module->l('Activate payment methods', 'translations'),
-                    'paymentMethods' => $this->module->l('Payment methods', 'translations'),
-                    'changeOrder' => $this->module->l('Change order', 'translations'),
+                    'changeOrder' => $this->module->l('Change payment methods order', 'translations'),
                     'enabled' => $this->module->l('Enabled', 'translations'),
                     'disabled' => $this->module->l('Disabled', 'translations'),
+                    'available' => $this->module->l('Available', 'translations'),
+                    'notAvailable' => $this->module->l('Not available', 'translations'),
+                    'restricted' => $this->module->l('Restricted', 'translations'),
                     'creditCard' => $this->module->l('Credit card', 'translations'),
                     'paypal' => $this->module->l('PayPal', 'translations'),
                     'localPaymentMethods' => $this->module->l('Local payment methods', 'translations'),
+                    'tipsTitle' => $this->module->l('TIPS', 'translations'),
+                    'tipsContent' => $this->module->l('Boost your conversion rate by displaying PayPal as the first choice in the list of payment methods', 'translations'),
                 ],
                 'payment-acceptance' => [
+                    'paymentMethod' => $this->module->l('Payment method'),
+                    'availability' => $this->module->l('Availability'),
+                    'activationStatus' => $this->module->l('Activation status'),
                     'paymentAcceptanceTitle' => $this->module->l('Payment methods acceptance', 'translations'),
                     'creditCardsLabel' => $this->module->l('Credit and Debit Cards', 'translations'),
                     'tips' => $this->module->l('Tips', 'translations'),
@@ -211,7 +231,19 @@ class Translations
                     'useProductionMode' => $this->module->l('Use production mode', 'translations'),
                     'tipProductionMode' => $this->module->l('Production mode enables you to collect your payments.', 'translations'),
                 ],
+                'express-checkout' => [
+                    'title' => $this->module->l('Define PayPal express checkout flow', 'translations'),
+                    'pageLocation' => $this->module->l('Choose page location', 'translations'),
+                    'orderPage' => $this->module->l('Order summary page', 'translations'),
+                    'checkoutPage' => $this->module->l('Sign up on order page', 'translations'),
+                    'productPage' => $this->module->l('Product page', 'translations'),
+                    'recommended' => $this->module->l('Recommended', 'translations'),
+                    'shippingCost' => $this->module->l('Shipping costs, if any, will be estimated in basket total. Delivery method selected by default will be the one set in first position on Carriers page.', 'translations'),
+                    'alertTitle' => $this->module->l('TIPS', 'translations'),
+                    'alertContent' => $this->module->l('Express Checkout Shortcut allows merging account creation and payment, to make your customers purchases effortless.', 'translations'),
+                ],
                 'help' => [
+                    'faq' => $this->module->l('FAQ', 'translations'),
                     'title' => $this->module->l('Help for PrestaShop Checkout', 'translations'),
                     'allowsYou' => $this->module->l('This module allows you to:', 'translations'),
                     'tip1' => $this->module->l('Connect your PrestaShop Checkout account and link your PayPal Account or create one if needed', 'translations'),
@@ -227,15 +259,10 @@ class Translations
             ],
             'block' => [
                 'reassurance' => [
-                    'title' => $this->module->l('PrestaShop Checkout, all-in-one module for your payment options', 'translations'),
-                    'firstTip1' => $this->module->l('All payment methods', 'translations'),
-                    'firstTip2' => $this->module->l('accept cards, PayPal and much more.', 'translations'),
-                    'secondTip1' => $this->module->l('Benefit from all', 'translations'),
-                    'secondTip2' => $this->module->l('PayPal expertise and advantages', 'translations'),
-                    'secondTip3' => $this->module->l('(fraud prevention, secure technology, dispute resolution, …)', 'translations'),
-                    'thirdTip1' => $this->module->l('Offer the most relevant', 'translations'),
-                    'thirdTip2' => $this->module->l('Local Payment Methods', 'translations'),
-                    'thirdTip3' => $this->module->l('to customers across the globe.', 'translations'),
+                    'title' => $this->module->l('One module, all payments methods.', 'translations'),
+                    'label1' => $this->module->l('Offer the widest range of payment methods: cards, PayPal, etc.', 'translations'),
+                    'label2' => $this->module->l('Benefit from all PayPal expertise and advantages', 'translations'),
+                    'label3' => $this->module->l('Give access to relevant local payment methods for customers around the globe', 'translations'),
                     'learnMore' => $this->module->l('Learn more', 'translations'),
                 ],
                 'fraud-tool' => [
@@ -249,7 +276,7 @@ class Translations
                     'text' => $this->module->l('Checkout customization, transactions list, dispute management ... and more to come!', 'translations'),
                 ],
                 'dispute' => [
-                    'pendingDispute' => $this->module->l('pending dispute(s)', 'translations'),
+                    'pendingDispute' => '{disputeCount}' . ' ' . $this->module->l('pending dispute(s)', 'translations'),
                     'goToDispute' => $this->module->l('Go to the dispute management platform', 'translations'),
                 ],
                 'payment-status' => [
@@ -268,7 +295,35 @@ class Translations
                 'rounding-banner' => [
                     'title' => $this->module->l('Roundings settings to change', 'translations'),
                     'content' => $this->module->l('Be careful, your roundings settings are not fully compatible with PrestaShop Checkout transaction processing. Some of the transactions could fail. But it is easy, your setting Round mode and Round type should be set on « Round up away from zero, when it is half way there » and « Round on each item » or click on the button bellow to make it automatically !', 'translations'),
-                    'button' => $this->module->l('Make my roudings settings fully compatible!', 'translations'),
+                    'button' => $this->module->l('Change rounding settings', 'translations'),
+                    'confirmationTitle' => $this->module->l('Settings updated !', 'translations'),
+                    'confirmationLabel' => $this->module->l('Your rounding settings are now fully compatible', 'translations'),
+                ],
+                'reporting' => [
+                    'pending' => $this->module->l('pending', 'translations'),
+                    'title' => $this->module->l('All transactions', 'translations'),
+                    'subTitle1' => $this->module->l('pending transaction(s)', 'translations'),
+                    'subTitle2' => $this->module->l('transaction(s)', 'translations'),
+                    'label' => $this->module->l('See below the transactions processed with PrestaShop Checkout, limited to the last 1000 to load them faster.', 'translations'),
+                    'subtitleLinkLabel' => $this->module->l('See the full list of transactions on your PayPal account', 'translations'),
+                    'goToPaypal' => $this->module->l('Go to PayPal', 'translations'),
+                    'goToTransaction' => $this->module->l('Go to PayPal', 'translations'),
+                    'orderPendingTableTitle' => $this->module->l('Pending transaction', 'translations'),
+                    'transactionTableTitle' => $this->module->l('All transactions', 'translations'),
+                    'type' => [
+                        'payment' => $this->module->l('Payment', 'translations'),
+                        'refund' => $this->module->l('Refund', 'translations'),
+                    ],
+                    'column' => [
+                        'date' => $this->module->l('Date', 'translations'),
+                        'orderId' => $this->module->l('Order Id', 'translations'),
+                        'customer' => $this->module->l('Customer', 'translations'),
+                        'type' => $this->module->l('Type', 'translations'),
+                        'beforeCommission' => $this->module->l('Before commission', 'translations'),
+                        'commission' => $this->module->l('Commission', 'translations'),
+                        'total' => $this->module->l('Total', 'translations'),
+                        'actions' => $this->module->l('Actions', 'translations'),
+                    ],
                 ],
             ],
         ];

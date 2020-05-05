@@ -186,3 +186,199 @@ unzip prestashop_1.7.6.2.zip
 ls
 rm -r install/
 exit
+ls
+cd temp/
+l
+ls
+mv panoteq-new/* ../
+mv panoteq-new/* ../
+mv panoteq-new/.* ../
+cd panoteq-new/
+ll
+ls
+cd ..
+cd ..
+ls
+ls -lhtra
+cd sy
+ll
+ls
+ltr
+ls
+vi ~/.bashrc 
+source ~/.bashrc 
+ltr
+ls
+ltr
+chown -R u98043085:ftpusers .
+ltr
+ls
+cd logs/
+ls
+ltr
+ltr
+ltr
+cd ..
+ltr
+find . -not -path './media/*' -not -path './var/cache*' -not -path './var/session/*' -not -path './var/locks*' -not -path './var/report*' -mtime -30 -exec stat -c '%y %n' {} \; | sort
+vi ./logs/access.log.11.3
+vi .htaccess 
+cp bak1/app/config/parameters.php app/config/parameters.
+cp bak1/app/config/parameters.php app/config/parameters.php 
+ls admin354uidxuv/
+./bin/console 
+php -v
+whereis php
+/usr/bin/php7.1 bin/console 
+/usr/bin/php7.1 bin/console user
+/usr/bin/php7.1 bin/console admin
+/usr/bin/php7.1 bin/console employe
+/usr/bin/php7.1 bin/console db
+/usr/bin/php7.1 bin/console bd
+/usr/bin/php7.1 bin/console 
+/usr/bin/php7.1 bin/console prestashop:module
+/usr/bin/php7.1 bin/console prestashop:module install panoteq
+cat app/config/parameters.php 
+mysql -udbo809905054 -p db809905054
+cat app/config/parameters.php 
+mysql -udbo809905054 -p db809905054
+mysql -udbo809905054 -p db809905054
+mysql -v
+mysql -udbo809905054 -p db809905054
+clear
+ls
+vi query.sql
+vi query.sql
+mysql -udbo809905054 -p db809905054 < query.sql 
+vi query.sql
+exit
+/usr/bin/php7.1 bin/console cache:clear
+mysqldump --no-tablespaces --host=localhost --user=dbo792507940 db792507940 > dev.sql
+mysqldump --no-tablespaces --host=localhost --p --user=dbo792507940 db792507940 > dev.sql
+mysqldump --no-tablespaces --host=localhost -p --user=dbo792507940 db792507940 > dev.sql
+mysqldump --no-tablespaces --host=localhost --user=dbo809905054 --password db809905054 > dev.sql
+mysqldump --no-tablespaces --host=localhost --user=dbo809905054 --password db809905054 > dev.sql
+crontab -e
+ls -al
+rm -r src/
+ls -al
+rm -r src/
+exitt
+exit
+ls
+exit
+ncdu
+df -h
+du -sh .
+ll
+ls
+exit
+ls
+ll
+ls -lhtra
+exit
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+ls
+cd app/
+ls
+cd Resources/
+ls
+ls
+cd ..
+find -name security
+cd ..
+grep -R '.htaccess.dist' *
+grep -R '.htaccess.dist' *
+cd cl
+cd clickandbuilds/
+ll
+ls -lhtra
+exit
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+ls /etc/mysql/my.cnf 
+exit
+cat /etc/ls
+lsb_release -a
+php -v
+ls
+vi alex.php
+rm alex.php 
+clear
+exit
+mysqldump --no-tablespaces --host=localhost --user=dbo809905054 --password db809905054 > dev.sql
+rm -r aaa/
+rm -r admin354uidxuv/
+rm -r app/
+rm -r bin/
+rm -r webservice/
+rm -r vendor
+rm -r var/
+rm -r upload/
+rm -r translations/
+rm -r themes/
+rm -r threemodels/
+rm -r temp/
+rm -r src/
+rm -r src-old/
+rm -r tools/
+rm -r modules/
+rm -r mails/
+rm -r download/
+rm -r docs/
+rm -r controllers/
+rm -r controllers-old/
+rm -r classes/
+rm -r img/
+rm -r js/
+rm -r js-old/
+rm -r logs/
+rm -r pdf/
+rm -r pdf-old/
+rm -r localization/
+ls -al
+tar -vxf dev.tar.gz 
+exit
+ls
+unzip Archive.zip 
+re -r install/
+rm -r install/
+ls
+rm -r __MACOSX/
+exit
+clear
+ls
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+exit
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+mysql -v
+service
+ls
+ps aux|grep sql
+ps aux|grep ari
+netstat -nlp
+ls
+cd /
+ls
+cd
+ls
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+exit
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+mysql --host=localhost --user=dbo809905054 --password db809905054 
+exit
+ls
+cat app/config/set_parameters.php 
+vi app/config/parameters.yml
+vi app/config/parameters.php 
+cat app/config/parameters.php 
+mysql --host=localhost --user=dbu18021 --password dbs380720
+mysql --host=db5000398010.hosting-data.io --user=dbu18021 --password dbs380720
+mysql --host=db5000398010.hosting-data.io --user=dbu18021 --password dbs380720
+mysql --host=db5000398010.hosting-data.io --user=dbu18021 --password dbs380720
+exit
+exit
+mysql --host=db5000398010.hosting-data.io --user=dbu18021 --password dbs380720
+mysql --host=db5000398010.hosting-data.io --user=dbu18021 --password dbs380720
+exit

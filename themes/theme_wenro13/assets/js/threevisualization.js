@@ -198,7 +198,7 @@ Panoteq3dViewer.prototype.modelsFiles['disco-porte'] = {
 };
 
 Panoteq3dViewer.prototype.modelsFiles['mandoline-porte'] = {
-    path: 'mandoline_102.fbx',
+    path: 'mandoline_porte_102.fbx',
     type: 'mandoline',
     offsetSpeeds: {
         'middle': 0.5,

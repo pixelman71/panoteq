@@ -23,11 +23,6 @@
  * @license   https://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  */
-
-require_once 'modules/panoteq/src/Entity/PanoteqConfiguration.php';
-
-
-use Panoteq\Configurator\Entity\PanoteqConfiguration;
 use PrestaShop\PrestaShop\Adapter\Image\ImageRetriever;
 use PrestaShop\PrestaShop\Adapter\Presenter\AbstractLazyArray;
 use PrestaShop\PrestaShop\Adapter\Presenter\Product\ProductListingPresenter;
@@ -60,18 +55,17 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
     public function canonicalRedirection($canonical_url = '')
     {
         if (Validate::isLoadedObject($this->product)) {
-            if (!$this->product->hasCombinations() ||
-                !$this->isValidCombination(Tools::getValue('id_product_attribute'), $this->product->id)) {
+            $idProductAttribute = Tools::getValue('id_product_attribute', null);
+            if (!$this->product->hasCombinations() || !$this->isValidCombination($idProductAttribute, $this->product->id)) {
                 //Invalid combination we redirect to the canonical url (without attribute id)
                 unset($_GET['id_product_attribute']);
-            } else {
-                //Only redirect to canonical (parent product without combination) when the requested combination is not valid
-                //In this case we are in a valid combination url and we must display it without redirection for SEO purpose
-                return;
+                $idProductAttribute = null;
             }
 
-            //Note: we NEED these 6 arguments to have $ipa=null or else a parameter will be added
-            //id_product_attribute=0 and force the redirection
+            // If the attribute id is present in the url we use it to perform the redirection, this will fix any domain
+            // or rewriting error and redirect to the appropriate url
+            // If the attribute is not present or invalid, we set it to null so that the request is redirected to the
+            // real canonical url (without any attribute)
             parent::canonicalRedirection($this->context->link->getProductLink(
                 $this->product,
                 null,
@@ -79,7 +73,7 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
                 null,
                 null,
                 null,
-                null
+                $idProductAttribute
             ));
         }
     }
@@ -230,8 +224,6 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
      */
     public function initContent()
     {
-        $isSavingCustomizedConfiguration = false;
-
         if (!$this->errors) {
             if (Pack::isPack((int) $this->product->id)
                 && !Pack::isInStock((int) $this->product->id, $this->product->minimal_quantity, $this->context->cart)
@@ -254,8 +246,6 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
             }
 
             if (Tools::isSubmit('submitCustomizedData')) {
-                $isSavingCustomizedConfiguration = true;
-
                 // If cart has not been saved, we need to do it so that customization fields can have an id_cart
                 // We check that the cookie exists first to avoid ghost carts
                 if (!$this->context->cart->id && isset($_COOKIE[$this->context->cookie->getName()])) {
@@ -353,13 +343,6 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
                 $customization_datas = $this->context->cart->getProductCustomization($this->product->id, null, true);
             }
 
-
-            if($isSavingCustomizedConfiguration) {
-                //'id_customization' => empty($customization_datas) ? null : $customization_datas[0]['id_customization'],
-                echo $customization_datas[0]['id_customization'];
-                die();
-            }
-
             $product_for_template = $this->getTemplateVarProduct();
 
             $filteredProduct = Hook::exec(
@@ -402,36 +385,6 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
             // Assign attribute groups to the template
             $this->assignAttributesGroups($product_for_template);
         }
-
-        /** @var EntityManagerInterface $entityManager */
-        $entityManager = $this->container->get('doctrine.orm.entity_manager');
-        $panoteqConfigurationRepository = $entityManager->getRepository(PanoteqConfiguration::class);
-        $panoteqConfiguration = $panoteqConfigurationRepository->findBy(['active' => true], ['id_panoteq_configuration' => 'DESC']);
-
-        $found = false;
-        foreach($panoteqConfiguration as $conf) {
-            if(!$found) {
-                $associatedProductsIds = explode(',', $conf->associatedProducts);
-                if(in_array($this->product->id, $associatedProductsIds)) {
-                    $found = true;
-                    $panoteqConfiguration = $conf;
-                }
-            }
-        }
-
-        $panoteqConf = json_decode($panoteqConfiguration->contents);
-
-        // Transform tooltips
-        foreach($panoteqConf->steps as $step) {
-            if(isset($step->tooltip) && substr($step->tooltip, 0, 4) == 'url(') {
-                $step->tooltipImage = substr(substr($step->tooltip, 0,-1), 4);
-            }
-        }
-
-        $this->context->smarty->assign(array(
-            'panoteqconf' => $panoteqConf,
-            'panoteqconfserialized' => json_encode($panoteqConf)
-        ));
 
         parent::initContent();
     }
@@ -905,19 +858,10 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
         $indexes = array_flip($authorized_text_fields);
         foreach ($_POST as $field_name => $value) {
             if (in_array($field_name, $authorized_text_fields) && $value != '') {
-
-                $panoteqConfiguration = json_decode($value);
-
-                if($panoteqConfiguration !== null) {
-                    $this->context->cart->addTextFieldToProduct($this->product->id, $indexes[$field_name], Product::CUSTOMIZE_TEXTFIELD, $value,
-                        $panoteqConfiguration->calculatedAmount, $panoteqConfiguration->calculatedWeight);
-                }
-                else {
-//                if (!Validate::isMessage($value)) {
-//                    $this->errors[] = $this->trans('Invalid message', array(), 'Shop.Notifications.Error');
-//                } else {
+                if (!Validate::isMessage($value)) {
+                    $this->errors[] = $this->trans('Invalid message', array(), 'Shop.Notifications.Error');
+                } else {
                     $this->context->cart->addTextFieldToProduct($this->product->id, $indexes[$field_name], Product::CUSTOMIZE_TEXTFIELD, $value);
-//                }
                 }
             } elseif (in_array($field_name, $authorized_text_fields) && $value == '') {
                 $this->context->cart->deleteCustomizationToProduct((int) $this->product->id, $indexes[$field_name]);

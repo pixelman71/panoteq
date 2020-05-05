@@ -7234,7 +7234,7 @@ main {
 }
 .js-product-miniature .product_desc .product_name {
   color: #2e2e2e;
-  padding: 0;
+  padding: 0 0 20px 20px;
   margin-bottom: 0;
   display: block;
   line-height: 20px;
@@ -7242,8 +7242,8 @@ main {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 700;
 }
 .js-product-miniature .product_desc .product_name:hover {
   color: #ffa800;
@@ -8083,8 +8083,8 @@ ul#pt_custommenu_itemmobile li .grower.active a:after {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   display: inline-block;
-  padding-left:0; /* 25px */
-  margin-left:175px;
+  padding-left: 25px;
+
 }
 .item-testimonials .item .content_test .des_namepost:hover {
   color: #ffa800;

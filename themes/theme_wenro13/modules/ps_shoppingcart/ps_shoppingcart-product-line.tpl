@@ -4,46 +4,7 @@
 </div>
 <div class="right_block">
 	<span class="product-name">{$product.name}</span>
-	<div class="product-name">
-		{if $product.customizations|count}
-			<br>
-			{block name='cart_detailed_product_line_customization'}
-				{foreach from=$product.customizations item="customization"}
-					{foreach from=$customization.fields item="field"}
-						<div class="product-customization-line row">
-							<div class="col-sm-12 col-xs-12 value">
-								{$field.text nofilter}
-							</div>
-						</div>
-					{/foreach}
-
-					<div class="modal fade customization-modal" id="product-customizations-modal-{$customization.id_customization}" tabindex="-1" role="dialog" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-									<h4 class="modal-title">{l s='Product customization' d='Shop.Theme.Catalog'}</h4>
-								</div>
-								<div class="modal-body">
-									{foreach from=$customization.fields item="field"}
-										<div class="product-customization-line row">
-											<div class="col-sm-12 col-xs-12 value">
-												{$field.text nofilter}
-											</div>
-										</div>
-									{/foreach}
-								</div>
-							</div>
-						</div>
-					</div>
-				{/foreach}
-			{/block}
-		{/if}
-	</div>
-	<span class="product-price">{$product.price}
-	</span>
+	<span class="product-price">{$product.price}</span>
 	<a  class="remove-from-cart"
 		rel="nofollow"
 		href="{$product.remove_from_cart_url}"

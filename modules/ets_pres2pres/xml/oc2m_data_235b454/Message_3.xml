@@ -1,0 +1,3562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+<message><id_message><![CDATA[1005]]></id_message>
+<message><![CDATA[Bonjour,
+Le logement étant une résidence secondaire, la livraison doit se faire impérativement entre le lundi 21 Octobre et le jeudi 31 Octobre 2019]]></message>
+<id_cart><![CDATA[47883]]></id_cart>
+<id_order><![CDATA[903]]></id_order>
+<id_customer><![CDATA[872]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-09-06 14:21:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1006]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[47883]]></id_cart>
+<id_order><![CDATA[903]]></id_order>
+<id_customer><![CDATA[872]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-06 14:22:15]]></date_add>
+</message>
+<message><id_message><![CDATA[1007]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCRBIaQAAABJQAUhpAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[904]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-08 08:41:15]]></date_add>
+</message>
+<message><id_message><![CDATA[1008]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACFNAg4Z1dXJQRUCDAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[905]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-09 11:06:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1009]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABGE1WGAFZmJQQTVYAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[906]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-09 11:32:08]]></date_add>
+</message>
+<message><id_message><![CDATA[1010]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBafQwZCBAQlmOVB0AAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[907]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-09 12:55:43]]></date_add>
+</message>
+<message><id_message><![CDATA[1011]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBlAXJmN3E2JQQRcmAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[908]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-10 21:12:19]]></date_add>
+</message>
+<message><id_message><![CDATA[1012]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACBnEYFjRAACBWSRgWAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[909]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-11 08:54:59]]></date_add>
+</message>
+<message><id_message><![CDATA[1013]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABiEpJFk4kIJQQSkkAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[910]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-12 09:36:32]]></date_add>
+</message>
+<message><id_message><![CDATA[1014]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdem72EdYoagk=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[911]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-12 18:14:54]]></date_add>
+</message>
+<message><id_message><![CDATA[1015]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdfixiIZKrmYQ=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[912]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-15 14:19:52]]></date_add>
+</message>
+<message><id_message><![CDATA[1016]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCDNAR0FhAFJQAUBHAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[913]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-15 19:08:03]]></date_add>
+</message>
+<message><id_message><![CDATA[1017]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCVEjkgAAABJQQSOSAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[914]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-16 07:40:01]]></date_add>
+</message>
+<message><id_message><![CDATA[1018]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[48150]]></id_cart>
+<id_order><![CDATA[915]]></id_order>
+<id_customer><![CDATA[879]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-16 19:07:57]]></date_add>
+</message>
+<message><id_message><![CDATA[1019]]></id_message>
+<message><![CDATA[BONJOUR 
+
+VOICI UN COMPLÉMENT DE LE COMMANDE  :    AVXTVMHUH
+
+COULEUR BLEU LAGON BRILLANT
+
+MERCI]]></message>
+<id_cart><![CDATA[48783]]></id_cart>
+<id_order><![CDATA[916]]></id_order>
+<id_customer><![CDATA[879]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-09-18 16:43:31]]></date_add>
+</message>
+<message><id_message><![CDATA[1020]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[48783]]></id_cart>
+<id_order><![CDATA[916]]></id_order>
+<id_customer><![CDATA[879]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-18 16:43:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1021]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAFRzBwAAEHJQRXMHAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[917]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-19 06:28:30]]></date_add>
+</message>
+<message><id_message><![CDATA[1022]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACSJZMQAAJBJQSVkxAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[918]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-20 15:25:35]]></date_add>
+</message>
+<message><id_message><![CDATA[1023]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdhl+xmTw+nPo=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[919]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-21 19:36:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1024]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[48004]]></id_cart>
+<id_order><![CDATA[920]]></id_order>
+<id_customer><![CDATA[875]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-22 13:50:03]]></date_add>
+</message>
+<message><id_message><![CDATA[1025]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[37415]]></id_cart>
+<id_order><![CDATA[921]]></id_order>
+<id_customer><![CDATA[719]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-22 23:29:42]]></date_add>
+</message>
+<message><id_message><![CDATA[1026]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAokXVhGYBjJQARdWAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[922]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-23 20:30:10]]></date_add>
+</message>
+<message><id_message><![CDATA[1027]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[46340]]></id_cart>
+<id_order><![CDATA[923]]></id_order>
+<id_customer><![CDATA[850]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-24 08:34:55]]></date_add>
+</message>
+<message><id_message><![CDATA[1028]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAXgXQ4gydRJQRRdDAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[924]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-24 12:46:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1029]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAoGFcgAAJJJQQYVyAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[925]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-24 17:22:56]]></date_add>
+</message>
+<message><id_message><![CDATA[1030]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAA5dpQGFyFQJQQWlAAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[926]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-24 17:27:57]]></date_add>
+</message>
+<message><id_message><![CDATA[1031]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[49236]]></id_cart>
+<id_order><![CDATA[927]]></id_order>
+<id_customer><![CDATA[896]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-25 20:33:51]]></date_add>
+</message>
+<message><id_message><![CDATA[1032]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCJODlwAAABJQQYOXAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[928]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-25 21:07:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1033]]></id_message>
+<message><![CDATA[Suite conversation téléphonique, je vous enverrai par email une nomenclature des références de chaque panneau. Merci d'indiquer cette référence sur chaque panneau livré.
+
+IMPORTANT : Pas de livraison entre le 2 et le 9 novembre 2019.
+
+Pour le transporteur: Appeler impérativement au 0788456576 avant de livrer pour fixer rendez-vous de livraison.]]></message>
+<id_cart><![CDATA[16905]]></id_cart>
+<id_order><![CDATA[929]]></id_order>
+<id_customer><![CDATA[302]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-09-26 10:13:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1034]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCB1076FRB0AAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[929]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-26 10:16:38]]></date_add>
+</message>
+<message><id_message><![CDATA[1035]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdj46244b0EEE=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[930]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-28 18:47:54]]></date_add>
+</message>
+<message><id_message><![CDATA[1036]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdkf2/bSN+/nU=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[931]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-30 15:06:30]]></date_add>
+</message>
+<message><id_message><![CDATA[1037]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACAXkZaRQkBgJQQRlpAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[932]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-09-30 19:22:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1038]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABB1k2kwAAABJQQTaTAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[933]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-01 09:08:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1039]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[49601]]></id_cart>
+<id_order><![CDATA[934]]></id_order>
+<id_customer><![CDATA[902]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-01 18:48:17]]></date_add>
+</message>
+<message><id_message><![CDATA[1040]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBzQCCTcTITATlAIJEE7r9mw=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[935]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-02 09:44:28]]></date_add>
+</message>
+<message><id_message><![CDATA[1041]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCFl2CAAAA1JQQXYIAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[936]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-02 16:46:52]]></date_add>
+</message>
+<message><id_message><![CDATA[1042]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdli/ETM2k9I4=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[937]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-03 19:28:44]]></date_add>
+</message>
+<message><id_message><![CDATA[1043]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAmCXIwAAABJQRZcjAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[938]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-06 18:35:27]]></date_add>
+</message>
+<message><id_message><![CDATA[1044]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBJIFSAAAABJQSQVIAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[939]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-06 18:49:13]]></date_add>
+</message>
+<message><id_message><![CDATA[1045]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCFQogwAACZJQiSiDAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[940]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-06 19:28:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1046]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[49240]]></id_cart>
+<id_order><![CDATA[941]]></id_order>
+<id_customer><![CDATA[896]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-06 22:58:13]]></date_add>
+</message>
+<message><id_message><![CDATA[1047]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[49497]]></id_cart>
+<id_order><![CDATA[942]]></id_order>
+<id_customer><![CDATA[912]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-07 20:59:06]]></date_add>
+</message>
+<message><id_message><![CDATA[1048]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[49952]]></id_cart>
+<id_order><![CDATA[943]]></id_order>
+<id_customer><![CDATA[911]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-08 16:59:12]]></date_add>
+</message>
+<message><id_message><![CDATA[1049]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[47833]]></id_cart>
+<id_order><![CDATA[944]]></id_order>
+<id_customer><![CDATA[871]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-08 21:28:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1050]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[50108]]></id_cart>
+<id_order><![CDATA[945]]></id_order>
+<id_customer><![CDATA[914]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-09 14:40:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1051]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAQglCBAAAAABISUIEAIHi70=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[946]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-10 12:03:59]]></date_add>
+</message>
+<message><id_message><![CDATA[1052]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[49730]]></id_cart>
+<id_order><![CDATA[947]]></id_order>
+<id_customer><![CDATA[917]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-10 16:08:45]]></date_add>
+</message>
+<message><id_message><![CDATA[1053]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAzgBlkGFB5JQCQGWAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[948]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-12 21:46:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1054]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABA3VwYDAiE2JQQXBgAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[949]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-13 19:17:05]]></date_add>
+</message>
+<message><id_message><![CDATA[1055]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABA5QnFAAAIxJQiScUAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[950]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-14 21:51:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1056]]></id_message>
+<message><![CDATA[Cette commande est en complément de mon autre commande SCPDGJUXC actuellement en cours de préparation. Veuillez si possible livrer cette nouvelle commande en même temps que la précédente, si cela ne retarde pas trop la livraison globale. Sinon merci de livrer séparément.
+
+Je vous enverrai par email une nomenclature des références de chaque panneau. Merci d'indiquer cette référence sur chaque panneau livré.
+
+IMPORTANT : Pas de livraison entre le 2 et le 9 novembre 2019.
+Pour le transporteur: Appeler impérativement au 0788456576 avant de livrer pour fixer rendez-vous de livraison.]]></message>
+<id_cart><![CDATA[49568]]></id_cart>
+<id_order><![CDATA[951]]></id_order>
+<id_customer><![CDATA[302]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-10-15 09:34:36]]></date_add>
+</message>
+<message><id_message><![CDATA[1057]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCBFdpXdqA3YAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[951]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-15 09:38:31]]></date_add>
+</message>
+<message><id_message><![CDATA[1058]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACWOShgAAFDJQQZKGAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[952]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-15 10:48:18]]></date_add>
+</message>
+<message><id_message><![CDATA[1059]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[47311]]></id_cart>
+<id_order><![CDATA[953]]></id_order>
+<id_customer><![CDATA[863]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-15 18:10:24]]></date_add>
+</message>
+<message><id_message><![CDATA[1060]]></id_message>
+<message><![CDATA[Vous pouvez déposer le colis à la loge du gardien, situé au 10bld valmy en mon absence
+
+D autre part le liseré de la façade sur situera sur la largeur de 590
+
+Bien à vous ]]></message>
+<id_cart><![CDATA[49756]]></id_cart>
+<id_order><![CDATA[954]]></id_order>
+<id_customer><![CDATA[454]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-10-17 08:45:56]]></date_add>
+</message>
+<message><id_message><![CDATA[1061]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABA4VTRQAAEzJQSVNFAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[954]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-17 08:55:50]]></date_add>
+</message>
+<message><id_message><![CDATA[1062]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdqCkPrcZrmk4=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[955]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-17 10:41:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1063]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAB2YSkgAABxRCSRKSAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[956]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-18 08:48:52]]></date_add>
+</message>
+<message><id_message><![CDATA[1064]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACCURAlwAAARJQSUCXAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[957]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-18 12:22:06]]></date_add>
+</message>
+<message><id_message><![CDATA[1065]]></id_message>
+<message><![CDATA[attention l'adresse est 22 chemin des moulins, mon tel 0671859946, merci cordialement olivier]]></message>
+<id_cart><![CDATA[18005]]></id_cart>
+<id_order><![CDATA[959]]></id_order>
+<id_customer><![CDATA[318]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-10-18 22:06:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1066]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[18005]]></id_cart>
+<id_order><![CDATA[959]]></id_order>
+<id_customer><![CDATA[318]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-18 22:07:29]]></date_add>
+</message>
+<message><id_message><![CDATA[1067]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[50800]]></id_cart>
+<id_order><![CDATA[960]]></id_order>
+<id_customer><![CDATA[871]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-19 11:01:45]]></date_add>
+</message>
+<message><id_message><![CDATA[1068]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdrcaD/ZlS/JA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[961]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-21 16:54:03]]></date_add>
+</message>
+<message><id_message><![CDATA[1069]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAACXEBAAAAACd5cQEFumZuE=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[962]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-23 22:16:45]]></date_add>
+</message>
+<message><id_message><![CDATA[1070]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[29781]]></id_cart>
+<id_order><![CDATA[963]]></id_order>
+<id_customer><![CDATA[569]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-24 14:19:13]]></date_add>
+</message>
+<message><id_message><![CDATA[1071]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[50959]]></id_cart>
+<id_order><![CDATA[964]]></id_order>
+<id_customer><![CDATA[932]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-24 16:58:36]]></date_add>
+</message>
+<message><id_message><![CDATA[1072]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABigwBgAAAnJQSTAGAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[965]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-25 10:43:35]]></date_add>
+</message>
+<message><id_message><![CDATA[1073]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBGlGAQAAGJJQSUYBAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[966]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-26 12:10:07]]></date_add>
+</message>
+<message><id_message><![CDATA[1074]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[51424]]></id_cart>
+<id_order><![CDATA[967]]></id_order>
+<id_customer><![CDATA[936]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-27 11:39:48]]></date_add>
+</message>
+<message><id_message><![CDATA[1075]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABA0hZJgAAAzJQQVkmAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[968]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-27 20:52:14]]></date_add>
+</message>
+<message><id_message><![CDATA[1076]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxCwllj4CBATJEGECXkAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[969]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-28 11:25:15]]></date_add>
+</message>
+<message><id_message><![CDATA[1077]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBjKUWQAACTJQhZRZAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[970]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-28 11:44:24]]></date_add>
+</message>
+<message><id_message><![CDATA[1078]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCCEmYwAACXJQRSZjAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[971]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-28 12:37:47]]></date_add>
+</message>
+<message><id_message><![CDATA[1079]]></id_message>
+<message><![CDATA[Merci de vos conseils suite à notre entretien téléphonique. En souhaitant trouver un aspect plus satiné
+Cordialement]]></message>
+<id_cart><![CDATA[50620]]></id_cart>
+<id_order><![CDATA[972]]></id_order>
+<id_customer><![CDATA[918]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-10-28 17:32:19]]></date_add>
+</message>
+<message><id_message><![CDATA[1080]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCSFmRRIgB5JQBWZFAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[972]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-28 17:35:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1081]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdtzrrP5bgOGQ=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[973]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-28 20:01:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1082]]></id_message>
+<message><![CDATA[bonjour quelle est le delai de livraison]]></message>
+<id_cart><![CDATA[51532]]></id_cart>
+<id_order><![CDATA[0]]></id_order>
+<id_customer><![CDATA[940]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-10-29 09:03:20]]></date_add>
+</message>
+<message><id_message><![CDATA[1083]]></id_message>
+<message><![CDATA[Bonjour, Merci d'avance pour cette commande, n'hésitez pas à me contacter si besoin. Cordialement, Pierre]]></message>
+<id_cart><![CDATA[51516]]></id_cart>
+<id_order><![CDATA[974]]></id_order>
+<id_customer><![CDATA[941]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-10-30 21:28:35]]></date_add>
+</message>
+<message><id_message><![CDATA[1084]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABUZLbfaiv2d6hY=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[974]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-30 21:33:10]]></date_add>
+</message>
+<message><id_message><![CDATA[1085]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAAl3lWNiAYJQCXeVAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[975]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-31 10:32:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1086]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdurpEr/7rmrQ=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[976]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-10-31 11:41:15]]></date_add>
+</message>
+<message><id_message><![CDATA[1087]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxCwllj4CBAgBjOJB5gAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[977]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-01 16:21:54]]></date_add>
+</message>
+<message><id_message><![CDATA[1088]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxCwllj4CBAQBlVpCRMAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[978]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-01 16:35:32]]></date_add>
+</message>
+<message><id_message><![CDATA[1089]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[51361]]></id_cart>
+<id_order><![CDATA[979]]></id_order>
+<id_customer><![CDATA[935]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-01 20:18:45]]></date_add>
+</message>
+<message><id_message><![CDATA[1090]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAByMCBGiUOHJQSQIEAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[980]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-01 21:44:05]]></date_add>
+</message>
+<message><id_message><![CDATA[1091]]></id_message>
+<message><![CDATA[Merci de me livrer ces échantillons le plus rapidement possible afin que je puisse passer commande de l'ensemble de mes portes pour relooker ma cuisine]]></message>
+<id_cart><![CDATA[51410]]></id_cart>
+<id_order><![CDATA[981]]></id_order>
+<id_customer><![CDATA[938]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-11-02 21:23:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1092]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACBFJjFwAAAnJQQWMXAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[981]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-02 21:25:20]]></date_add>
+</message>
+<message><id_message><![CDATA[1093]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAkkkUAAABzJQQSRQAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[982]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-02 23:07:37]]></date_add>
+</message>
+<message><id_message><![CDATA[1094]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[52059]]></id_cart>
+<id_order><![CDATA[983]]></id_order>
+<id_customer><![CDATA[946]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-03 17:44:19]]></date_add>
+</message>
+<message><id_message><![CDATA[1095]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[49785]]></id_cart>
+<id_order><![CDATA[984]]></id_order>
+<id_customer><![CDATA[850]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-04 08:10:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1096]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[51431]]></id_cart>
+<id_order><![CDATA[985]]></id_order>
+<id_customer><![CDATA[936]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-04 16:48:39]]></date_add>
+</message>
+<message><id_message><![CDATA[1097]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBNjC8uCBAgU0JQAgMAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[986]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-05 13:48:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1098]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[44889]]></id_cart>
+<id_order><![CDATA[987]]></id_order>
+<id_customer><![CDATA[834]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-05 15:00:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1099]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdwaDcdJ6r9bQ=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[988]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-05 17:18:44]]></date_add>
+</message>
+<message><id_message><![CDATA[1100]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAFiCMAAABJJQgYIwAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[989]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-07 10:17:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1101]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[52431]]></id_cart>
+<id_order><![CDATA[990]]></id_order>
+<id_customer><![CDATA[902]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-08 18:05:34]]></date_add>
+</message>
+<message><id_message><![CDATA[1102]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCGUnBDZkEJJQEScEAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[991]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-09 10:57:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1103]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[52016]]></id_cart>
+<id_order><![CDATA[992]]></id_order>
+<id_customer><![CDATA[932]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-10 10:37:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1104]]></id_message>
+<message><![CDATA[Bonjour,
+Cette commande fait suite à la commande XMLGVGAOD passée le 24/09 et reçue cette semaine. Nous avons oublié un élément dans notre liste. 
+Nous espérons simplement que le bain de couleur sera le plus approché possible de 'autre qui est magnifique.
+Merci pour votre travail.]]></message>
+<id_cart><![CDATA[49682]]></id_cart>
+<id_order><![CDATA[993]]></id_order>
+<id_customer><![CDATA[884]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-11-10 18:24:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1105]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACQdIlYhZiDJQSUiVAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[993]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-10 18:28:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1106]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBcW0UgCBAhJTYlBVgAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[994]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-11 12:52:12]]></date_add>
+</message>
+<message><id_message><![CDATA[1107]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAA2diVHYThwJQRWJUAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[995]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-11 16:33:33]]></date_add>
+</message>
+<message><id_message><![CDATA[1108]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBR+ewZCBAhMmJYAyAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[996]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-11 20:21:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1109]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJARNdyc11XJy29Ic=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[997]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-11 22:07:39]]></date_add>
+</message>
+<message><id_message><![CDATA[1110]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[48133]]></id_cart>
+<id_order><![CDATA[998]]></id_order>
+<id_customer><![CDATA[326]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-12 15:33:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1111]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABUZWkkpzVfQKKI=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[999]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-12 20:24:34]]></date_add>
+</message>
+<message><id_message><![CDATA[1112]]></id_message>
+<message><![CDATA[Une commande additionnelle réf ARC1919140 est effectuée en parallèle pour l'ajout d'un panneau sur mesure, suivant les échanges avec Mme ODIN. Un virement va être effectué.
+]]></message>
+<id_cart><![CDATA[51969]]></id_cart>
+<id_order><![CDATA[1000]]></id_order>
+<id_customer><![CDATA[949]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-11-13 20:10:47]]></date_add>
+</message>
+<message><id_message><![CDATA[1113]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACAgMkBQAAFXJQRSQFAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1000]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-13 20:14:06]]></date_add>
+</message>
+<message><id_message><![CDATA[1114]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAXKBWSAAAAABYIFZEFLx7B4=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1001]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-13 21:45:55]]></date_add>
+</message>
+<message><id_message><![CDATA[1115]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[52849]]></id_cart>
+<id_order><![CDATA[1002]]></id_order>
+<id_customer><![CDATA[956]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-13 21:53:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1116]]></id_message>
+<message><![CDATA[Les deux portes commandées iront sur le même meuble.
+Merci de bien vouloir aligner les gouges des deux portes.]]></message>
+<id_cart><![CDATA[52255]]></id_cart>
+<id_order><![CDATA[1003]]></id_order>
+<id_customer><![CDATA[959]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-11-14 21:47:05]]></date_add>
+</message>
+<message><id_message><![CDATA[1117]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[52255]]></id_cart>
+<id_order><![CDATA[1003]]></id_order>
+<id_customer><![CDATA[959]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-14 21:49:19]]></date_add>
+</message>
+<message><id_message><![CDATA[1118]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABgQJkwAAADJQQQmTAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1004]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-15 16:16:40]]></date_add>
+</message>
+<message><id_message><![CDATA[1119]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACADN5EAAAIjJQRXkQAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1005]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-15 20:59:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1120]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACAimIVgAABzJQSYhWAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1006]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-16 08:21:24]]></date_add>
+</message>
+<message><id_message><![CDATA[1121]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVdz/rpZccBysE=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1007]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-16 14:34:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1122]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[53089]]></id_cart>
+<id_order><![CDATA[1008]]></id_order>
+<id_customer><![CDATA[960]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-16 16:02:29]]></date_add>
+</message>
+<message><id_message><![CDATA[1123]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVd0VEo9zlz8NA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1009]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-17 14:54:52]]></date_add>
+</message>
+<message><id_message><![CDATA[1124]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCBIETfuBBxIAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1010]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-17 20:27:38]]></date_add>
+</message>
+<message><id_message><![CDATA[1125]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxCwllj4CBASESARA4MAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1011]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-18 10:54:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1126]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBSmHkBAAAAACJ4eQEG0M/RU=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1012]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-19 16:40:41]]></date_add>
+</message>
+<message><id_message><![CDATA[1127]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAhY3cQAAGZJQRTdxAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1013]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-20 10:56:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1128]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACAkODgQAAEJJQRYOBAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1014]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-20 12:13:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1129]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[29673]]></id_cart>
+<id_order><![CDATA[1015]]></id_order>
+<id_customer><![CDATA[547]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-20 16:25:54]]></date_add>
+</message>
+<message><id_message><![CDATA[1130]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[53736]]></id_cart>
+<id_order><![CDATA[1016]]></id_order>
+<id_customer><![CDATA[375]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-21 15:21:05]]></date_add>
+</message>
+<message><id_message><![CDATA[1131]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[53812]]></id_cart>
+<id_order><![CDATA[1017]]></id_order>
+<id_customer><![CDATA[971]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-22 17:43:12]]></date_add>
+</message>
+<message><id_message><![CDATA[1132]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABADZClxAAAAACdEKXEFObF94=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1018]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-23 12:12:02]]></date_add>
+</message>
+<message><id_message><![CDATA[1133]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAFM4dgAAEpJQUTh2AAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1019]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-23 13:58:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1134]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBS/I7GCBATFSQABSAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1020]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-26 14:11:35]]></date_add>
+</message>
+<message><id_message><![CDATA[1135]]></id_message>
+<message><![CDATA[bonjour 
+pourriez vous prévoir la livraison après le 15 février 2020 car je suis absent du 11 janvier 2020 au 11 février 2020
+cordialement Mr Houton]]></message>
+<id_cart><![CDATA[54157]]></id_cart>
+<id_order><![CDATA[1021]]></id_order>
+<id_customer><![CDATA[978]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-11-27 12:49:36]]></date_add>
+</message>
+<message><id_message><![CDATA[1136]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABA3AWNHB1U0GYgBY0EFOZI/s=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1021]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-27 12:52:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1137]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAQlXNyAAAAADWFc3EFur1qU=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1022]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-29 07:05:40]]></date_add>
+</message>
+<message><id_message><![CDATA[1138]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAJGDcgAAA3JQAYNyAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1023]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-11-29 15:39:34]]></date_add>
+</message>
+<message><id_message><![CDATA[1139]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[27303]]></id_cart>
+<id_order><![CDATA[1024]]></id_order>
+<id_customer><![CDATA[514]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-01 19:34:34]]></date_add>
+</message>
+<message><id_message><![CDATA[1140]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[53813]]></id_cart>
+<id_order><![CDATA[1025]]></id_order>
+<id_customer><![CDATA[375]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-03 12:29:29]]></date_add>
+</message>
+<message><id_message><![CDATA[1141]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACJhwQwAAGZJQRXBDAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1026]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-03 13:44:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1142]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[54572]]></id_cart>
+<id_order><![CDATA[1027]]></id_order>
+<id_customer><![CDATA[982]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-03 14:38:45]]></date_add>
+</message>
+<message><id_message><![CDATA[1143]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVd6OI+KQmHKIg=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1028]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-05 11:56:02]]></date_add>
+</message>
+<message><id_message><![CDATA[1144]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAxiAQQAAIVJQRYBBAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1029]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-05 16:00:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1145]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCBFd6U+tBHIAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1030]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-05 19:42:55]]></date_add>
+</message>
+<message><id_message><![CDATA[1146]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[53582]]></id_cart>
+<id_order><![CDATA[1031]]></id_order>
+<id_customer><![CDATA[972]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-05 22:05:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1147]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVd6fOSLxAV3RE=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1032]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-06 07:22:18]]></date_add>
+</message>
+<message><id_message><![CDATA[1148]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAzZFlQAAEjJQQUWVAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1033]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-08 15:16:41]]></date_add>
+</message>
+<message><id_message><![CDATA[1149]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACAVWScQAACDJQQZJxAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1034]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-08 19:21:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1150]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[54676]]></id_cart>
+<id_order><![CDATA[1035]]></id_order>
+<id_customer><![CDATA[987]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-08 19:49:27]]></date_add>
+</message>
+<message><id_message><![CDATA[1151]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACSQIVQAAFDJQQQhVAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1036]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-10 19:01:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1152]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[55118]]></id_cart>
+<id_order><![CDATA[1037]]></id_order>
+<id_customer><![CDATA[989]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-10 23:26:10]]></date_add>
+</message>
+<message><id_message><![CDATA[1153]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCBKDeThGFHJQAYN5AAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1038]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-11 12:01:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1154]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABA4gUCQAAA3JQQRQJAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1039]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-11 22:56:55]]></date_add>
+</message>
+<message><id_message><![CDATA[1155]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCThlISAAAAABgWUhEAobNAs=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1040]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-13 10:13:08]]></date_add>
+</message>
+<message><id_message><![CDATA[1156]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBEhoNwAACZJQRWg3AAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1041]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-13 18:07:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1157]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABANgQQAAJBJQSWBBAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1042]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-16 09:47:41]]></date_add>
+</message>
+<message><id_message><![CDATA[1158]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAjIjcgAAA3JQiSNyAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1043]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-16 11:32:59]]></date_add>
+</message>
+<message><id_message><![CDATA[1159]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABB0JARSAAAAACKEBFEE7dXII=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1044]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-16 18:43:33]]></date_add>
+</message>
+<message><id_message><![CDATA[1160]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAIMglAAAAxJQRSCUAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1046]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-19 14:28:18]]></date_add>
+</message>
+<message><id_message><![CDATA[1161]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCTdVRhAAAAACh1VGELCABvo=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1047]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-21 09:42:28]]></date_add>
+</message>
+<message><id_message><![CDATA[1162]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[55814]]></id_cart>
+<id_order><![CDATA[1048]]></id_order>
+<id_customer><![CDATA[997]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-21 13:00:30]]></date_add>
+</message>
+<message><id_message><![CDATA[1163]]></id_message>
+<message><![CDATA[Etant donné le volume, merci de me signaler l’expédition et si possible de demander au livreur de prendre rdv]]></message>
+<id_cart><![CDATA[56078]]></id_cart>
+<id_order><![CDATA[1049]]></id_order>
+<id_customer><![CDATA[663]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2019-12-23 19:12:47]]></date_add>
+</message>
+<message><id_message><![CDATA[1164]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[56078]]></id_cart>
+<id_order><![CDATA[1049]]></id_order>
+<id_customer><![CDATA[663]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-23 19:13:39]]></date_add>
+</message>
+<message><id_message><![CDATA[1165]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[56115]]></id_cart>
+<id_order><![CDATA[1050]]></id_order>
+<id_customer><![CDATA[998]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-24 14:00:40]]></date_add>
+</message>
+<message><id_message><![CDATA[1166]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeBdsOXDSMmBU=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1051]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-27 11:21:07]]></date_add>
+</message>
+<message><id_message><![CDATA[1167]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[56296]]></id_cart>
+<id_order><![CDATA[1052]]></id_order>
+<id_customer><![CDATA[1003]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-28 22:25:36]]></date_add>
+</message>
+<message><id_message><![CDATA[1168]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCICRkQAABVJQSZGRAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1053]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-30 10:46:37]]></date_add>
+</message>
+<message><id_message><![CDATA[1169]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCWZTRxAAAAADYVNHEFohuXU=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1054]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2019-12-30 21:44:28]]></date_add>
+</message>
+<message><id_message><![CDATA[1170]]></id_message>
+<message><![CDATA[Que proposez vous pour les côtés des meubles ? Merci]]></message>
+<id_cart><![CDATA[56665]]></id_cart>
+<id_order><![CDATA[1055]]></id_order>
+<id_customer><![CDATA[1007]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-01 11:00:40]]></date_add>
+</message>
+<message><id_message><![CDATA[1171]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCIYwJwAAIDJQRTAnAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1055]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-01 11:03:50]]></date_add>
+</message>
+<message><id_message><![CDATA[1172]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[29567]]></id_cart>
+<id_order><![CDATA[1056]]></id_order>
+<id_customer><![CDATA[537]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-04 16:14:11]]></date_add>
+</message>
+<message><id_message><![CDATA[1173]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[56940]]></id_cart>
+<id_order><![CDATA[1057]]></id_order>
+<id_customer><![CDATA[1011]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-04 21:09:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1174]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[42125]]></id_cart>
+<id_order><![CDATA[1058]]></id_order>
+<id_customer><![CDATA[805]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-05 12:04:45]]></date_add>
+</message>
+<message><id_message><![CDATA[1175]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAFlRBiAAAAAAR1EGEFbasuY=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1059]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-05 13:31:07]]></date_add>
+</message>
+<message><id_message><![CDATA[1176]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57022]]></id_cart>
+<id_order><![CDATA[1060]]></id_order>
+<id_customer><![CDATA[745]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-05 16:38:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1177]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[56923]]></id_cart>
+<id_order><![CDATA[1061]]></id_order>
+<id_customer><![CDATA[1010]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-05 17:01:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1178]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[51194]]></id_cart>
+<id_order><![CDATA[1062]]></id_order>
+<id_customer><![CDATA[932]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-05 17:54:31]]></date_add>
+</message>
+<message><id_message><![CDATA[1179]]></id_message>
+<message><![CDATA[Opération de remboursement : 
+REFUNDTRANSACTIONID: 4FP08263V55191924 
+FEEREFUNDAMT: 0.00 
+GROSSREFUNDAMT: 84.13 
+NETREFUNDAMT: 84.13 
+CURRENCYCODE: EUR 
+TOTALREFUNDEDAMOUNT: 84.13 
+TIMESTAMP: 2020-01-06T09:47:27Z 
+CORRELATIONID: 8226ad5c34173 
+ACK: Success 
+VERSION: 106.0 
+BUILD: 53972041 
+REFUNDSTATUS: Instant 
+PENDINGREASON: None 
+Remboursement PayPal confirmé !]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1061]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-06 10:47:28]]></date_add>
+</message>
+<message><id_message><![CDATA[1180]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57055]]></id_cart>
+<id_order><![CDATA[1063]]></id_order>
+<id_customer><![CDATA[1010]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-06 12:33:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1181]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeEzx4g0YhoX0=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1064]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-06 14:56:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1182]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[52206]]></id_cart>
+<id_order><![CDATA[1065]]></id_order>
+<id_customer><![CDATA[863]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-06 15:43:56]]></date_add>
+</message>
+<message><id_message><![CDATA[1183]]></id_message>
+<message><![CDATA[Bonjour, j'aimerais que vous joigniez cette commande à la précédente faite le 16/12/2019 sous le numéro : DOLFYCVPS .
+Merci d'avance,
+José GONCALVES.]]></message>
+<id_cart><![CDATA[57153]]></id_cart>
+<id_order><![CDATA[1066]]></id_order>
+<id_customer><![CDATA[993]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-06 18:53:44]]></date_add>
+</message>
+<message><id_message><![CDATA[1184]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAByg2dQAAJBJQQTZ1AAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1066]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-06 19:01:20]]></date_add>
+</message>
+<message><id_message><![CDATA[1185]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57174]]></id_cart>
+<id_order><![CDATA[1067]]></id_order>
+<id_customer><![CDATA[1017]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-06 20:49:33]]></date_add>
+</message>
+<message><id_message><![CDATA[1186]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57301]]></id_cart>
+<id_order><![CDATA[1068]]></id_order>
+<id_customer><![CDATA[1019]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-07 22:57:17]]></date_add>
+</message>
+<message><id_message><![CDATA[1187]]></id_message>
+<message><![CDATA[Bonjour,
+j'ai passé une commande pour des façades courant décembre, malheureusement j'ai oublié d'inclure 2 bandeaux.
+Pourriez vous joindre cette commande complémentaire à celle que j'ai passé précédemment pour les recevoir en même temps.
+Merci par avance.
+
+Cordialement,
+Romain Bach]]></message>
+<id_cart><![CDATA[57342]]></id_cart>
+<id_order><![CDATA[1069]]></id_order>
+<id_customer><![CDATA[921]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-08 11:50:49]]></date_add>
+</message>
+<message><id_message><![CDATA[1188]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAyQHkgAAFDJQSQeSAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1069]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-08 11:53:20]]></date_add>
+</message>
+<message><id_message><![CDATA[1189]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAzAYAgAAGZJQSRgCAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1070]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-08 14:57:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1190]]></id_message>
+<message><![CDATA[JE VOUS COMMANDE UN ÉCHANTILLON POUR VÉRIFIER SI LA TEINTE SERA LA MÊME QUE Les TIROIR ACTUEL. J'AI PRIS BLANC BRILLANT .pouvez vous me dire la différence avec un blanc laqué
+merci ]]></message>
+<id_cart><![CDATA[56970]]></id_cart>
+<id_order><![CDATA[1071]]></id_order>
+<id_customer><![CDATA[1008]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-08 17:43:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1191]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAA1RClxgzaBJQyUKXAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1071]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-08 17:47:07]]></date_add>
+</message>
+<message><id_message><![CDATA[1192]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCUQ5WQAAJJJQQTlZAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1072]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-08 18:20:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1193]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAoQSKQAAFJJQQRIpAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1073]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-09 21:20:35]]></date_add>
+</message>
+<message><id_message><![CDATA[1194]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeF6CLYnz7an0=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1074]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-09 22:52:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1195]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCTQHVwAACZJQQQdXAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1075]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-09 23:59:38]]></date_add>
+</message>
+<message><id_message><![CDATA[1196]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[56406]]></id_cart>
+<id_order><![CDATA[1076]]></id_order>
+<id_customer><![CDATA[1023]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-10 23:10:31]]></date_add>
+</message>
+<message><id_message><![CDATA[1197]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABxQECQAACDJQhQQJAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1077]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-12 18:33:35]]></date_add>
+</message>
+<message><id_message><![CDATA[1198]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57469]]></id_cart>
+<id_order><![CDATA[1078]]></id_order>
+<id_customer><![CDATA[326]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-13 08:45:11]]></date_add>
+</message>
+<message><id_message><![CDATA[1199]]></id_message>
+<message><![CDATA[j'ai fait une erreur dans les mesures d'une porte lors de ma dernière commande jE fais donc une nouvelle commande de l'élément manquant pour terminer mon installation je vous demande donc de bien vouloir faire le maximum pour réduire le délai de livraison  de cette porte Le reste de la commande est parfait Merci d'avance]]></message>
+<id_cart><![CDATA[52765]]></id_cart>
+<id_order><![CDATA[1079]]></id_order>
+<id_customer><![CDATA[919]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-13 11:05:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1200]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCHlpFlSQl5IwYmkWEFiO6XM=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1079]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-13 11:07:51]]></date_add>
+</message>
+<message><id_message><![CDATA[1201]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBic1dSAAAAABWDV1EFiIJnY=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1080]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-13 14:55:43]]></date_add>
+</message>
+<message><id_message><![CDATA[1202]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCXGCggAAAjJQQYKCAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1081]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-13 16:11:26]]></date_add>
+</message>
+<message><id_message><![CDATA[1203]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[58047]]></id_cart>
+<id_order><![CDATA[1082]]></id_order>
+<id_customer><![CDATA[1029]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-15 09:20:56]]></date_add>
+</message>
+<message><id_message><![CDATA[1204]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxA+AvV7CBARhoIVBAEAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1083]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-15 16:56:27]]></date_add>
+</message>
+<message><id_message><![CDATA[1205]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBiCBBSAAAAABlYEFEFbSZjA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1084]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-16 10:26:05]]></date_add>
+</message>
+<message><id_message><![CDATA[1206]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCXd1IAAAIRJQRXUgAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1085]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-16 10:38:44]]></date_add>
+</message>
+<message><id_message><![CDATA[1207]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[58152]]></id_cart>
+<id_order><![CDATA[1086]]></id_order>
+<id_customer><![CDATA[1033]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-16 17:09:32]]></date_add>
+</message>
+<message><id_message><![CDATA[1208]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAgSSEwAAABV5J5ITAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1087]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-17 17:40:44]]></date_add>
+</message>
+<message><id_message><![CDATA[1209]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[58295]]></id_cart>
+<id_order><![CDATA[1088]]></id_order>
+<id_customer><![CDATA[1037]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-18 10:48:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1210]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57474]]></id_cart>
+<id_order><![CDATA[1089]]></id_order>
+<id_customer><![CDATA[1020]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-18 10:58:07]]></date_add>
+</message>
+<message><id_message><![CDATA[1211]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57562]]></id_cart>
+<id_order><![CDATA[1090]]></id_order>
+<id_customer><![CDATA[1038]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-18 16:03:56]]></date_add>
+</message>
+<message><id_message><![CDATA[1212]]></id_message>
+<message><![CDATA[Pour essayer d'éviter le malentendu lors de la livraison de la précédente commande avec TNT, veuillez indiquer sur le bon de livraison et/ou clairement sur le colis: " EN CAS D'ABSENCE VEUILLEZ LIVRER LE COLIS A LA LOGE DU GARDIEN ENTRE 7H30 ET 12H00 - 15H30 ET 19H30".
+
+Livraison souhaitée au plus entre le 24 et le 29 février 2020.]]></message>
+<id_cart><![CDATA[29560]]></id_cart>
+<id_order><![CDATA[1091]]></id_order>
+<id_customer><![CDATA[547]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-18 16:33:48]]></date_add>
+</message>
+<message><id_message><![CDATA[1213]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[29560]]></id_cart>
+<id_order><![CDATA[1091]]></id_order>
+<id_customer><![CDATA[547]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-18 16:36:17]]></date_add>
+</message>
+<message><id_message><![CDATA[1214]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57903]]></id_cart>
+<id_order><![CDATA[1092]]></id_order>
+<id_customer><![CDATA[1036]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-19 13:55:30]]></date_add>
+</message>
+<message><id_message><![CDATA[1215]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABB4KSmAAAARJQQZKYAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1093]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-19 14:08:27]]></date_add>
+</message>
+<message><id_message><![CDATA[1216]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACBFNoUQAAFhJQRWhRAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1094]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-19 16:14:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1217]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[58427]]></id_cart>
+<id_order><![CDATA[1095]]></id_order>
+<id_customer><![CDATA[1041]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-19 17:20:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1218]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAGMCMQAAAAiCUQIxAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1096]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-19 19:11:48]]></date_add>
+</message>
+<message><id_message><![CDATA[1219]]></id_message>
+<message><![CDATA[Bonjour,
+Si vous détectez une potentielle incohérence, n'hésitez pas à me contacter.
+Dans l'idéal, j'aimerais recevoir ma commande le plus rapidement possible.
+D'avance, je vous remercie.]]></message>
+<id_cart><![CDATA[58309]]></id_cart>
+<id_order><![CDATA[1097]]></id_order>
+<id_customer><![CDATA[1030]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-19 19:46:08]]></date_add>
+</message>
+<message><id_message><![CDATA[1220]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxCyFDdlCBAiOBIQAjkAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1097]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-19 19:50:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1221]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAkJWIiUWgyJQQVYiAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1098]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-20 14:37:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1222]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCWUDFQAAETJQRQMVAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1099]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-20 20:58:39]]></date_add>
+</message>
+<message><id_message><![CDATA[1223]]></id_message>
+<message><![CDATA[MA cuisine est pratiquement posée ! elle est super et je vais communiquer votre adresse à une personne qui s'occupe de la réalisation de nombreux chantiers à Castres ! j'ai fait une petite erreur dans ma commande et je suis donc dans l'obligation de vous recommander cette façade. Pourriez-vous dans votre emploi essayer de me contenter le plus rapidement possible afin que tout soit réalisé ! je vous en remercie à l'avance et vous félicite pour vos réalisations]]></message>
+<id_cart><![CDATA[54906]]></id_cart>
+<id_order><![CDATA[1100]]></id_order>
+<id_customer><![CDATA[375]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-22 08:49:02]]></date_add>
+</message>
+<message><id_message><![CDATA[1224]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[54906]]></id_cart>
+<id_order><![CDATA[1100]]></id_order>
+<id_customer><![CDATA[375]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-22 08:49:48]]></date_add>
+</message>
+<message><id_message><![CDATA[1225]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAHAjgCAAAAACdSOAEFbSZjA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1101]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-22 17:05:53]]></date_add>
+</message>
+<message><id_message><![CDATA[1226]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABB2ZmUAAAI3JQAWZQAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1102]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-22 19:11:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1227]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[58690]]></id_cart>
+<id_order><![CDATA[1103]]></id_order>
+<id_customer><![CDATA[935]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-22 21:09:11]]></date_add>
+</message>
+<message><id_message><![CDATA[1228]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACXAGFAAABjJQRQYUAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1104]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-23 10:10:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1229]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCTECFAAAITJQRQIUAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1105]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-25 12:03:42]]></date_add>
+</message>
+<message><id_message><![CDATA[1230]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAGF5MAAAFhJQRXkwAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1106]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-25 16:58:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1231]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBoGUMwAAJDJQhZQzAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1107]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-26 15:37:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1232]]></id_message>
+<message><![CDATA[code porte 25876
+interphone rosenbauù
+étage 8]]></message>
+<id_cart><![CDATA[59083]]></id_cart>
+<id_order><![CDATA[1108]]></id_order>
+<id_customer><![CDATA[1053]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-26 16:10:01]]></date_add>
+</message>
+<message><id_message><![CDATA[1233]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeLawvI7TpT0w=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1108]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-26 16:11:48]]></date_add>
+</message>
+<message><id_message><![CDATA[1234]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[52549]]></id_cart>
+<id_order><![CDATA[1109]]></id_order>
+<id_customer><![CDATA[924]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-27 14:50:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1235]]></id_message>
+<message><![CDATA[je vous ai commandé 2 échantillons pour couleur de tiroir pour se marier avec 1 meuble existant. 1 blanc white trop blanc 1 blanc brillant 9016 presque parfait  et pour terminer je vais essayer 1 blanc pur 9010 que j'ai dans mon nuancier ral qui pourrai être bien. en espérant que ce soit parfait. je vous commanderai mes 2 tiroirs de 695mmx21apres avoir fait mon choix.]]></message>
+<id_cart><![CDATA[59172]]></id_cart>
+<id_order><![CDATA[1110]]></id_order>
+<id_customer><![CDATA[1008]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-01-27 18:09:16]]></date_add>
+</message>
+<message><id_message><![CDATA[1236]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAGKVVnJwiFJQQZVWAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1110]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-27 18:15:38]]></date_add>
+</message>
+<message><id_message><![CDATA[1237]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[58512]]></id_cart>
+<id_order><![CDATA[1111]]></id_order>
+<id_customer><![CDATA[1044]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-28 18:19:50]]></date_add>
+</message>
+<message><id_message><![CDATA[1238]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[59329]]></id_cart>
+<id_order><![CDATA[1112]]></id_order>
+<id_customer><![CDATA[1056]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-29 08:09:52]]></date_add>
+</message>
+<message><id_message><![CDATA[1239]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[59102]]></id_cart>
+<id_order><![CDATA[1113]]></id_order>
+<id_customer><![CDATA[1057]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-29 08:22:20]]></date_add>
+</message>
+<message><id_message><![CDATA[1240]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACBaGAQAAFhJQQYYBAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1114]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-29 15:36:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1241]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABkITcwAAGJJQQRNzAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1115]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-29 19:09:37]]></date_add>
+</message>
+<message><id_message><![CDATA[1242]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBiZpgiAAAAADcWmCEAobNAs=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1116]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-30 09:48:17]]></date_add>
+</message>
+<message><id_message><![CDATA[1243]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAWclIph4IyJQCSUiAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1117]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-01-30 21:20:43]]></date_add>
+</message>
+<message><id_message><![CDATA[1244]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBwJgAgAAFVJQRWACAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1118]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-01 15:06:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1245]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBaDQ2pCBAQCZlmBWMAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1119]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-01 19:53:02]]></date_add>
+</message>
+<message><id_message><![CDATA[1246]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeNqqqFU+d47g=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1120]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-02 11:55:43]]></date_add>
+</message>
+<message><id_message><![CDATA[1247]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACB1kZJQAAIzJQRRklAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1121]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-02 17:45:36]]></date_add>
+</message>
+<message><id_message><![CDATA[1248]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[58418]]></id_cart>
+<id_order><![CDATA[1122]]></id_order>
+<id_customer><![CDATA[1036]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-02 20:36:33]]></date_add>
+</message>
+<message><id_message><![CDATA[1249]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[59942]]></id_cart>
+<id_order><![CDATA[1123]]></id_order>
+<id_customer><![CDATA[1057]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-06 18:43:49]]></date_add>
+</message>
+<message><id_message><![CDATA[1250]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[52638]]></id_cart>
+<id_order><![CDATA[1125]]></id_order>
+<id_customer><![CDATA[936]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-07 17:25:29]]></date_add>
+</message>
+<message><id_message><![CDATA[1251]]></id_message>
+<message><![CDATA[Bonjour
+Si toutefois vous voyez une grosse anomalie dans la commande ,merci de me prévenir au 06 17 18 43 48
+Bien cordialement
+C. PAULIN]]></message>
+<id_cart><![CDATA[59305]]></id_cart>
+<id_order><![CDATA[1126]]></id_order>
+<id_customer><![CDATA[972]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-02-07 20:53:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1252]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[59305]]></id_cart>
+<id_order><![CDATA[1126]]></id_order>
+<id_customer><![CDATA[972]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-07 21:03:38]]></date_add>
+</message>
+<message><id_message><![CDATA[1253]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[60130]]></id_cart>
+<id_order><![CDATA[1127]]></id_order>
+<id_customer><![CDATA[1070]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-08 18:07:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1254]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACCYVUZAAAAAAVlVRkEFNPpqI=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1128]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-09 18:28:15]]></date_add>
+</message>
+<message><id_message><![CDATA[1255]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBVKVkwAAI3JQRZWTAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1129]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-09 21:20:04]]></date_add>
+</message>
+<message><id_message><![CDATA[1256]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBJaVk2MoGJJQAZWTAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1130]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-10 22:23:31]]></date_add>
+</message>
+<message><id_message><![CDATA[1257]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAXklQRAmIiJQBSVBAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1131]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-11 10:46:12]]></date_add>
+</message>
+<message><id_message><![CDATA[1258]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBJWUIQAABwJQhZQhAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1132]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-11 23:17:07]]></date_add>
+</message>
+<message><id_message><![CDATA[1259]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[60463]]></id_cart>
+<id_order><![CDATA[1133]]></id_order>
+<id_customer><![CDATA[1077]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-12 19:07:32]]></date_add>
+</message>
+<message><id_message><![CDATA[1260]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[60048]]></id_cart>
+<id_order><![CDATA[1134]]></id_order>
+<id_customer><![CDATA[1054]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-12 20:40:41]]></date_add>
+</message>
+<message><id_message><![CDATA[1261]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABA0cnFBCWAQJQCScUAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1135]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-12 20:53:25]]></date_add>
+</message>
+<message><id_message><![CDATA[1262]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCGNgJwAABwJQgWAnAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1136]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-13 21:33:51]]></date_add>
+</message>
+<message><id_message><![CDATA[1263]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAAwh2FwAAJDJQQXYXAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1137]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-13 22:00:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1264]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[59773]]></id_cart>
+<id_order><![CDATA[1138]]></id_order>
+<id_customer><![CDATA[1079]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-13 23:19:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1265]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJAQNeRq1AoLB9hZ0=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1139]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-14 15:23:14]]></date_add>
+</message>
+<message><id_message><![CDATA[1266]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBSEUYmhZJQVAJBRiEF0CFRs=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1140]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-14 17:57:30]]></date_add>
+</message>
+<message><id_message><![CDATA[1267]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABAFAVgAAEwJQhUBWAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1141]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-15 11:54:19]]></date_add>
+</message>
+<message><id_message><![CDATA[1268]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACBzmGOAAAB4JQRYY4AAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1142]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-15 13:10:42]]></date_add>
+</message>
+<message><id_message><![CDATA[1269]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[59904]]></id_cart>
+<id_order><![CDATA[1143]]></id_order>
+<id_customer><![CDATA[932]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-15 19:59:59]]></date_add>
+</message>
+<message><id_message><![CDATA[1270]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBabjxcCBASAkcGBmgAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1144]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-16 14:54:13]]></date_add>
+</message>
+<message><id_message><![CDATA[1271]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBiFAEQAAEmJQhUARAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1145]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-16 15:40:15]]></date_add>
+</message>
+<message><id_message><![CDATA[1272]]></id_message>
+<message><![CDATA[merci de me contacter si vous voyez une erreur de saisie
+prevoir une livraison pour un lundi si possible
+me contacter avant anvoie]]></message>
+<id_cart><![CDATA[59188]]></id_cart>
+<id_order><![CDATA[1146]]></id_order>
+<id_customer><![CDATA[1055]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-02-16 16:34:28]]></date_add>
+</message>
+<message><id_message><![CDATA[1273]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCBFeSWIvAikAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1146]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-16 16:40:20]]></date_add>
+</message>
+<message><id_message><![CDATA[1274]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeSmIDtFZNNO4=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1147]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-17 10:51:56]]></date_add>
+</message>
+<message><id_message><![CDATA[1275]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeStcWAnQSSmw=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1148]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-17 19:10:34]]></date_add>
+</message>
+<message><id_message><![CDATA[1276]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[60897]]></id_cart>
+<id_order><![CDATA[1149]]></id_order>
+<id_customer><![CDATA[1087]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-17 20:38:19]]></date_add>
+</message>
+<message><id_message><![CDATA[1277]]></id_message>
+<message><![CDATA[Bonjour
+par avance merci de confirmer le jour de livraison au 0681391865]]></message>
+<id_cart><![CDATA[59553]]></id_cart>
+<id_order><![CDATA[1150]]></id_order>
+<id_customer><![CDATA[591]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-02-17 21:32:18]]></date_add>
+</message>
+<message><id_message><![CDATA[1278]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAocWhQAAFTJQRRaFAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1150]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-17 21:35:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1279]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[60987]]></id_cart>
+<id_order><![CDATA[1151]]></id_order>
+<id_customer><![CDATA[1077]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-18 07:37:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1280]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCRKWEAdXNyRmJJYQEFLk5rU=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1152]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-18 14:59:29]]></date_add>
+</message>
+<message><id_message><![CDATA[1281]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeTOHODvFZOS4=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1153]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-19 08:20:49]]></date_add>
+</message>
+<message><id_message><![CDATA[1282]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[57450]]></id_cart>
+<id_order><![CDATA[1154]]></id_order>
+<id_customer><![CDATA[987]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-19 13:01:38]]></date_add>
+</message>
+<message><id_message><![CDATA[1283]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeTW/Wxmsqc8I=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1155]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-19 18:26:50]]></date_add>
+</message>
+<message><id_message><![CDATA[1284]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeT4OLURkpS3Q=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1156]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-21 08:15:27]]></date_add>
+</message>
+<message><id_message><![CDATA[1285]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABWVVGQAAEwJQgVUZAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1157]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-21 21:05:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1286]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACAyaGRAAAEHJQhYZEAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1158]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-22 11:50:48]]></date_add>
+</message>
+<message><id_message><![CDATA[1287]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCSYZYgAAAhJQRRliAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1159]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-22 12:46:50]]></date_add>
+</message>
+<message><id_message><![CDATA[1288]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCVZ4ACAAAAACeXgAEFooE0A=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1160]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-23 12:55:15]]></date_add>
+</message>
+<message><id_message><![CDATA[1289]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[61498]]></id_cart>
+<id_order><![CDATA[1161]]></id_order>
+<id_customer><![CDATA[1103]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-23 17:10:24]]></date_add>
+</message>
+<message><id_message><![CDATA[1290]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACBohYQQAABXJQgVhBAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1162]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-24 10:17:26]]></date_add>
+</message>
+<message><id_message><![CDATA[1291]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAABggYViNTkIJQyRhWAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1163]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-24 13:37:53]]></date_add>
+</message>
+<message><id_message><![CDATA[1292]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBbpPqcCBAjBYFoCWkAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1164]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-25 15:25:41]]></date_add>
+</message>
+<message><id_message><![CDATA[1293]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAIlQWAAAEoJQRVBYAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1165]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-25 16:37:47]]></date_add>
+</message>
+<message><id_message><![CDATA[1294]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAGFhSTQYdkEhY2FJEFLk5rU=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1166]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-25 19:01:28]]></date_add>
+</message>
+<message><id_message><![CDATA[1295]]></id_message>
+<message><![CDATA[merci de rajouter à ma commande du 25/02  ZGXDEPIYB]]></message>
+<id_cart><![CDATA[61696]]></id_cart>
+<id_order><![CDATA[1167]]></id_order>
+<id_customer><![CDATA[1002]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-02-25 19:16:57]]></date_add>
+</message>
+<message><id_message><![CDATA[1296]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCIFhkSAAAAADCWGREFohOgM=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1167]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-25 20:11:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1297]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBabjxcCBATN3kkBlgAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1168]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-27 21:19:40]]></date_add>
+</message>
+<message><id_message><![CDATA[1298]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[59331]]></id_cart>
+<id_order><![CDATA[1169]]></id_order>
+<id_customer><![CDATA[1056]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-28 10:00:11]]></date_add>
+</message>
+<message><id_message><![CDATA[1299]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCBFeWNywA5QAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1170]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-28 10:26:18]]></date_add>
+</message>
+<message><id_message><![CDATA[1300]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBWeTBAAAIIJQiZMEAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1171]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-28 12:28:30]]></date_add>
+</message>
+<message><id_message><![CDATA[1301]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJAAVeWZVvZnbpUkY=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1172]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-28 23:34:46]]></date_add>
+</message>
+<message><id_message><![CDATA[1302]]></id_message>
+<message><![CDATA[Si je ne suis pas là le livreur peut essayer chez les voisins au n°27 Jean-Louis ou Catherine Carpentier. D'avance, merci.]]></message>
+<id_cart><![CDATA[61918]]></id_cart>
+<id_order><![CDATA[1173]]></id_order>
+<id_customer><![CDATA[1113]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-02-29 10:45:14]]></date_add>
+</message>
+<message><id_message><![CDATA[1303]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[61918]]></id_cart>
+<id_order><![CDATA[1173]]></id_order>
+<id_customer><![CDATA[1113]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-29 10:46:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1304]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[61444]]></id_cart>
+<id_order><![CDATA[1174]]></id_order>
+<id_customer><![CDATA[1101]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-02-29 17:34:26]]></date_add>
+</message>
+<message><id_message><![CDATA[1305]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[60286]]></id_cart>
+<id_order><![CDATA[1175]]></id_order>
+<id_customer><![CDATA[1036]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-01 21:38:54]]></date_add>
+</message>
+<message><id_message><![CDATA[1306]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeXUYm99dZtLw=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1176]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-02 18:45:18]]></date_add>
+</message>
+<message><id_message><![CDATA[1307]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[61572]]></id_cart>
+<id_order><![CDATA[1177]]></id_order>
+<id_customer><![CDATA[569]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-03 14:22:31]]></date_add>
+</message>
+<message><id_message><![CDATA[1308]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCBFeXl34CAQAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1178]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-03 14:39:12]]></date_add>
+</message>
+<message><id_message><![CDATA[1309]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCTMhUCAAAAAASSFQEE7dXII=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1179]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-04 17:13:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1310]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVeX/EHyGB/h9A=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1180]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-04 19:19:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1311]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[62408]]></id_cart>
+<id_order><![CDATA[1181]]></id_order>
+<id_customer><![CDATA[1111]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-05 21:14:12]]></date_add>
+</message>
+<message><id_message><![CDATA[1312]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABB1FScCAAAAAAdFJwEE9ePMc=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1182]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-06 13:58:17]]></date_add>
+</message>
+<message><id_message><![CDATA[1313]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[62390]]></id_cart>
+<id_order><![CDATA[1183]]></id_order>
+<id_customer><![CDATA[1123]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-06 16:01:44]]></date_add>
+</message>
+<message><id_message><![CDATA[1314]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAACAkRDNgAAB4JQSUM2AAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1184]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-07 13:32:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1315]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[62533]]></id_cart>
+<id_order><![CDATA[1185]]></id_order>
+<id_customer><![CDATA[1125]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-07 20:16:24]]></date_add>
+</message>
+<message><id_message><![CDATA[1316]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCB1005FRB1MAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1186]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-08 10:49:22]]></date_add>
+</message>
+<message><id_message><![CDATA[1317]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAXmWKQAAAGJQiZYpAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1187]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-08 18:47:15]]></date_add>
+</message>
+<message><id_message><![CDATA[1318]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[62672]]></id_cart>
+<id_order><![CDATA[1188]]></id_order>
+<id_customer><![CDATA[1111]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-09 16:12:38]]></date_add>
+</message>
+<message><id_message><![CDATA[1319]]></id_message>
+<message><![CDATA[me prevenir pour le jour de livraison ]]></message>
+<id_cart><![CDATA[30923]]></id_cart>
+<id_order><![CDATA[1189]]></id_order>
+<id_customer><![CDATA[516]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-03-10 17:10:54]]></date_add>
+</message>
+<message><id_message><![CDATA[1320]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBWypFiCBAhJhIRCHMAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1189]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-10 17:12:57]]></date_add>
+</message>
+<message><id_message><![CDATA[1321]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCB1005FRBCgAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1190]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-13 17:11:44]]></date_add>
+</message>
+<message><id_message><![CDATA[1322]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJABVebQadAxFvC7M=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1191]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-14 17:30:24]]></date_add>
+</message>
+<message><id_message><![CDATA[1323]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAZR0lgAAFhJQQXSWAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1192]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-14 21:25:00]]></date_add>
+</message>
+<message><id_message><![CDATA[1324]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBkCGCAAAJRJQSYYIAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1193]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-15 19:56:55]]></date_add>
+</message>
+<message><id_message><![CDATA[1325]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBdHBhyCBASNnWDB0MAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1194]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-20 22:32:27]]></date_add>
+</message>
+<message><id_message><![CDATA[1326]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[63350]]></id_cart>
+<id_order><![CDATA[1195]]></id_order>
+<id_customer><![CDATA[1121]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-21 08:49:40]]></date_add>
+</message>
+<message><id_message><![CDATA[1327]]></id_message>
+<message><![CDATA[droit à l'erreur : je m'étais trompé dans ma première commande , pour le reste très satisfait .]]></message>
+<id_cart><![CDATA[61882]]></id_cart>
+<id_order><![CDATA[1196]]></id_order>
+<id_customer><![CDATA[935]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-03-21 20:43:09]]></date_add>
+</message>
+<message><id_message><![CDATA[1328]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[61882]]></id_cart>
+<id_order><![CDATA[1196]]></id_order>
+<id_customer><![CDATA[935]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-21 20:43:33]]></date_add>
+</message>
+<message><id_message><![CDATA[1329]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABCBAlgQAAJDJQQSWBAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1197]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-21 21:29:48]]></date_add>
+</message>
+<message><id_message><![CDATA[1330]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAAADJRWAAAApJQiVFYAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1199]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-30 18:19:23]]></date_add>
+</message>
+<message><id_message><![CDATA[1331]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[61238]]></id_cart>
+<id_order><![CDATA[1200]]></id_order>
+<id_customer><![CDATA[932]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-30 18:29:21]]></date_add>
+</message>
+<message><id_message><![CDATA[1332]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[64145]]></id_cart>
+<id_order><![CDATA[1201]]></id_order>
+<id_customer><![CDATA[1137]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-31 13:51:45]]></date_add>
+</message>
+<message><id_message><![CDATA[1333]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBaQeIlCBAjQyMxBXQAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1202]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-03-31 19:00:10]]></date_add>
+</message>
+<message><id_message><![CDATA[1334]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJCB1058FRBYAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1203]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-03 19:06:31]]></date_add>
+</message>
+<message><id_message><![CDATA[1335]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABAXCEIAAAIjJQSYQgAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1204]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-04 13:07:30]]></date_add>
+</message>
+<message><id_message><![CDATA[1336]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBnBRNQAACZJQQVE1AAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1205]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-04 20:32:24]]></date_add>
+</message>
+<message><id_message><![CDATA[1337]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4w5CFKCvJARMA2zBsHd7+UMI=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1206]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-08 17:10:01]]></date_add>
+</message>
+<message><id_message><![CDATA[1338]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABATciUAAAJDJQQSJQAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1207]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-09 13:37:38]]></date_add>
+</message>
+<message><id_message><![CDATA[1339]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[64502]]></id_cart>
+<id_order><![CDATA[1208]]></id_order>
+<id_customer><![CDATA[1144]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-10 09:09:57]]></date_add>
+</message>
+<message><id_message><![CDATA[1340]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBdG/LsCBASEIUZBRYAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1209]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-18 17:06:58]]></date_add>
+</message>
+<message><id_message><![CDATA[1341]]></id_message>
+<message><![CDATA[Payment accepted.]]></message>
+<id_cart><![CDATA[65506]]></id_cart>
+<id_order><![CDATA[1210]]></id_order>
+<id_customer><![CDATA[1153]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-20 18:09:43]]></date_add>
+</message>
+<message><id_message><![CDATA[1342]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAABBRaBFwAAJJJQRYEXAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1211]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-22 11:35:59]]></date_add>
+</message>
+<message><id_message><![CDATA[1343]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : jBu4wxBabjxcCBAiYUQ5BpgAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1212]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-22 22:14:44]]></date_add>
+</message>
+<message><id_message><![CDATA[1344]]></id_message>
+<message><![CDATA[Bonjour 
+Vu la finition laquée brillante merci d'apporter une attention particulière lors du contrôle qualité sur d'éventuels défauts de finition 
+
+
+Cordialement 
+
+
+
+]]></message>
+<id_cart><![CDATA[65697]]></id_cart>
+<id_order><![CDATA[1213]]></id_order>
+<id_customer><![CDATA[720]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[0]]></private>
+<date_add><![CDATA[2020-04-23 15:50:25]]></date_add>
+</message>
+<message><id_message><![CDATA[1345]]></id_message>
+<message><![CDATA[Paiement réalisé avec succès (00).
+Authentification 3DS : OUI
+Certificat 3DS : AAAACAkDSQAAGFJQRQNJAAAAAAA=]]></message>
+<id_cart><![CDATA[0]]></id_cart>
+<id_order><![CDATA[1213]]></id_order>
+<id_customer><![CDATA[0]]></id_customer>
+<id_employee><![CDATA[0]]></id_employee>
+<private><![CDATA[1]]></private>
+<date_add><![CDATA[2020-04-23 16:00:31]]></date_add>
+</message>
+</entity_profile>

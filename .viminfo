@@ -8,15 +8,19 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/DB
+~MSle0~/'
 
 # Command Line History (newest to oldest):
-:wq
 :qa
 :q
+:w
+:'<,'> Mon Apr 20 21:05:38 on ttys001
+:wq
+:qa!
 :qq
 
 # Search String History (newest to oldest):
+?/'
 ?/DB
 
 # Expression History (newest to oldest):
@@ -26,29 +30,96 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
+""1	LINE	0
+	q
+"2	CHAR	0
+	Last login: Mon Apr 20 21:05:38 on ttys001
+	macbook-jv:~ vannet$ ssh u58508221@home328199925.1and1-data.host
+	Warning: Permanently added the ECDSA host key for IP address '217.160.223.186' to the list of known hosts.
+	u58508221@home328199925.1and1-data.host's password: 
+	
+	The programs included with the Debian GNU/Linux system are free software;
+	the exact distribution terms for each program are described in the
+	individual files in /usr/share/doc/*/copyright.
+	
+	Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+	permitted by applicable law.
+	(uiserver):u58508221:~$ ls
+	Adapter			 classes      dbbscript.sh   footer.php			  images.inc.php  js		modules   prestashop   test.html  tools
+	Core			 codial       dev	     fpowwrkaq3mtx511		  img		  localization	new.jpg   robots.txt   test.php   translations
+	Install_PrestaShop.html  config       docs	     googlef6e20a6ac4a6c375.html  index.html	  log		override  sauvegardes  test.png   upload
+	LICENSES		 controllers  download	     header.php			  index.php	  logs		pdf	  signature    themes	  webservice
+	cache			 css	      error500.html  images			  init.php	  mails		php.ini   test	       tmp
+	(uiserver):u58508221:~$ crontab -e
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+"3	LINE	0
+	ModPagespeed off
+"4	LINE	0
 	echo "Panoteq"
-"2	LINE	0
+"5	LINE	0
 	echo "A"
-""-	CHAR	0
-	 
+"-	CHAR	0
+	37Tr_panoteq_configuration   
 
 # File marks:
-'0  1  17  ~/pass.txt
-'1  1  0  ~/app/config/parameters.php
-'2  1  0  ~/app/config/parameters.yml
-'3  94  0  ~/config/defines.inc.php
-'4  264  0  ~/config/config.inc.php
-'5  1  0  ~/config/settings.inc.php
-'6  4  43  ~/.profile
-'7  7  41  ~/.profile
-'8  1  13  ~/.profile
-'9  1  0  ~/.profil
+'0  1  0  ~/app/config/parameters.php
+'1  1  0  ~/app/config/parameters.yml
+'2  2  9  ~/alex.php
+'3  86  0  /tmp/crontab.BxUljO/crontab
+'4  225  0  /tmp/crontab.BxUljO/crontab
+'5  1  13271  ~/query.sql
+'6  1  0  ~/.htaccess
+'7  48  0  ~/logs/access.log.11.3
+'8  2  20  ~/.bashrc
+'9  1  17  ~/pass.txt
 
 # Jumplist (newest first):
--'  1  17  ~/pass.txt
 -'  1  0  ~/app/config/parameters.php
 -'  1  0  ~/app/config/parameters.yml
+-'  2  9  ~/alex.php
+-'  1  0  ~/alex.php
+-'  86  0  /tmp/crontab.BxUljO/crontab
+-'  225  1  /tmp/crontab.BxUljO/crontab
+-'  1  0  /tmp/crontab.BxUljO/crontab
+-'  1  13271  ~/query.sql
+-'  2  0  ~/query.sql
+-'  1  0  ~/.htaccess
+-'  48  0  ~/logs/access.log.11.3
+-'  1  0  ~/logs/access.log.11.3
+-'  2  20  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  17  ~/pass.txt
 -'  94  0  ~/config/defines.inc.php
 -'  1  0  ~/config/defines.inc.php
 -'  264  0  ~/config/config.inc.php
@@ -58,106 +129,139 @@
 -'  1  0  ~/.profile
 -'  7  41  ~/.profile
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  4  43  ~/.profile
 -'  1  0  ~/.profile
 -'  7  41  ~/.profile
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/config/settings.inc.php
 -'  4  43  ~/.profile
 -'  1  0  ~/.profile
 -'  7  41  ~/.profile
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  4  43  ~/.profile
 -'  1  0  ~/.profile
 -'  7  41  ~/.profile
 -'  1  0  ~/.profil
--'  1  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  1  0  ~/.profil
+-'  2  20  ~/.bashrc
 -'  1  0  ~/.bashrc
+-'  1  17  ~/pass.txt
+-'  94  0  ~/config/defines.inc.php
+-'  1  0  ~/config/defines.inc.php
+-'  264  0  ~/config/config.inc.php
+-'  1  0  ~/config/config.inc.php
+-'  1  0  ~/config/settings.inc.php
+-'  4  43  ~/.profile
+-'  1  0  ~/.profile
+-'  7  41  ~/.profile
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  4  43  ~/.profile
+-'  1  0  ~/.profile
+-'  7  41  ~/.profile
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/.profil
+-'  1  0  ~/config/settings.inc.php
+-'  86  0  /tmp/crontab.BxUljO/crontab
+-'  225  1  /tmp/crontab.BxUljO/crontab
+-'  1  0  /tmp/crontab.BxUljO/crontab
+-'  1  13271  ~/query.sql
+-'  2  0  ~/query.sql
+-'  1  0  ~/app/config/parameters.yml
 
 # History of marks within files (newest to oldest):
-
-> ~/pass.txt
-	"	1	17
-	^	1	18
-	.	1	0
-	+	1	0
 
 > ~/app/config/parameters.php
 	"	1	0
 
 > ~/app/config/parameters.yml
 	"	1	0
+
+> ~/alex.php
+	"	2	9
+	^	2	10
+	.	2	9
+	+	2	9
+
+> /tmp/crontab.BxUljO/crontab
+	"	86	0
+	^	225	0
+	.	223	177
+	+	1	0
+	+	1	1779
+	+	1	1777
+	+	1	174
+	+	1	1424
+	+	1	1
+	+	1	2
+	+	225	0
+	+	223	177
+	a	225	0
+
+> ~/query.sql
+	"	1	13271
+	^	1	13272
+	.	1	13271
+	+	1	13132
+	+	1	13207
+	+	1	0
+	+	2	0
+	+	1	61
+	+	1	13271
+
+> ~/.htaccess
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/logs/access.log.11.3
+	"	48	0
+
+> ~/.bashrc
+	"	2	20
+	^	2	21
+	.	2	20
+	+	1	0
+	+	2	20
+
+> ~/pass.txt
+	"	1	17
+	^	1	18
+	.	1	0
+	+	1	0
 
 > ~/config/defines.inc.php
 	"	94	0
@@ -193,8 +297,3 @@
 
 > ~/.profil
 	"	1	0
-
-> ~/.bashrc
-	"	1	0
-	.	1	0
-	+	1	0

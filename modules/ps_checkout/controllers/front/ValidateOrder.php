@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2020 PrestaShop and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -13,10 +13,12 @@
  * to license@prestashop.com so we can send you a copy immediately.
  *
  * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2019 PrestaShop SA and Contributors
+ * @copyright 2007-2020 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  */
+use PrestaShop\Module\PrestashopCheckout\Api\Payment\Order;
+use PrestaShop\Module\PrestashopCheckout\Handler\CreatePaypalOrderHandler;
 use PrestaShop\Module\PrestashopCheckout\Repository\PaypalAccountRepository;
 use PrestaShop\Module\PrestashopCheckout\ValidateOrder;
 
@@ -48,12 +50,19 @@ class ps_checkoutValidateOrderModuleFrontController extends ModuleFrontControlle
             throw new \PrestaShopException('Paypal payment method is missing.');
         }
 
+        $isExpressCheckout = (bool) Tools::getValue('isExpressCheckout');
+
+        if ($isExpressCheckout) {
+            // API call here
+            $this->updatePaypalOrder($paypalOrderId);
+        }
+
         $cart = $this->context->cart;
 
         $customer = new Customer($cart->id_customer);
 
         if (false === Validate::isLoadedObject($customer)) {
-            Tools::redirect('index.php?controller=order&step=1');
+            $this->redirectToCheckout(['step' => 1]);
         }
 
         $currency = $this->context->currency;
@@ -65,23 +74,14 @@ class ps_checkoutValidateOrderModuleFrontController extends ModuleFrontControlle
             'cartId' => (int) $cart->id,
             'amount' => $total,
             'paymentMethod' => $paymentMethod,
-            'extraVars' => ['transaction_id' => $paypalOrderId],
             'currencyId' => (int) $currency->id,
             'secureKey' => $customer->secure_key,
         ];
 
         // If the payment is rejected redirect the client to the last checkout step (422 error)
+        // API call here
         if (false === $payment->validateOrder($dataOrder)) {
-            Tools::redirect(
-                $this->context->link->getPageLink(
-                    'order',
-                    true,
-                    $this->context->language->id,
-                    [
-                        'hferror' => 1, // hosted field (card) error
-                    ]
-                )
-            );
+            $this->redirectToCheckout(['hferror' => 1]);
         }
 
         /** @var PaymentModule $module */
@@ -98,6 +98,40 @@ class ps_checkoutValidateOrderModuleFrontController extends ModuleFrontControlle
                     'id_order' => $module->currentOrder,
                     'key' => $customer->secure_key,
                 ]
+            )
+        );
+    }
+
+    /**
+     * Update paypal order
+     *
+     * @param string $paypalOrderId
+     *
+     * @return void
+     */
+    private function updatePaypalOrder($paypalOrderId)
+    {
+        $paypalOrder = new CreatePaypalOrderHandler($this->context);
+        $response = $paypalOrder->handle(false, true, $paypalOrderId);
+
+        if (false === $response['status']) {
+            $this->redirectToCheckout();
+        }
+    }
+
+    /**
+     * Redirect to checkout page
+     *
+     * @param array $params
+     */
+    private function redirectToCheckout(array $params = [])
+    {
+        Tools::redirect(
+            $this->context->link->getPageLink(
+                'order',
+                true,
+                $this->context->language->id,
+                $params
             )
         );
     }

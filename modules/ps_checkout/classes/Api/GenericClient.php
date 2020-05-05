@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2020 PrestaShop and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -13,7 +13,7 @@
  * to license@prestashop.com so we can send you a copy immediately.
  *
  * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2019 PrestaShop SA and Contributors
+ * @copyright 2007-2020 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  */
@@ -78,7 +78,28 @@ class GenericClient
 
         $responseHandler = new ResponseApiHandler();
 
-        return $responseHandler->handleResponse($response);
+        $response = $responseHandler->handleResponse($response);
+
+        $logsEnabled = (bool) \Configuration::get(
+            'PS_CHECKOUT_DEBUG_LOGS_ENABLED',
+            null,
+            null,
+            (int) \Context::getContext()->shop->id
+        );
+
+        // If response is not successful only
+        if ($logsEnabled && !$response['status']) {
+            /**
+             * @var \Ps_checkout
+             */
+            $module = \Module::getInstanceByName('ps_checkout');
+            $logger = $module->getLogger();
+            $logger->debug('route ' . $this->getRoute());
+            $logger->debug('options ' . var_export($options, true));
+            $logger->debug('response ' . var_export($response, true));
+        }
+
+        return $response;
     }
 
     /**

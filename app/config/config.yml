@@ -104,13 +104,6 @@ doctrine:
         dql:
             string_functions:
                 regexp: DoctrineExtensions\Query\Mysql\Regexp
-#        mappings:
-#            Panoteq:
-#                type: annotation
-#                is_bundle: false
-#                dir: %kernel.root_dir%/../modules/panoteq/model
-#                prefix: Panoteq\Model
-#                alias: Panoteq
 
 # Swiftmailer Configuration
 swiftmailer:

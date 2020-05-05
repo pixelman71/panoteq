@@ -1567,7 +1567,7 @@ class CartCore extends ObjectModel
      *
      * @return bool Success
      */
-    public function _addCustomization($id_product, $id_product_attribute, $index, $type, $value, $quantity, $price = 0.0, $weight = 0.0)
+    public function _addCustomization($id_product, $id_product_attribute, $index, $type, $value, $quantity)
     {
         $exising_customization = Db::getInstance()->executeS(
             'SELECT cu.`id_customization`, cd.`index`, cd.`value`, cd.`type` FROM `' . _DB_PREFIX_ . 'customization` cu
@@ -1604,10 +1604,8 @@ class CartCore extends ObjectModel
             $id_customization = Db::getInstance()->Insert_ID();
         }
 
-        //$query = 'INSERT INTO `' . _DB_PREFIX_ . 'customized_data` (`id_customization`, `type`, `index`, `value`)
-        //    VALUES (' . (int) $id_customization . ', ' . (int) $type . ', ' . (int) $index . ', \'' . pSQL($value) . '\')';
-        $query = 'INSERT INTO `' . _DB_PREFIX_ . 'customized_data` (`id_customization`, `type`, `index`, `value`, `price`, `weight`)
-            VALUES (' . (int) $id_customization . ', ' . (int) $type . ', ' . (int) $index . ', \'' . pSQL($value) . '\', ' . pSQL($price) . ', ' . pSQL($weight) . ')';
+        $query = 'INSERT INTO `' . _DB_PREFIX_ . 'customized_data` (`id_customization`, `type`, `index`, `value`)
+            VALUES (' . (int) $id_customization . ', ' . (int) $type . ', ' . (int) $index . ', \'' . pSQL($value) . '\')';
 
         if (!Db::getInstance()->execute($query)) {
             return false;
@@ -4118,9 +4116,9 @@ class CartCore extends ObjectModel
      *
      * @return bool Always true
      */
-    public function addTextFieldToProduct($id_product, $index, $type, $text_value, $price, $weight)
+    public function addTextFieldToProduct($id_product, $index, $type, $text_value)
     {
-        return $this->_addCustomization($id_product, 0, $index, $type, $text_value, 0, $price, $weight);
+        return $this->_addCustomization($id_product, 0, $index, $type, $text_value, 0);
     }
 
     /**

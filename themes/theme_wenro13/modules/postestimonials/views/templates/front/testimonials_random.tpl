@@ -9,7 +9,7 @@
 
 		<div class="block-content pos_content">
 			<ul class="thumb">
-			{$j=0} 
+			{$j=0}
 			  {foreach from=$testimonials name=myLoop item=testimonial}
 				 {if $testimonial.active == 1}
 						{if in_array($testimonial.media_type,$arr_img_type)}
@@ -18,7 +18,7 @@
 							</li>
 						{/if}
 				{/if}
-				{$j = $j + 1} 
+				{$j = $j + 1}
 			  {/foreach}
 			</ul>
 			<div class="testimonialsSlide">
@@ -26,16 +26,16 @@
 				{if $testimonial.active == 1}
 					{if $smarty.foreach.myLoop.index % 1 == 0 || $smarty.foreach.myLoop.first }
 					<div class="item-testimonials">
-					{/if}	
-						<div class="item">						
+					{/if}
+						<div class="item">
 							<div class="content_author">
 								<div class="content_test">
 									<p class="des_email">{$testimonial.email}</p>
 									<p class="des_testimonial">{$testimonial.content|escape:'html':'UTF-8'}</p>
 									<p class="des_namepost"><span>{$testimonial.name_post}</span></p>
-								</div>							
+								</div>
 							</div>
-						
+
 						</div>
 					{if $smarty.foreach.myLoop.iteration % 1 == 0 || $smarty.foreach.myLoop.last  }
 					</div>
@@ -56,7 +56,7 @@
 		itemsMobile : [479,1],
 		autoPlay : true,
 		stopOnHover: true,
-		slideSpeed : 1000,
+		slideSpeed : 6000,
 		addClassActive: true,
 		scrollPerPage: true,
 		navigation :true,
